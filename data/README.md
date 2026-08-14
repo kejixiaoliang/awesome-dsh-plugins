@@ -17,17 +17,17 @@
       "url": "https://github.com/owner/repo",// GitHub 地址
       "description": "...",                   // 一句话描述
       "stars": 696,                           // star 数（快照时）
-      "pushedAt": "2026-08-13T19:28:40Z",     // 最近 push 时间
-      "license": "MIT",                       // 许可证（可能为 null）
+      "pushedAt": "2026-08-14T00:00:00Z",     // 收录日期（由上游 added 字段近似，非精确 push 时间）
+      "license": null,                        // 许可证（上游新 registry 不再提供，恒为 null）
       "isPlugin": true,                       // 是否为插件（当前全为 true）
       "npmName": "@scope/pkg",                // npm 包名（可能为 null）
-      "category": { "id": "tools", "title": "工具集 / Tools" }  // 上游分类
+      "category": { "id": "ui", "title": "UI 增强 / UI Enhancements" }  // 上游 11 类分类
     }
   ]
 }
 ```
 
-> 注意：`category` 字段沿用上游（awesome-dsh-plugin）的 taxonomy，与本仓库 `docs/taxonomy.md` 的 14 类**不完全一致**。人类可读的权威分类以各 `plugins/*.md` 与 `docs/taxonomy.md` 为准。
+> 注意：`category` 字段沿用上游（awesome-dsh-plugin）当前 registry 的 11 类 taxonomy（ui/theme/session/memory/tools/skill/workflow/notify/model/dev/fun），与本仓库 `docs/taxonomy.md` 的 14 类**不完全一致**。人类可读的权威分类以各 `plugins/*.md` 与 `docs/taxonomy.md` 为准。
 
 ## 消费示例
 
@@ -54,4 +54,4 @@ top = sorted(d["plugins"], key=lambda p: p["stars"] or 0, reverse=True)[:10]
 
 ## 来源与许可
 
-种子数据来自社区精选列表 [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（MIT）。本仓库数据在此基础上整理，使用同样遵循其许可；如需再分发请保留其署名。
+种子数据来自社区精选列表 [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（CC0-1.0）的公开 registry（`docs/plugins.json`），经 `scripts/convert-registry.mjs` 映射为本仓库格式。本仓库数据在此基础上整理，遵循其许可；如需再分发请保留其署名。

@@ -14,18 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch upstream seed data
+      # 上游已把旧的 data/plugins.json 迁移为 docs/plugins.json（Public registry API），
+      # 字段结构随之变化，先用 convert-registry.mjs 映射回本仓库的种子数据格式。
+      - name: Fetch upstream registry and convert
         run: |
-          curl -fsSL -o /tmp/upstream.json \
-            https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/data/plugins.json || exit 0
-          node -e "JSON.parse(require('fs').readFileSync('/tmp/upstream.json','utf8'))"
-
-      - name: Update data/plugins.json if changed
-        run: |
-          if ! cmp -s /tmp/upstream.json data/plugins.json; then
-            cp /tmp/upstream.json data/plugins.json
-            echo "changed=true" >> "$GITHUB_ENV"
+          if curl -fsSL -o /tmp/upstream-registry.json \
+              https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/docs/plugins.json; then
+            node scripts/convert-registry.mjs < /tmp/upstream-registry.json > /tmp/new-plugins.json
+            if cmp -s /tmp/new-plugins.json data/plugins.json; then
+              echo "changed=false" >> "$GITHUB_ENV"
+            else
+              cp /tmp/new-plugins.json data/plugins.json
+              echo "changed=true" >> "$GITHUB_ENV"
+            fi
           else
+            echo "upstream fetch failed; keeping current data"
             echo "changed=false" >> "$GITHUB_ENV"
           fi
 
