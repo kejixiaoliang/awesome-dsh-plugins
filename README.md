@@ -269,7 +269,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 - [dsh-sidechain](https://github.com/Buyi-wsgzg/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐3 · `dsh plugin add @dsh-external/dsh-sidechain`
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — 基于分支的消息编辑、reroll、重试与版本时间线 ⭐11 · `dsh plugin add dsh-message-edit`
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 从 Claude Code/Codex/ChatGPT/Cursor 全保真导入历史会话为可续聊 DSH 会话 ⭐4 · `dsh plugin add dsh-chat-import`
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐21 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐2 · `dsh plugin add dsh-claude-move`
 
 </details>
