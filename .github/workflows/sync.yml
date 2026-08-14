@@ -18,9 +18,11 @@ jobs:
       # 字段结构随之变化，先用 convert-registry.mjs 映射回本仓库的种子数据格式。
       - name: Fetch upstream registry and convert
         run: |
+          set -euo pipefail
           if curl -fsSL -o /tmp/upstream-registry.json \
               https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/docs/plugins.json; then
             node scripts/convert-registry.mjs < /tmp/upstream-registry.json > /tmp/new-plugins.json
+            test -s /tmp/new-plugins.json   # 转换结果非空，防止空文件覆盖 data/plugins.json
             if cmp -s /tmp/new-plugins.json data/plugins.json; then
               echo "changed=false" >> "$GITHUB_ENV"
             else
