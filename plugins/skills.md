@@ -17,6 +17,7 @@
 - [dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) — 把 pi skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-pi-bridge`
 - [Code2Skill](https://github.com/leechen298/Code2Skill) — 从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发 ⭐1 · `dsh plugin add github:leechen298/Code2Skill#v1.1.3`
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐2 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
+- [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐68 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 
 <!-- nav:start -->
 ---

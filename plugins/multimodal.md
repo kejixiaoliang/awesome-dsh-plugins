@@ -18,6 +18,7 @@
 - [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) — 操控手机（ADB/iOS） ⭐1 · `dsh plugin add dsh-mobile-control`
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐4 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐1 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
+- [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐48 · `dsh plugin add dsh-vision-router`
 
 <!-- nav:start -->
 ---

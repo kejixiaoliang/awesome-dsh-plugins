@@ -11,6 +11,7 @@
 - [DSH-plugin-switch](https://github.com/Nexus-Aethra/DSH-plugin-switch) — 插件市场：浏览/搜索/安装 GitHub 项目，自动识别 plugin/skill ⭐1 · `dsh plugin add dsh-plugin-switch`
 - [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) — 把 DSH 快速接入 GitHub 插件生态的市场插件 ⭐3 · `dsh plugin add dsh-plugin-installer`
 - [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐6 · `dsh plugin add @dsh-external/dsh-super-injector`
+- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐44
 
 ## 健康检查 / 诊断 / 审计
 
@@ -40,7 +41,7 @@
 
 - [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm）
 - [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — 运维工具箱：A/B 双槽快照升级、自动恢复、回滚、诊断自愈
-- [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime) — 支持在 Multica 上使用 DSH 作为 runtime ⭐30 · `dsh plugin add @multica-ai/dsh-runtime`
+- [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐30 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐1 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐2 · `dsh plugin add @morlay/session-persistence-rdb`
 

@@ -15,6 +15,7 @@
 - [dsh-web-background](https://github.com/BruceWu1126/dsh-web-background) — Web UI 背景自定义
 - [dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) — Web UI 壁纸自定义
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知）
+- [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐24
 
 ## 界面增强 / 面板
 
@@ -39,6 +40,7 @@
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) — 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 ⭐2 · `dsh plugin add dsh-sticky-disclosure`
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐2 · `dsh plugin add dsh-token-usage`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-model-config-sync) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐2 · `dsh plugin add dsh-model-config-sync`
+- [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐1880 · `dsh plugin add dsh-web-ui`
 
 ## 生成式 UI / 组件
 

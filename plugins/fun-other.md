@@ -29,6 +29,7 @@
 - [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) — WebAudio 打字机氛围音效（零音频资源） ⭐1 · `dsh plugin add @deepseek-ai/dsh-fun-typewriter`
 - [dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — 每日运势：观音签、塔罗、每日一句 ⭐1 · `dsh plugin add @deepseek-ai/dsh-daily-fortune`
 - [dsh-plugin-spur](https://github.com/HuanLinOTO/dsh-plugin-spur) — 挂在聊天流里的辫子，抓住甩一甩给 agent 发「去干活」 ⭐1 · `dsh plugin add @huanlin/dsh-plugin-spur`
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐26 · `dsh plugin add dsh-toy`
 
 ## 教学 / 学习 / 研究
 
