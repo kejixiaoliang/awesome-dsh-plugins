@@ -42,6 +42,7 @@ Three ways to use this directory:
 3. **Consume programmatically** — read [`data/plugins.json`](data/plugins.json) (334 structured entries; field docs in [data/README.md](data/README.md)).
 
 ## 🔥 Hot Plugins
+- [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 
 Top community plugins by GitHub stars (snapshot 2026-08):
 
