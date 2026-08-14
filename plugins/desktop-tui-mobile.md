@@ -7,7 +7,7 @@
 ## 终端 TUI
 
 - [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐192 · `dsh plugin add dsh-cc-tui`
-- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐132
+- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐132 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令
 - [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐4 · `dsh plugin add deepseek-harness-tui`
 - [dsh-tui](https://github.com/orriduck/dsh-tui) — 轻量、会话感知的终端 UI ⭐2 · `dsh plugin add dsh-tui`
@@ -15,7 +15,7 @@
 
 ## 社区发行版
 
-- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐164
+- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐164 · `dsh plugin add @oh-dsh/desktop`
 - [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) — 可扩展 macOS 工作台：原生 PTY、工作区工具、双语插件、隔离预览市场
 
 ## 桌面壳（多作者）

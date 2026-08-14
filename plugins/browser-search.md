@@ -8,7 +8,7 @@
 - [dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) — CDP/Playwright 操控浏览器 ⭐1 · `dsh plugin add dsh-browser-control`
 - [ego-browser](https://github.com/Fisfzy/ego-browser) — 把 ego-lite（给 AI Agent 的 Chromium）接入 DSH，13 个结构化 ego_* 工具
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) — 通过 Kimi WebBridge 让 Agent 操作用户已登录浏览器（13 个工具） ⭐3 · `dsh plugin add @dsh-external/dsh-better-browser`
-- [dsh-webbridge](https://github.com/bill9109/dsh-webbridge) — DSH 结合 Kimi WebBridge ⭐3
+- [dsh-webbridge](https://github.com/bill9109/dsh-webbridge) — DSH 结合 Kimi WebBridge ⭐3 · `dsh plugin add @bill9109/dsh-webbridge`
 - [dsh-browser](https://github.com/ben7am1n/dsh-browser) — Playwright 驱动的浏览器自动化 ⭐1 · `dsh plugin add dsh-browser`
 - [DSH-Chrome-devtools](https://github.com/yuzi-ska/DSH-Chrome-devtools) — 基于 Chrome DevTools MCP 的真实 Chrome 控制 ⭐1 · `dsh plugin add dsh-chrome-devtools`
 - [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) — 包装 Playwright CLI：装浏览器、跑测试、从 agent 循环打开 HTML 报告 ⭐2 · `dsh plugin add dsh-playwright-cli`

@@ -13,8 +13,8 @@
 - [sidesight](https://github.com/ZhuXinAI/sidesight) — CLI 优先的视觉 sidecar：分析截图/图表/UI diff/视频（OpenAI 兼容多模态模型） ⭐1 · `dsh plugin add sidesight`
 - [dsh-paddle-ocr](https://github.com/omdsh-dev/dsh-paddle-ocr) — 百度 PaddleOCR-VL 文档布局解析（OCR 工具 + 设置卡 + 任务面板） ⭐1 · `dsh plugin add dsh-paddle-ocr`
 - [dsh-screenshot-diff](https://github.com/PangYiMing/dsh-screenshot-diff) — 两截图像素对比生成 diff.png + 三联图（pixelmatch） ⭐1 · `dsh plugin add dsh-screenshot-diff`
-- [Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) — Qwen 多模态插件支持 ⭐4
-- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — macOS 电脑控制：Accessibility 观测、过期状态拒绝、作用域权限、安全输入 ⭐18
+- [Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) — Qwen 多模态插件支持 ⭐4 · `dsh plugin add @deepseek-ai/dsh-qwen-mm`
+- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — macOS 电脑控制：Accessibility 观测、过期状态拒绝、作用域权限、安全输入 ⭐18 · `dsh plugin add @dsh-external/dsh-computer-use`
 - [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) — 操控手机（ADB/iOS） ⭐1 · `dsh plugin add dsh-mobile-control`
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐4 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐1 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`

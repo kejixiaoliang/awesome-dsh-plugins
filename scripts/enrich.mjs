@@ -50,14 +50,17 @@ for (let i = 0; i < CATEGORIES.length; i++) {
       return line
     }
     const { stars, npmName } = byRepo.get(fullName)
-    // 去掉已有的 ⭐ 数字，避免重复
+    // 保守策略：上游 npm 探测为 null 时，保留目录里已有的 install 命令
+    const existingInstall = rest.match(/`dsh plugin add ([^`]+)`/)?.[1] ?? null
+    const installName = npmName || existingInstall
+    // 去掉已有的 ⭐ 数字和 install 命令，避免重复
     let clean = rest.replace(/\s*⭐\s*\d+/g, '').replace(/\s*·\s*`dsh plugin add [^`]+`/g, '').trimEnd()
     let tail = ''
     if (typeof stars === 'number' && stars > 0) {
       tail += ` ⭐${stars}`
     }
-    if (npmName) {
-      tail += ` · \`dsh plugin add ${npmName}\``
+    if (installName) {
+      tail += ` · \`dsh plugin add ${installName}\``
       installs++
     }
     enriched++
