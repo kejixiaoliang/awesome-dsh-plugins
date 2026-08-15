@@ -14,6 +14,7 @@ DeepSeek Harness (`dsh`) is DeepSeek's open-source "everything is a plugin" agen
 - [docs/taxonomy.md](docs/taxonomy.md) — category definitions & boundaries
 - [docs/reconcile.md](docs/reconcile.md) — data-vs-directory reconciliation report
 - [docs/wishlist.md](docs/wishlist.md) — ecosystem gaps (database, translation, …)
+- [docs/journey.md](docs/journey.md) — project evolution record (architecture changes & key decisions)
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to add a plugin
 
 ## Categories
