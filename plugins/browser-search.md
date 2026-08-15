@@ -4,7 +4,7 @@
 
 ## 浏览器操控
 
-- [dsh-browser](https://github.com/Lum1104/dsh-browser) — Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力） ⭐140
+- [dsh-browser](https://github.com/Lum1104/dsh-browser) — Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力） ⭐144
 - [dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) — CDP/Playwright 操控浏览器 ⭐1 · `dsh plugin add dsh-browser-control`
 - [ego-browser](https://github.com/Fisfzy/ego-browser) — 把 ego-lite（给 AI Agent 的 Chromium）接入 DSH，13 个结构化 ego_* 工具 ⭐13
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) — 通过 Kimi WebBridge 让 Agent 操作用户已登录浏览器（13 个工具） ⭐7 · `dsh plugin add @dsh-external/dsh-better-browser`
@@ -12,7 +12,7 @@
 - [dsh-browser](https://github.com/ben7am1n/dsh-browser) — Playwright 驱动的浏览器自动化 ⭐1 · `dsh plugin add dsh-browser`
 - [DSH-Chrome-devtools](https://github.com/yuzi-ska/DSH-Chrome-devtools) — 基于 Chrome DevTools MCP 的真实 Chrome 控制 ⭐1 · `dsh plugin add dsh-chrome-devtools`
 - [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) — 包装 Playwright CLI：装浏览器、跑测试、从 agent 循环打开 HTML 报告 ⭐2 · `dsh plugin add dsh-playwright-cli`
-- [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1558
+- [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1560
 
 ## 搜索 / 抓取
 
@@ -22,7 +22,7 @@
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐7 · `dsh plugin add dsh-web-search-pro`
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） ⭐1 · `dsh plugin add dsh-all-search`
 - [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐104 · `dsh plugin add @liustack/modsearch`
-- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐77 · `dsh plugin add github:taxueseek/argo`
+- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐78 · `dsh plugin add github:taxueseek/argo`
 
 <!-- nav:start -->
 ---

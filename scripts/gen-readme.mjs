@@ -11,22 +11,34 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const PLUGINS_DIR = join(ROOT, 'plugins')
 
 const taxonomy = JSON.parse(readFileSync(join(ROOT, 'data', 'taxonomy.json'), 'utf8'))
-const CATEGORIES = taxonomy.categories.map((c) => ({ file: c.file, en: c.en, zh: c.zh }))
+const CATEGORIES = taxonomy.categories.map((c) => ({ file: c.file, en: c.en, zh: c.zh, enDesc: c.en_desc, zhDesc: c.zh_desc }))
 
 const ENTRY_RE = /^-\s*\[[^\]]+\]\(https:\/\/github\.com\/[^)]+\)\s*—\s*.*$/
 
+// 英文描述映射（fullName 小写 -> 英文描述），用于英文版 README
+let EN_DESC = {}
+try {
+  EN_DESC = JSON.parse(readFileSync(join(ROOT, 'data', 'descriptions-en.json'), 'utf8'))
+} catch { /* 文件不存在则回退中文描述 */ }
+
 // 把一行 `- [name](url) — 描述 [⭐N] [· \`install\`]` 解析成字段
 function parseEntry(line) {
-  const m = line.match(/^-\s*\[([^\]]+)\]\((https:\/\/github\.com\/[^)]+)\)\s*—\s*(.*)$/)
+  const m = line.match(/^-\s*\[([^\]]+)\]\((https:\/\/github\.com\/([^/]+\/[^)/?#]+))\)\s*—\s*(.*)$/)
   if (!m) return null
-  let [, name, url, rest] = m
+  let [, name, url, full, rest] = m
   let install = ''
   const im = rest.match(/\s*·\s*(`[^`]+`)\s*$/)
   if (im) { install = im[1]; rest = rest.replace(/\s*·\s*`[^`]+`\s*$/, '') }
   let star = 0
   const sm = rest.match(/\s*⭐\s*(\d+)\s*$/)
   if (sm) { star = Number(sm[1]); rest = rest.replace(/\s*⭐\s*\d+\s*$/, '') }
-  return { name, url, desc: rest.trim(), star, install }
+  return { name, url, full: full.toLowerCase(), desc: rest.trim(), star, install }
+}
+
+// 英文版用英文描述，中文版用中文描述
+function getDesc(e, lang) {
+  if (lang === 'en' && EN_DESC[e.full]) return EN_DESC[e.full]
+  return e.desc
 }
 
 const esc = (s) => s.replace(/\|/g, '\\|')
@@ -38,12 +50,12 @@ function extractEntries(file) {
 
 function catTableHeader(lang) {
   return lang === 'zh'
-    ? '| 插件 | 描述 | ⭐ | 安装命令 |\n|---|---|---|---|'
-    : '| Plugin | Description | ⭐ | Install |\n|---|---|---|---|'
+    ? '| 插件 | ⭐ | 描述 | 安装命令 |\n|---|---|---|---|'
+    : '| Plugin | ⭐ | Description | Install |\n|---|---|---|---|'
 }
 
-function toCatRow(e) {
-  return `| [${e.name}](${e.url}) | ${esc(e.desc)} | ${e.star || ''} | ${e.install || ''} |`
+function toCatRow(e, lang) {
+  return `| [${e.name}](${e.url}) | ${e.star || ''} | ${esc(getDesc(e, lang))} | ${e.install || ''} |`
 }
 
 function buildBlocks(lang) {
@@ -52,7 +64,7 @@ function buildBlocks(lang) {
     const entries = extractEntries(c.file)
     total += entries.length
     const title = lang === 'zh' ? c.zh : c.en
-    const table = `${catTableHeader(lang)}\n${entries.map(toCatRow).join('\n')}`
+    const table = `${catTableHeader(lang)}\n${entries.map((e) => toCatRow(e, lang)).join('\n')}`
     return `<details>\n<summary>${title} · ${entries.length}</summary>\n\n${table}\n\n</details>`
   })
   return { html: blocks.join('\n\n'), total }
@@ -67,8 +79,23 @@ function hotTableHeader(lang) {
 function buildHot(lang) {
   const all = CATEGORIES.flatMap((c) => extractEntries(c.file))
   const top = all.filter((e) => e.star > 0).sort((a, b) => b.star - a.star).slice(0, 10)
-  const rows = top.map((e, i) => `| ${i + 1} | [${e.name}](${e.url}) | ${esc(e.desc)} | ${e.star} |`)
+  const medals = ['🥇', '🥈', '🥉']
+  const rows = top.map((e, i) => `| ${medals[i] ?? (i + 1)} | [${e.name}](${e.url}) | ${esc(getDesc(e, lang))} | ${e.star} |`)
   return `${hotTableHeader(lang)}\n${rows.join('\n')}`
+}
+
+// 生成「分类目录」表（含插件数）
+function buildCatIndex(lang) {
+  const header = lang === 'zh'
+    ? '| # | 分类 | 插件数 | 说明 |\n|---|---|---|---|'
+    : '| # | Category | Plugins | Description |\n|---|---|---|---|'
+  const rows = CATEGORIES.map((c, i) => {
+    const count = extractEntries(c.file).length
+    const name = lang === 'zh' ? c.zh : c.en
+    const desc = lang === 'zh' ? c.zhDesc : c.enDesc
+    return `| ${i + 1} | [${name}](plugins/${c.file}) | ${count} | ${desc} |`
+  })
+  return `${header}\n${rows.join('\n')}`
 }
 
 function injectSection(content, startMarker, endMarker, html) {
@@ -116,6 +143,8 @@ function inject(readmePath, lang) {
   let content = readFileSync(readmePath, 'utf8')
   const { html, total } = buildBlocks(lang)
   const hot = buildHot(lang)
+  const catIndex = buildCatIndex(lang)
+  content = injectSection(content, '<!-- catindex:start -->', '<!-- catindex:end -->', catIndex)
   content = injectSection(content, '<!-- hot:start -->', '<!-- hot:end -->', hot)
   content = injectSection(content, '<!-- categories:start -->', '<!-- categories:end -->', html)
   const stats = {
