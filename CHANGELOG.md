@@ -7,9 +7,19 @@
 ### Added
 - 新增 [docs/reconcile.md](docs/reconcile.md)：数据 vs 目录的自动对账报告（`scripts/reconcile.mjs`）
 - 新增 [data/taxonomy.json](data/taxonomy.json)：14 类分类的单一真源，脚本统一读取
+- 新增 [scripts/probe-stars.mjs](scripts/probe-stars.mjs)：直接探测 GitHub 实时 star，不再依赖上游快照
+- README 折叠区与 INDEX 改为表格呈现；Hot Plugins 排行榜按 star 自动生成
+- 收录 dsh-web-ui、dsh-passwords 等 12 个新插件
+
+### Changed
+- star 数据改为自己探测 GitHub 实时值（脱离对上游 awesome-dsh-plugin 的依赖）
+- `sync-data` 触发周期 12 小时 → 3 小时
+- `enrich.mjs` 改为保守策略：上游 npm 为 null 时保留目录已有 install 命令
+- README 顶部数字（插件数/种子数据数）改为 `gen-readme.mjs` 动态生成
 
 ### Fixed
-- 修复 sync 工作流未重建 README 折叠区的问题（补跑 `gen-readme.mjs`）
+- 修复 sync-data 因上游数据源迁移（`docs/plugins.json` / `stars.json` 移除）导致的同步失效
+- 修复 CRLF 行尾导致生成脚本漏解析条目（新增 `.gitattributes` 强制 LF）
 
 ## [0.1.0] - 2026-08-14
 

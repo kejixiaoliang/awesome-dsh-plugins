@@ -80,12 +80,50 @@ function injectSection(content, startMarker, endMarker, html) {
   return content.slice(0, start + startMarker.length) + '\n\n' + html + '\n\n' + content.slice(end)
 }
 
+// 统计目录里唯一的 fullName 数（去重）
+function collectUniqueCount() {
+  const set = new Set()
+  const URL_RE = /\(https:\/\/github\.com\/([^/]+\/[^)/?#]+)\)/g
+  for (const c of CATEGORIES) {
+    const content = readFileSync(join(PLUGINS_DIR, c.file), 'utf8')
+    let m
+    while ((m = URL_RE.exec(content)) !== null) set.add(m[1].toLowerCase())
+  }
+  return set.size
+}
+
+// 动态替换 README 顶部/Stats/底部的手写数字，避免过时
+function injectStats(content, lang, { entryCount, uniqueCount, dataCount }) {
+  if (lang === 'zh') {
+    return content
+      .replace(/14 类 280\+ 个插件/, `14 类 ${entryCount} 个插件`)
+      .replace(/plugins-280\+-blue/, `plugins-${entryCount}-blue`)
+      .replace(/（334 条结构化数据/, `（${dataCount} 条结构化数据`)
+      .replace(/280\+\*\* 条（去重后 250\+ 个插件）/, `${entryCount}** 条（去重后 ${uniqueCount} 个插件）`)
+      .replace(/本仓库种子数据 334/, `本仓库种子数据 ${dataCount}`)
+      .replace(/（334 条种子数据/, `（${dataCount} 条种子数据`)
+  }
+  return content
+    .replace(/of 280\+ \[DeepSeek/, `of ${entryCount}+ [DeepSeek`)
+    .replace(/plugins-280\+-blue/, `plugins-${entryCount}-blue`)
+    .replace(/\(334 structured entries/, `(${dataCount} structured entries`)
+    .replace(/280\+\*\* entries \(250\+ unique\)/, `${entryCount}** entries (${uniqueCount} unique)`)
+    .replace(/seed data 334/, `seed data ${dataCount}`)
+    .replace(/\(334 seed entries/, `(${dataCount} seed entries`)
+}
+
 function inject(readmePath, lang) {
   let content = readFileSync(readmePath, 'utf8')
   const { html, total } = buildBlocks(lang)
   const hot = buildHot(lang)
   content = injectSection(content, '<!-- hot:start -->', '<!-- hot:end -->', hot)
   content = injectSection(content, '<!-- categories:start -->', '<!-- categories:end -->', html)
+  const stats = {
+    entryCount: total,
+    uniqueCount: collectUniqueCount(),
+    dataCount: JSON.parse(readFileSync(join(ROOT, 'data', 'plugins.json'), 'utf8')).plugins.length,
+  }
+  content = injectStats(content, lang, stats)
   writeFileSync(readmePath, content)
   return total
 }

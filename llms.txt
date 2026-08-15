@@ -1,6 +1,6 @@
 # awesome-dsh-plugins
 
-> A curated directory of DeepSeek Harness (`dsh`) plugins — 14 categories, 280+ entries, each with GitHub ⭐ stars and a `dsh plugin add` install command. Bilingual (English + 中文), machine-readable data, auto-sync CI. Community-maintained; not affiliated with DeepSeek.
+> A curated directory of DeepSeek Harness (`dsh`) plugins — 14 categories, 300+ entries, each with GitHub ⭐ stars and a `dsh plugin add` install command. Bilingual (English + 中文), machine-readable data, auto-sync CI. Community-maintained; not affiliated with DeepSeek.
 
 DeepSeek Harness (`dsh`) is DeepSeek's open-source "everything is a plugin" agent harness. This repository organizes its community plugins, scattered across GitHub, into 14 top-level categories.
 
@@ -9,7 +9,7 @@ DeepSeek Harness (`dsh`) is DeepSeek's open-source "everything is a plugin" agen
 - [README.md](README.md) — English primary README with inline collapsible browsing of all plugins
 - [README.zh.md](README.zh.md) — 中文版
 - [INDEX.md](INDEX.md) — flat list of all plugin entries (for full-text search)
-- [data/plugins.json](data/plugins.json) — machine-readable data: 334 entries (`fullName`, `url`, `stars`, `npmName`, `license`, `category`)
+- [data/plugins.json](data/plugins.json) — machine-readable data: 365 entries (`fullName`, `url`, `stars`, `npmName`, `license`, `category`)
 - [data/taxonomy.json](data/taxonomy.json) — 14-category taxonomy (single source of truth)
 - [docs/taxonomy.md](docs/taxonomy.md) — category definitions & boundaries
 - [docs/reconcile.md](docs/reconcile.md) — data-vs-directory reconciliation report

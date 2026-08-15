@@ -1,4 +1,6 @@
 // enrich.mjs — 从 data/plugins.json 读取 star/npm，统一补进 plugins/*.md，并追加「上一类/下一类」导航
+// ⚠️ 已废弃：star 更新已由 probe-stars.mjs 直接探测 GitHub 实时值替代，sync-data 不再调用本脚本。
+// 保留仅作历史参考（npm → install 命令的同步逻辑仍有参考价值）。
 // 用法：node scripts/enrich.mjs
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'

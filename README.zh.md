@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 280+ 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 301 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-301-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -39,7 +39,7 @@
 
 1. **浏览**：展开下方任意分类（或点进分类文件），每条插件点链接直达 GitHub 仓库。
 2. **搜索**：在仓库页按 `t`（或 `Ctrl+F`）搜关键词，如 `mcp`、`记忆`、`TUI`、`飞书`、`多Agent`。
-3. **机器消费**：直接读 [`data/plugins.json`](data/plugins.json)（334 条结构化数据，字段说明见 [data/README.md](data/README.md)）。
+3. **机器消费**：直接读 [`data/plugins.json`](data/plugins.json)（365 条结构化数据，字段说明见 [data/README.md](data/README.md)）。
 
 ## 🔥 热门插件
 
@@ -66,9 +66,9 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **280+** 条（去重后 250+ 个插件） |
+| 收录插件条目 | **301** 条（去重后 297 个插件） |
 | 分类 | **14** 个一级分类 |
-| 生态规模参考 | topic `dsh-plugin` 约 505 仓库 · 本仓库种子数据 334 · 兼容雷达追踪 286+ |
+| 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 本仓库种子数据 365 · 兼容雷达追踪 286+ |
 
 ## 🗂 分类目录
 
@@ -540,7 +540,7 @@ export function apply(ctx: Context) {
 
 ## 💾 数据
 
-机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。AI / LLM 可读入口见 [llms.txt](llms.txt)。
+机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（365 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。AI / LLM 可读入口见 [llms.txt](llms.txt)。
 
 ## 🤝 贡献
 

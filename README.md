@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 280+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 301+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-301-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -39,7 +39,7 @@ Three ways to use this directory:
 
 1. **Browse** — expand any category below (or jump into a category file); each entry links straight to its GitHub repo.
 2. **Search** — press `t` (or `Ctrl+F`) on the repo page and search keywords like `mcp`, `memory`, `TUI`, `multi-agent`.
-3. **Consume programmatically** — read [`data/plugins.json`](data/plugins.json) (334 structured entries; field docs in [data/README.md](data/README.md)).
+3. **Consume programmatically** — read [`data/plugins.json`](data/plugins.json) (365 structured entries; field docs in [data/README.md](data/README.md)).
 
 ## 🔥 Hot Plugins
 
@@ -66,9 +66,9 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **280+** entries (250+ unique) |
+| Plugins listed | **301** entries (297 unique) |
 | Categories | **14** top-level |
-| Ecosystem reference | `dsh-plugin` topic ~505 repos · seed data 334 · compat radar 286+ |
+| Ecosystem reference | `dsh-plugin` topic ~3300+ repos · seed data 365 · compat radar 286+ |
 
 ## 🗂 Categories
 
@@ -540,7 +540,7 @@ export function apply(ctx: Context) {
 
 ## 💾 Data
 
-Machine-readable data lives in [`data/plugins.json`](data/plugins.json) (334 seed entries with name / repo / npm / star / license / category); field docs and consumption examples in [`data/README.md`](data/README.md). Category definitions in [`docs/taxonomy.md`](docs/taxonomy.md). For AI agents / LLMs, see [llms.txt](llms.txt).
+Machine-readable data lives in [`data/plugins.json`](data/plugins.json) (365 seed entries with name / repo / npm / star / license / category); field docs and consumption examples in [`data/README.md`](data/README.md). Category definitions in [`docs/taxonomy.md`](docs/taxonomy.md). For AI agents / LLMs, see [llms.txt](llms.txt).
 
 ## 🤝 Contributing
 

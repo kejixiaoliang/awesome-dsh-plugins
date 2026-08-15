@@ -54,4 +54,4 @@ top = sorted(d["plugins"], key=lambda p: p["stars"] or 0, reverse=True)[:10]
 
 ## 来源与许可
 
-种子数据来自社区精选列表 [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（CC0-1.0）的公开 registry（`docs/plugins.json`），经 `scripts/convert-registry.mjs` 映射为本仓库格式。本仓库数据在此基础上整理，遵循其许可；如需再分发请保留其署名。
+种子数据最初来自社区精选列表 [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（CC0-1.0）。`stars` 字段现由 `scripts/probe-stars.mjs` 直接探测 GitHub 实时值更新。本仓库数据在此基础上整理，遵循其许可；如需再分发请保留其署名。
