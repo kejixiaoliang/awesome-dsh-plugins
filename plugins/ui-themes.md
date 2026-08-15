@@ -41,6 +41,7 @@
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐2 · `dsh plugin add dsh-token-usage`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐11 · `dsh plugin add dsh-model-config-sync`
 - [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐2652 · `dsh plugin add dsh-web-ui`
+- [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app`
 
 ## 生成式 UI / 组件
 
