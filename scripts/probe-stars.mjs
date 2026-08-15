@@ -1,5 +1,6 @@
-// probe-stars.mjs — 直接探测目录里每个插件的实时 GitHub star，更新 data/plugins.json 与 plugins/*.md 的 ⭐。
-// 不再依赖上游 awesome-dsh-plugin 的 star 快照（上游已移除 stars.json / docs/plugins.json）。
+// probe-stars.mjs — 直接探测目录里每个插件的实时 GitHub 数据，更新 data/plugins.json 与 plugins/*.md。
+// 更新字段：stars、license、pushedAt、archived；并检测改名（301 重定向）与死仓库（404）。
+// 不再依赖上游 awesome-dsh-plugin 的 star 快照。
 // 用法：GITHUB_TOKEN=xxx node scripts/probe-stars.mjs
 import { readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -24,10 +25,11 @@ for (const f of CATEGORY_FILES) {
   while ((m = URL_RE.exec(content)) !== null) listed.add(m[1].toLowerCase())
 }
 
-// 2. 探测实时 star（分批并发）
-const H = { Authorization: `Bearer ${token}`, 'User-Agent': 'dsh-star-probe', Accept: 'application/vnd.github+json' }
-const starMap = new Map() // 小写 fullName -> stars
-let failed = 0
+// 2. 探测实时数据（分批并发）：stars + license + pushedAt + archived
+const H = { Authorization: `Bearer ${token}`, 'User-Agent': 'dsh-probe', Accept: 'application/vnd.github+json' }
+const repoMap = new Map() // 小写 fullName -> { stars, license, pushedAt, archived }
+const renamed = [] // { from, to }
+const dead = [] // fullName
 const fulls = [...listed]
 
 for (let i = 0; i < fulls.length; i += 20) {
@@ -35,22 +37,36 @@ for (let i = 0; i < fulls.length; i += 20) {
   await Promise.all(batch.map(async (full) => {
     try {
       const res = await fetch(`https://api.github.com/repos/${full}`, { headers: H })
-      if (!res.ok) { failed++; return }
+      if (res.status === 404) { dead.push(full); return }
+      if (!res.ok) return
       const repo = await res.json()
-      if (typeof repo.stargazers_count === 'number') starMap.set(full, repo.stargazers_count)
-    } catch { failed++ }
+      repoMap.set(full, {
+        stars: typeof repo.stargazers_count === 'number' ? repo.stargazers_count : null,
+        license: repo.license?.spdx_id ?? null,
+        pushedAt: repo.pushed_at ?? null,
+        archived: repo.archived ?? false,
+      })
+      // 改名检测：GitHub 对改名仓库返回重定向，full_name 是新名字
+      if (repo.full_name && repo.full_name.toLowerCase() !== full) {
+        renamed.push({ from: full, to: repo.full_name })
+      }
+    } catch { /* 网络/限流错误，忽略 */ }
   }))
 }
 
-// 3. 更新 data/plugins.json 里已有 fullName 的 star
+// 3. 更新 data/plugins.json：stars + license + pushedAt + archived
 const data = JSON.parse(readFileSync(DATA_PATH, 'utf8'))
 let dataUpdated = 0
 for (const p of data.plugins) {
   const key = p.fullName.toLowerCase()
-  if (starMap.has(key) && starMap.get(key) !== p.stars) {
-    p.stars = starMap.get(key)
-    dataUpdated++
-  }
+  const info = repoMap.get(key)
+  if (!info) continue
+  let changed = false
+  if (info.stars != null && info.stars !== p.stars) { p.stars = info.stars; changed = true }
+  if (info.license && info.license !== p.license) { p.license = info.license; changed = true }
+  if (info.pushedAt && info.pushedAt !== p.pushedAt) { p.pushedAt = info.pushedAt; changed = true }
+  if (p.archived === undefined || info.archived !== p.archived) { p.archived = info.archived; changed = true }
+  if (changed) dataUpdated++
 }
 if (dataUpdated > 0) {
   data.updatedAt = new Date().toISOString()
@@ -58,6 +74,7 @@ if (dataUpdated > 0) {
 }
 
 // 4. 更新 plugins/*.md 每个条目的 ⭐（保留已有 install 命令）
+const starMap = new Map([...repoMap].map(([k, v]) => [k, v.stars]))
 let mdUpdated = 0
 for (const f of CATEGORY_FILES) {
   const path = join(PLUGINS_DIR, f)
@@ -82,4 +99,12 @@ for (const f of CATEGORY_FILES) {
   writeFileSync(path, out.join('\n'))
 }
 
-console.log(`探测 ${listed.size} 个仓库，失败 ${failed} 个；data 更新 ${dataUpdated} 条，md 更新 ${mdUpdated} 条`)
+console.log(`探测 ${listed.size} 个仓库；data 更新 ${dataUpdated} 条，md 更新 ${mdUpdated} 条`)
+if (renamed.length) {
+  console.log(`\n⚠️ 改名仓库 ${renamed.length} 个：`)
+  for (const r of renamed) console.log(`  ${r.from} → ${r.to}`)
+}
+if (dead.length) {
+  console.log(`\n❌ 死仓库（404）${dead.length} 个：`)
+  for (const d of dead) console.log(`  ${d}`)
+}

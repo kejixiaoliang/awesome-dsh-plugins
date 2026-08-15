@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:13:14.260Z",
+  "updatedAt": "2026-08-15T13:56:51.234Z",
   "plugins": [
     {
       "fullName": "AcidGr/dsh-web-mobile-fix",
@@ -89,15 +89,16 @@
       "fullName": "bowenliang123/dsh-context",
       "url": "https://github.com/bowenliang123/dsh-context",
       "description": "Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.",
-      "stars": 38,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 40,
+      "pushedAt": "2026-08-15T00:42:10Z",
+      "license": "Apache-2.0",
       "isPlugin": true,
       "npmName": "dsh-context",
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "wjy9902/dsh-web-default-session",
@@ -131,15 +132,16 @@
       "fullName": "huiliyi37/dsh-tianshu-tui",
       "url": "https://github.com/huiliyi37/dsh-tianshu-tui",
       "description": "A terminal UI (TUI) for DeepSeek Harness.",
-      "stars": 149,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 153,
+      "pushedAt": "2026-08-15T13:25:11Z",
+      "license": "Apache-2.0",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "openma-ai/deepseek-harness-tui",
@@ -173,29 +175,31 @@
       "fullName": "omdsh-dev/dsh-at-file",
       "url": "https://github.com/omdsh-dev/dsh-at-file",
       "description": "Codex-style `@file` mentions: search workspace files in the composer and attach their contents to prompts.",
-      "stars": 187,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 198,
+      "pushedAt": "2026-08-14T16:15:06Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "alingalingling/ui-status-label",
       "url": "https://github.com/alingalingling/ui-status-label",
       "description": "Customize the \"deep diving\" thinking status label to anything you like.",
-      "stars": 31,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 32,
+      "pushedAt": "2026-08-15T08:57:01Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "LeemanCheung/dsh-whale-animation",
@@ -230,98 +234,105 @@
       "url": "https://github.com/ZSeven-W/dsh-openpencil",
       "description": "OpenPencil design preview and editing plugin.",
       "stars": 74,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T14:36:17Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "@zseven-w/dsh-openpencil",
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Nagi-ovo/dsh-visualize",
       "url": "https://github.com/Nagi-ovo/dsh-visualize",
       "description": "In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering.",
-      "stars": 98,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 100,
+      "pushedAt": "2026-08-14T23:22:56Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ccq1/dsh-side-panel",
       "url": "https://github.com/ccq1/dsh-side-panel",
       "description": "Side panel with file browser, terminal, and Git review for quick file previews.",
       "stars": 16,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T17:45:41Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": true
     },
     {
       "fullName": "dingyi222666/dsh-focus-chat",
       "url": "https://github.com/dingyi222666/dsh-focus-chat",
       "description": "A \"focus chat\" minimal view that shows only final outputs.",
       "stars": 16,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-14T10:01:53Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-genui",
       "url": "https://github.com/omdsh-dev/dsh-genui",
       "description": "Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model.",
-      "stars": 91,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 99,
+      "pushedAt": "2026-08-14T21:31:14Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-annotation",
       "url": "https://github.com/omdsh-dev/dsh-annotation",
       "description": "Select text → annotate → send with your message; replies map back to each annotation.",
-      "stars": 48,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 50,
+      "pushedAt": "2026-08-15T10:43:01Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vlln/dsh-navbar",
       "url": "https://github.com/vlln/dsh-navbar",
       "description": "Conversation node navigation bar for quick jumps between user messages.",
-      "stars": 22,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 23,
+      "pushedAt": "2026-08-13T14:22:13Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "asukasec/dsh-message-preview",
@@ -355,15 +366,16 @@
       "fullName": "vlln/dsh-task-status",
       "url": "https://github.com/vlln/dsh-task-status",
       "description": "Background task status bar: progress plus live output tail on the chat page.",
-      "stars": 9,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 10,
+      "pushedAt": "2026-08-13T14:22:16Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Nanki-nn/dsh-answer-pet",
@@ -384,28 +396,30 @@
       "url": "https://github.com/renat3u/dsh-web-archive",
       "description": "Collapse noisy messages (Think, Bash, etc.) in conversations.",
       "stars": 7,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T04:47:29Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "0xsline/dsh-spotlight",
       "url": "https://github.com/0xsline/dsh-spotlight",
       "description": "Keyboard-first command palette for the DSH Web UI.",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T10:40:39Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "GooodWei/arcana",
@@ -426,42 +440,45 @@
       "url": "https://github.com/GooodWei/context-vista",
       "description": "A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost.",
       "stars": 4,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T02:36:50Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "context-vista",
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bill9109/dsh-101",
       "url": "https://github.com/bill9109/dsh-101",
       "description": "Document reading mode for DSH.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T11:55:08Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bill9109/dsh-drag-and-drop",
       "url": "https://github.com/bill9109/dsh-drag-and-drop",
       "description": "Cross-platform file drag-and-drop with raw path insertion, no file copying.",
       "stars": 7,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T13:42:41Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "taxueseek/dsh-files",
@@ -496,56 +513,60 @@
       "url": "https://github.com/qyw233/dsh-deeplink",
       "description": "Deep links: open a specific session or workspace via `?session=` / `?workspace=`.",
       "stars": 1,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T14:00:30Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "lehhair/dsh-diff-viewer",
       "url": "https://github.com/lehhair/dsh-diff-viewer",
       "description": "PiUI-style diff viewer replacing the stock DiffBlock for write/edit tool calls.",
-      "stars": 11,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "stars": 12,
+      "pushedAt": "2026-08-15T04:28:16Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/ex-setting",
       "url": "https://github.com/omdsh-dev/ex-setting",
       "description": "Settings extensions for DSH.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T14:48:11Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/web-components",
       "url": "https://github.com/omdsh-dev/web-components",
       "description": "Web Components support.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-09T10:59:54Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vibeinging/dsh-turn-navigator",
@@ -566,14 +587,15 @@
       "url": "https://github.com/SnowCrescenter-tech/dsh-milestone",
       "description": "Right-side dot-timeline rail: jump between user messages.",
       "stars": 14,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:57:35Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Ghost011118/dsh-balance-meter",
@@ -691,29 +713,31 @@
       "fullName": "ccch1mneyyy/dsh-TUI",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "description": "Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.",
-      "stars": 1120,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 1157,
+      "pushedAt": "2026-08-15T13:56:38Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/DSH-better-sidebar",
       "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
       "description": "Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.",
-      "stars": 988,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 1065,
+      "pushedAt": "2026-08-15T13:48:01Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "tsonglew/dsh-workspace-search",
@@ -748,14 +772,15 @@
       "url": "https://github.com/Han-1413141/dsh-sticky-disclosure",
       "description": "One-click collapse of every expanded section (Think rows, tool cards) with a live-count pill and a customizable hotkey.",
       "stars": 3,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T08:18:01Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Meredith2328/dsh-sticky-note",
@@ -1195,15 +1220,16 @@
       "fullName": "Small-tailqwq/dsh-deep-whale",
       "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
       "description": "Whale-girl skin series for the DSH Web UI (maid-atelier).",
-      "stars": 802,
-      "pushedAt": "2026-08-14T00:00:00Z",
+      "stars": 834,
+      "pushedAt": "2026-08-15T09:02:38Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "theme",
         "title": "主题与外观 / Themes & Appearance"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "wsxwj123/dsh-plugins#theme-gallery",
@@ -1294,28 +1320,30 @@
       "url": "https://github.com/Anionex/dsh-turn-rewind",
       "description": "Rewind conversation and workspace state, powered by a persistent Change Ledger.",
       "stars": 50,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T14:59:21Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Jesse-njx/dsh-crosstalk",
       "url": "https://github.com/Jesse-njx/dsh-crosstalk",
       "description": "Cross-session messaging for DSH: any session on the machine can list and message any other, Claude Code-style, via a local heartbeat registry and inbox.",
       "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T17:05:13Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "dongsheng123132/task-passport",
@@ -1349,57 +1377,61 @@
       "fullName": "hellodigua/dsh-share",
       "url": "https://github.com/hellodigua/dsh-share",
       "description": "Share your conversations with one click.",
-      "stars": 18,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 19,
+      "pushedAt": "2026-08-15T07:59:20Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Moeblack/dsh-message-edit",
       "url": "https://github.com/Moeblack/dsh-message-edit",
       "description": "Branch-based message editing, reroll, retry, and a version timeline.",
-      "stars": 20,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "stars": 21,
+      "pushedAt": "2026-08-14T06:12:15Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Buyi-wsgzg/dsh-sidechain",
       "url": "https://github.com/Buyi-wsgzg/dsh-sidechain",
       "description": "`/side` persistent side sessions and `/btw` one-shot side questions, run in a temporary fork without touching main history.",
-      "stars": 6,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 7,
+      "pushedAt": "2026-08-14T03:40:19Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bill9109/dsh-conversation-share",
       "url": "https://github.com/bill9109/dsh-conversation-share",
       "description": "Share any excerpt of a conversation.",
       "stars": 1,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T07:56:01Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "yuezengwu/dsh-explain",
@@ -1420,14 +1452,15 @@
       "url": "https://github.com/Moeblack/dsh-prompt-studio",
       "description": "Edit user and built-in system-prompt sections with live preview.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T14:00:19Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "czm15053/dsh-peer-link",
@@ -1462,14 +1495,15 @@
       "url": "https://github.com/Nwflower/dsh-chat-import",
       "description": "Import full-fidelity chat histories from 13 coding agents (Claude Code, Codex, ChatGPT, Cursor, Gemini, opencode, and more) as resumable DeepSeek Harness sessions, with reverse export back to Claude Code.",
       "stars": 29,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T09:01:33Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Nwflower/dsh-file-claim",
@@ -1489,15 +1523,16 @@
       "fullName": "Chinesezjc/dsh-interconnect",
       "url": "https://github.com/Chinesezjc/dsh-interconnect",
       "description": "Cross-instance message and event handoff between DSH instances via an interconnect server.",
-      "stars": 26,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 27,
+      "pushedAt": "2026-08-14T06:32:47Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "3403473060/dsh-inline-images",
@@ -1630,28 +1665,30 @@
       "url": "https://github.com/LoserFox/distill",
       "description": "Automatic conversation distillation: background subagent reflection + skill create/update.",
       "stars": 17,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T13:11:31Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "memory",
         "title": "记忆 / Memory"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-mnemon",
       "url": "https://github.com/omdsh-dev/dsh-mnemon",
       "description": "Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces).",
-      "stars": 25,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 26,
+      "pushedAt": "2026-08-14T23:49:21Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "dsh-mnemon",
       "category": {
         "id": "memory",
         "title": "记忆 / Memory"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "modusensus/dsh-mneme",
@@ -1672,28 +1709,30 @@
       "url": "https://github.com/nowledge-co/nowledge-mem-deepseek-harness",
       "description": "One memory layer for every AI tool and agent: Context Bundle injection, prompt-time recall, MCP tools, and turn-end DSH thread capture.",
       "stars": 5,
-      "pushedAt": "2026-08-14T00:00:00Z",
+      "pushedAt": "2026-08-13T13:54:56Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "memory",
         "title": "记忆 / Memory"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Jesse-njx/dsh-memory",
       "url": "https://github.com/Jesse-njx/dsh-memory",
       "description": "Cited memory over DSH's lossless session log: distilled facts carry `(sessionId, eventRange)` citations that expand back to the exact original log excerpt.",
       "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:39:45Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "memory",
         "title": "记忆 / Memory"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "flymysql/dsh-memory",
@@ -1951,29 +1990,31 @@
       "fullName": "ysr666/dsh-vision-router",
       "url": "https://github.com/ysr666/dsh-vision-router",
       "description": "Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an image to use it.",
-      "stars": 108,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 111,
+      "pushedAt": "2026-08-15T13:43:33Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Flyvhidbwo/dsh-vision-proxy",
       "url": "https://github.com/Flyvhidbwo/dsh-vision-proxy",
       "description": "DeepSeek brain + automatic image transcription: attach images in the GUI and each one is transcribed to text via any OpenAI-compatible VLM before reaching the text-only DeepSeek — a keyed fast path (default qwen3.7-flash; DashScope/Zhipu/OpenRouter or any OpenAI-compatible endpoint) with your own key, or local Ollama auto-detected with zero config.",
       "stars": 8,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T14:52:31Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "dsh-vision-proxy",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ximengxiaolan/dsh-vision-bridge",
@@ -2063,15 +2104,16 @@
       "fullName": "Anionex/dsh-vision-toolkit",
       "url": "https://github.com/Anionex/dsh-vision-toolkit",
       "description": "Vision tasks for text-only models: intent-aware image Q&A, long-screenshot OCR, UI reproduction, grounding, and pixel diff.",
-      "stars": 401,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 409,
+      "pushedAt": "2026-08-14T18:44:08Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "@dsh-external/dsh-vision-toolkit",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "SPYQWER1/dsh-codex-tools",
@@ -2105,15 +2147,16 @@
       "fullName": "omdsh-dev/dsh-custom-tool",
       "url": "https://github.com/omdsh-dev/dsh-custom-tool",
       "description": "Create and manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle.",
-      "stars": 23,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 24,
+      "pushedAt": "2026-08-13T15:11:37Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ZRui-C/dsh-computer-use",
@@ -2134,14 +2177,15 @@
       "url": "https://github.com/Anionex/dsh-computer-use",
       "description": "Accessibility-first macOS computer use: fresh observations, stale-state rejection, scoped permissions, and safe input.",
       "stars": 20,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T12:53:56Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "kunjinkao-os/dsh-mobile-gui-agent",
@@ -2162,28 +2206,30 @@
       "url": "https://github.com/omdsh-dev/dsh-data-agent",
       "description": "Let the AI connect to databases and write SQL for you.",
       "stars": 25,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T16:59:42Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-toolkit",
       "url": "https://github.com/omdsh-dev/dsh-toolkit",
       "description": "Zero-dependency toolkit: time / encoding / json / calculator / csv / regex / markdown / diff / stat / schema — ten deterministic tools in one install.",
       "stars": 17,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:18Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "flymysql/dsh-remote",
@@ -2204,196 +2250,210 @@
       "url": "https://github.com/omdsh-dev/dsh-tool-csv",
       "description": "Parse/query/aggregate/convert CSV (RFC 4180) with a zero-dependency state-machine parser.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:10:56Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-calculator",
       "url": "https://github.com/omdsh-dev/dsh-tool-calculator",
       "description": "Safe math expression evaluator, zero-dependency recursive-descent parser.",
       "stars": 6,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:10:54Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-diff",
       "url": "https://github.com/omdsh-dev/dsh-tool-diff",
       "description": "Structured comparison and unified diffs for text/JSON/CSV/Markdown.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:10:59Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-encoding",
       "url": "https://github.com/omdsh-dev/dsh-tool-encoding",
       "description": "base64/url/hex encoding, common hashes, and UUID generation.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:01Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-json",
       "url": "https://github.com/omdsh-dev/dsh-tool-json",
       "description": "JSON queries with a JMESPath subset.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:04Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-markdown",
       "url": "https://github.com/omdsh-dev/dsh-tool-markdown",
       "description": "HTML↔Markdown conversion, GFM table normalization, and TOC generation.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:06Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-regex",
       "url": "https://github.com/omdsh-dev/dsh-tool-regex",
       "description": "Test/extract/safe-replace/statically explain regexes without executing code.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:09Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-schema",
       "url": "https://github.com/omdsh-dev/dsh-tool-schema",
       "description": "JSON Schema validation: validate/paths/explain/normalize.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:16Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-stat",
       "url": "https://github.com/omdsh-dev/dsh-tool-stat",
       "description": "Descriptive statistics, percentiles, frequency distributions, and correlation.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:13Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-tool-time",
       "url": "https://github.com/omdsh-dev/dsh-tool-time",
       "description": "Strict ISO 8601 parsing, IANA timezone conversion, and UTC calendar arithmetic.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:11Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-kb-sieve",
       "url": "https://github.com/omdsh-dev/dsh-kb-sieve",
       "description": "Build auditable KB packs (SQLite FTS5) from md/txt/docx/pdf with deterministic retrieval and original-text reading.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T06:59:40Z",
+      "license": "Apache-2.0",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "HuanLinOTO/dsh-plugin-mineru",
       "url": "https://github.com/HuanLinOTO/dsh-plugin-mineru",
       "description": "Expose MineRU document parsing tools to the model.",
-      "stars": 18,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 20,
+      "pushedAt": "2026-08-15T05:06:34Z",
+      "license": "NOASSERTION",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Jesse-njx/dsh-cowork",
       "url": "https://github.com/Jesse-njx/dsh-cowork",
       "description": "Bounded, cell-addressed `doc_read`/`doc_write` for xlsx / pdf / docx / pptx / ipynb, plus an MCP server and CLI.",
-      "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 3,
+      "pushedAt": "2026-08-13T16:58:50Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Jesse-njx/dsh-skillport",
       "url": "https://github.com/Jesse-njx/dsh-skillport",
       "description": "Bring your existing Agent Skills (SKILL.md) library to DSH: discover skills across Claude/Codex/Cursor/Gemini paths, inject a progressive-disclosure index, and load bodies on demand.",
       "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T17:07:52Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "sakikoTGW/pack-agent",
@@ -2414,42 +2474,45 @@
       "url": "https://github.com/vibeinging/dsh-tool-search",
       "description": "Per-agent on-demand tool discovery and progressive schema disclosure.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T13:18:45Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "THU-MAIC/dsh-openmaic",
       "url": "https://github.com/THU-MAIC/dsh-openmaic",
       "description": "OpenMAIC: classrooms, slides, interactive widgets, and Socratic teaching.",
       "stars": 8,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T13:27:52Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "lzszq/dsh-scholar",
       "url": "https://github.com/lzszq/dsh-scholar",
       "description": "Academic assistant plugin.",
       "stars": 15,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T13:04:39Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ylwl1997/noatmark-dsh-plugin",
@@ -2470,14 +2533,15 @@
       "url": "https://github.com/jihongboo/dsh-apple-mode",
       "description": "Xcode AI integration for DSH: 26 Xcode MCP tools (mcpbridge) + Apple platform skills + Xcode Intelligence-style persona (agent preset or global bundle).",
       "stars": 1,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T17:35:12Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ZK-Andy/dsh-continual-evolve",
@@ -2511,15 +2575,16 @@
       "fullName": "liustack/modlens",
       "url": "https://github.com/liustack/modlens",
       "description": "Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics).",
-      "stars": 1664,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 1736,
+      "pushedAt": "2026-08-14T20:36:33Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "@liustack/modlens",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "dsh-market/dsh-market",
@@ -2819,15 +2884,16 @@
       "fullName": "liustack/modsearch",
       "url": "https://github.com/liustack/modsearch",
       "description": "Web search bridge for text-only agents: ask the web or X, get structured JSON evidence (search, fetch, citations).",
-      "stars": 103,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 104,
+      "pushedAt": "2026-08-15T05:18:00Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "@liustack/modsearch",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "taxueseek/argo",
@@ -2861,15 +2927,16 @@
       "fullName": "Lum1104/dsh-browser",
       "url": "https://github.com/Lum1104/dsh-browser",
       "description": "Chrome sidebar extension that lets DSH operate your browser directly, no vision capabilities required.",
-      "stars": 133,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 140,
+      "pushedAt": "2026-08-15T10:07:22Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Sanqi-normal/dsh-webui-market-plugin",
@@ -2946,14 +3013,15 @@
       "url": "https://github.com/1na-ko/dsh-hdc-bridge",
       "description": "HarmonyOS device bridge: hdc screenshot/install/log/crash/UI automation loop with read_image, official-first versioned API knowledge (SDK .d.ts + offline bundled docs), and a DevEco CLI build/sign/lint lane.",
       "stars": 5,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T16:13:39Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "dsh-hdc-bridge",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "PicGo/dsh-plugin",
@@ -3225,15 +3293,16 @@
       "fullName": "dhicoc/dsh-reverse-skill",
       "url": "https://github.com/dhicoc/dsh-reverse-skill",
       "description": "Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.",
-      "stars": 13,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 12,
+      "pushedAt": "2026-08-15T08:07:53Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "skill",
         "title": "技能包 / Skills"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "creght-dev/skills",
@@ -3323,43 +3392,46 @@
       "fullName": "icetomoyo/dsh_workflow",
       "url": "https://github.com/icetomoyo/dsh_workflow",
       "description": "UltraCode-style multi-agent orchestration: a generatable, savable, governable, observable, resumable workflow layer.",
-      "stars": 55,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 56,
+      "pushedAt": "2026-08-13T23:53:40Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "NanmiCoder/dsh-agent-teams",
       "url": "https://github.com/NanmiCoder/dsh-agent-teams",
       "description": "AgentTeams multi-agent teams.",
-      "stars": 302,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 312,
+      "pushedAt": "2026-08-15T11:19:10Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "titanwings/dsh-automation",
       "url": "https://github.com/titanwings/dsh-automation",
       "description": "Scheduled coding runs in fresh agent sessions with auditable history.",
-      "stars": 37,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 39,
+      "pushedAt": "2026-08-14T06:43:27Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Sev7een/dsh-plugin-automations",
@@ -3380,112 +3452,120 @@
       "url": "https://github.com/Jesse-njx/dsh-routines",
       "description": "Scheduled agents on a cron: run a prompt on a schedule and get the digest where you already are, with overlap/missed-run/timeout safety defaults.",
       "stars": 1,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:59:52Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "titanwings/dsh-plannotator",
       "url": "https://github.com/titanwings/dsh-plannotator",
       "description": "Plan review with anchored annotations and structured feedback back to the agent.",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:20:46Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vlln/dsh-loop",
       "url": "https://github.com/vlln/dsh-loop",
       "description": "Recurring loops: `/loop` command + loop tool + activity status bar.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T14:22:09Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "fuhefei/dsh-sentinel",
       "url": "https://github.com/fuhefei/dsh-sentinel",
       "description": "Condition-driven wakeup: durable file/command/http/process/webhook watches that wake the agent.",
       "stars": 7,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T18:03:19Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-deep-research",
       "url": "https://github.com/omdsh-dev/dsh-deep-research",
       "description": "Adaptive deep-research orchestrator built on the official workflow engine.",
       "stars": 12,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T07:12:36Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-inspect",
       "url": "https://github.com/omdsh-dev/dsh-inspect",
       "description": "Adversarial checkup → fix → review loop toolset.",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T07:03:13Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "fakechris/dsh-track",
       "url": "https://github.com/fakechris/dsh-track",
       "description": "Embedded task management engine: decision-point protocol, idea capture wall, Linear-style issue store.",
       "stars": 6,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T13:57:38Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "btspoony/dsh-advisor",
       "url": "https://github.com/btspoony/dsh-advisor",
       "description": "Pair a second model that passively reviews each turn and injects notes.",
       "stars": 9,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T11:35:26Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "lonelymoon87/dsh-specflow",
@@ -3547,15 +3627,16 @@
       "fullName": "btspoony/mstar-harness",
       "url": "https://github.com/btspoony/mstar-harness",
       "description": "Skill-driven harness/loop engineering workflow agent plugin.",
-      "stars": 45,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 46,
+      "pushedAt": "2026-08-15T13:33:02Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "LeslieWylie/dsh-ops-kit",
@@ -3701,43 +3782,46 @@
       "fullName": "omdsh-dev/dsh-open-in-vscode",
       "url": "https://github.com/omdsh-dev/dsh-open-in-vscode",
       "description": "Open DSH workspace directories in VS Code directly from the web GUI.",
-      "stars": 41,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 42,
+      "pushedAt": "2026-08-13T16:13:51Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-notification",
       "url": "https://github.com/omdsh-dev/dsh-notification",
       "description": "Desktop notifications for turn completions, with per-outcome controls and keyword rules.",
-      "stars": 45,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 47,
+      "pushedAt": "2026-08-13T15:28:50Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bobleer/dsh-acp-for-bitfun",
       "url": "https://github.com/bobleer/dsh-acp-for-bitfun",
       "description": "ACP bridge between BitFun and DSH.",
       "stars": 9,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T13:38:31Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "openma-ai/deepseek-harness-acp",
@@ -3758,56 +3842,60 @@
       "url": "https://github.com/LoserFox/telegram",
       "description": "Bridge to the Telegram Bot API: long polling, per-chat sessions, HTML formatting.",
       "stars": 6,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T13:11:34Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Jesse-njx/dsh-chatnode-wechat",
       "url": "https://github.com/Jesse-njx/dsh-chatnode-wechat",
       "description": "Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts.",
       "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:55:50Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "dingyi222666/dsh-session-notification",
       "url": "https://github.com/dingyi222666/dsh-session-notification",
       "description": "Notifications for four session states, with browser alerts and prompts.",
-      "stars": 6,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "stars": 7,
+      "pushedAt": "2026-08-13T23:03:04Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bill9109/dsh-web-ui-notify",
       "url": "https://github.com/bill9109/dsh-web-ui-notify",
       "description": "Desktop notification reminders.",
       "stars": 12,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T07:40:47Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "wsxwj123/dsh-plugins#pet-bridge",
@@ -3828,14 +3916,15 @@
       "url": "https://github.com/bill9109/dsh-webbridge",
       "description": "DSH meets Kimi WebBridge.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T08:04:17Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "BiBoyang/dsh-im-bridge",
@@ -3856,14 +3945,15 @@
       "url": "https://github.com/imetn/dsh-lark-bridge",
       "description": "Bidirectional Lark/Feishu controller for DeepSeek Harness with project and session routing, interactive cards, approvals, attachments, and task controls.",
       "stars": 7,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T06:53:32Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "notify",
         "title": "通知与集成 / Notifications & Integrations"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "yeruizhi/dsh-lark-meeting-notifier",
@@ -4038,14 +4128,15 @@
       "url": "https://github.com/btspoony/dsh-llm-fallbacks",
       "description": "Role-based LLM retry & fallback strategies.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T13:29:48Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "model",
         "title": "模型与账号接入 / Models & Providers"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "franksong2702/dsh-codex-connect",
@@ -4080,14 +4171,15 @@
       "url": "https://github.com/omdsh-dev/Qwen-MM-Plugins",
       "description": "Qwen multi-modal plugin support.",
       "stars": 4,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-09T10:59:51Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "model",
         "title": "模型与账号接入 / Models & Providers"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "suntianc/dsh-codex-auth",
@@ -4150,14 +4242,15 @@
       "url": "https://github.com/leechen298/Code2Skill",
       "description": "Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.",
       "stars": 2,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T01:25:54Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "bujue600-arch/dsh-testgen",
@@ -4178,42 +4271,45 @@
       "url": "https://github.com/omdsh-dev/fabric",
       "description": "An MC-Fabric-style hook processor.",
       "stars": 9,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-15T13:06:39Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "LoserFox/dsh-git-identity",
       "url": "https://github.com/LoserFox/dsh-git-identity",
       "description": "Pin Git commits to the environment's own author identity; env-var injection overrides all `git config` settings.",
       "stars": 7,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T13:11:37Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Zhenyu98/dsh-context-doctor",
       "url": "https://github.com/Zhenyu98/dsh-context-doctor",
       "description": "Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection.",
       "stars": 7,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:29:47Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ICCuse/dsh-pain-point-check",
@@ -4234,70 +4330,75 @@
       "url": "https://github.com/omdsh-dev/dsh-plugin-check",
       "description": "Plugin health checks: manifest protocol / patch format / build traps, zero-dependency and read-only.",
       "stars": 17,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:21Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-security-audit",
       "url": "https://github.com/omdsh-dev/dsh-security-audit",
       "description": "Local security audit: config, plugin origins, sessions, network exposure — read-only redacted risk report.",
       "stars": 11,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:28Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-session-health",
       "url": "https://github.com/omdsh-dev/dsh-session-health",
       "description": "Frame-level scan diagnostics for session files (torn/corrupt/empty detection).",
       "stars": 9,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T03:11:26Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "william-jin-cmu/dsh-evolve",
       "url": "https://github.com/william-jin-cmu/dsh-evolve",
       "description": "Self-evolution: the agent hot-mounts/removes persistent plugins on itself mid-session.",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T02:26:42Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vibeinging/dsh-trace",
       "url": "https://github.com/vibeinging/dsh-trace",
       "description": "Telemetry backend exporting turns, model steps, and tool calls to yiTrace.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T13:18:45Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "030611/dsh-telemetry-redactor",
@@ -4346,42 +4447,45 @@
       "url": "https://github.com/omdsh-dev/sandbox-micro",
       "description": "Support for the microsandbox backend.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-09T11:00:00Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/sandbox-mxc",
       "url": "https://github.com/omdsh-dev/sandbox-mxc",
       "description": "Microsoft cross-platform sandbox support.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-09T12:07:40Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/sandbox-nono",
       "url": "https://github.com/omdsh-dev/sandbox-nono",
       "description": "Support for the nono sandbox backend.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-11T06:32:44Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vibeinging/dsh-agent-budget",
@@ -4402,28 +4506,30 @@
       "url": "https://github.com/Jesse-njx/dsh-polyglot",
       "description": "The model switch for DSH: point it at any OpenAI-compatible endpoint, with curated free/cheap DeepSeek provider presets and automatic fallback when a free tier rate-limits you.",
       "stars": 1,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T16:41:52Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "ilharp/dsh-tool-approval",
       "url": "https://github.com/ilharp/dsh-tool-approval",
       "description": "Manual approval mode (\"Manual Mode\" / \"Ask Mode\").",
       "stars": 1,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T13:06:38Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "arrow949/dsh-turn-approval",
@@ -4444,14 +4550,15 @@
       "url": "https://github.com/omdsh-dev/plugin-template",
       "description": "Plugin template repo (based on the official turtle-ui repo).",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-12T20:17:02Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Small-tailqwq/dsh-tps",
@@ -4513,15 +4620,16 @@
       "fullName": "hust-open-atom-club/oh-dsh",
       "url": "https://github.com/hust-open-atom-club/oh-dsh",
       "description": "Community distribution: TUI, desktop, and Web UI as one bundle with layered installation.",
-      "stars": 181,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 184,
+      "pushedAt": "2026-08-15T13:43:12Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "BrambleXu/dsh-annotate",
@@ -4682,14 +4790,15 @@
       "url": "https://github.com/vlln/plugin-registry",
       "description": "Ecosystem infrastructure: a thin browser console for managing official repository plugins (zero patches) plus a make-dsh-plugin skill for guided plugin development.",
       "stars": 40,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T14:22:05Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "forrestchang/dsh-multica-runtime",
@@ -4738,14 +4847,15 @@
       "url": "https://github.com/slywalker2006/dsh-passwords",
       "description": "Login gateway for the DSH web UI: password door with first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF, anti-framing.",
       "stars": 3,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T13:52:26Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "dev",
         "title": "开发与运行时 / Development & Runtime"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Yuuz12/dsh-webui-auth",
@@ -4835,155 +4945,166 @@
       "fullName": "Nagi-ovo/dsh-ads",
       "url": "https://github.com/Nagi-ovo/dsh-ads",
       "description": "Parody ads in 2005-Chinese-web style: sidebar banners, in-chat feeds, corner popups, and a close button whose hit area is smaller than it looks. All fictional.",
-      "stars": 388,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 396,
+      "pushedAt": "2026-08-14T23:22:57Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-gomoku",
       "url": "https://github.com/omdsh-dev/dsh-gomoku",
       "description": "Play Gomoku against the AI, or let two AIs battle it out.",
       "stars": 13,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T05:42:26Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "AnacondaKC/dsh-stock-market",
       "url": "https://github.com/AnacondaKC/dsh-stock-market",
       "description": "Fixes the bug where your account can't lose money while you code.",
       "stars": 11,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T06:26:46Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "hellodigua/dsh-emoji",
       "url": "https://github.com/hellodigua/dsh-emoji",
       "description": "Automatically add emojis to AI replies.",
       "stars": 17,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T05:12:54Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "lhh010/dsh-minigames",
       "url": "https://github.com/lhh010/dsh-minigames",
       "description": "Side-panel arcade: 18 offline mini-games to play while the model thinks.",
       "stars": 18,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T13:53:38Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "william-jin-cmu/dsh-stickers",
       "url": "https://github.com/william-jin-cmu/dsh-stickers",
       "description": "Bidirectional sticker reactions between user and agent.",
-      "stars": 15,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 16,
+      "pushedAt": "2026-08-13T02:26:59Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "vlln/whale-girl",
       "url": "https://github.com/vlln/whale-girl",
       "description": "Desktop pet (QQ-pet style): floats in the corner, draggable, feedable, playable.",
-      "stars": 159,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "stars": 160,
+      "pushedAt": "2026-08-13T14:22:20Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "Moeblack/deepseek-manners",
       "url": "https://github.com/Moeblack/deepseek-manners",
       "description": "Append a thank-you note after every message. Mind your manners.",
       "stars": 10,
-      "pushedAt": "2026-08-13T00:00:00Z",
+      "pushedAt": "2026-08-13T13:48:49Z",
       "license": null,
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "HuanLinOTO/dsh-plugin-d399",
       "url": "https://github.com/HuanLinOTO/dsh-plugin-d399",
       "description": "Pops up a mini-game menu (wordle, match-3, extensible) while the model generates.",
       "stars": 5,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-15T09:05:58Z",
+      "license": "NOASSERTION",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "omdsh-dev/dsh-auto-chess",
       "url": "https://github.com/omdsh-dev/dsh-auto-chess",
       "description": "Auto chess: human vs AI, or AI vs AI.",
       "stars": 3,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T09:29:29Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "AnacondaKC/dsh-douyin",
       "url": "https://github.com/AnacondaKC/dsh-douyin",
       "description": "Short-video sidebar: native player, series navigation, precise history replay.",
       "stars": 2,
-      "pushedAt": "2026-08-13T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-13T06:26:44Z",
+      "license": "BSD-3-Clause",
       "isPlugin": true,
       "npmName": null,
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "minybear/DeepSeek-Harness-Pet",
@@ -5004,14 +5125,15 @@
       "url": "https://github.com/anweat/dsh-web-search-pro",
       "description": "Persistent enhanced web search: multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/Bilibili/YouTube/V2EX/Xiaohongshu/Twitter/Reddit/RSS), SQLite+LRU cache, userscript-style extraction, Playwright rendering.",
       "stars": 7,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "pushedAt": "2026-08-14T08:07:39Z",
+      "license": "MIT",
       "isPlugin": true,
       "npmName": "dsh-web-search-pro",
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
-      }
+      },
+      "archived": false
     },
     {
       "fullName": "anweat/dsh-browser",

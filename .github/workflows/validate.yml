@@ -14,12 +14,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate data/plugins.json
-        run: |
-          node -e "
-            const d = require('./data/plugins.json');
-            if (!Array.isArray(d.plugins)) throw new Error('plugins must be an array');
-            const missing = d.plugins.filter(p => !p.fullName || !p.url).length;
-            if (missing) throw new Error(missing + ' entries missing fullName/url');
-            console.log('OK: plugins =', d.plugins.length);
-          "
+      - name: Validate data & directory
+        run: node scripts/validate.mjs

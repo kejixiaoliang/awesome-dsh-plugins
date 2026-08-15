@@ -4,14 +4,13 @@
 
 ## 插件管理 / 注册表 / 市场
 
-- [plugin-registry](https://github.com/dsh-external/plugin-registry) — 第三方本地插件系统：`dsh.plugin.json` 协议 + install/enable/disable + Web 面板（公开） ⭐40
 - [plugin-registry](https://github.com/vlln/plugin-registry) — 插件管理控制台：浏览器面板管理官方 repository 插件 + 开发引导 ⭐40
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) — 离线容忍的注册表：从 awesome 列表/GitHub topics/npm 发现并去重 DSH 插件 ⭐1
 - [dsh-hub](https://github.com/omdsh-dev/dsh-hub) — OMDSH 社区扩展 hub（基于官方 contracts） ⭐4 · `dsh plugin add @omdsh/dsh-hub`
 - [DSH-plugin-switch](https://github.com/Nexus-Aethra/DSH-plugin-switch) — 插件市场：浏览/搜索/安装 GitHub 项目，自动识别 plugin/skill ⭐2 · `dsh plugin add dsh-plugin-switch`
 - [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) — 把 DSH 快速接入 GitHub 插件生态的市场插件 ⭐6 · `dsh plugin add dsh-plugin-installer`
-- [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐39 · `dsh plugin add @dsh-external/dsh-super-injector`
-- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐46
+- [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐48 · `dsh plugin add @dsh-external/dsh-super-injector`
+- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐47
 
 ## 健康检查 / 诊断 / 审计
 
@@ -45,6 +44,8 @@
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐34 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐221 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐42 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 <!-- nav:start -->
 ---
