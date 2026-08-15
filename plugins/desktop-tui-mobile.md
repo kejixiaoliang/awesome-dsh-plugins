@@ -6,42 +6,42 @@
 
 ## 终端 TUI
 
-- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐876 · `dsh plugin add dsh-cc-tui`
-- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐132 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
-- [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令
-- [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐4 · `dsh plugin add deepseek-harness-tui`
+- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐1107 · `dsh plugin add dsh-cc-tui`
+- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐148 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
+- [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令 ⭐1
+- [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐7 · `dsh plugin add deepseek-harness-tui`
 - [dsh-tui](https://github.com/orriduck/dsh-tui) — 轻量、会话感知的终端 UI ⭐2 · `dsh plugin add dsh-tui`
-- [dsh-tui](https://github.com/openguardrails/dsh-tui) — Claude Code 风格终端 UI（out-of-tree bundle） ⭐6 · `dsh plugin add @openguardrails/dsh-tui`
+- [dsh-tui](https://github.com/openguardrails/dsh-tui) — Claude Code 风格终端 UI（out-of-tree bundle） ⭐15 · `dsh plugin add @openguardrails/dsh-tui`
 
 ## 社区发行版
 
-- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐165 · `dsh plugin add @oh-dsh/desktop`
-- [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) — 可扩展 macOS 工作台：原生 PTY、工作区工具、双语插件、隔离预览市场
+- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐181 · `dsh plugin add @oh-dsh/desktop`
+- [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) — 可扩展 macOS 工作台：原生 PTY、工作区工具、双语插件、隔离预览市场 ⭐181
 
 ## 桌面壳（多作者）
 
-- [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) — Windows 原生桌面壳：1:1 官方 Web UI + 内置服务器托管 + 托盘驻留
-- [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) — 非官方进程内 Windows 桌面应用（托盘 + 原生通知 + IPC）
-- [dsh-desktop](https://github.com/bruc3van/dsh-desktop) — 社区维护的非官方桌面客户端（复用官方实例或内置运行时）
-- [dsh-desktop](https://github.com/zsyu9779/dsh-desktop) — Wails(Go) 桌面壳，Codex 风格原生应用
-- [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) — .NET 10 WPF + WebView2 桌面启动器
-- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用
-- [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node）
+- [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) — Windows 原生桌面壳：1:1 官方 Web UI + 内置服务器托管 + 托盘驻留 ⭐10
+- [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) — 非官方进程内 Windows 桌面应用（托盘 + 原生通知 + IPC） ⭐1
+- [dsh-desktop](https://github.com/bruc3van/dsh-desktop) — 社区维护的非官方桌面客户端（复用官方实例或内置运行时） ⭐24
+- [dsh-desktop](https://github.com/zsyu9779/dsh-desktop) — Wails(Go) 桌面壳，Codex 风格原生应用 ⭐4
+- [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) — .NET 10 WPF + WebView2 桌面启动器 ⭐2
+- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐217
+- [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） ⭐4
 - [dsh-mac-desktop](https://github.com/bitterSmilezzz/dsh-mac-desktop) — 在原生 macOS 窗口打开 Web GUI（SwiftUI + WKWebView） ⭐2 · `dsh plugin add dsh-mac-desktop`
 - [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) — 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） ⭐1 · `dsh plugin add dsh-desktop-window`
-- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐1596
-- [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐63 · `dsh plugin add deepseek-harness-desktop`
-- [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐74
+- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐4186
+- [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐80 · `dsh plugin add deepseek-harness-desktop`
+- [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐87
 
 ## 本地工作台
 
-- [dsh-work](https://github.com/vibeinging/dsh-work) — 本地 AI 工作桌面：Session/文件/数据分析/MCP/Office 一体化 ⭐25
+- [dsh-work](https://github.com/vibeinging/dsh-work) — 本地 AI 工作桌面：Session/文件/数据分析/MCP/Office 一体化 ⭐114
 
 ## 移动端 / 常驻助手
 
-- [dsh-companion](https://github.com/william-jin-cmu/dsh-companion) — 常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场
+- [dsh-companion](https://github.com/william-jin-cmu/dsh-companion) — 常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场 ⭐5
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) — 手机 Web 适配器：让 Web GUI 在手机上可用（⚠️ dsh-external，公开性待核实）
-- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实）
+- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实） ⭐12
 - [dsh-android](https://github.com/dsh-external/dsh-android) — 在 Android 上运行 dsh（⚠️ dsh-external，公开性待核实）
 
 <!-- nav:start -->

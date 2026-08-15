@@ -14,38 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 上游已把旧的 data/plugins.json 迁移为 docs/plugins.json（Public registry API），
-      # 字段结构随之变化，先用 convert-registry.mjs 映射回本仓库的种子数据格式。
-      - name: Fetch upstream registry and convert
-        run: |
-          set -euo pipefail
-          if curl -fsSL -o /tmp/upstream-registry.json \
-              https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/docs/plugins.json; then
-            node scripts/convert-registry.mjs < /tmp/upstream-registry.json > /tmp/new-plugins.json
-            test -s /tmp/new-plugins.json   # 转换结果非空，防止空文件覆盖 data/plugins.json
-            if cmp -s /tmp/new-plugins.json data/plugins.json; then
-              echo "changed=false" >> "$GITHUB_ENV"
-            else
-              cp /tmp/new-plugins.json data/plugins.json
-              echo "changed=true" >> "$GITHUB_ENV"
-            fi
-          else
-            echo "upstream fetch failed; keeping current data"
-            echo "changed=false" >> "$GITHUB_ENV"
-          fi
+      # 直接探测目录里每个插件的实时 GitHub star（不依赖上游 star 快照）。
+      - name: Probe live GitHub stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/probe-stars.mjs
 
-      - name: Rebuild enriched category files
-        if: env.changed == 'true'
+      - name: Regenerate README and INDEX
         run: |
-          node scripts/enrich.mjs
           node scripts/gen-index.mjs
           node scripts/gen-readme.mjs
 
       - name: Commit and push
-        if: env.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/plugins.json plugins/ INDEX.md README.md README.zh.md
-          git commit -m "chore: sync seed data from upstream" || exit 0
+          git commit -m "chore: sync live stars from GitHub" || exit 0
           git push
