@@ -19,6 +19,7 @@
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐17 · `dsh plugin add @bill9109/dsh-web-ui-notify`
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐7 · `dsh plugin add @dingyi222666/dsh-session-notification`
+- [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期铃声 + 状态点：每个环节（启动/工具/命令/等待确认/轮次完成/空闲）专属提示音，Web Audio 实时合成零音频文件，可上传自定义音 ⭐0 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
 
 ## 远程 / 集成 / 分享
 
