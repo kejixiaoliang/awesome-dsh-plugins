@@ -40,6 +40,7 @@
 - [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) — 右侧详情列显示当前会话工作区文件树（懒加载、只读） ⭐1 · `dsh plugin add dsh-local-filetree`
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) — 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 ⭐3 · `dsh plugin add dsh-sticky-disclosure`
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐2 · `dsh plugin add dsh-token-usage`
+- [TokenLedger](https://github.com/zh667/TokenLedger) — 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 · `dsh plugin --profile web add "github:zh667/TokenLedger"`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐11 · `dsh plugin add dsh-model-config-sync`
 - [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐3981 · `dsh plugin add dsh-web-ui`
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐1
