@@ -51,6 +51,7 @@
 - [dsh-genui](https://github.com/omdsh-dev/dsh-genui) — 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景 ⭐149 · `dsh plugin add @omdsh-dev/dsh-genui`
 - [web-components](https://github.com/omdsh-dev/web-components) — Web Components 支持 ⭐2 · `dsh plugin add @deepseek-ai/dsh-client-web-component`
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil 设计预览与编辑（Agent 操作真实设计画布） ⭐101 · `dsh plugin add @zseven-w/dsh-openpencil`
+- [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) — 会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 ⭐0 · `dsh plugin --profile web add dsh-what-changed`
 
 <!-- nav:start -->
 ---
