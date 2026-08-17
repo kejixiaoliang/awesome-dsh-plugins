@@ -14,8 +14,10 @@
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐4
 - [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) — 子代理树可视化 ⚠️ dsh-external，已删除
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) — 团队协作（cordis）⚠️ dsh-external，已删除
+- [dph-fleet](https://github.com/polaris-smart/dph-fleet) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连指挥，任何设备可派单/接单（零 npm 依赖）· 安装包见 Releases（`dsh plugin add dph-fleet-<version>.tgz`）
 
 <!-- nav:start -->
 ---
 ← [上一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) · [返回目录](../README.md) · [下一类: 🧠 上下文 / 记忆](context-memory.md) →
 <!-- nav:end -->
+
