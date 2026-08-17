@@ -21,6 +21,7 @@
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐12 · `dsh plugin add @dingyi222666/dsh-session-notification`
 
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） ⭐2 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
+- [notifier](https://github.com/JohnXu22786/notifier) — dsh-chime：桌面通知与提示音，在任务完成 / 等待审批 / 出错时提醒
 
 ## 远程 / 集成 / 分享
 

@@ -19,6 +19,11 @@
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐27 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐139 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐66 · `dsh plugin add github:Jayden-X-L/forkprobe`
+- [skill-framework](https://github.com/JohnXu22786/skill-framework) — Praxis：工程方法论技能库（Agent Skills），经 ctx.skills 以 Cordis 插件形式服务 dsh
+- [skill-manager](https://github.com/JohnXu22786/skill-manager) — 多区技能发现、渐进式披露、创建向导、审计与统计
+- [spec-driven](https://github.com/JohnXu22786/spec-driven) — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防过度工程与范围蔓延
+- [adversarial-review](https://github.com/JohnXu22786/adversarial-review) — gavel-review：对抗式多视角代码审查，多透镜并行攻击式审查 + 静态哨兵 + 严重度定级，支持 dsh 工具与 CLI
+- [docgen](https://github.com/JohnXu22786/docgen) — 文档工坊技能包（纯提示词）：README / PR 描述 / changelog / 代码审查生成，零第三方依赖
 
 <!-- nav:start -->
 ---

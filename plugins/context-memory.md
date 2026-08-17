@@ -14,6 +14,7 @@
 - [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) — 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） ⭐2 · `dsh plugin add @dsh-external/dsh-kb-sieve`
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐4 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐12 · `dsh plugin add dsh-continual-evolve`
+- [memory-vault](https://github.com/JohnXu22786/memory-vault) — 跨会话持久记忆：SQLite 本地存储 + 关键词/语义混合检索 + Web/MCP 界面，供编码代理存取经验与决策
 
 ## 上下文审计 / 压缩 / 蒸馏
 
@@ -23,6 +24,7 @@
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
 - [dsh-easy-ctx-manager](https://github.com/dsh-external/dsh-easy-ctx-manager) — 上下文管理：节省、注意力优化、压缩档案馆 ⚠️ dsh-external，已删除
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐177 · `dsh plugin add dsh-context`
+- [context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊：清理过期/重复/失败/超长上下文，节省 token 预算
 
 ## 会话控制 / 回退
 
@@ -34,6 +36,7 @@
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 ⭐2
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐55 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐6 · `dsh plugin add dsh-claude-move`
+- [session-titler](https://github.com/JohnXu22786/session-titler) — 会话标题两段式生成：忙碌时秒出关键词标题，空闲时用预算模型精修
 
 <!-- nav:start -->
 ---

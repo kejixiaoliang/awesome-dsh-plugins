@@ -23,6 +23,8 @@
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 ⭐2 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 ⭐1 · `dsh plugin add @dsh-external/dsh-event-auditor`
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐23 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
+- [file-planning](https://github.com/JohnXu22786/file-planning) — trailmap：磁盘持久化执行规划——里程碑/步骤状态机、依赖标注、审计事件与复盘纪要，提供 dsh 工具/CLI/技能三种接口
+- [task-board](https://github.com/JohnXu22786/task-board) — 跨会话事件溯源工作台账：任务跟踪、审计历史、看板导出
 
 <!-- nav:start -->
 ---
