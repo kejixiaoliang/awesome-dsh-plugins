@@ -44,6 +44,20 @@
       }
     },
     {
+      "fullName": "bpc-oss/dsh-web-billing",
+      "url": "https://github.com/bpc-oss/dsh-web-billing",
+      "description": "RMB/USD token-billing plugin for DeepSeek Harness: official-policy auto pricing (peak/off-peak), per-provider billing (usage/subscription/free-ride/local), source-grouped cost page with time ranges, budget, account balance, and CSV/JSON export.",
+      "stars": 0,
+      "pushedAt": "2026-08-18T00:00:00Z",
+      "license": "MIT",
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "model",
+        "title": "模型与账号接入 / Models & Providers"
+      }
+    },
+    {
       "fullName": "Noob-stupid/dsh-plugin-hub",
       "url": "https://github.com/Noob-stupid/dsh-plugin-hub",
       "description": "A plugin management panel: one-click enable/disable for installed plugins plus a GitHub dsh-plugin marketplace with details and one-click installs.",
