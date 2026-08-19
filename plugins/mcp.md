@@ -13,7 +13,6 @@
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐9 · `dsh plugin add dsh-acp-for-bitfun`
 - [github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate：GitHub 开发者工作台 MCP server（仓库 / issue / PR / 代码审查 / 搜索），零运行时依赖
 - [docs-retriever](https://github.com/JohnXu22786/docs-retriever) — doctrove：版本化库文档检索 MCP server，零运行时依赖，可作 dsh 插件 bundle 安装
-- [fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock：受限本地文件系统 MCP server，文件读写/搜索限定在可配置区域，零运行时依赖
 
 <!-- nav:start -->
 ---

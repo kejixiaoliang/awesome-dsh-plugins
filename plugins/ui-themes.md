@@ -45,7 +45,6 @@
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐1
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐2
 - [snippet-expander](https://github.com/JohnXu22786/snippet-expander) — Steno：发送前内联 #tag 简写展开（多库 / 别名 / {{变量}} / 递归防护）
-- [statusline](https://github.com/JohnXu22786/statusline) — 实时终端状态栏：模型 / 上下文用量 / 子代理 / 限流 / 会话时长一行呈现（零依赖）
 
 ## 生成式 UI / 组件
 

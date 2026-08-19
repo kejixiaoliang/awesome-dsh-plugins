@@ -37,7 +37,6 @@
 - [secret-guard](https://github.com/JohnXu22786/secret-guard) — 安全插件：拦截 agent 读写敏感文件（.env/凭据）、脱敏泄漏密钥，带审计日志与安全 sg_* 检查工具
 - [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 为任务自动创建隔离的 git 工作区，管理创建/同步/收尾全生命周期 ⭐1
 - [codegraph](https://github.com/JohnXu22786/codegraph) — 代码知识图谱：索引符号/调用点/导入到 SQLite，经 CLI 或 stdio MCP 回答调用与依赖问题
-- [pty-runner](https://github.com/JohnXu22786/pty-runner) — 后台终端（PTY）任务管理：启动长进程、喂输入、分页输出、按需停止
 - [model-catalog](https://github.com/JohnXu22786/model-catalog) — 模型目录自动发现：从 OpenAI 兼容 API 主机抓取模型列表/价格/能力并归一为可用配置
 
 <!-- nav:start -->

@@ -14,7 +14,6 @@
 - [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) — 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） ⭐2 · `dsh plugin add @dsh-external/dsh-kb-sieve`
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐4 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐12 · `dsh plugin add dsh-continual-evolve`
-- [memory-vault](https://github.com/JohnXu22786/memory-vault) — 跨会话持久记忆：SQLite 本地存储 + 关键词/语义混合检索 + Web/MCP 界面，供编码代理存取经验与决策
 
 ## 上下文审计 / 压缩 / 蒸馏
 
