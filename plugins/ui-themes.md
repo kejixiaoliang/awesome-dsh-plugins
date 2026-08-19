@@ -41,6 +41,7 @@
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐3 · `dsh plugin add dsh-token-usage`
 - [TokenLedger](https://github.com/zh667/TokenLedger) — 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 · `dsh plugin --profile web add github:zh667/TokenLedger` ⭐110
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) — RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 · `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` ⭐11
+- [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) — API 用量/费用/余额仪表：按钮式用量条（峰/谷时段标签）、当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本 · `dsh plugin add dsh-plugin-usage-meter` ⭐2
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐10 · `dsh plugin add dsh-model-config-sync`
 - [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐4863 · `dsh plugin add dsh-web-ui`
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐3
