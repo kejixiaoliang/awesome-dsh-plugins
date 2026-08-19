@@ -30,6 +30,7 @@
 - [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐15049
 - [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐122 · `dsh plugin add deepseek-harness-desktop`
 - [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐153
+- [dsh-tray-launcher](https://github.com/fancr-code/dsh-tray-launcher) — Windows 桌面托盘启动器：无窗口运行 dsh web，托盘右键切换图标（梁祖/鲸鱼娘/DeepSeek/自定义），退出即全退 · `npm i -g dsh-tray-launcher && dsh-tray-install` ⭐2
 
 ## 本地工作台
 
