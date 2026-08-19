@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-08-18T18:19:06.955Z",
+  "generatedAt": "2026-08-19T01:42:36.171Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 299,
+    "plugins": 327,
     "categories": 14,
-    "withInstall": 228,
-    "withStars": 298
+    "withInstall": 256,
+    "withStars": 316
   },
   "categories": [
     {
@@ -424,6 +424,56 @@ window.__DSH_DATA__ = {
       "category": "tools"
     },
     {
+      "name": "dsh-lsp-actions",
+      "url": "https://github.com/PerryLink/dsh-lsp-actions",
+      "owner": "PerryLink",
+      "repo": "dsh-lsp-actions",
+      "description": "LSP 动作面：诊断/格式化/补全/代码动作/符号/签名提示/inlay/重命名，真实语言服务器驱动",
+      "stars": 5,
+      "install": "dsh plugin add dsh-lsp-actions",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-translate",
+      "url": "https://github.com/PerryLink/dsh-translate",
+      "owner": "PerryLink",
+      "repo": "dsh-translate",
+      "description": "跨 11 家厂商的参数翻译 + 确定性 JSON 修复（fix_json），绝不编造数据",
+      "stars": null,
+      "install": "dsh plugin add dsh-translate",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-defend",
+      "url": "https://github.com/PerryLink/dsh-defend",
+      "owner": "PerryLink",
+      "repo": "dsh-defend",
+      "description": "提示注入/越狱/密钥泄露检测：Aho-Corasick 引擎三道缝 allow/ask/block 拦截 + 脱敏审计",
+      "stars": null,
+      "install": "dsh plugin add dsh-defend",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-mask",
+      "url": "https://github.com/PerryLink/dsh-mask",
+      "owner": "PerryLink",
+      "repo": "dsh-mask",
+      "description": "PII 脱敏中间件：敏感信息到达模型前匿名化为占位符，展示层还原，绝不记录明文",
+      "stars": null,
+      "install": "dsh plugin add dsh-mask",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-budget",
+      "url": "https://github.com/PerryLink/dsh-budget",
+      "owner": "PerryLink",
+      "repo": "dsh-budget",
+      "description": "成本治理：按模型/会话/日聚合计量，预算上限 + 阈值告警 + 超限策略，/budget 命令",
+      "stars": 1,
+      "install": "dsh plugin add dsh-budget",
+      "category": "tools"
+    },
+    {
       "name": "dsh-review-skills",
       "url": "https://github.com/ben7am1n/dsh-review-skills",
       "owner": "ben7am1n",
@@ -584,6 +634,26 @@ window.__DSH_DATA__ = {
       "category": "skills"
     },
     {
+      "name": "dsh-plugin-guide",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide",
+      "owner": "PerryLink",
+      "repo": "dsh-plugin-guide",
+      "description": "插件开发知识库打包为按需 agent 技能：官方约束、任务工作流、API 参考与社区踩坑",
+      "stars": 4,
+      "install": "dsh plugin add dsh-plugin-guide",
+      "category": "skills"
+    },
+    {
+      "name": "dsh-skill-pack-security",
+      "url": "https://github.com/PerryLink/dsh-skill-pack-security",
+      "owner": "PerryLink",
+      "repo": "dsh-skill-pack-security",
+      "description": "安全审计技能包 + plugin_vet 供应链门禁：八个双语技能 + 预安装自动扫描",
+      "stars": 2,
+      "install": "dsh plugin add @perrylink/dsh-skill-pack-security-provider",
+      "category": "skills"
+    },
+    {
       "name": "dsh-mcp-proxy",
       "url": "https://github.com/ben7am1n/dsh-mcp-proxy",
       "owner": "ben7am1n",
@@ -661,6 +731,16 @@ window.__DSH_DATA__ = {
       "description": "BitFun 与 DSH 的 ACP 交互对接",
       "stars": 9,
       "install": "dsh plugin add dsh-acp-for-bitfun",
+      "category": "mcp"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "url": "https://github.com/PerryLink/dsh-mcp-panel",
+      "owner": "PerryLink",
+      "repo": "dsh-mcp-panel",
+      "description": "官方 MCP 客户端管理台：/mcp 健康诊断 + 设置页服务器 CRUD（审批门 + 自动备份）+ 工具试调台",
+      "stars": 10,
+      "install": "dsh plugin add dsh-mcp-panel",
       "category": "mcp"
     },
     {
@@ -1054,6 +1134,46 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
+      "name": "dsh-composer-history",
+      "url": "https://github.com/PerryLink/dsh-composer-history",
+      "owner": "PerryLink",
+      "repo": "dsh-composer-history",
+      "description": "网页输入区终端式输入历史：方向键还原草稿/光标、Ctrl+R 反搜、工作区级回忆",
+      "stars": 6,
+      "install": "dsh plugin add dsh-composer-history",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-output-styles",
+      "url": "https://github.com/PerryLink/dsh-output-styles",
+      "owner": "PerryLink",
+      "repo": "dsh-output-styles",
+      "description": "运行时切换输出风格（对齐 Claude Code outputStyles）+ output.render.* 呈现协议 + /style",
+      "stars": 3,
+      "install": "dsh plugin add dsh-output-styles",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-session-pin",
+      "url": "https://github.com/PerryLink/dsh-session-pin",
+      "owner": "PerryLink",
+      "repo": "dsh-session-pin",
+      "description": "置顶会话/工作区到侧边栏：行配色、看板/标签/已存视图、健康摘要与 /goto",
+      "stars": 2,
+      "install": "dsh plugin add dsh-session-pin",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-talk",
+      "url": "https://github.com/PerryLink/dsh-talk",
+      "owner": "PerryLink",
+      "repo": "dsh-talk",
+      "description": "语音优先会话回路：输入区麦克风（浏览器/本地 STT）+ TTS 播报 + 事件播报 + 说话打断",
+      "stars": null,
+      "install": "dsh plugin add dsh-talk",
+      "category": "ui-themes"
+    },
+    {
       "name": "dsh-visualize",
       "url": "https://github.com/Nagi-ovo/dsh-visualize",
       "owner": "Nagi-ovo",
@@ -1414,6 +1534,16 @@ window.__DSH_DATA__ = {
       "category": "agent-orchestration"
     },
     {
+      "name": "dsh-background-agents",
+      "url": "https://github.com/PerryLink/dsh-background-agents",
+      "owner": "PerryLink",
+      "repo": "dsh-background-agents",
+      "description": "可续跑后台子代理 + 持久多代理团队房间：消息总线、共享任务板、审批门交接，跨重启存活",
+      "stars": 5,
+      "install": "dsh plugin add dsh-background-agents",
+      "category": "agent-orchestration"
+    },
+    {
       "name": "dsh-memory-evolve",
       "url": "https://github.com/csyangwen/dsh-memory-evolve",
       "owner": "csyangwen",
@@ -1521,6 +1651,26 @@ window.__DSH_DATA__ = {
       "description": "跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理",
       "stars": 10,
       "install": "dsh plugin add github:Phant0Meow/dsh-meow-memory",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-memento",
+      "url": "https://github.com/PerryLink/dsh-memento",
+      "owner": "PerryLink",
+      "repo": "dsh-memento",
+      "description": "有界分层审批门跨会话记忆：ctx.memory 服务 + 零依赖 SQLite provider + 冻结快照注入",
+      "stars": 57,
+      "install": "dsh plugin add dsh-memento",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-library",
+      "url": "https://github.com/PerryLink/dsh-library",
+      "owner": "PerryLink",
+      "repo": "dsh-library",
+      "description": "本地文档知识库：语义+关键词混合检索、多样性重排、引用感知注入，SQLite 索引零模型下载",
+      "stars": 1,
+      "install": "dsh plugin add dsh-library",
       "category": "context-memory"
     },
     {
@@ -1651,6 +1801,26 @@ window.__DSH_DATA__ = {
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
       "stars": 6,
       "install": "dsh plugin add dsh-claude-move",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-checkpoint-rewind",
+      "url": "https://github.com/PerryLink/dsh-checkpoint-rewind",
+      "owner": "PerryLink",
+      "repo": "dsh-checkpoint-rewind",
+      "description": "DSH 版 /rewind：git 优先工作区快照 + 轮边界会话 fork + /checkpoint、/rewind 一键恢复",
+      "stars": 8,
+      "install": "dsh plugin add dsh-checkpoint-rewind",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-session-sync",
+      "url": "https://github.com/PerryLink/dsh-session-sync",
+      "owner": "PerryLink",
+      "repo": "dsh-session-sync",
+      "description": "会话跨设备同步：专用 git 镜像 + append-only 三方合并（keep-both + fork 冲突解决）",
+      "stars": 1,
+      "install": "dsh plugin add dsh-session-sync",
       "category": "context-memory"
     },
     {
@@ -1821,6 +1991,26 @@ window.__DSH_DATA__ = {
       "description": "纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR）",
       "stars": 752,
       "install": "dsh plugin add dsh-vision-router",
+      "category": "multimodal"
+    },
+    {
+      "name": "dsh-draw",
+      "url": "https://github.com/PerryLink/dsh-draw",
+      "owner": "PerryLink",
+      "repo": "dsh-draw",
+      "description": "统一静态图像生成路由：image_generate 接 OpenAI 兼容引擎，健康感知回退 + 会话配额 + 结果卡片",
+      "stars": null,
+      "install": "dsh plugin add dsh-draw",
+      "category": "multimodal"
+    },
+    {
+      "name": "dsh-click",
+      "url": "https://github.com/PerryLink/dsh-click",
+      "owner": "PerryLink",
+      "repo": "dsh-click",
+      "description": "原生桌面控制（Windows 优先）：截图/无障碍读屏/点击/输入/应用启动，变更全过审批门",
+      "stars": null,
+      "install": "dsh plugin add dsh-click",
       "category": "multimodal"
     },
     {
@@ -2031,6 +2221,36 @@ window.__DSH_DATA__ = {
       "description": "自动续传：网络中断后自动发「继续」恢复请求",
       "stars": 25,
       "install": "dsh plugin add github:HsiangNianian/dsh-auto-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-doublecheck",
+      "url": "https://github.com/PerryLink/dsh-doublecheck",
+      "owner": "PerryLink",
+      "repo": "dsh-doublecheck",
+      "description": "交付质量门：审讯需求→红绿测试证据门→对抗评审→逐维核验报告",
+      "stars": 4,
+      "install": "dsh plugin add dsh-doublecheck",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-auto-review",
+      "url": "https://github.com/PerryLink/dsh-auto-review",
+      "owner": "PerryLink",
+      "repo": "dsh-auto-review",
+      "description": "审批链第二模型自动审查：只读子代理返回带理由的 allow/deny 结构化裁决，fail-closed",
+      "stars": 36,
+      "install": "dsh plugin add dsh-auto-review",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-local-ai",
+      "url": "https://github.com/PerryLink/dsh-local-ai",
+      "owner": "PerryLink",
+      "repo": "dsh-local-ai",
+      "description": "Ollama 本地模型集成：发现/拉取/查看，按任务或关键词路由并自动回退云端，/ollama 总览",
+      "stars": 1,
+      "install": "dsh plugin add dsh-local-ai",
       "category": "workflow-automation"
     },
     {
@@ -2514,6 +2734,36 @@ window.__DSH_DATA__ = {
       "category": "infrastructure-dev"
     },
     {
+      "name": "dsh-fast",
+      "url": "https://github.com/PerryLink/dsh-fast",
+      "owner": "PerryLink",
+      "repo": "dsh-fast",
+      "description": "只读性能诊断：会话加载耗时、spill 命中、压缩统计、上下文注入量、缓存命中率",
+      "stars": null,
+      "install": "dsh plugin add dsh-fast",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-test-drive",
+      "url": "https://github.com/PerryLink/dsh-test-drive",
+      "owner": "PerryLink",
+      "repo": "dsh-test-drive",
+      "description": "插件隔离安装冒烟：一次性 DSH_HOME 内安装+patch 校验+启动，产出结构化结果矩阵",
+      "stars": null,
+      "install": "dsh plugin add dsh-test-drive",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-score",
+      "url": "https://github.com/PerryLink/dsh-score",
+      "owner": "PerryLink",
+      "repo": "dsh-score",
+      "description": "插件五维质量评分（安装/维护/文档/安全/协议合规），真实 CLI 证据 + 榜单报告",
+      "stars": null,
+      "install": "dsh plugin add dsh-score",
+      "category": "infrastructure-dev"
+    },
+    {
       "name": "dsh-evolve",
       "url": "https://github.com/william-jin-cmu/dsh-evolve",
       "owner": "william-jin-cmu",
@@ -2634,6 +2884,26 @@ window.__DSH_DATA__ = {
       "category": "infrastructure-dev"
     },
     {
+      "name": "dsh-observe",
+      "url": "https://github.com/PerryLink/dsh-observe",
+      "owner": "PerryLink",
+      "repo": "dsh-observe",
+      "description": "OpenTelemetry/Langfuse 可观测性导出：span 与 token/成本指标，脱敏采集 + 离线缓冲",
+      "stars": null,
+      "install": "dsh plugin add dsh-observe",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "url": "https://github.com/PerryLink/dsh-permission-rules",
+      "owner": "PerryLink",
+      "repo": "dsh-permission-rules",
+      "description": "声明式 allow/deny/ask 权限规则 + 进程级网络策略（内置本地代理），全量审计 + 热重载",
+      "stars": 8,
+      "install": "dsh plugin add dsh-permission-rules",
+      "category": "infrastructure-dev"
+    },
+    {
       "name": "deepseek-harness-docker",
       "url": "https://github.com/runzhliu/deepseek-harness-docker",
       "owner": "runzhliu",
@@ -2701,6 +2971,16 @@ window.__DSH_DATA__ = {
       "description": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载",
       "stars": 87,
       "install": "dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-github",
+      "url": "https://github.com/PerryLink/dsh-github",
+      "owner": "PerryLink",
+      "repo": "dsh-github",
+      "description": "官方级 GitHub CI：composite action + 轮询 PR 审查机器人 + 状态检查门，写操作全过审批",
+      "stars": 3,
+      "install": "dsh plugin add @perrylink/dsh-github",
       "category": "infrastructure-dev"
     },
     {

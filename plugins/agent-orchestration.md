@@ -12,6 +12,7 @@
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐11 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐5
 - [dph-fleet](https://github.com/polaris-smart/dph-fleet) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖） ⭐2 · `dsh plugin add dph-fleet-0.2.4.tgz`
+- [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) — 可续跑后台子代理 + 持久多代理团队房间：消息总线、共享任务板、审批门交接，跨重启存活 ⭐5 · `dsh plugin add dsh-background-agents`
 
 <!-- nav:start -->
 ---

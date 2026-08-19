@@ -19,6 +19,8 @@
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐11 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐12 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
 - [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐752 · `dsh plugin add dsh-vision-router`
+- [dsh-draw](https://github.com/PerryLink/dsh-draw) — 统一静态图像生成路由：image_generate 接 OpenAI 兼容引擎，健康感知回退 + 会话配额 + 结果卡片 · `dsh plugin add dsh-draw`
+- [dsh-click](https://github.com/PerryLink/dsh-click) — 原生桌面控制（Windows 优先）：截图/无障碍读屏/点击/输入/应用启动，变更全过审批门 · `dsh plugin add dsh-click`
 
 <!-- nav:start -->
 ---

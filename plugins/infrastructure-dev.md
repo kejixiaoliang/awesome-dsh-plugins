@@ -21,6 +21,9 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐12 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐8 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐11 · `dsh plugin add github:slywalker2006/dsh-passwords`
+- [dsh-fast](https://github.com/PerryLink/dsh-fast) — 只读性能诊断：会话加载耗时、spill 命中、压缩统计、上下文注入量、缓存命中率 · `dsh plugin add dsh-fast`
+- [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) — 插件隔离安装冒烟：一次性 DSH_HOME 内安装+patch 校验+启动，产出结构化结果矩阵 · `dsh plugin add dsh-test-drive`
+- [dsh-score](https://github.com/PerryLink/dsh-score) — 插件五维质量评分（安装/维护/文档/安全/协议合规），真实 CLI 证据 + 榜单报告 · `dsh plugin add dsh-score`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
@@ -36,6 +39,8 @@
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐6 · `dsh plugin add dsh-openai-codex-auth`
+- [dsh-observe](https://github.com/PerryLink/dsh-observe) — OpenTelemetry/Langfuse 可观测性导出：span 与 token/成本指标，脱敏采集 + 离线缓冲 · `dsh plugin add dsh-observe`
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — 声明式 allow/deny/ask 权限规则 + 进程级网络策略（内置本地代理），全量审计 + 热重载 ⭐8 · `dsh plugin add dsh-permission-rules`
 
 ## 分发 / 运维 / 迁移
 
@@ -46,6 +51,7 @@
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
 - [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐1031 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐87 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
+- [dsh-github](https://github.com/PerryLink/dsh-github) — 官方级 GitHub CI：composite action + 轮询 PR 审查机器人 + 状态检查门，写操作全过审批 ⭐3 · `dsh plugin add @perrylink/dsh-github`
 
 <!-- nav:start -->
 ---

@@ -23,6 +23,9 @@
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 ⭐2 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 ⭐1 · `dsh plugin add @dsh-external/dsh-event-auditor`
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐25 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 交付质量门：审讯需求→红绿测试证据门→对抗评审→逐维核验报告 ⭐4 · `dsh plugin add dsh-doublecheck`
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链第二模型自动审查：只读子代理返回带理由的 allow/deny 结构化裁决，fail-closed ⭐36 · `dsh plugin add dsh-auto-review`
+- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) — Ollama 本地模型集成：发现/拉取/查看，按任务或关键词路由并自动回退云端，/ollama 总览 ⭐1 · `dsh plugin add dsh-local-ai`
 
 <!-- nav:start -->
 ---

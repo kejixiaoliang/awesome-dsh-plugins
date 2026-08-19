@@ -46,6 +46,10 @@
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐3
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐2
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) — 会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 · `dsh plugin --profile web add dsh-what-changed` ⭐2
+- [dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) — 网页输入区终端式输入历史：方向键还原草稿/光标、Ctrl+R 反搜、工作区级回忆 ⭐6 · `dsh plugin add dsh-composer-history`
+- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) — 运行时切换输出风格（对齐 Claude Code outputStyles）+ output.render.* 呈现协议 + /style ⭐3 · `dsh plugin add dsh-output-styles`
+- [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) — 置顶会话/工作区到侧边栏：行配色、看板/标签/已存视图、健康摘要与 /goto ⭐2 · `dsh plugin add dsh-session-pin`
+- [dsh-talk](https://github.com/PerryLink/dsh-talk) — 语音优先会话回路：输入区麦克风（浏览器/本地 STT）+ TTS 播报 + 事件播报 + 说话打断 · `dsh plugin add dsh-talk`
 
 ## 生成式 UI / 组件
 

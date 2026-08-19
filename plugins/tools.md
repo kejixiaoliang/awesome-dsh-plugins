@@ -32,6 +32,11 @@
 - [dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) — 暴露单个 `sleep` 工具，让模型按需暂停（支持取消） ⭐9 · `dsh plugin add @huanlin/dsh-plugin-sleep`
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） ⭐1 · `dsh plugin add dsh-port-guard`
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐2 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
+- [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP 动作面：诊断/格式化/补全/代码动作/符号/签名提示/inlay/重命名，真实语言服务器驱动 ⭐5 · `dsh plugin add dsh-lsp-actions`
+- [dsh-translate](https://github.com/PerryLink/dsh-translate) — 跨 11 家厂商的参数翻译 + 确定性 JSON 修复（fix_json），绝不编造数据 · `dsh plugin add dsh-translate`
+- [dsh-defend](https://github.com/PerryLink/dsh-defend) — 提示注入/越狱/密钥泄露检测：Aho-Corasick 引擎三道缝 allow/ask/block 拦截 + 脱敏审计 · `dsh plugin add dsh-defend`
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) — PII 脱敏中间件：敏感信息到达模型前匿名化为占位符，展示层还原，绝不记录明文 · `dsh plugin add dsh-mask`
+- [dsh-budget](https://github.com/PerryLink/dsh-budget) — 成本治理：按模型/会话/日聚合计量，预算上限 + 阈值告警 + 超限策略，/budget 命令 ⭐1 · `dsh plugin add dsh-budget`
 
 <!-- nav:start -->
 ---

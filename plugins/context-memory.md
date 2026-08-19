@@ -15,6 +15,8 @@
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐4 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐12 · `dsh plugin add dsh-continual-evolve`
 - [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐10 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
+- [dsh-memento](https://github.com/PerryLink/dsh-memento) — 有界分层审批门跨会话记忆：ctx.memory 服务 + 零依赖 SQLite provider + 冻结快照注入 ⭐57 · `dsh plugin add dsh-memento`
+- [dsh-library](https://github.com/PerryLink/dsh-library) — 本地文档知识库：语义+关键词混合检索、多样性重排、引用感知注入，SQLite 索引零模型下载 ⭐1 · `dsh plugin add dsh-library`
 
 ## 上下文审计 / 压缩 / 蒸馏
 
@@ -34,6 +36,8 @@
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 ⭐2
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐68 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐6 · `dsh plugin add dsh-claude-move`
+- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — DSH 版 /rewind：git 优先工作区快照 + 轮边界会话 fork + /checkpoint、/rewind 一键恢复 ⭐8 · `dsh plugin add dsh-checkpoint-rewind`
+- [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) — 会话跨设备同步：专用 git 镜像 + append-only 三方合并（keep-both + fork 冲突解决） ⭐1 · `dsh plugin add dsh-session-sync`
 
 <!-- nav:start -->
 ---
