@@ -529,5 +529,6 @@
  "bpc-oss/dsh-web-billing": "RMB/USD token billing: official peak/off-peak auto pricing, per-provider/source cost grouping, budget and balance views, CSV/JSON export.",
  "phant0meow/dsh-meow-memory": "Cross-session project memory: layered SQLite storage with keyword/semantic retrieval, per-message hit injection and windowed consolidation.",
  "xmanrui/dsh-im": "One settings entry to connect Feishu/WeChat/DingTalk/WeCom/QQ/Slack/Telegram/Discord/WhatsApp bots via QR scan, App Manifest or credentials.",
- "polaris-smart/dph-fleet": "Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control; any device can dispatch or accept tasks (zero npm dependencies)."
+ "polaris-smart/dph-fleet": "Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control; any device can dispatch or accept tasks (zero npm dependencies).",
+ "renzic-stone/dsh-easyrewrite": "Inline edit & recall for user message bubbles in DSH Web: lazy commit, seamless replacement, version pager, auto draft backup, trilingual i18n."
 }
