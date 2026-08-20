@@ -8,7 +8,7 @@
 
 - **源文件** = `plugins/*.md`（14 个分类，一行一个插件条目，人工维护的权威数据）
 - **生成物** = `README.md` / `README.zh.md` / `INDEX.md`（由脚本从源文件自动生成，禁止手改）
-- **种子数据** = `data/plugins.json`（机器可读数据，star 字段实时探测）
+- **机器可读数据** = `web/data.js`（由 `gen-web-data.mjs` 从源文件生成）
 - **分类权威** = `docs/taxonomy.md`（14 类边界）
 
 ---
@@ -79,6 +79,16 @@
 - 本地残留分支、未关闭 issue → 清理
 - 孤儿脚本 `convert-registry.mjs` → 删除，`enrich.mjs` → 标注废弃
 
+### 阶段 10：废除上游 registry 快照
+
+确认项目已完全脱离上游 awesome-dsh-plugin（star 自己探测、收录人工维护），遂删除脱节的历史快照 `data/plugins.json` 及其配套：
+
+- 删除 `data/plugins.json` / `data/README.md` / `scripts/reconcile.mjs` / `scripts/enrich.mjs` / `docs/reconcile.md`
+- `probe-stars.mjs` 不再读写 data，只更新 `plugins/*.md` 的 ⭐
+- `validate.mjs` 只校验目录格式与重复；`gen-readme.mjs` 去掉「种子数据」统计
+- 机器可读数据统一由 `gen-web-data.mjs` 从 14 类清单生成 `web/data.js`
+- 自此 `plugins/*.md` 成为**唯一真源**
+
 ---
 
 ## 三、数据流架构演变
@@ -96,7 +106,7 @@
 ```
 sync-data（每 3 小时）
   → probe-stars.mjs 调 GitHub API 拿每个插件的实时 star
-  → 更新 data/plugins.json + plugins/*.md 的 ⭐
+  → 更新 plugins/*.md 的 ⭐
   → gen-index.mjs / gen-readme.mjs 重新生成 INDEX / README（含 Hot Plugins 排序）
   → 提交
 ```
@@ -117,10 +127,9 @@ sync-data（每 3 小时）
 
 | 项 | 值 |
 |---|---|
-| 插件条目 | 301 条（297 个唯一仓库） |
+| 插件条目 | 299 条（299 个唯一仓库） |
 | 分类 | 14 类 |
-| 种子数据 | 365 条 |
 | star | 实时（probe-stars 每 3 小时探测） |
-| 生成脚本 | `gen-readme.mjs` / `gen-index.mjs` / `probe-stars.mjs` / `reconcile.mjs` |
+| 生成脚本 | `gen-readme.mjs` / `gen-index.mjs` / `gen-web-data.mjs` / `probe-stars.mjs` |
 | CI | `validate`（校验）· `sync-data`（3h star 同步）· `linkcheck`（死链） |
 | 呈现 | 全表格 + Hot Plugins 自动排序 |

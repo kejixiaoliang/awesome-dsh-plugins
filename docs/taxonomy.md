@@ -29,4 +29,4 @@
 
 ## 与机器可读数据的关系
 
-[`data/plugins.json`](../data/plugins.json) 是种子数据（来自社区精选列表，其 `category` 字段沿用上游 taxonomy）。本目录的 14 类是基于生态实际分布重分类的结果，是**人类可读的权威分类**；两者差异以本文件为准，后续可用脚本对账合并。
+机器可读数据由 `scripts/gen-web-data.mjs` 从 `plugins/*.md`（14 类清单）生成，产物为 `web/data.js`。本目录的 14 类分类是**人类可读的权威分类**。

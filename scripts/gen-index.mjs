@@ -43,7 +43,7 @@ for (const [file, title] of CATEGORIES) {
     .filter(Boolean)
   total += entries.length
   const table = `${TABLE_HEADER}\n${entries.map(toRow).join('\n')}`
-  sections.push(`## ${title}\n\n${table}\n\n[↩ 回到 ${title} 分类页](${file})\n`)
+  sections.push(`## ${title}\n\n${table}\n\n[↩ 回到 ${title} 分类页](plugins/${file})\n`)
 }
 
 const header = `# 插件总索引

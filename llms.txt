@@ -9,10 +9,9 @@ DeepSeek Harness (`dsh`) is DeepSeek's open-source "everything is a plugin" agen
 - [README.md](README.md) — English primary README with inline collapsible browsing of all plugins
 - [README.zh.md](README.zh.md) — 中文版
 - [INDEX.md](INDEX.md) — flat list of all plugin entries (for full-text search)
-- [data/plugins.json](data/plugins.json) — machine-readable data: 365 entries (`fullName`, `url`, `stars`, `npmName`, `license`, `category`)
+- [web/data.js](web/data.js) — machine-readable data generated from the 14 category files
 - [data/taxonomy.json](data/taxonomy.json) — 14-category taxonomy (single source of truth)
 - [docs/taxonomy.md](docs/taxonomy.md) — category definitions & boundaries
-- [docs/reconcile.md](docs/reconcile.md) — data-vs-directory reconciliation report
 - [docs/wishlist.md](docs/wishlist.md) — ecosystem gaps (database, translation, …)
 - [docs/journey.md](docs/journey.md) — project evolution record (architecture changes & key decisions)
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to add a plugin

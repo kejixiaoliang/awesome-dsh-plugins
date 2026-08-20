@@ -20,6 +20,12 @@
 ### Fixed
 - 修复 sync-data 因上游数据源迁移（`docs/plugins.json` / `stars.json` 移除）导致的同步失效
 - 修复 CRLF 行尾导致生成脚本漏解析条目（新增 `.gitattributes` 强制 LF）
+- 修复 INDEX.md「返回分类页」链接缺 `plugins/` 前缀导致的死链（`scripts/gen-index.mjs`）
+
+### Removed
+- 移除 `hyqhyq3/dsh-mcp-manager`（安全原因）：从 `plugins/mcp.md` 及英文描述、README/INDEX/web 数据中删除，并清理 `_research/` 上游快照中的残留引用
+- 移除 16 个已删除/私有仓库条目（死链，404）：`bitterSmilezzz/*` ×3、`dsh-external/*` ×12、`Roy-oss1/dsh-lark`，从各 `plugins/*.md`、英文描述及 README/INDEX/web 数据中删除
+- 废除上游 registry 历史快照：删除 `data/plugins.json` / `data/README.md` / `scripts/reconcile.mjs` / `scripts/enrich.mjs` / `docs/reconcile.md`，`plugins/*.md` 成为唯一真源，机器可读数据由 `gen-web-data.mjs` 生成 `web/data.js`
 
 ## [0.1.0] - 2026-08-14
 

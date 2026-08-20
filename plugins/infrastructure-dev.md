@@ -4,13 +4,13 @@
 
 ## 插件管理 / 注册表 / 市场
 
-- [plugin-registry](https://github.com/vlln/plugin-registry) — 插件管理控制台：浏览器面板管理官方 repository 插件 + 开发引导 ⭐53
+- [plugin-registry](https://github.com/vlln/plugin-registry) — 插件管理控制台：浏览器面板管理官方 repository 插件 + 开发引导 ⭐57
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) — 离线容忍的注册表：从 awesome 列表/GitHub topics/npm 发现并去重 DSH 插件 ⭐1
 - [dsh-hub](https://github.com/omdsh-dev/dsh-hub) — OMDSH 社区扩展 hub（基于官方 contracts） ⭐4 · `dsh plugin add @omdsh/dsh-hub`
 - [DSH-plugin-switch](https://github.com/Nexus-Aethra/DSH-plugin-switch) — 插件市场：浏览/搜索/安装 GitHub 项目，自动识别 plugin/skill ⭐2 · `dsh plugin add dsh-plugin-switch`
 - [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) — 把 DSH 快速接入 GitHub 插件生态的市场插件 ⭐6 · `dsh plugin add dsh-plugin-installer`
-- [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐93 · `dsh plugin add @dsh-external/dsh-super-injector`
-- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐50
+- [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐126 · `dsh plugin add @dsh-external/dsh-super-injector`
+- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐51
 
 ## 健康检查 / 诊断 / 审计
 
@@ -18,15 +18,15 @@
 - [dsh-plugin-doctor](https://github.com/lin-cheng-lab/dsh-plugin-doctor) — 插件体检：安装前检查 peer 版本兼容性 ⭐1 · `dsh plugin add dsh-plugin-doctor`
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) — profile 健康检查：找 patch 静默破坏的配置/死 patch/工具名冲突 ⭐1
 - [dsh-capability-inspector](https://github.com/tree201/dsh-capability-inspector) — DSH Doctor + 运行时诊断（工具/模型/技能/工作区/会话/插件/MCP 排障） ⭐2 · `dsh plugin add dsh-capability-inspector`
-- [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐12 · `dsh plugin add @deepseek-ai/dsh-security-audit`
+- [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐13 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐8 · `dsh plugin add @deepseek-ai/dsh-session-health`
-- [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐10 · `dsh plugin add github:slywalker2006/dsh-passwords`
+- [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐15 · `dsh plugin add github:slywalker2006/dsh-passwords`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
-- [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — 自进化：agent 会话内给自己热挂载/卸载持久化插件 ⭐11 · `dsh plugin add @dsh-external/dsh-evolve`
+- [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — 自进化：agent 会话内给自己热挂载/卸载持久化插件 ⭐10 · `dsh plugin add @dsh-external/dsh-evolve`
 - [dsh-trace](https://github.com/vibeinging/dsh-trace) — 遥测后端：导出 turns/model steps/tool calls 到 yiTrace ⭐2 · `dsh plugin add @deepseek-ai/dsh-trace`
-- [fabric](https://github.com/omdsh-dev/fabric) — 类似 MC Fabric 的 hook 处理器 ⭐14 · `dsh plugin add cordis-fabric-bundle`
+- [fabric](https://github.com/omdsh-dev/fabric) — 类似 MC Fabric 的 hook 处理器 ⭐15 · `dsh plugin add cordis-fabric-bundle`
 - [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro) — microsandbox 沙箱支持 ⭐3 · `dsh plugin add @deepseek-ai/dsh-sandbox-microsandbox`
 - [sandbox-mxc](https://github.com/omdsh-dev/sandbox-mxc) — 微软跨平台沙盒支持 ⭐2 · `dsh plugin add @deepseek-ai/dsh-sandbox-mxc`
 - [sandbox-nono](https://github.com/omdsh-dev/sandbox-nono) — nono 沙盒支持 ⭐3 · `dsh plugin add @deepseek-ai/dsh-sandbox-nono`
@@ -35,18 +35,22 @@
 - [dsh-plugin-graph](https://github.com/erduotong/dsh-plugin-graph) — 插件关系图谱可视化 ⭐2 · `dsh plugin add dsh-plugin-graph`
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
-- [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐3 · `dsh plugin add dsh-openai-codex-auth`
+
+- [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐9 · `dsh plugin add dsh-openai-codex-auth`
+
 - [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — 通用 hooks 兼容层：在 dsh 上直接运行 Claude Code / Codex / opencode 配置里声明的 hooks
+
+
 
 ## 分发 / 运维 / 迁移
 
-- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐19
+- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐25
 - [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — 运维工具箱：A/B 双槽快照升级、自动恢复、回滚、诊断自愈 ⭐11
-- [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐45 · `dsh plugin add @multica-ai/dsh-runtime`
+- [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐53 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐791 · `dsh plugin add github:dsh-market/dsh-market`
-- [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐74 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐1417 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐94 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 <!-- nav:start -->
 ---

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome DeepSeek Harness Plugins · 插件目录</title>
+  <meta name="description" content="DeepSeek Harness (dsh) 插件精选目录：14 类 300+ 插件，每条附 star 与安装命令，可搜索、筛选、一键复制。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <span class="brand-emoji">🐋</span>
+        <div class="brand-text">
+          <h1>Awesome DeepSeek Harness <span class="brand-accent">Plugins</span></h1>
+          <p class="tagline">DeepSeek Harness（<code>dsh</code>）插件精选目录 —— 社区维护、分类清晰、每条带 ⭐ 与安装命令。</p>
+        </div>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            d="M21 21l-4.35-4.35M17 11a6 6 0 1 1-12 0 6 6 0 0 1 12 0z" />
+        </svg>
+        <input id="search" type="search" placeholder="搜索插件、描述、仓库、安装命令…" autocomplete="off" />
+        <button id="clear-search" class="clear-btn" type="button" title="清空" hidden>✕</button>
+      </div>
+
+      <div class="sort-wrap">
+        <label for="sort">排序</label>
+        <select id="sort">
+          <option value="stars-desc" selected>⭐ 最多</option>
+          <option value="stars-asc">⭐ 最少</option>
+          <option value="name-asc">名称 A→Z</option>
+        </select>
+      </div>
+    </section>
+
+    <nav class="chips" id="chips" aria-label="分类筛选"></nav>
+
+    <div class="result-bar">
+      <span id="result-count"></span>
+      <span class="result-hint">点击卡片查看详情 · 一键复制安装命令</span>
+    </div>
+
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <div class="empty" id="empty" hidden>
+      <div class="empty-emoji">🫧</div>
+      <p>没有匹配的插件，换个关键词或清空筛选试试。</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        数据来自本仓库 <a href="../plugins/" target="_blank" rel="noopener">plugins/*.md</a>，
+        由 <code>scripts/gen-web-data.mjs</code> 生成。
+      </p>
+      <p>
+        <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">DeepSeek Harness</a>
+        · MIT License
+      </p>
+    </div>
+  </footer>
+
+  <!-- 详情弹窗 -->
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" type="button" title="关闭">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
