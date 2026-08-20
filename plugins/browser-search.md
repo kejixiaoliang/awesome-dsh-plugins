@@ -12,7 +12,12 @@
 - [dsh-browser](https://github.com/ben7am1n/dsh-browser) — Playwright 驱动的浏览器自动化 ⭐3 · `dsh plugin add dsh-browser`
 - [DSH-Chrome-devtools](https://github.com/yuzi-ska/DSH-Chrome-devtools) — 基于 Chrome DevTools MCP 的真实 Chrome 控制 ⭐1 · `dsh plugin add dsh-chrome-devtools`
 - [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) — 包装 Playwright CLI：装浏览器、跑测试、从 agent 循环打开 HTML 报告 ⭐2 · `dsh plugin add dsh-playwright-cli`
+
 - [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1641
+
+- [browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge：浏览器自动化 MCP server，真实浏览器导航/点击/填表/截图/JS 执行，无障碍树快照驱动
+
+
 
 ## 搜索 / 抓取
 

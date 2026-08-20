@@ -35,7 +35,12 @@
 - [dsh-plugin-graph](https://github.com/erduotong/dsh-plugin-graph) — 插件关系图谱可视化 ⭐2 · `dsh plugin add dsh-plugin-graph`
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
+
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐9 · `dsh plugin add dsh-openai-codex-auth`
+
+- [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — 通用 hooks 兼容层：在 dsh 上直接运行 Claude Code / Codex / opencode 配置里声明的 hooks
+
+
 
 ## 分发 / 运维 / 迁移
 

@@ -42,10 +42,15 @@
 - [TokenLedger](https://github.com/zh667/TokenLedger) — 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 · `dsh plugin --profile web add github:zh667/TokenLedger` ⭐118
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) — RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 · `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` ⭐11
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐11 · `dsh plugin add dsh-model-config-sync`
+
 - [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐5126 · `dsh plugin add dsh-web-ui`
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐4
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐3
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) — 会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 · `dsh plugin --profile web add dsh-what-changed` ⭐2
+
+- [snippet-expander](https://github.com/JohnXu22786/snippet-expander) — Steno：发送前内联 #tag 简写展开（多库 / 别名 / {{变量}} / 递归防护）
+
+
 
 ## 生成式 UI / 组件
 

@@ -22,7 +22,13 @@
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐10 · `dsh plugin add context-vista`
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐20 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
+
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐599 · `dsh plugin add dsh-context`
+
+- [dsh-easy-ctx-manager](https://github.com/dsh-external/dsh-easy-ctx-manager) — 上下文管理：节省、注意力优化、压缩档案馆 ⚠️ dsh-external，已删除
+- [context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊：清理过期/重复/失败/超长上下文，节省 token 预算
+
+
 
 ## 会话控制 / 回退
 
@@ -34,6 +40,7 @@
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 ⭐2
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐85 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐6 · `dsh plugin add dsh-claude-move`
+- [session-titler](https://github.com/JohnXu22786/session-titler) — 会话标题两段式生成：忙碌时秒出关键词标题，空闲时用预算模型精修
 
 <!-- nav:start -->
 ---
