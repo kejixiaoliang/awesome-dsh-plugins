@@ -171,7 +171,7 @@
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） | 4 | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 | 11 | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 | 5 |  |
-| [dph-fleet](https://github.com/polaris-smart/dph-fleet) | 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖） | 2 | `dsh plugin add dph-fleet-0.2.4.tgz` |
+| [dsh-devices](https://github.com/polaris-smart/dsh-devices) | 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） | 2 | `dsh plugin add dsh-devices` |
 
 [↩ 回到 🤖 Agent 编排 / 多 Agent 分类页](plugins/agent-orchestration.md)
 

@@ -272,7 +272,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 4 | Aggregate and natively control DSH sessions across servers (hub gateway + official UI bridge) | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 11 | Configurable subagent profiles plus live tool-call/token display and sub-session jump | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | 5 | Agent2Agent mesh interconnection ⚠️ dsh-external, public availability unverified |  |
-| [dph-fleet](https://github.com/polaris-smart/dph-fleet) | 2 | Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control; any device can dispatch or accept tasks (zero npm dependencies). | `dsh plugin add dph-fleet-0.2.4.tgz` |
+| [dsh-devices](https://github.com/polaris-smart/dsh-devices) | 2 | Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control + SFTP file transfer; registers 6 fleet tools in dsh sessions (zero npm dependencies). | `dsh plugin add dsh-devices` |
 
 </details>
 
