@@ -37,3 +37,4 @@
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
 <!-- nav:end -->
+- [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — 事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复） · `dsh plugin add beijingwahw/dsh-nuke-plugin`
