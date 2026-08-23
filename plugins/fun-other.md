@@ -48,6 +48,8 @@
 - [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) — persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 ⭐19 · `dsh plugin add github:DietCokewithSugar/dsh-user-experience`
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐19 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
 
+- [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐6 · `dsh plugin add dsh-novel-writer`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) · [返回目录](../README.md) · [下一类: 🏛️ 官方核心与元项目](official-meta.md) →
