@@ -4,6 +4,8 @@
 
 ## 记忆 / 知识
 
+- [docindex](https://github.com/JohnXu22786/docindex) — 工作区本地语义索引：增量构建 + 片段查询
+- [memory-standard](https://github.com/JohnXu22786/memory-standard) — Memory Standard 协议（mm）分层记忆：感知/工作/长期库
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话长期记忆 + 后台自我进化（五轨记忆/git 分支感知/技能进化） ⭐225
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动上下文压缩（ACP）：模型决定何时压缩（移植自 billion-context-pi） ⭐35
 - [dsh-memory](https://github.com/Jesse-njx/dsh-memory) — 基于无损会话日志的引用式记忆（事实带 sessionId/eventRange 引用） ⭐2 · `dsh plugin add @dsh-memory/bundle`
@@ -18,6 +20,9 @@
 
 ## 上下文审计 / 压缩 / 蒸馏
 
+- [context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文分诊：token 预算裁剪、总结、压缩
+- [session-export](https://github.com/JohnXu22786/session-export) — 会话导出、脱敏与合规归档 bundle
+- [session-titler](https://github.com/JohnXu22786/session-titler) — 会话标题二次生成：两阶段摘要（草稿 + 精修）
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐18 · `dsh plugin add dsh-context-doctor`
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐12 · `dsh plugin add context-vista`
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐21 · `dsh plugin add @loserfox/distill`

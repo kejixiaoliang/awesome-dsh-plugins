@@ -2,6 +2,7 @@
 
 > **视觉与多模态**：图片问答、OCR、UI 还原、截图对比、VLM 桥接、电脑控制（GUI）。返回 [目录](../README.md#分类目录)
 
+- [computer-control](https://github.com/JohnXu22786/computer-control) — 桌面控制：截屏/指针/键盘/窗口操作（GUI 自动化）
 - [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） ⭐3531 · `dsh plugin add @liustack/modlens`
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts ⭐809 · `dsh plugin add @dsh-external/dsh-vision-toolkit`
 - [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) — 同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化） ⭐1096

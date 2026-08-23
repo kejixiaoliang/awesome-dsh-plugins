@@ -4,6 +4,8 @@
 
 ## 游戏
 
+- [bookkeeping](https://github.com/JohnXu22786/bookkeeping) — 会话式记账：分类账本、流水记录与消费统计
+- [market-watch](https://github.com/JohnXu22786/market-watch) — 金融市场监控：行情聚合、涨跌提醒
 - [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可双 AI 对弈比棋力 ⭐14 · `dsh plugin add @deepseek-ai/dsh-gomoku`
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) — 右侧 18 款离线小游戏面板（恐龙跳一跳/俄罗斯方块/扫雷/2048…） ⭐26 · `dsh plugin add @dsh-external/dsh-minigames`
 - [dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — 自走棋：人机对战或双 AI 对弈 ⭐3 · `dsh plugin add @deepseek-ai/dsh-auto-chess`

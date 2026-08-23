@@ -2,6 +2,16 @@
 
 > 面向模型的**确定性工具**：计算、编码、JSON/CSV/正则、git、测试运行、安全删除、payload 捕获等。返回 [目录](../README.md#分类目录)
 
+- [apply-patch](https://github.com/JohnXu22786/apply-patch) — 把 git 格式 unified diff 安全应用到真实文件（冲突检测/回滚提示）
+- [codegraph](https://github.com/JohnXu22786/codegraph) — 代码知识图谱索引：符号/调用关系/多语言间图查询
+- [command-scout](https://github.com/JohnXu22786/command-scout) — 扫描项目声明的构建命令（Makefile/npm/justfile/deno 等）
+- [db-connector](https://github.com/JohnXu22786/db-connector) — 数据库连接器 bundle：SQLite/PostgreSQL 等结构化查询工具
+- [model-catalog](https://github.com/JohnXu22786/model-catalog) — 模型目录自动发现：拉取模型列表/定价/能力元数据
+- [net-debug](https://github.com/JohnXu22786/net-debug) — HTTP 网络调试工具集：请求构造、SSRF 检测、响应分析
+- [safety-net](https://github.com/JohnXu22786/safety-net) — 破坏性命令拦截闸门：rm -rf / git reset --hard / push --force 等先确认后执行
+- [secret-guard](https://github.com/JohnXu22786/secret-guard) — 密钥防护：禁止 agent 读写敏感文件、输出脱敏
+- [subtitle-studio](https://github.com/JohnXu22786/subtitle-studio) — 多语言字幕翻译工作流：SRT/VTT 解析、逐句 LLM 翻译、双语合并
+- [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 为任务自动创建隔离 git 工作区，管理创建/同步/收尾全生命周期
 - [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — 零依赖工具十件套（time/encoding/json/calculator/csv/regex/markdown/diff/stat/schema）一键安装 ⭐25 · `dsh plugin add @deepseek-ai/dsh-toolkit`
 - [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) — 安全的数学表达式求值器，零依赖递归下降解析器 ⭐7 · `dsh plugin add @deepseek-ai/dsh-tool-calculator`
 - [dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) — CSV 解析/查询/统计/转换（RFC 4180） ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-csv`

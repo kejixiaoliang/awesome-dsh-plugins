@@ -4,6 +4,7 @@
 
 ## 浏览器操控
 
+- [browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge 浏览器自动化 MCP：真实浏览器导航/点击/填表/截图/JS 执行
 - [dsh-browser](https://github.com/Lum1104/dsh-browser) — Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力） ⭐396
 - [dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) — CDP/Playwright 操控浏览器 ⭐1 · `dsh plugin add dsh-browser-control`
 - [ego-browser](https://github.com/Fisfzy/ego-browser) — 把 ego-lite（给 AI Agent 的 Chromium）接入 DSH，13 个结构化 ego_* 工具 ⭐31
@@ -16,6 +17,7 @@
 
 ## 搜索 / 抓取
 
+- [semantic-search](https://github.com/JohnXu22786/semantic-search) — 代码/仓库本地语义搜索：嵌入索引 + 相关片段检索
 - [dsh-web-search-firecrawl](https://github.com/yangzhe1003/dsh-web-search-firecrawl) — Firecrawl 搜索提供方接入内置 web_search ⭐2 · `dsh plugin add @yangzhe1003/dsh-web-search-firecrawl`
 - [dsh-web-search-tavily](https://github.com/crayonlu/dsh-web-search-tavily) — Tavily 搜索提供方（免 DeepSeek key） ⭐3
 - [dsh-tavily-search](https://github.com/zhouzhencheng07/dsh-tavily-search) — 免 key Tavily 搜索工具 ⭐4 · `dsh plugin add dsh-tavily-search`

@@ -14,6 +14,7 @@
 
 ## 通知
 
+- [rss-digest](https://github.com/JohnXu22786/rss-digest) — RSS/Atom 订阅摘要：定时拉取 + LLM 摘要投递
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐71 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐5
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`

@@ -2,6 +2,9 @@
 
 > **流程编排**：深度研究、定时任务/cron、条件唤醒、计划批注、审查闭环、模型路由、审批。返回 [目录](../README.md#分类目录)
 
+- [calendar](https://github.com/JohnXu22786/calendar) — CalDAV + iCalendar + RRULE 日历集成 bundle，含农历/节假日（中文场景）
+- [file-planning](https://github.com/JohnXu22786/file-planning) — trailmap 轨迹地图：磁盘持久化的执行规划（里程碑/步骤状态机/审计事件）
+- [review-gate](https://github.com/JohnXu22786/review-gate) — 把代码审查变成结构化闸门：通过/拦截/打回，全流程留痕
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — 自适应深度研究编排器（基于官方 workflow 引擎） ⭐18 · `dsh plugin add @dsh-external/dsh-deep-research`
 - [dsh-deepresearch](https://github.com/havingautism/dsh-deepresearch) — 证据优先的独立研究工作流（持久状态 + 独立 Web 视图） ⭐10 · `dsh plugin add @deepseek-ai/dsh-deepresearch`
 - [dsh-loop](https://github.com/vlln/dsh-loop) — 定时循环：`/loop` 命令 + loop 工具 + 活动状态条 ⭐5 · `dsh plugin add @dsh-external/dsh-loop`

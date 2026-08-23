@@ -4,6 +4,9 @@
 
 ## 插件管理 / 注册表 / 市场
 
+- [ci-runner](https://github.com/JohnXu22786/ci-runner) — 触发 GitHub Actions 与本地测试流水线，流式回传日志，失败时把日志尾部交给 agent 诊断
+- [dsh-web-submit](https://github.com/JohnXu22786/dsh-web-submit) — 让 CLI 任务跑在已运行的 dsh Web 进程内：Web UI 实时可见（POST /x/headless + SSE）
+- [headless-json](https://github.com/JohnXu22786/headless-json) — headless 模式的结构化机器可读输出（JSON + 稳定退出码），CI 友好
 - [plugin-registry](https://github.com/vlln/plugin-registry) — 插件管理控制台：浏览器面板管理官方 repository 插件 + 开发引导 ⭐56
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) — 离线容忍的注册表：从 awesome 列表/GitHub topics/npm 发现并去重 DSH 插件 ⭐1
 - [dsh-hub](https://github.com/omdsh-dev/dsh-hub) — OMDSH 社区扩展 hub（基于官方 contracts） ⭐4 · `dsh plugin add @omdsh/dsh-hub`
@@ -14,6 +17,7 @@
 
 ## 健康检查 / 诊断 / 审计
 
+- [auditrail](https://github.com/JohnXu22786/auditrail) — 安全审计与会话取证：完整工具调用链录制（谁/何时/动过哪些文件/脱敏回放）
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — 插件健康检查：扫描清单协议/patch 格式/构建陷阱/hub 状态 ⭐27 · `dsh plugin add @deepseek-ai/dsh-plugin-check`
 - [dsh-plugin-doctor](https://github.com/lin-cheng-lab/dsh-plugin-doctor) — 插件体检：安装前检查 peer 版本兼容性 ⭐1 · `dsh plugin add dsh-plugin-doctor`
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) — profile 健康检查：找 patch 静默破坏的配置/死 patch/工具名冲突 ⭐1
@@ -24,6 +28,7 @@
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
+- [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — 通用 hooks 兼容层：把各家 harness 的 hook 语义统一映射到 dsh
 - [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — 自进化：agent 会话内给自己热挂载/卸载持久化插件 ⭐10 · `dsh plugin add @dsh-external/dsh-evolve`
 - [dsh-trace](https://github.com/vibeinging/dsh-trace) — 遥测后端：导出 turns/model steps/tool calls 到 yiTrace ⭐2 · `dsh plugin add @deepseek-ai/dsh-trace`
 - [fabric](https://github.com/omdsh-dev/fabric) — 类似 MC Fabric 的 hook 处理器 ⭐15 · `dsh plugin add cordis-fabric-bundle`

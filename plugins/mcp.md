@@ -2,6 +2,8 @@
 
 > **MCP 协议相关**：MCP 服务器管理、MCP 代理、webfetch、OAuth MCP 客户端、视觉 MCP server。返回 [目录](../README.md#分类目录)
 
+- [docs-retriever](https://github.com/JohnXu22786/docs-retriever) — doctrove：版本化库文档检索 MCP server（零运行时依赖）
+- [github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate：GitHub 开发者工作台 MCP（仓库/issue/PR/代码审查）
 - [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) — 省上下文的惰性 MCP 访问 ⭐1 · `dsh plugin add dsh-mcp-proxy`
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp) — 让任意 agent 发现/安装/运行 DSH 插件的 MCP server ⭐3 · `dsh plugin add deepseek-harness-plugin-mcp`
 - [dsh-webfetch](https://github.com/withlovehub/dsh-webfetch) — 零依赖 webfetch MCP server（干净文本/markdown/HTML/JSON，robots.txt 合规，SSRF 防护） ⭐3

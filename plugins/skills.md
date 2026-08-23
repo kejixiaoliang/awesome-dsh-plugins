@@ -2,6 +2,10 @@
 
 > **SKILL.md 技能包**：工程纪律、代码审查、技能迁移（Claude/Codex/Cursor/Gemini）、书转技能、插件开发技能。返回 [目录](../README.md#分类目录)
 
+- [adversarial-review](https://github.com/JohnXu22786/adversarial-review) — 对抗式多视角代码审查：多透镜并行攻击式审查 + 静态哨兵 + 跨视角去重
+- [docgen](https://github.com/JohnXu22786/docgen) — 文档工坊技能包（纯提示词）：README/PR 描述/CHANGELOG 生成
+- [skill-framework](https://github.com/JohnXu22786/skill-framework) — Praxis：工程方法论技能库（SKILL.md 集合：计划/审查/复盘）
+- [spec-driven](https://github.com/JohnXu22786/spec-driven) — keel 龙骨：规格驱动开发纪律技能包（先立规格、验证假设、防过度工程）
 - [dsh-review-skills](https://github.com/ben7am1n/dsh-review-skills) — 工程纪律技能包：code-review/simplify/plan-then-execute/test-first/resolve-conflict ⭐2 · `dsh plugin add dsh-review-skills`
 - [dsh-skillport](https://github.com/Jesse-njx/dsh-skillport) — 把已有 Agent Skills（Claude/Codex/Cursor/Gemini 的 SKILL.md）带进 DSH，渐进式索引 + 按需加载 ⭐3 · `dsh plugin add @dsh-skillport/bundle`
 - [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) — 桥接 vercel-labs/skills 生态：LLM 驱动技能搜索/安装/生命周期管理 ⭐3 · `dsh plugin add dsh-find-skill`
