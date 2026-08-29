@@ -13,6 +13,8 @@
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐7
 - [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐6 · `dsh plugin add dsh-devices`
 
+- [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) — DSH 对话级多 Agent 工作台：可编辑任务方案、观察真实子会话树、对照计划与实际运行，并生成基于证据的恢复预览 ⭐1 · [v0.9.0 安装说明](https://github.com/Jokasa7/dsh-product-subagent-console#install)
+
 <!-- nav:start -->
 ---
 ← [上一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) · [返回目录](../README.md) · [下一类: 🧠 上下文 / 记忆](context-memory.md) →
