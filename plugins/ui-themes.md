@@ -17,6 +17,7 @@
 - [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐51
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) — 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` ⭐3
 
+- [@kubor/dsh-bloom-theme](https://github.com/webkubor/dsh-bloom-theme) — Bloom for DSH：玻璃 + 莫兰迪主题，9 套 OKLCH 配色（雾蓝 / 朱砂 / 花瓣 / 涟漪 / 鼠尾草 / 暖石 / 青金 / 琥珀 / 极光），明暗自适应；磨砂玻璃面板默认常开；极光变体背景带极光丝带流动动画 · `dsh plugin --profile web add @kubor/dsh-bloom-theme@0.9.0`
 ## 界面增强 / 面板
 
 - [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐3157 · `dsh plugin add dsh-better-sidebar`
