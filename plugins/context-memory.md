@@ -34,6 +34,8 @@
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 ⭐2
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐131 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐14 · `dsh plugin add dsh-claude-move`
+- [dsh-memento](https://github.com/PerryLink/dsh-memento) — 有界分层、审批门控、可审计的跨会话记忆，支持冻结快照注入 ⭐85 · `dsh plugin add dsh-memento`
+- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — 会话检查点与倒带：快照会话状态并可回退重放 ⭐14 · `dsh plugin add dsh-checkpoint-rewind`
 
 <!-- nav:start -->
 ---
