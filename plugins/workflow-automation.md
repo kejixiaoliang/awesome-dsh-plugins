@@ -23,6 +23,9 @@
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 ⭐2 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 ⭐1 · `dsh plugin add @dsh-external/dsh-event-auditor`
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐59 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链第二模型：只读评审子代理在动作执行前返回结构化 allow/deny 裁决，默认故障关闭 ⭐130 · `dsh plugin add dsh-auto-review`
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — 声明式权限规则：按工具/路径/命令门控代理动作 ⭐106 · `dsh plugin add dsh-permission-rules`
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 写入前双重校验：需求拷问、红/绿测试证据门、分叉对手评审与交付报告 ⭐13 · `dsh plugin add dsh-doublecheck`
 
 <!-- nav:start -->
 ---
