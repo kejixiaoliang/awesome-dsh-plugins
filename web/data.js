@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-05T07:09:29.644Z",
+  "generatedAt": "2026-09-05T10:36:59.439Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -1121,6 +1121,16 @@ window.__DSH_DATA__ = {
       "description": "OpenPencil 设计预览与编辑（Agent 操作真实设计画布）",
       "stars": 162,
       "install": "dsh plugin add @zseven-w/dsh-openpencil",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-settings-ui",
+      "url": "https://github.com/weibaohui/dsh-settings-ui",
+      "owner": "weibaohui",
+      "repo": "dsh-settings-ui",
+      "description": "设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-settings-ui",
       "category": "ui-themes"
     },
     {

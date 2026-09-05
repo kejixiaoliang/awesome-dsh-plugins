@@ -56,6 +56,8 @@
 - [web-components](https://github.com/omdsh-dev/web-components) — Web Components 支持 ⭐2 · `dsh plugin add @deepseek-ai/dsh-client-web-component`
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil 设计预览与编辑（Agent 操作真实设计画布） ⭐162 · `dsh plugin add @zseven-w/dsh-openpencil`
 
+- [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 · `dsh plugin add @weibaohui/dsh-settings-ui`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →

@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **306** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **307** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -129,6 +129,7 @@
 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景 | 405 | `dsh plugin add @omdsh-dev/dsh-genui` |
 | [web-components](https://github.com/omdsh-dev/web-components) | Web Components 支持 | 2 | `dsh plugin add @deepseek-ai/dsh-client-web-component` |
 | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | OpenPencil 设计预览与编辑（Agent 操作真实设计画布） | 162 | `dsh plugin add @zseven-w/dsh-openpencil` |
+| [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 |  | `dsh plugin add @weibaohui/dsh-settings-ui` |
 
 [↩ 回到 🎨 Web UI / 皮肤 / 主题 分类页](plugins/ui-themes.md)
 

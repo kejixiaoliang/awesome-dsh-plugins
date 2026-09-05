@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 306 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 307 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **306** 条（去重后 306 个插件） |
+| 收录插件条目 | **307** 条（去重后 307 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -79,7 +79,7 @@
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 31 | 确定性工具集、git、测试、安全删除等 |
 | 2 | [🧩 技能类 Skills](plugins/skills.md) | 16 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
-| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 45 | 皮肤、主题、生成式 UI、输入增强等 |
+| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 46 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
 | 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 10 | 多 Agent 团队、工作流、跨会话消息等 |
 | 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 24 | 长期记忆、上下文压缩/审计、蒸馏等 |
@@ -179,7 +179,7 @@
 </details>
 
 <details>
-<summary>🎨 Web UI / 皮肤 / 主题 · 45</summary>
+<summary>🎨 Web UI / 皮肤 / 主题 · 46</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -228,6 +228,7 @@
 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 405 | 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景 | `dsh plugin add @omdsh-dev/dsh-genui` |
 | [web-components](https://github.com/omdsh-dev/web-components) | 2 | Web Components 支持 | `dsh plugin add @deepseek-ai/dsh-client-web-component` |
 | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | 162 | OpenPencil 设计预览与编辑（Agent 操作真实设计画布） | `dsh plugin add @zseven-w/dsh-openpencil` |
+| [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) |  | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 | `dsh plugin add @weibaohui/dsh-settings-ui` |
 
 </details>
 
