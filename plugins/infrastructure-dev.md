@@ -19,6 +19,7 @@
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) — profile 健康检查：找 patch 静默破坏的配置/死 patch/工具名冲突 ⭐1
 - [dsh-capability-inspector](https://github.com/tree201/dsh-capability-inspector) — DSH Doctor + 运行时诊断（工具/模型/技能/工作区/会话/插件/MCP 排障） ⭐2 · `dsh plugin add dsh-capability-inspector`
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐14 · `dsh plugin add @deepseek-ai/dsh-security-audit`
+- [sofagent](https://github.com/KongFangXun/sofagent) — 开源 FDE Harness 约束层：24 条 git diff 审计规则 + 80 个 MCP 工具 + 9 款 cordis-plugin 深度集成，Agent 违规当场拦截 ⭐42
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐45 · `dsh plugin add github:slywalker2006/dsh-passwords`
 
