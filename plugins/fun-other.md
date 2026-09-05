@@ -4,7 +4,7 @@
 
 ## 游戏
 
-- [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可双 AI 对弈比棋力 ⭐18 · `dsh plugin add @deepseek-ai/dsh-gomoku`
+- [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可双 AI 对弈比棋力 ⭐19 · `dsh plugin add @deepseek-ai/dsh-gomoku`
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) — 右侧 18 款离线小游戏面板（恐龙跳一跳/俄罗斯方块/扫雷/2048…） ⭐28 · `dsh plugin add @dsh-external/dsh-minigames`
 - [dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — 自走棋：人机对战或双 AI 对弈 ⭐3 · `dsh plugin add @deepseek-ai/dsh-auto-chess`
 - [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) — 模型生成时弹出小游戏菜单（wordle/消消乐，可扩展） ⭐9 · `dsh plugin add @huanlin/dsh-plugin-d399`
@@ -12,7 +12,7 @@
 ## 桌宠 / 表情 / 贴纸
 
 - [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) — 全手绘像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心） ⭐30
-- [whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） ⭐311 · `dsh plugin add whale-girl`
+- [whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） ⭐312 · `dsh plugin add whale-girl`
 - [dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) — 活泼像素鲸鱼运行状态伴侣 ⭐1 · `dsh plugin add dsh-pixel-whale`
 - [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — 蓝鲸女仆桌面像素宠物 ⭐6 · `dsh plugin add dsh-blue-whale-maid`
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐43 · `dsh plugin add deepseek-pet`
@@ -35,7 +35,7 @@
 
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) — 费曼学习模式：教→讲回→判→再解释，渲染为富 HTML 课程卡 ⭐7 · `dsh plugin add dsh-learn-everything`
 - [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐50 · `dsh plugin add @openmaic/dsh-openmaic`
-- [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐36 · `dsh plugin add @dsh-scholar/research-plugin`
+- [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐37 · `dsh plugin add @dsh-scholar/research-plugin`
 - [dsh-101](https://github.com/bill9109/dsh-101) — DSH 文档阅读模式 ⭐6 · `dsh plugin add @dsh-external/dsh-101`
 - [dsh-reasoning-translator](https://github.com/pinkllo/dsh-reasoning-translator) — 让模型的思维链用你的语言输出 ⭐3 · `dsh plugin add dsh-reasoning-translator`
 
@@ -44,7 +44,7 @@
 - [dsh-director-toolkit](https://github.com/lhmd/dsh-director-toolkit) — 3D 艺术家/技术美术方向包：Blender/Three.js/Houdini/C4D 方向指引 ⭐7 · `dsh plugin add @lhmd/dsh-director-toolkit`
 - [dsh-apple-mode](https://github.com/jihongboo/dsh-apple-mode) — Xcode AI 集成：26 个 Xcode MCP 工具 + Apple 平台技能 ⭐1 · `dsh plugin add dsh-apple-mode`
 - [notes](https://github.com/zhaoolee/notes) — 开源版锤子便签：导出 DSH 会话为便签图片，支持 skill 调用 ⚠️ 无 license 文件 ⭐158
-- [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐254 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
+- [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐255 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
 - [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) — persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 ⭐19 · `dsh plugin add github:DietCokewithSugar/dsh-user-experience`
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐19 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
 - [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐15 · `dsh plugin add dsh-novel-writer`

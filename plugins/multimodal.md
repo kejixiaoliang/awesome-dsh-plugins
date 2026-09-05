@@ -2,9 +2,9 @@
 
 > **视觉与多模态**：图片问答、OCR、UI 还原、截图对比、VLM 桥接、电脑控制（GUI）。返回 [目录](../README.md#分类目录)
 
-- [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） ⭐3868 · `dsh plugin add @liustack/modlens`
-- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts ⭐853 · `dsh plugin add @dsh-external/dsh-vision-toolkit`
-- [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) — 同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化） ⭐1163
+- [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） ⭐3871 · `dsh plugin add @liustack/modlens`
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts ⭐854 · `dsh plugin add @dsh-external/dsh-vision-toolkit`
+- [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) — 同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化） ⭐1165
 - [dsh-vision](https://github.com/william-jin-cmu/dsh-vision) — view_image 工具桥接任意 OpenAI 兼容 VLM（默认智谱免费档） ⭐35
 - [dsh-vision-LMstudio](https://github.com/TiankunDai/dsh-vision-LMstudio) — 通过 LM Studio 调用本地视觉模型 ⭐2
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) — DeepSeek 大脑 + 自动识图（图片经 Qwen VLM 转文字后作答） ⭐15 · `dsh plugin add dsh-vision-proxy`
@@ -18,7 +18,7 @@
 - [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) — 操控手机（ADB/iOS） ⭐4 · `dsh plugin add dsh-mobile-control`
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐16 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐17 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
-- [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐1070 · `dsh plugin add dsh-vision-router`
+- [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐1071 · `dsh plugin add dsh-vision-router`
 - [dsh-labnana](https://github.com/exoticknight/dsh-labnana) — Labnana 图片生成插件：文生图/图生图/精准编辑，支持 NanoBanana Pro、GPT-Image-2、Wan2.7、Seedream，对话内图片卡片 + 积分预估 ⭐3 · `dsh plugin add github:exoticknight/dsh-labnana`
 
 <!-- nav:start -->
