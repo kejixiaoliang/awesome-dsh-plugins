@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-05T07:09:29.644Z",
+  "generatedAt": "2026-09-05T10:36:32.874Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -2081,6 +2081,16 @@ window.__DSH_DATA__ = {
       "description": "自动续传：网络中断后自动发「继续」恢复请求",
       "stars": 65,
       "install": "dsh plugin add github:HsiangNianian/dsh-auto-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-continue",
+      "url": "https://github.com/weibaohui/dsh-continue",
+      "owner": "weibaohui",
+      "repo": "dsh-continue",
+      "description": "自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-continue",
       "category": "workflow-automation"
     },
     {
