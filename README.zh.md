@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 306 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 307 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **306** 条（去重后 306 个插件） |
+| 收录插件条目 | **307** 条（去重后 307 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -82,7 +82,7 @@
 | 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 45 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
 | 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 10 | 多 Agent 团队、工作流、跨会话消息等 |
-| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 24 | 长期记忆、上下文压缩/审计、蒸馏等 |
+| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 25 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 18 | 视觉工具箱、OCR、截图对比、电脑控制等 |
 | 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 21 | 深度研究、定时任务、条件唤醒等 |
 | 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 19 | Telegram/微信/飞书机器人、SSH 等 |
@@ -281,7 +281,7 @@
 </details>
 
 <details>
-<summary>🧠 上下文 / 记忆 · 24</summary>
+<summary>🧠 上下文 / 记忆 · 25</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -309,6 +309,7 @@
 | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 2 | 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 |  |
 | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 135 | 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 | `dsh plugin add dsh-chat-import` |
 | [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) | 15 | 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH | `dsh plugin add dsh-claude-move` |
+| [hermes-loop](https://github.com/weibaohui/hermes-loop) |  | 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） | `dsh plugin add @weibaohui/hermes-loop` |
 
 </details>
 

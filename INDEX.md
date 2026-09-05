@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **306** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **307** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -207,6 +207,7 @@
 | [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) | 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 | 2 |  |
 | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 | 135 | `dsh plugin add dsh-chat-import` |
 | [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) | 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH | 15 | `dsh plugin add dsh-claude-move` |
+| [hermes-loop](https://github.com/weibaohui/hermes-loop) | 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） |  | `dsh plugin add @weibaohui/hermes-loop` |
 
 [↩ 回到 🧠 上下文 / 记忆 分类页](plugins/context-memory.md)
 

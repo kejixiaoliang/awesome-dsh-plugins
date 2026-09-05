@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-05T07:09:29.644Z",
+  "generatedAt": "2026-09-05T10:36:02.416Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -1691,6 +1691,16 @@ window.__DSH_DATA__ = {
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
       "stars": 15,
       "install": "dsh plugin add dsh-claude-move",
+      "category": "context-memory"
+    },
+    {
+      "name": "hermes-loop",
+      "url": "https://github.com/weibaohui/hermes-loop",
+      "owner": "weibaohui",
+      "repo": "hermes-loop",
+      "description": "自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除）",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/hermes-loop",
       "category": "context-memory"
     },
     {
