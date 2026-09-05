@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-05T07:09:29.644Z",
+  "generatedAt": "2026-09-05T10:35:20.361Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -3081,6 +3081,16 @@ window.__DSH_DATA__ = {
       "description": "中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具",
       "stars": 15,
       "install": "dsh plugin add dsh-novel-writer",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-xiuxian",
+      "url": "https://github.com/weibaohui/dsh-xiuxian",
+      "owner": "weibaohui",
+      "repo": "dsh-xiuxian",
+      "description": "修仙陪伴桌宠：MC 像素风桌宠与 agent 会话实时联动，子代理启动时化身宠物现身（最多 3 只同屏），支持储物袋收藏、右键法宝菜单与图鉴选宠",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-xiuxian",
       "category": "fun-other"
     },
     {
