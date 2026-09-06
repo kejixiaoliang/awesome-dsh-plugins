@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-06T07:21:36.333Z",
+  "generatedAt": "2026-09-06T10:20:47.272Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 305
+    "withInstall": 235,
+    "withStars": 306
   },
   "categories": [
     {
@@ -591,6 +591,16 @@ window.__DSH_DATA__ = {
       "description": "同一任务对比多个 skill 并选出最优",
       "stars": 71,
       "install": "dsh plugin add github:Jayden-X-L/forkprobe",
+      "category": "skills"
+    },
+    {
+      "name": "skills-management",
+      "url": "https://github.com/weibaohui/skills-management",
+      "owner": "weibaohui",
+      "repo": "skills-management",
+      "description": "技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/skills-management",
       "category": "skills"
     },
     {
