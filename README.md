@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 306+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 307+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **306** entries (306 unique) |
+| Plugins listed | **307** entries (307 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -81,7 +81,7 @@ Top community plugins by GitHub stars:
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
 | 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 45 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 23 | desktop shells, terminal TUI, mobile, companions |
-| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 10 | agent teams, plan/execute, A2A, cross-session messaging |
+| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 11 | agent teams, plan/execute, A2A, cross-session messaging |
 | 7 | [🧠 Context / Memory](plugins/context-memory.md) | 24 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 18 | image Q&A, OCR, screenshots, computer use |
 | 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 21 | deep research, cron, condition wakeup, review loops |
@@ -263,7 +263,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🤖 Agent Orchestration · 10</summary>
+<summary>🤖 Agent Orchestration · 11</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -277,6 +277,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 16 | Configurable subagent profiles plus live tool-call/token display and sub-session jump | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | 9 | Agent2Agent mesh interconnection ⚠️ dsh-external, public availability unverified |  |
 | [dsh-devices](https://github.com/polaris-smart/dsh-devices) | 7 | Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control + SFTP file transfer; auto-registers 6 fleet tools in dsh sessions (zero npm dependencies). | `dsh plugin add dsh-devices` |
+| [experts-management](https://github.com/weibaohui/experts-management) |  | Expert manager: manage ntd-format experts and expert teams (plugin.json + Agent MD + skill sets), browse and install from a built-in market of 50+ experts, and run tasks in an expert persona via `/expert-<name>` without consuming model directory tokens. | `dsh plugin add @weibaohui/experts-management` |
 
 </details>
 

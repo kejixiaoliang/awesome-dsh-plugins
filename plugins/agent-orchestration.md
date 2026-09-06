@@ -12,6 +12,7 @@
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐16 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐9
 - [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐7 · `dsh plugin add dsh-devices`
+- [experts-management](https://github.com/weibaohui/experts-management) — 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token · `dsh plugin add @weibaohui/experts-management`
 
 <!-- nav:start -->
 ---
