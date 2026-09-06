@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 306 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 307 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **306** 条（去重后 306 个插件） |
+| 收录插件条目 | **307** 条（去重后 307 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -77,7 +77,7 @@
 | # | 分类 | 插件数 | 说明 |
 |---|---|---|---|
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 31 | 确定性工具集、git、测试、安全删除等 |
-| 2 | [🧩 技能类 Skills](plugins/skills.md) | 16 | 工程纪律、技能迁移、书转技能等 |
+| 2 | [🧩 技能类 Skills](plugins/skills.md) | 17 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
 | 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 45 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
@@ -139,7 +139,7 @@
 </details>
 
 <details>
-<summary>🧩 技能类 Skills · 16</summary>
+<summary>🧩 技能类 Skills · 17</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -159,6 +159,7 @@
 | [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) | 116 | 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） | `dsh plugin add github:dhicoc/dsh-reverse-skill` |
 | [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 173 | 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill | `dsh plugin add github:Nagi-ovo/dsh-find-plugins` |
 | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | 71 | 同一任务对比多个 skill 并选出最优 | `dsh plugin add github:Jayden-X-L/forkprobe` |
+| [skills-management](https://github.com/weibaohui/skills-management) | 1 | 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 | `dsh plugin add @weibaohui/skills-management` |
 
 </details>
 
