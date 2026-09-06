@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-05T22:25:04.546Z",
+  "generatedAt": "2026-09-06T01:27:23.438Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 305
+    "withInstall": 235,
+    "withStars": 306
   },
   "categories": [
     {
@@ -591,6 +591,16 @@ window.__DSH_DATA__ = {
       "description": "同一任务对比多个 skill 并选出最优",
       "stars": 71,
       "install": "dsh plugin add github:Jayden-X-L/forkprobe",
+      "category": "skills"
+    },
+    {
+      "name": "dsh-amphoreus",
+      "url": "https://github.com/xi-kari/dsh-amphoreus",
+      "owner": "xi-kari",
+      "repo": "dsh-amphoreus",
+      "description": "把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包",
+      "stars": 0,
+      "install": "dsh plugin add dsh-amphoreus",
       "category": "skills"
     },
     {
