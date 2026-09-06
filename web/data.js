@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-06T07:21:36.333Z",
+  "generatedAt": "2026-09-06T10:20:19.142Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -2081,6 +2081,16 @@ window.__DSH_DATA__ = {
       "description": "自动续传：网络中断后自动发「继续」恢复请求",
       "stars": 68,
       "install": "dsh plugin add github:HsiangNianian/dsh-auto-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-tasks",
+      "url": "https://github.com/weibaohui/dsh-tasks",
+      "owner": "weibaohui",
+      "repo": "dsh-tasks",
+      "description": "定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-tasks",
       "category": "workflow-automation"
     },
     {
