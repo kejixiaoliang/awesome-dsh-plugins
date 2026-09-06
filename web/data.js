@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-06T07:21:36.333Z",
+  "generatedAt": "2026-09-06T10:20:53.615Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -1451,6 +1451,16 @@ window.__DSH_DATA__ = {
       "description": "去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖）",
       "stars": 7,
       "install": "dsh plugin add dsh-devices",
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "experts-management",
+      "url": "https://github.com/weibaohui/experts-management",
+      "owner": "weibaohui",
+      "repo": "experts-management",
+      "description": "专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/experts-management",
       "category": "agent-orchestration"
     },
     {
