@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-06T07:21:36.333Z",
+  "generatedAt": "2026-09-06T10:21:06.864Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -1691,6 +1691,16 @@ window.__DSH_DATA__ = {
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
       "stars": 15,
       "install": "dsh plugin add dsh-claude-move",
+      "category": "context-memory"
+    },
+    {
+      "name": "context-razor",
+      "url": "https://github.com/weibaohui/context-razor",
+      "owner": "weibaohui",
+      "repo": "context-razor",
+      "description": "上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/context-razor",
       "category": "context-memory"
     },
     {
