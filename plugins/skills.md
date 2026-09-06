@@ -20,6 +20,7 @@
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐71 · `dsh plugin add github:Jayden-X-L/forkprobe`
 
 <!-- nav:start -->
+- [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 ⭐0 · `dsh plugin add dsh-amphoreus`
 ---
 ← [上一类: 🛠️ 工具类 Tools](tools.md) · [返回目录](../README.md) · [下一类: 🔌 MCP 接入](mcp.md) →
 <!-- nav:end -->
