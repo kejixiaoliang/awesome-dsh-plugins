@@ -5,7 +5,7 @@
 - [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) — 省上下文的惰性 MCP 访问 ⭐1 · `dsh plugin add dsh-mcp-proxy`
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp) — 让任意 agent 发现/安装/运行 DSH 插件的 MCP server ⭐3 · `dsh plugin add deepseek-harness-plugin-mcp`
 - [dsh-webfetch](https://github.com/withlovehub/dsh-webfetch) — 零依赖 webfetch MCP server（干净文本/markdown/HTML/JSON，robots.txt 合规，SSRF 防护） ⭐2
-- [dsh-search-mcp](https://github.com/gxpppp/dsh-search-mcp) — 用搜索 MCP（Tavily/Brave/Exa/Perplexity/DuckDuckGo）替换内置搜索 ⭐11 · `dsh plugin add dsh-search-mcp`
+- [dsh-search-mcp](https://github.com/gxpppp/dsh-search-mcp) — 用搜索 MCP（Tavily/Brave/Exa/Perplexity/DuckDuckGo）替换内置搜索 ⭐12 · `dsh plugin add dsh-search-mcp`
 - [dsh-oauth-mcp-client](https://github.com/springbrand-lab/dsh-oauth-mcp-client) — 连接支持 OAuth 2.1 的 Streamable HTTP MCP 服务 ⭐9
 - [shadow-vision](https://github.com/WardLu/shadow-vision) — 开源 MCP 视觉 server，给纯文本 LLM 图片理解/OCR/UI 检查 ⭐2
 - [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) — MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 ⭐37
