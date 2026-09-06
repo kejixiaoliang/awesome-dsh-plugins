@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-06T07:21:36.333Z",
+  "generatedAt": "2026-09-06T10:21:00.276Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -2761,6 +2761,16 @@ window.__DSH_DATA__ = {
       "description": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载",
       "stars": 104,
       "install": "dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "user-management",
+      "url": "https://github.com/weibaohui/user-management",
+      "owner": "weibaohui",
+      "repo": "user-management",
+      "description": "用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/user-management",
       "category": "infrastructure-dev"
     },
     {
