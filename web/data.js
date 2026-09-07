@@ -1,6 +1,6 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-07T18:54:06.063Z",
+  "generatedAt": "2026-09-07T23:06:48.127Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
     "plugins": 306,
@@ -799,7 +799,7 @@ window.__DSH_DATA__ = {
       "owner": "omdsh-dev",
       "repo": "DSH-better-sidebar",
       "description": "侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab",
-      "stars": 3407,
+      "stars": 3408,
       "install": "dsh plugin add dsh-better-sidebar",
       "category": "ui-themes"
     },
@@ -1029,7 +1029,7 @@ window.__DSH_DATA__ = {
       "owner": "zhu1090093659",
       "repo": "dsh-web-ui",
       "description": "DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心",
-      "stars": 7100,
+      "stars": 7104,
       "install": "dsh plugin add dsh-web-ui",
       "category": "ui-themes"
     },
@@ -1249,7 +1249,7 @@ window.__DSH_DATA__ = {
       "owner": "dataelement",
       "repo": "dsh-desktop",
       "description": "跨平台桌面应用",
-      "stars": 4430,
+      "stars": 4434,
       "install": null,
       "category": "desktop-tui-mobile"
     },
@@ -1279,7 +1279,7 @@ window.__DSH_DATA__ = {
       "owner": "anywhere-labs",
       "repo": "deepseek-harness-desktop",
       "description": "现代化 DeepSeek Harness 桌面端体验",
-      "stars": 24227,
+      "stars": 24231,
       "install": null,
       "category": "desktop-tui-mobile"
     },
@@ -1359,7 +1359,7 @@ window.__DSH_DATA__ = {
       "owner": "NanmiCoder",
       "repo": "dsh-agent-teams",
       "description": "AgentTeams 多智能体团队协作",
-      "stars": 1430,
+      "stars": 1433,
       "install": "dsh plugin add dsh-agent-teams",
       "category": "agent-orchestration"
     },
@@ -1609,7 +1609,7 @@ window.__DSH_DATA__ = {
       "owner": "bowenliang123",
       "repo": "dsh-context",
       "description": "上下文洞察面板：展示模型上下文窗口的构成与演化",
-      "stars": 1323,
+      "stars": 1324,
       "install": "dsh plugin add dsh-context",
       "category": "context-memory"
     },
@@ -1679,7 +1679,7 @@ window.__DSH_DATA__ = {
       "owner": "Nwflower",
       "repo": "dsh-chat-import",
       "description": "13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话",
-      "stars": 139,
+      "stars": 140,
       "install": "dsh plugin add dsh-chat-import",
       "category": "context-memory"
     },
@@ -1689,7 +1689,7 @@ window.__DSH_DATA__ = {
       "owner": "PerryLink",
       "repo": "dsh-claude-move",
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
-      "stars": 17,
+      "stars": 18,
       "install": "dsh plugin add dsh-claude-move",
       "category": "context-memory"
     },
@@ -1699,7 +1699,7 @@ window.__DSH_DATA__ = {
       "owner": "liustack",
       "repo": "modlens",
       "description": "DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义）",
-      "stars": 3911,
+      "stars": 3910,
       "install": "dsh plugin add @liustack/modlens",
       "category": "multimodal"
     },
@@ -1709,7 +1709,7 @@ window.__DSH_DATA__ = {
       "owner": "Anionex",
       "repo": "dsh-vision-toolkit",
       "description": "纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts",
-      "stars": 856,
+      "stars": 857,
       "install": "dsh plugin add @dsh-external/dsh-vision-toolkit",
       "category": "multimodal"
     },
@@ -1719,7 +1719,7 @@ window.__DSH_DATA__ = {
       "owner": "Anionex",
       "repo": "agent-vision-toolkit",
       "description": "同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化）",
-      "stars": 1181,
+      "stars": 1182,
       "install": null,
       "category": "multimodal"
     },
@@ -1859,7 +1859,7 @@ window.__DSH_DATA__ = {
       "owner": "ysr666",
       "repo": "dsh-vision-router",
       "description": "纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR）",
-      "stars": 1084,
+      "stars": 1085,
       "install": "dsh plugin add dsh-vision-router",
       "category": "multimodal"
     },
@@ -2279,7 +2279,7 @@ window.__DSH_DATA__ = {
       "owner": "Lum1104",
       "repo": "dsh-browser",
       "description": "Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力）",
-      "stars": 583,
+      "stars": 584,
       "install": null,
       "category": "browser-search"
     },
@@ -2299,7 +2299,7 @@ window.__DSH_DATA__ = {
       "owner": "Fisfzy",
       "repo": "ego-browser",
       "description": "把 ego-lite（给 AI Agent 的 Chromium）接入 DSH，13 个结构化 ego_* 工具",
-      "stars": 126,
+      "stars": 127,
       "install": null,
       "category": "browser-search"
     },
@@ -2419,7 +2419,7 @@ window.__DSH_DATA__ = {
       "owner": "liustack",
       "repo": "modsearch",
       "description": "CLI 搜索工具：把搜索查询转结构化 web 证据 JSON",
-      "stars": 412,
+      "stars": 413,
       "install": "dsh plugin add @liustack/modsearch",
       "category": "browser-search"
     },
@@ -2749,7 +2749,7 @@ window.__DSH_DATA__ = {
       "owner": "dsh-market",
       "repo": "dsh-market",
       "description": "DSH 可视化插件市场：浏览/搜索/一键安装",
-      "stars": 3369,
+      "stars": 3371,
       "install": "dsh plugin add github:dsh-market/dsh-market",
       "category": "infrastructure-dev"
     },
@@ -3089,7 +3089,7 @@ window.__DSH_DATA__ = {
       "owner": "deepseek-ai",
       "repo": "deepseek-harness",
       "description": "官方核心仓库：「一切皆插件」，Cordis 驱动",
-      "stars": 215062,
+      "stars": 215114,
       "install": null,
       "category": "official-meta"
     },
@@ -3099,7 +3099,7 @@ window.__DSH_DATA__ = {
       "owner": "deepseek-ai",
       "repo": "awesome-deepseek-agent",
       "description": "官方 Agent 精选列表",
-      "stars": 6048,
+      "stars": 6049,
       "install": null,
       "category": "official-meta"
     },
@@ -3109,7 +3109,7 @@ window.__DSH_DATA__ = {
       "owner": "awesome-dsh-plugin",
       "repo": "awesome-dsh-plugin",
       "description": "社区精选列表（105 插件 + 站点 + 徽章）",
-      "stars": 14776,
+      "stars": 14782,
       "install": null,
       "category": "official-meta"
     },
