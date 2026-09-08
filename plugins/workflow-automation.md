@@ -15,7 +15,7 @@
 - [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) — 基于角色的模型重试/备用策略 ⭐20 · `dsh plugin add dsh-llm-fallbacks`
 - [dsh-polyglot](https://github.com/Jesse-njx/dsh-polyglot) — 模型切换器：任意 OpenAI 兼容端点 + 免费/低价 DeepSeek 预设 + 限流自动回退 ⭐4 · `dsh plugin add @dsh-polyglot/bundle`
 - [dsh-track](https://github.com/fakechris/dsh-track) — 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储 ⭐7 · `dsh plugin add @deepseek-ai/dsh-track`
-- [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) — 录制 macOS 桌面工作流演示并转成 agent 技能（orr_* 工具） ⭐13 · `dsh plugin add dsh-record-replay`
+- [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) — 录制 macOS 桌面工作流演示并转成 agent 技能（orr_* 工具） ⭐12 · `dsh plugin add dsh-record-replay`
 - [dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) — 每日进度：今晚定明日计划 + 今日清单 + 完成度温度计 ⭐3 · `dsh plugin add dsh-daily-progress`
 - [dsh-goal-mode](https://github.com/KarlOfLaw/dsh-goal-mode-enhance) — 可视化 goal 模式：Goal 栏/设置页/多会话总览/goal_overview 工具 ⭐3 · `dsh plugin add dsh-goal-mode`
 - [dsh-ramify](https://github.com/yanglongyun/dsh-ramify) — 创意分支画布：树状工作区生成、对比、迭代多个方案 ⭐12 · `dsh plugin add @ramify/dsh-ramify`
