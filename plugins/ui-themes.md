@@ -26,6 +26,7 @@
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) — 对话节点导航条，右缘节点串快速跳转 user 消息 ⭐55 · `dsh plugin add @dsh-external/dsh-navbar`
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) — 后台任务状态条：对话页任务进度 + 实时输出 tail ⭐9 · `dsh plugin add @dsh-external/dsh-task-status`
 - [dsh-web-archive](https://github.com/renat3u/dsh-web-archive) — 折叠对话中的 Think、Bash 等「无用消息」 ⭐9 · `dsh plugin add dsh-web-archive`
+- [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 ⭐0 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) — 会话里程碑导航条：像 Git 提交图定位每条提问 ⭐25 · `dsh plugin add dsh-milestone`
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) — 键盘优先的命令面板（command palette） ⭐22 · `dsh plugin add @dsh-external/dsh-spotlight`
 - [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) — `?session=` / `?workspace=` 深链直达指定项目对话 ⭐4 · `dsh plugin add @dsh-community/dsh-deeplink`
