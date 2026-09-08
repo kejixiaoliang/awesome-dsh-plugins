@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-08T01:42:47.231Z",
+  "generatedAt": "2026-09-08T04:15:58.456Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 305
   },
   "categories": [
@@ -1451,6 +1451,16 @@ window.__DSH_DATA__ = {
       "description": "去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖）",
       "stars": 7,
       "install": "dsh plugin add dsh-devices",
+      "category": "agent-orchestration"
+    },
+    {
+      "name": "dsh-smart-title",
+      "url": "https://github.com/weibaohui/dsh-smart-title",
+      "owner": "weibaohui",
+      "repo": "dsh-smart-title",
+      "description": "会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-smart-title",
       "category": "agent-orchestration"
     },
     {
