@@ -4,7 +4,7 @@
 
 ## 官方
 
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — 官方核心仓库：「一切皆插件」，Cordis 驱动 ⭐217331
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — 官方核心仓库：「一切皆插件」，Cordis 驱动 ⭐217410
 - [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) — 官方 Agent 精选列表 ⭐6047
 - 官方插件开发文档：[架构](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.zh.md) · [Cordis 入门](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cordis-primer.zh.md) · [第一个插件](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.zh.md) · [打包安装](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.zh.md)
 

@@ -18,7 +18,7 @@
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐7
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐26 · `dsh plugin add @bill9109/dsh-web-ui-notify`
-- [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐18 · `dsh plugin add @dingyi222666/dsh-session-notification`
+- [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐19 · `dsh plugin add @dingyi222666/dsh-session-notification`
 
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） ⭐5 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
 - [task-chime](https://github.com/Abel-86/task-chime) — 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 ⭐1 · `dsh plugin add task-chime`
