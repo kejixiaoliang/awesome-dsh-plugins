@@ -2,8 +2,8 @@
 
 > **多 Agent 与编排**：Agent 团队、plan/execute 路由、A2A、meta-orchestrator、跨会话消息。返回 [目录](../README.md#分类目录)
 
-- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐1467 · `dsh plugin add dsh-agent-teams`
-- [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 ⭐117 · `dsh plugin add @dsh-external/workflow`
+- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐1478 · `dsh plugin add dsh-agent-teams`
+- [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 ⭐118 · `dsh plugin add @dsh-external/workflow`
 - [dsh-meta-orchestrator](https://github.com/jiruidai/dsh-meta-orchestrator) — 模型原生 meta-agent：运行时合成任务专属工作流并协调工具/子代理 ⭐4 · `dsh plugin add dsh-meta-orchestrator`
 - [dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息互发：本机任意会话像 Claude Code 一样互发消息 ⭐4 · `dsh plugin add @dsh-crosstalk/bundle`
 - [dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) — 跨会话 agent-to-agent 消息投递（按会话名寻址） ⭐6 · `dsh plugin add dsh-agent-messaging`
@@ -11,7 +11,7 @@
 - [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) — 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） ⭐4 · `dsh plugin add dsh-session-hub`
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐15 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐10
-- [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐7 · `dsh plugin add dsh-devices`
+- [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐6 · `dsh plugin add dsh-devices`
 
 <!-- nav:start -->
 ---

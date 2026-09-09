@@ -12,7 +12,7 @@
 ## 桌宠 / 表情 / 贴纸
 
 - [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) — 全手绘像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心） ⭐30
-- [whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） ⭐317 · `dsh plugin add whale-girl`
+- [whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） ⭐318 · `dsh plugin add whale-girl`
 - [dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) — 活泼像素鲸鱼运行状态伴侣 ⭐1 · `dsh plugin add dsh-pixel-whale`
 - [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — 蓝鲸女仆桌面像素宠物 ⭐6 · `dsh plugin add dsh-blue-whale-maid`
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐44 · `dsh plugin add deepseek-pet`
@@ -21,7 +21,7 @@
 
 ## 整活 / 音效 / 趣味
 
-- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐613 · `dsh plugin add @dsh-external/dsh-ads`
+- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐614 · `dsh plugin add @dsh-external/dsh-ads`
 - [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) — 股票行情数据插件（整活向） ⭐19 · `dsh plugin add dsh-stock-market`
 - [dsh-douyin](https://github.com/AnacondaKC/dsh-douyin) — 侧栏短视频：原生播放器、系列导航、历史回放 ⭐6 · `dsh plugin add dsh-douyin`
 - [deepseek-manners](https://github.com/Moeblack/deepseek-manners) — 每次消息后注入感谢语，做个有礼貌的人 ⭐15 · `dsh plugin add deepseek-manners`
@@ -34,9 +34,9 @@
 ## 教学 / 学习 / 研究
 
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) — 费曼学习模式：教→讲回→判→再解释，渲染为富 HTML 课程卡 ⭐7 · `dsh plugin add dsh-learn-everything`
-- [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐56 · `dsh plugin add @openmaic/dsh-openmaic`
+- [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐58 · `dsh plugin add @openmaic/dsh-openmaic`
 - [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐43 · `dsh plugin add @dsh-scholar/research-plugin`
-- [dsh-101](https://github.com/bill9109/dsh-101) — DSH 文档阅读模式 ⭐7 · `dsh plugin add @dsh-external/dsh-101`
+- [dsh-101](https://github.com/bill9109/dsh-101) — DSH 文档阅读模式 ⭐6 · `dsh plugin add @dsh-external/dsh-101`
 - [dsh-reasoning-translator](https://github.com/pinkllo/dsh-reasoning-translator) — 让模型的思维链用你的语言输出 ⭐3 · `dsh plugin add dsh-reasoning-translator`
 
 ## 设计 / 垂直创作
