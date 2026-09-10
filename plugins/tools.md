@@ -2,11 +2,11 @@
 
 > 面向模型的**确定性工具**：计算、编码、JSON/CSV/正则、git、测试运行、安全删除、payload 捕获等。返回 [目录](../README.md#分类目录)
 
-- [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — 零依赖工具十件套（time/encoding/json/calculator/csv/regex/markdown/diff/stat/schema）一键安装 ⭐28 · `dsh plugin add @deepseek-ai/dsh-toolkit`
+- [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — 零依赖工具十件套（time/encoding/json/calculator/csv/regex/markdown/diff/stat/schema）一键安装 ⭐29 · `dsh plugin add @deepseek-ai/dsh-toolkit`
 - [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) — 安全的数学表达式求值器，零依赖递归下降解析器 ⭐9 · `dsh plugin add @deepseek-ai/dsh-tool-calculator`
 - [dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) — CSV 解析/查询/统计/转换（RFC 4180） ⭐5 · `dsh plugin add @deepseek-ai/dsh-tool-csv`
 - [dsh-tool-diff](https://github.com/omdsh-dev/dsh-tool-diff) — 文本/JSON/CSV/Markdown 结构化比较与 unified diff ⭐5 · `dsh plugin add @deepseek-ai/dsh-tool-diff`
-- [dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) — base64/url/hex 编解码、常用哈希、UUID 生成 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-encoding`
+- [dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) — base64/url/hex 编解码、常用哈希、UUID 生成 ⭐5 · `dsh plugin add @deepseek-ai/dsh-tool-encoding`
 - [dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) — JMESPath 子集 JSON 查询 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-json`
 - [dsh-tool-markdown](https://github.com/omdsh-dev/dsh-tool-markdown) — HTML↔Markdown 转换、GFM 表格规范化、目录生成 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-markdown`
 - [dsh-tool-regex](https://github.com/omdsh-dev/dsh-tool-regex) — 正则测试/提取/安全替换/静态解释（不执行代码） ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-regex`

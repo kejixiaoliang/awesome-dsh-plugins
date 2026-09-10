@@ -10,11 +10,11 @@
 - [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐7 · `dsh plugin add @dsh-cowork/chatnode-wechat`
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐7 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐2
-- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐1246
+- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐1247
 
 ## 通知
 
-- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐81 · `dsh plugin add dsh-notification`
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐82 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐7
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐26 · `dsh plugin add @bill9109/dsh-web-ui-notify`
@@ -25,7 +25,7 @@
 
 ## 远程 / 集成 / 分享
 
-- [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐10
+- [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐11
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent ⭐1 · `dsh plugin add dsh-webhook-bridge`
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐53 · `dsh plugin add dsh-open-in-vscode`
 - [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐35 · `dsh plugin add @dsh-external/dsh-share`
