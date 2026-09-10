@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **306** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **307** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -96,6 +96,7 @@
 | [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) | 调整回复宽度（终端宽度感知） | 7 |  |
 | [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) | 换肤系统：21 套内置皮肤 + 一图生成整套配色 | 53 |  |
 | [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` | 3 |  |
+| [dsh-bloom-theme](https://github.com/webkubor/dsh-bloom-theme) | 玻璃 + 莫兰迪主题：9 套 OKLCH 配色明暗自适应，磨砂玻璃面板，顶栏一键切换，18 组配色实测达 WCAG AA | 25 | `dsh plugin add @kubor/dsh-bloom-theme` |
 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab | 3464 | `dsh plugin add dsh-better-sidebar` |
 | [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | 侧边栏集成文件浏览器、终端和 Git 审查 | 15 | `dsh plugin add @dsh-external/dsh-side-panel` |
 | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | 「聚焦会话」精简视图，只关注最终产出结果 | 21 | `dsh plugin add @dingyi222666/dsh-focus-chat` |

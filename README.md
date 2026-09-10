@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 306+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 307+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **306** entries (306 unique) |
+| Plugins listed | **307** entries (307 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -79,7 +79,7 @@ Top community plugins by GitHub stars:
 | 1 | [🛠️ Tools](plugins/tools.md) | 31 | deterministic tools, git, test runners, safe delete |
 | 2 | [🧩 Skills](plugins/skills.md) | 16 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
-| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 45 | skins, themes, generative UI, input enhancements |
+| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 46 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 23 | desktop shells, terminal TUI, mobile, companions |
 | 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 10 | agent teams, plan/execute, A2A, cross-session messaging |
 | 7 | [🧠 Context / Memory](plugins/context-memory.md) | 24 | long-term memory, context compression/audit, session control |
@@ -179,7 +179,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🎨 UI / Skins / Themes · 45</summary>
+<summary>🎨 UI / Skins / Themes · 46</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -195,6 +195,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) | 7 | Adjusts reply width (terminal-width aware) |  |
 | [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) | 53 | Skinning system with 21 built-in skins plus one-image color scheme generation |  |
 | [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) | 3 | Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes. |  |
+| [dsh-bloom-theme](https://github.com/webkubor/dsh-bloom-theme) | 25 | 玻璃 + 莫兰迪主题：9 套 OKLCH 配色明暗自适应，磨砂玻璃面板，顶栏一键切换，18 组配色实测达 WCAG AA | `dsh plugin add @kubor/dsh-bloom-theme` |
 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 3464 | Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs. | `dsh plugin add dsh-better-sidebar` |
 | [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | 15 | Side panel with file browser, terminal, and Git review for quick file previews. | `dsh plugin add @dsh-external/dsh-side-panel` |
 | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | 21 | A "focus chat" minimal view that shows only final outputs. | `dsh plugin add @dingyi222666/dsh-focus-chat` |
