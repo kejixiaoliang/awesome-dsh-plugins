@@ -16,7 +16,7 @@
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) — 插件健康检查：扫描清单协议/patch 格式/构建陷阱/hub 状态 ⭐27 · `dsh plugin add @deepseek-ai/dsh-plugin-check`
 - [dsh-plugin-doctor](https://github.com/lin-cheng-lab/dsh-plugin-doctor) — 插件体检：安装前检查 peer 版本兼容性 ⭐1 · `dsh plugin add dsh-plugin-doctor`
-- [dsh-doctor](https://github.com/asdf17128/dsh-doctor) — profile 健康检查：找 patch 静默破坏的配置/死 patch/工具名冲突 ⭐1
+- [dsh-doctor](https://github.com/asdf17128/dsh-doctor) — profile 健康检查：找 patch 静默破坏的配置/死 patch/工具名冲突 ⭐2
 - [dsh-capability-inspector](https://github.com/tree201/dsh-capability-inspector) — DSH Doctor + 运行时诊断（工具/模型/技能/工作区/会话/插件/MCP 排障） ⭐2 · `dsh plugin add dsh-capability-inspector`
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐15 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
@@ -39,12 +39,12 @@
 
 ## 分发 / 运维 / 迁移
 
-- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐72
-- [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — 运维工具箱：A/B 双槽快照升级、自动恢复、回滚、诊断自愈 ⭐14
+- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐74
+- [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — 运维工具箱：A/B 双槽快照升级、自动恢复、回滚、诊断自愈 ⭐15
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐64 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐3541 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐3578 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐105 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 <!-- nav:start -->

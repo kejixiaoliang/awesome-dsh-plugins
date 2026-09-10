@@ -4,7 +4,7 @@
 
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — 自适应深度研究编排器（基于官方 workflow 引擎） ⭐22 · `dsh plugin add @dsh-external/dsh-deep-research`
 - [dsh-deepresearch](https://github.com/havingautism/dsh-deepresearch) — 证据优先的独立研究工作流（持久状态 + 独立 Web 视图） ⭐13 · `dsh plugin add @deepseek-ai/dsh-deepresearch`
-- [dsh-loop](https://github.com/vlln/dsh-loop) — 定时循环：`/loop` 命令 + loop 工具 + 活动状态条 ⭐6 · `dsh plugin add @dsh-external/dsh-loop`
+- [dsh-loop](https://github.com/vlln/dsh-loop) — 定时循环：`/loop` 命令 + loop 工具 + 活动状态条 ⭐7 · `dsh plugin add @dsh-external/dsh-loop`
 - [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — 条件驱动唤醒：file/command/http/process/webhook 持久监视触发 agent ⭐16 · `dsh plugin add @dsh-external/dsh-sentinel`
 - [dsh-automation](https://github.com/titanwings/dsh-automation) — 定时任务：Coding 任务按计划在全新 Agent Session 中运行 ⭐89 · `dsh plugin add @dsh-external/dsh-automation`
 - [dsh-routines](https://github.com/Jesse-njx/dsh-routines) — cron 定时 Agent：按计划跑 prompt 并把摘要送到你所在处 ⭐1 · `dsh plugin add @dsh-routines/bundle`
