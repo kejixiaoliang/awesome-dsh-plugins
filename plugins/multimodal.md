@@ -18,7 +18,7 @@
 - [dsh-mobile-control](https://github.com/PangYiMing/dsh-mobile-control) — 操控手机（ADB/iOS） ⭐4 · `dsh plugin add dsh-mobile-control`
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐17 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐17 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
-- [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐1093 · `dsh plugin add dsh-vision-router`
+- [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐1094 · `dsh plugin add dsh-vision-router`
 - [dsh-labnana](https://github.com/exoticknight/dsh-labnana) — Labnana 图片生成插件：文生图/图生图/精准编辑，支持 NanoBanana Pro、GPT-Image-2、Wan2.7、Seedream，对话内图片卡片 + 积分预估 ⭐2 · `dsh plugin add github:exoticknight/dsh-labnana`
 
 <!-- nav:start -->
