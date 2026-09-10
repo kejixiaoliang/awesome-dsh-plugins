@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-10T01:45:47.689Z",
+  "generatedAt": "2026-09-10T02:55:44.458Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 305
+    "withInstall": 235,
+    "withStars": 306
   },
   "categories": [
     {
@@ -791,6 +791,16 @@ window.__DSH_DATA__ = {
       "description": "给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin`",
       "stars": 3,
       "install": null,
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-bloom-theme",
+      "url": "https://github.com/webkubor/dsh-bloom-theme",
+      "owner": "webkubor",
+      "repo": "dsh-bloom-theme",
+      "description": "玻璃 + 莫兰迪主题：9 套 OKLCH 配色明暗自适应，磨砂玻璃面板，顶栏一键切换，18 组配色实测达 WCAG AA",
+      "stars": 25,
+      "install": "dsh plugin add @kubor/dsh-bloom-theme",
       "category": "ui-themes"
     },
     {

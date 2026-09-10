@@ -16,6 +16,7 @@
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知） ⭐7
 - [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐53
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) — 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` ⭐3
+- [dsh-bloom-theme](https://github.com/webkubor/dsh-bloom-theme) — 玻璃 + 莫兰迪主题：9 套 OKLCH 配色明暗自适应，磨砂玻璃面板，顶栏一键切换，18 组配色实测达 WCAG AA ⭐25 · `dsh plugin add @kubor/dsh-bloom-theme`
 
 ## 界面增强 / 面板
 
