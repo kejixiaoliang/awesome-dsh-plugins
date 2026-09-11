@@ -21,13 +21,13 @@
 
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) — Windows 原生桌面壳：1:1 官方 Web UI + 内置服务器托管 + 托盘驻留 ⭐19
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop-windows) — 非官方进程内 Windows 桌面应用（托盘 + 原生通知 + IPC） ⭐3
-- [dsh-desktop](https://github.com/bruc3van/dsh-desktop) — 社区维护的非官方桌面客户端（复用官方实例或内置运行时） ⭐82
+- [dsh-desktop](https://github.com/bruc3van/dsh-desktop) — 社区维护的非官方桌面客户端（复用官方实例或内置运行时） ⭐83
 - [dsh-desktop](https://github.com/zsyu9779/dsh-desktop) — Wails(Go) 桌面壳，Codex 风格原生应用 ⭐8
 - [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) — .NET 10 WPF + WebView2 桌面启动器 ⭐4
-- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐5323
+- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐5329
 - [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） ⭐4
 - [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) — 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） ⭐1 · `dsh plugin add dsh-desktop-window`
-- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐25693
+- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐25700
 - [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐161 · `dsh plugin add deepseek-harness-desktop`
 - [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐202
 - [dsh-tray-launcher](https://github.com/fancr-code/dsh-tray-launcher) — Windows 桌面托盘启动器：无窗口运行 dsh web，托盘右键切换图标（梁祖/鲸鱼娘/DeepSeek/自定义），退出即全退 · `npm i -g dsh-tray-launcher && dsh-tray-install` ⭐6
