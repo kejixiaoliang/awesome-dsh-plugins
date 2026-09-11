@@ -18,7 +18,7 @@
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) — 录制 macOS 桌面工作流演示并转成 agent 技能（orr_* 工具） ⭐13 · `dsh plugin add dsh-record-replay`
 - [dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) — 每日进度：今晚定明日计划 + 今日清单 + 完成度温度计 ⭐3 · `dsh plugin add dsh-daily-progress`
 - [dsh-goal-mode](https://github.com/KarlOfLaw/dsh-goal-mode-enhance) — 可视化 goal 模式：Goal 栏/设置页/多会话总览/goal_overview 工具 ⭐4 · `dsh plugin add dsh-goal-mode`
-- [dsh-ramify](https://github.com/yanglongyun/dsh-ramify) — 创意分支画布：树状工作区生成、对比、迭代多个方案 ⭐12 · `dsh plugin add @ramify/dsh-ramify`
+- [dsh-ramify](https://github.com/yanglongyun/dsh-ramify) — 创意分支画布：树状工作区生成、对比、迭代多个方案 ⭐13 · `dsh plugin add @ramify/dsh-ramify`
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) — 手动审批模式（Manual/Ask Mode） ⭐1 · `dsh plugin add dsh-tool-approval`
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 ⭐2 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 ⭐1 · `dsh plugin add @dsh-external/dsh-event-auditor`
