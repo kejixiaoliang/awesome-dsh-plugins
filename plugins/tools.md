@@ -28,7 +28,7 @@
 - [dsh-openapi](https://github.com/Degurechaff57/dsh-openapi) — Safe OpenAPI 3.x 发现与 API 调用工具 ⭐4 · `dsh plugin add dsh-openapi`
 - [dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) — 暴露 run_python / run_node 工具，可配置解释器路径 ⭐10 · `dsh plugin add @huanlin/dsh-plugin-interpreters`
 - [dsh-cowork](https://github.com/Jesse-njx/dsh-cowork) — doc_read/doc_write：以有界、单元格寻址方式读写 xlsx/pdf/docx/pptx/ipynb ⭐5
-- [dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) — 向模型暴露 MineRU 文档解析工具 ⭐46 · `dsh plugin add @huanlin/dsh-plugin-mineru`
+- [dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) — 向模型暴露 MineRU 文档解析工具 ⭐47 · `dsh plugin add @huanlin/dsh-plugin-mineru`
 - [dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) — 暴露单个 `sleep` 工具，让模型按需暂停（支持取消） ⭐10 · `dsh plugin add @huanlin/dsh-plugin-sleep`
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） ⭐1 · `dsh plugin add dsh-port-guard`
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐2 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
