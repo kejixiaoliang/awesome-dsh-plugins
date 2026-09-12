@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-12T12:27:43.352Z",
+  "generatedAt": "2026-09-12T13:35:30.357Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 291
+    "withInstall": 235,
+    "withStars": 292
   },
   "categories": [
     {
@@ -2761,6 +2761,16 @@ window.__DSH_DATA__ = {
       "description": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载",
       "stars": 105,
       "install": "dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-git-server",
+      "url": "https://github.com/weibaohui/dsh-git-server",
+      "owner": "weibaohui",
+      "repo": "dsh-git-server",
+      "description": "Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/dsh-git-server",
       "category": "infrastructure-dev"
     },
     {
