@@ -32,20 +32,20 @@
 - [sandbox-nono](https://github.com/omdsh-dev/sandbox-nono) — nono 沙盒支持 ⭐2 · `dsh plugin add @deepseek-ai/dsh-sandbox-nono`
 - [dsh-stream-rules](https://github.com/jiesou/dsh-stream-rules) — 按需注入规则、不浪费上下文 ⭐5 · `dsh plugin add dsh-stream-rules`
 - [dsh-git-identity](https://github.com/LoserFox/dsh-git-identity) — git 提交固定使用环境自身作者身份 ⭐6 · `dsh plugin add @loserfox/git-identity`
-- [dsh-plugin-graph](https://github.com/erduotong/dsh-plugin-graph) — 插件关系图谱可视化 ⭐2 · `dsh plugin add dsh-plugin-graph`
+- [dsh-plugin-graph](https://github.com/erduotong/dsh-plugin-graph) — 插件关系图谱可视化 ⭐1 · `dsh plugin add dsh-plugin-graph`
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐12 · `dsh plugin add dsh-openai-codex-auth`
 
 ## 分发 / 运维 / 迁移
 
-- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐77
+- [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐78
 - [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) — 运维工具箱：A/B 双槽快照升级、自动恢复、回滚、诊断自愈 ⭐15
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐64 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐3692 · `dsh plugin add github:dsh-market/dsh-market`
-- [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐105 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐3709 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐104 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 <!-- nav:start -->
 ---

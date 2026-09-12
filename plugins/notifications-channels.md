@@ -6,11 +6,11 @@
 
 - [telegram](https://github.com/LoserFox/telegram) — Telegram Bot API 桥接：长轮询、per-chat 会话、HTML 格式化 ⭐7 · `dsh plugin add @loserfox/telegram`
 - [dsh-telegram](https://github.com/ben7am1n/dsh-telegram) — Telegram 运行时适配器（per-chat 会话、allowlist 认证） ⭐3 · `dsh plugin add dsh-telegram`
-- [DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) — 通过 Telegram 远程对话并接收通知 ⭐5 · `dsh plugin add dsh-telegram-relay`
+- [DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) — 通过 Telegram 远程对话并接收通知 ⭐4 · `dsh plugin add dsh-telegram-relay`
 - [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐7 · `dsh plugin add @dsh-cowork/chatnode-wechat`
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐6 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐2
-- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐1269
+- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐1271
 
 ## 通知
 
@@ -21,7 +21,7 @@
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐21 · `dsh plugin add @dingyi222666/dsh-session-notification`
 
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） ⭐4 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
-- [task-chime](https://github.com/Abel-86/task-chime) — 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 ⭐1 · `dsh plugin add task-chime`
+- [task-chime](https://github.com/Abel-86/task-chime) — 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 · `dsh plugin add task-chime`
 
 ## 远程 / 集成 / 分享
 
@@ -29,7 +29,7 @@
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent ⭐1 · `dsh plugin add dsh-webhook-bridge`
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐53 · `dsh plugin add dsh-open-in-vscode`
 - [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐35 · `dsh plugin add @dsh-external/dsh-share`
-- [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐3 · `dsh plugin add @bill9109/dsh-conversation-share`
+- [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐2 · `dsh plugin add @bill9109/dsh-conversation-share`
 
 <!-- nav:start -->
 ---
