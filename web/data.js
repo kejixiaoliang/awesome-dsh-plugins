@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-12T12:27:43.352Z",
+  "generatedAt": "2026-09-12T13:35:21.784Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 291
+    "withInstall": 235,
+    "withStars": 292
   },
   "categories": [
     {
@@ -2081,6 +2081,16 @@ window.__DSH_DATA__ = {
       "description": "自动续传：网络中断后自动发「继续」恢复请求",
       "stars": 90,
       "install": "dsh plugin add github:HsiangNianian/dsh-auto-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-process",
+      "url": "https://github.com/weibaohui/dsh-process",
+      "owner": "weibaohui",
+      "repo": "dsh-process",
+      "description": "工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/dsh-process",
       "category": "workflow-automation"
     },
     {
