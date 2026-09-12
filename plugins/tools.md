@@ -33,6 +33,7 @@
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） · `dsh plugin add dsh-port-guard`
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐2 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
 - [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — 事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复） ⭐3 · `dsh plugin add github:beijingwahw/dsh-nuke-plugin`
+- [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 ⭐1 · `dsh plugin add @weibaohui/dsh-webdav-server`
 
 <!-- nav:start -->
 ---

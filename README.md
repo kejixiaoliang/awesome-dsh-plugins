@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 306+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 307+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **306** entries (306 unique) |
+| Plugins listed | **307** entries (307 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -76,7 +76,7 @@ Top community plugins by GitHub stars:
 
 | # | Category | Plugins | Description |
 |---|---|---|---|
-| 1 | [🛠️ Tools](plugins/tools.md) | 31 | deterministic tools, git, test runners, safe delete |
+| 1 | [🛠️ Tools](plugins/tools.md) | 32 | deterministic tools, git, test runners, safe delete |
 | 2 | [🧩 Skills](plugins/skills.md) | 16 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
 | 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 45 | skins, themes, generative UI, input enhancements |
@@ -100,7 +100,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 <!-- categories:start -->
 
 <details>
-<summary>🛠️ Tools · 31</summary>
+<summary>🛠️ Tools · 32</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -135,6 +135,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) |  | Port conflict handling (reuse/switch/precise kill) | `dsh plugin add dsh-port-guard` |
 | [dsh-scout](https://github.com/omdsh-dev/dsh-scout) | 2 | Read-only environment probing: runtime/versions/resources/ports/services/hardware/workspace | `dsh plugin add @deepseek-ai/dsh-tool-scout` |
 | [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) | 3 | Transactional plugin-uninstall engine: every destructive action runs validate/preview/execute/undo + Saga rollback, WAL crash recovery, hash-chain audit log, hardlink dedupe and Bayesian success prediction; recycle bin instead of permanent delete. | `dsh plugin add github:beijingwahw/dsh-nuke-plugin` |
+| [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) | 1 | WebDAV server: turns a shared directory into a WebDAV service that Windows, macOS and Linux can mount as a local disk, with token authentication, optional read-only mode, configurable directory/port/token, and per-platform mounting guides built into the settings page. | `dsh plugin add @weibaohui/dsh-webdav-server` |
 
 </details>
 

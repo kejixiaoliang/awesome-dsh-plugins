@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-12T12:27:43.352Z",
+  "generatedAt": "2026-09-12T13:35:26.282Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 291
+    "withInstall": 235,
+    "withStars": 292
   },
   "categories": [
     {
@@ -431,6 +431,16 @@ window.__DSH_DATA__ = {
       "description": "事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复）",
       "stars": 3,
       "install": "dsh plugin add github:beijingwahw/dsh-nuke-plugin",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-webdav-server",
+      "url": "https://github.com/weibaohui/dsh-webdav-server",
+      "owner": "weibaohui",
+      "repo": "dsh-webdav-server",
+      "description": "WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/dsh-webdav-server",
       "category": "tools"
     },
     {
