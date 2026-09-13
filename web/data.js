@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-13T22:42:00.569Z",
+  "generatedAt": "2026-09-13T23:28:54.099Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 287
+    "withInstall": 235,
+    "withStars": 288
   },
   "categories": [
     {
@@ -1691,6 +1691,16 @@ window.__DSH_DATA__ = {
       "description": "迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH",
       "stars": 20,
       "install": "dsh plugin add dsh-claude-move",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-kb",
+      "url": "https://github.com/weibaohui/dsh-kb",
+      "owner": "weibaohui",
+      "repo": "dsh-kb",
+      "description": "团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/dsh-kb",
       "category": "context-memory"
     },
     {
