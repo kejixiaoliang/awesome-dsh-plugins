@@ -35,6 +35,7 @@
 - [dsh-plugin-graph](https://github.com/erduotong/dsh-plugin-graph) — 插件关系图谱可视化 ⭐1 · `dsh plugin add dsh-plugin-graph`
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载 ⭐114（2026-09-03 实测，提交日复核） · `dsh plugin add github:PerryLink/dsh-permission-rules`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐12 · `dsh plugin add dsh-openai-codex-auth`
 
 ## 分发 / 运维 / 迁移
