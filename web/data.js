@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-13T22:42:00.569Z",
+  "generatedAt": "2026-09-13T23:28:58.934Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 287
+    "withInstall": 235,
+    "withStars": 288
   },
   "categories": [
     {
@@ -431,6 +431,16 @@ window.__DSH_DATA__ = {
       "description": "事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复）",
       "stars": 2,
       "install": "dsh plugin add github:beijingwahw/dsh-nuke-plugin",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-file-share",
+      "url": "https://github.com/weibaohui/dsh-file-share",
+      "owner": "weibaohui",
+      "repo": "dsh-file-share",
+      "description": "会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理",
+      "stars": 1,
+      "install": "dsh plugin add @weibaohui/dsh-file-share",
       "category": "tools"
     },
     {
