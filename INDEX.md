@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **306** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **307** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -349,6 +349,7 @@
 | [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) | session 关系型数据库持久化 | 3 | `dsh plugin add @morlay/session-persistence-rdb` |
 | [dsh-market](https://github.com/dsh-market/dsh-market) | DSH 可视化插件市场：浏览/搜索/一键安装 | 3816 | `dsh plugin add github:dsh-market/dsh-market` |
 | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 | 104 | `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin` |
+| [dsh-sync](https://github.com/weibaohui/dsh-sync) | 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动 | 3 | `dsh plugin add @weibaohui/dsh-sync` |
 
 [↩ 回到 🏗️ 基础设施 / 插件管理 / 开发工具 分类页](plugins/infrastructure-dev.md)
 

@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-13T22:42:00.569Z",
+  "generatedAt": "2026-09-13T23:28:49.632Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
-    "withStars": 287
+    "withInstall": 235,
+    "withStars": 288
   },
   "categories": [
     {
@@ -2761,6 +2761,16 @@ window.__DSH_DATA__ = {
       "description": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载",
       "stars": 104,
       "install": "dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-sync",
+      "url": "https://github.com/weibaohui/dsh-sync",
+      "owner": "weibaohui",
+      "repo": "dsh-sync",
+      "description": "多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动",
+      "stars": 3,
+      "install": "dsh plugin add @weibaohui/dsh-sync",
       "category": "infrastructure-dev"
     },
     {

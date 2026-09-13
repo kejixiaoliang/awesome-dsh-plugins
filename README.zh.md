@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 306 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 307 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **306** 条（去重后 306 个插件） |
+| 收录插件条目 | **307** 条（去重后 307 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -87,7 +87,7 @@
 | 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 21 | 深度研究、定时任务、条件唤醒等 |
 | 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 19 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
-| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 33 | 插件管理器、健康检查、沙箱、遥测等 |
+| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 34 | 插件管理器、健康检查、沙箱、遥测等 |
 | 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 32 | 小游戏、桌宠、股票、教学、设计等 |
 | 14 | [🏛️ 官方核心与元项目](plugins/official-meta.md) | 10 | 核心仓库、awesome 列表、兼容雷达、hub |
 
@@ -419,7 +419,7 @@
 </details>
 
 <details>
-<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 33</summary>
+<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 34</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -456,6 +456,7 @@
 | [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) | 3 | session 关系型数据库持久化 | `dsh plugin add @morlay/session-persistence-rdb` |
 | [dsh-market](https://github.com/dsh-market/dsh-market) | 3816 | DSH 可视化插件市场：浏览/搜索/一键安装 | `dsh plugin add github:dsh-market/dsh-market` |
 | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | 104 | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 | `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin` |
+| [dsh-sync](https://github.com/weibaohui/dsh-sync) | 3 | 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动 | `dsh plugin add @weibaohui/dsh-sync` |
 
 </details>
 
