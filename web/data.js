@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-13T22:42:00.569Z",
+  "generatedAt": "2026-09-13T23:06:52.892Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 287
   },
   "categories": [
@@ -2761,6 +2761,16 @@ window.__DSH_DATA__ = {
       "description": "dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载",
       "stars": 104,
       "install": "dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin",
+      "category": "infrastructure-dev"
+    },
+    {
+      "name": "dsh-fde-tools",
+      "url": "https://github.com/weibaohui/dsh-fde-tools",
+      "owner": "weibaohui",
+      "repo": "dsh-fde-tools",
+      "description": "FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-fde-tools",
       "category": "infrastructure-dev"
     },
     {
