@@ -48,6 +48,7 @@
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) — 会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 · `dsh plugin --profile web add dsh-what-changed` ⭐2
 - [dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n ⭐107 · `dsh plugin add dsh-easyrewrite`
 - [dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — 手机优先的 DSH 前端体验优化：输入框失焦自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页适配、禁缩放回弹，外加长任务完成/权限申请/提问通知（Web Push/Bark webhook） ⭐43 · `dsh plugin add meow-smooth`
+- [dsh-billing-badge](https://github.com/devacc8/dsh-billing-badge) — 输入框统计行里、原生 Cache hit 之后的小胶囊：高峰/非高峰圆点与切换倒计时，点击展开余额面板（总额、赠送、充值的拆分与 API 可用性），货币取自接口返回值 · `dsh plugin --profile web add dsh-billing-badge`
 
 ## 生成式 UI / 组件
 
