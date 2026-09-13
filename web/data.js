@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-13T22:42:00.569Z",
+  "generatedAt": "2026-09-13T23:06:58.540Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 287
   },
   "categories": [
@@ -3081,6 +3081,16 @@ window.__DSH_DATA__ = {
       "description": "中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具",
       "stars": 16,
       "install": "dsh plugin add dsh-novel-writer",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-code-poem",
+      "url": "https://github.com/weibaohui/dsh-code-poem",
+      "owner": "weibaohui",
+      "repo": "dsh-code-poem",
+      "description": "代码如诗：4598 条古诗词、成语、龙文鞭影典故随机成笺，随会话事件自动浮现（回合结束/工具报错时送你一句），可 ❤ 收藏、展开看释义与故事，宣纸墨色的阅读卡片",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-code-poem",
       "category": "fun-other"
     },
     {
