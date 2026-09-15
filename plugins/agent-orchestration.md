@@ -12,6 +12,7 @@
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐17 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐10
 - [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐6 · `dsh plugin add dsh-devices`
+- [dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) — dsh 会话跨 agent 信箱：8 个 `mailbox_*` 工具（发送/收取/回复/列表/完成/广播 + 任务板），桥接 [agent-mailbox](https://github.com/polaris-smart/agent-mailbox)，让 dsh agent 与本机 Claude Code / Hermes / 任意 MCP 宿主互发消息（零 npm 依赖） ⭐0 · `dsh plugin add dsh-agent-mailbox`
 
 <!-- nav:start -->
 ---

@@ -81,7 +81,7 @@ Top community plugins by GitHub stars:
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
 | 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 45 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 23 | desktop shells, terminal TUI, mobile, companions |
-| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 10 | agent teams, plan/execute, A2A, cross-session messaging |
+| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 11 | agent teams, plan/execute, A2A, cross-session messaging |
 | 7 | [🧠 Context / Memory](plugins/context-memory.md) | 24 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 18 | image Q&A, OCR, screenshots, computer use |
 | 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 21 | deep research, cron, condition wakeup, review loops |
@@ -263,7 +263,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🤖 Agent Orchestration · 10</summary>
+<summary>🤖 Agent Orchestration · 11</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -277,6 +277,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 17 | Configurable subagent profiles plus live tool-call/token display and sub-session jump | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | 10 | Agent2Agent mesh interconnection ⚠️ dsh-external, public availability unverified |  |
 | [dsh-devices](https://github.com/polaris-smart/dsh-devices) | 6 | Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control + SFTP file transfer; auto-registers 6 fleet tools in dsh sessions (zero npm dependencies). | `dsh plugin add dsh-devices` |
+| [dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) | 0 | Cross-agent mailbox for dsh sessions: 8 `mailbox_*` tools (send/check/reply/list/done/broadcast + task board) bridging [agent-mailbox](https://github.com/polaris-smart/agent-mailbox) so dsh agents message Claude Code / Hermes / any MCP host on the same machine; zero npm dependencies. | `dsh plugin add dsh-agent-mailbox` |
 
 </details>
 
