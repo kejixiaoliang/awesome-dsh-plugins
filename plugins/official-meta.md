@@ -17,6 +17,7 @@
 - [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) — DSH 生态精选：插件/工具/基础设施 ⭐1076
 - [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) — 目录 + **每日兼容性雷达**（四维检查 + 运行实测） ⭐1469
 - [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) — 覆盖生产力/扩展/调试/自定义开发的分类 catalog ⭐98
+- [aixwork/alldsh](https://github.com/aixwork/alldsh) — AllDSH：双层目录——人工评审的 curated 条目（含验证等级与可核查证据）+ 每日抓取的 `topic:dsh-plugin` 索引层（拒绝原因与覆盖率可审计），双语站点 alldsh.com ⭐0
 
 ## 第三方实现 / 商店
 

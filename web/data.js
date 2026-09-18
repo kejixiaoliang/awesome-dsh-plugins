@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-18T07:40:08.339Z",
+  "generatedAt": "2026-09-18T08:34:23.650Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
     "withInstall": 234,
-    "withStars": 283
+    "withStars": 284
   },
   "categories": [
     {
@@ -3150,6 +3150,16 @@ window.__DSH_DATA__ = {
       "repo": "awesome-DSH-plugin",
       "description": "覆盖生产力/扩展/调试/自定义开发的分类 catalog",
       "stars": 98,
+      "install": null,
+      "category": "official-meta"
+    },
+    {
+      "name": "aixwork/alldsh",
+      "url": "https://github.com/aixwork/alldsh",
+      "owner": "aixwork",
+      "repo": "alldsh",
+      "description": "AllDSH：双层目录——人工评审的 curated 条目（含验证等级与可核查证据）+ 每日抓取的 `topic:dsh-plugin` 索引层（拒绝原因与覆盖率可审计），双语站点 alldsh.com",
+      "stars": 0,
       "install": null,
       "category": "official-meta"
     },
