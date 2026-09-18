@@ -46,6 +46,7 @@
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐3 · `dsh plugin add @morlay/session-persistence-rdb`
 - [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐4107 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐104 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
+- [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) — 一条命令备份/恢复 ~/.dsh 全部数据：定时备份分层保留、升级快照、sha256 校验恢复可回滚、跨机迁移守卫、会话日志修复、凭据脱敏、GitHub 私库同步 ⭐20 · `dsh plugin add @xiaoyuyu6420/dsh-backup`
 
 <!-- nav:start -->
 ---
