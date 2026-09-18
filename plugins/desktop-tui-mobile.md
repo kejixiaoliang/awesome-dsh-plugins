@@ -12,6 +12,7 @@
 - [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐11 · `dsh plugin add deepseek-harness-tui`
 - [dsh-tui](https://github.com/orriduck/dsh-tui) — 轻量、会话感知的终端 UI ⭐3 · `dsh plugin add dsh-tui`
 - [dsh-tui](https://github.com/dsh-tui/dsh-tui) — Claude Code 风格终端 UI（out-of-tree bundle） ⭐31 · `dsh plugin add @dsh-tui/dsh-tui`
+- [dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) — 跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回 ⭐2 · `dsh plugin add dsh-ssh-tui`
 
 ## 社区发行版
 
