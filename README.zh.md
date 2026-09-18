@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 306 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 307 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **306** 条（去重后 306 个插件） |
+| 收录插件条目 | **307** 条（去重后 307 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -89,7 +89,7 @@
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
 | 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 33 | 插件管理器、健康检查、沙箱、遥测等 |
 | 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 32 | 小游戏、桌宠、股票、教学、设计等 |
-| 14 | [🏛️ 官方核心与元项目](plugins/official-meta.md) | 10 | 核心仓库、awesome 列表、兼容雷达、hub |
+| 14 | [🏛️ 官方核心与元项目](plugins/official-meta.md) | 11 | 核心仓库、awesome 列表、兼容雷达、hub |
 
 <!-- catindex:end -->
 
@@ -500,7 +500,7 @@
 </details>
 
 <details>
-<summary>🏛️ 官方核心与元项目 · 10</summary>
+<summary>🏛️ 官方核心与元项目 · 11</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -511,6 +511,7 @@
 | [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1076 | DSH 生态精选：插件/工具/基础设施 |  |
 | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | 1469 | 目录 + **每日兼容性雷达**（四维检查 + 运行实测） |  |
 | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | 98 | 覆盖生产力/扩展/调试/自定义开发的分类 catalog |  |
+| [aixwork/alldsh](https://github.com/aixwork/alldsh) |  | AllDSH：双层目录——人工评审的 curated 条目（含验证等级与可核查证据）+ 每日抓取的 `topic:dsh-plugin` 索引层（拒绝原因与覆盖率可审计），双语站点 alldsh.com |  |
 | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | 49 | 第三方 Harness：Python 库 + dsh CLI + MCP server + SKILL.md |  |
 | [vvlife/whalehub-dsh](https://github.com/vvlife/whalehub-dsh) | 5 | 第三方插件商店/中心 |  |
 | [plugin-template](https://github.com/omdsh-dev/plugin-template) | 13 | 插件模板仓库（基于 turtle-ui） | `dsh plugin add @your-scope/dsh-plugin-template` |

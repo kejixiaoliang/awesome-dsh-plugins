@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 306+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 307+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-306-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-307-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **306** entries (306 unique) |
+| Plugins listed | **307** entries (307 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -89,7 +89,7 @@ Top community plugins by GitHub stars:
 | 11 | [🌐 Browser / Search](plugins/browser-search.md) | 16 | browser control, scraping, search providers |
 | 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 33 | plugin managers, health checks, sandboxes, telemetry |
 | 13 | [🎮 Fun / Other](plugins/fun-other.md) | 32 | games, pets, stickers, learning, design |
-| 14 | [🏛️ Official & Meta](plugins/official-meta.md) | 10 | core repo, awesome lists, compat radar, community hub |
+| 14 | [🏛️ Official & Meta](plugins/official-meta.md) | 11 | core repo, awesome lists, compat radar, community hub |
 
 <!-- catindex:end -->
 
@@ -500,7 +500,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🏛️ Official & Meta · 10</summary>
+<summary>🏛️ Official & Meta · 11</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -511,6 +511,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1076 | Curated DSH ecosystem: plugins, tools, and infrastructure. |  |
 | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | 1469 | Catalog plus a daily compatibility radar (four-dimension checks + live tests). |  |
 | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | 98 | Categorized catalog covering productivity, extensions, debugging, and custom development. |  |
+| [aixwork/alldsh](https://github.com/aixwork/alldsh) |  | AllDSH — a two-layer directory: hand-reviewed curated listings with verification levels and checkable evidence, plus a nightly audited index of the GitHub dsh-plugin topic (rejection reasons and coverage counts published). Bilingual EN/ZH site at alldsh.com. |  |
 | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | 49 | Third-party harness: Python library + dsh CLI + MCP server + SKILL.md. |  |
 | [vvlife/whalehub-dsh](https://github.com/vvlife/whalehub-dsh) | 5 | Third-party plugin store/hub. |  |
 | [plugin-template](https://github.com/omdsh-dev/plugin-template) | 13 | Plugin template repo (based on the official turtle-ui repo). | `dsh plugin add @your-scope/dsh-plugin-template` |

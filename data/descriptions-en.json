@@ -521,7 +521,7 @@
  "yushi-xxh/dsh-homepage-skin": "Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes.",
  "2nd1st/dsh-plugin-open-app": "Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store.",
  "han-1413141/dsh-ui-hub": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout.",
-  "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
+ "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
  "zh667/tokenledger": "Track local DSH token usage by relay site, project and model, and show account balance and subscription quota cycles.",
  "sjh9714/dsh-what-changed": "Session top bar summarizing the whole session's changes: every file the agent wrote and each edit, with permission-denied writes counted separately.",
  "bpc-oss/dsh-web-billing": "RMB/USD token billing: official peak/off-peak auto pricing, per-provider/source cost grouping, budget and balance views, CSV/JSON export.",
@@ -535,5 +535,6 @@
  "phant0meow/dsh-meow-smooth": "Mobile-first UX polish for the DSH Web UI (composer auto-fold, phone enter-as-newline, compact sidebar/header, zoom lock) plus task/permission/question notifications (Web Push / Bark webhook) with zero dsh changes.",
  "exoticknight/dsh-labnana": "Labnana image generation plugin: text-to-image / image-to-image / precise editing for NanoBanana Pro, GPT-Image-2, Wan2.7 and Seedream, with in-chat image cards and credit estimate.",
  "fancr-code/dsh-plugin-usage-meter": "API usage/cost/balance dashboard: pill usage bar with peak/off-peak labels, per-model stacked bar chart by day / last 7 days, model distribution, budget alerts and a cross-session ledger.",
- "fancr-code/dsh-tray-launcher": "Windows tray launcher: runs dsh web without a window, right-click tray to switch icons (Liangzu / whale-girl / DeepSeek / custom); quitting quits all."
+ "fancr-code/dsh-tray-launcher": "Windows tray launcher: runs dsh web without a window, right-click tray to switch icons (Liangzu / whale-girl / DeepSeek / custom); quitting quits all.",
+ "aixwork/alldsh": "AllDSH — a two-layer directory: hand-reviewed curated listings with verification levels and checkable evidence, plus a nightly audited index of the GitHub dsh-plugin topic (rejection reasons and coverage counts published). Bilingual EN/ZH site at alldsh.com."
 }
