@@ -29,7 +29,7 @@
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) — 会话里程碑导航条：像 Git 提交图定位每条提问 ⭐26 · `dsh plugin add dsh-milestone`
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) — 键盘优先的命令面板（command palette） ⭐22 · `dsh plugin add @dsh-external/dsh-spotlight`
 - [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) — `?session=` / `?workspace=` 深链直达指定项目对话 ⭐3 · `dsh plugin add @dsh-community/dsh-deeplink`
-- [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) — PiUI 风格 diff 查看器，替换 write/edit 的默认 DiffBlock ⭐27 · `dsh plugin add @dsh-external/dsh-diff-viewer`
+- [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) — PiUI 风格 diff 查看器，替换 write/edit 的默认 DiffBlock ⭐28 · `dsh plugin add @dsh-external/dsh-diff-viewer`
 - [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) — 跨平台文件拖拽与原始路径插入，无需复制文件 ⭐23 · `dsh plugin add @bill9109/dsh-drag-and-drop`
 - [ex-setting](https://github.com/omdsh-dev/ex-setting) — DSH 的设置扩展 ⭐1 · `dsh plugin add @deepseek-ai/dsh-ex-setting`
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐128 · `dsh plugin add @omdsh-dev/dsh-annotation`
@@ -42,7 +42,7 @@
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) — RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 · `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` ⭐12
 - [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) — API 用量/费用/余额仪表：按钮式用量条（峰/谷时段标签）、当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本 ⭐4 · `dsh plugin add dsh-plugin-usage-meter`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐18 · `dsh plugin add dsh-model-config-sync`
-- [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐7938 · `dsh plugin add dsh-web-ui`
+- [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐7941 · `dsh plugin add dsh-web-ui`
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` ⭐7
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐4
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) — 会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动 · `dsh plugin --profile web add dsh-what-changed` ⭐2

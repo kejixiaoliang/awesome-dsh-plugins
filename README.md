@@ -49,16 +49,16 @@ Top community plugins by GitHub stars:
 
 | # | Plugin | Description | ⭐ |
 |---|---|---|---|
-| 🥇 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | Official core repo: "everything is a plugin", driven by Cordis. | 233322 |
-| 🥈 | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | Modern DeepSeek Harness desktop experience | 28502 |
-| 🥉 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | Community curated list (105 plugins + sites + badges). | 16624 |
-| 4 | [dsh-desktop](https://github.com/dataelement/dsh-desktop) | Cross-platform desktop app | 8454 |
-| 5 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | 7938 |
-| 6 | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | Official curated list of DeepSeek agents. | 6132 |
-| 7 | [dsh-market](https://github.com/dsh-market/dsh-market) | The plugin market inside DSH: a Settings page to browse and search the full community catalog by category, with confirmed one-click installs and an installed-plugins view. | 4390 |
+| 🥇 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | Official core repo: "everything is a plugin", driven by Cordis. | 233389 |
+| 🥈 | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | Modern DeepSeek Harness desktop experience | 28511 |
+| 🥉 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | Community curated list (105 plugins + sites + badges). | 16630 |
+| 4 | [dsh-desktop](https://github.com/dataelement/dsh-desktop) | Cross-platform desktop app | 8460 |
+| 5 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | 7941 |
+| 6 | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | Official curated list of DeepSeek agents. | 6133 |
+| 7 | [dsh-market](https://github.com/dsh-market/dsh-market) | The plugin market inside DSH: a Settings page to browse and search the full community catalog by category, with confirmed one-click installs and an installed-plugins view. | 4392 |
 | 8 | [modlens](https://github.com/liustack/modlens) | Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics). | 4017 |
 | 9 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs. | 3716 |
-| 10 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion. | 3152 |
+| 10 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion. | 3153 |
 
 <!-- hot:end -->
 
@@ -205,7 +205,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) | 26 | Right-side dot-timeline rail: jump between user messages. | `dsh plugin add dsh-milestone` |
 | [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) | 22 | Keyboard-first command palette for the DSH Web UI. | `dsh plugin add @dsh-external/dsh-spotlight` |
 | [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) | 3 | Deep links: open a specific session or workspace via `?session=` / `?workspace=`. | `dsh plugin add @dsh-community/dsh-deeplink` |
-| [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) | 27 | PiUI-style diff viewer replacing the stock DiffBlock for write/edit tool calls. | `dsh plugin add @dsh-external/dsh-diff-viewer` |
+| [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) | 28 | PiUI-style diff viewer replacing the stock DiffBlock for write/edit tool calls. | `dsh plugin add @dsh-external/dsh-diff-viewer` |
 | [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) | 23 | Cross-platform file drag-and-drop with raw path insertion, no file copying. | `dsh plugin add @bill9109/dsh-drag-and-drop` |
 | [ex-setting](https://github.com/omdsh-dev/ex-setting) | 1 | Settings extensions for DSH. | `dsh plugin add @deepseek-ai/dsh-ex-setting` |
 | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 128 | Select text → annotate → send with your message; replies map back to each annotation. | `dsh plugin add @omdsh-dev/dsh-annotation` |
@@ -218,7 +218,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | 12 | RMB/USD token billing: official peak/off-peak auto pricing, per-provider/source cost grouping, budget and balance views, CSV/JSON export. |  |
 | [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) | 4 | API usage/cost/balance dashboard: pill usage bar with peak/off-peak labels, per-model stacked bar chart by day / last 7 days, model distribution, budget alerts and a cross-session ledger. | `dsh plugin add dsh-plugin-usage-meter` |
 | [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) | 18 | Advanced model configurator applying pi-ai presets to custom providers in one click | `dsh plugin add dsh-model-config-sync` |
-| [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 7938 | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | `dsh plugin add dsh-web-ui` |
+| [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 7941 | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | `dsh plugin add dsh-web-ui` |
 | [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) | 7 | Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store. |  |
 | [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) | 4 | UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout. |  |
 | [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 2 | Session top bar summarizing the whole session's changes: every file the agent wrote and each edit, with permission-denied writes counted separately. |  |
@@ -236,7 +236,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
-| [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 3152 | Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion. | `dsh plugin add dsh-cc-tui` |
+| [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | 3153 | Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion. | `dsh plugin add dsh-cc-tui` |
 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | 283 | A terminal UI (TUI) for DeepSeek Harness. | `dsh plugin add @huiliyi37/dsh-tianshu-tui` |
 | [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) | 2 | Pi TUI frontend: streaming markdown, thinking collapse, tool cards, slash commands |  |
 | [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) | 11 | Native terminal TUI built with Ink/React | `dsh plugin add deepseek-harness-tui` |
@@ -248,10 +248,10 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | 93 | Community-maintained unofficial desktop client (reuse official instance or built-in runtime) |  |
 | [dsh-desktop](https://github.com/zsyu9779/dsh-desktop) | 8 | Wails (Go) desktop shell, Codex-style native app |  |
 | [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) | 5 | .NET 10 WPF + WebView2 desktop launcher |  |
-| [dsh-desktop](https://github.com/dataelement/dsh-desktop) | 8454 | Cross-platform desktop app |  |
+| [dsh-desktop](https://github.com/dataelement/dsh-desktop) | 8460 | Cross-platform desktop app |  |
 | [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) | 4 | Cross-platform Electron desktop shell (tray resident, no bundled Node) |  |
 | [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) |  | Open the Web UI in a standalone app window (auto-launch + settings toggle) | `dsh plugin add dsh-desktop-window` |
-| [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 28502 | Modern DeepSeek Harness desktop experience |  |
+| [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 28511 | Modern DeepSeek Harness desktop experience |  |
 | [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) | 171 | Electron desktop shell with themes, wallpapers, and tray; chat stays on official dsh web | `dsh plugin add deepseek-harness-desktop` |
 | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | 208 | Lightweight Windows launcher: auto-start on boot + standalone small window |  |
 | [dsh-tray-launcher](https://github.com/fancr-code/dsh-tray-launcher) | 5 | Windows tray launcher: runs dsh web without a window, right-click tray to switch icons (Liangzu / whale-girl / DeepSeek / custom); quitting quits all. |  |
@@ -286,7 +286,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
 | [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) | 327 | Cross-session long-term memory plus background self-evolution (five-track memory, git branch awareness, skill evolution) |  |
-| [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | 106 | Model-driven context compression (ACP) where the model decides when to compress (ported from billion-context-pi) |  |
+| [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | 107 | Model-driven context compression (ACP) where the model decides when to compress (ported from billion-context-pi) |  |
 | [dsh-memory](https://github.com/Jesse-njx/dsh-memory) | 1 | Cited memory over DSH's lossless session log: distilled facts carry `(sessionId, eventRange)` citations that expand back to the exact original log excerpt. | `dsh plugin add @dsh-memory/bundle` |
 | [dsh-memory](https://github.com/ben7am1n/dsh-memory) |  | Cross-session SQLite persistent memory | `dsh plugin add dsh-memory` |
 | [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | 395 | Deep Mnemon integration: local three-tier memory (Runtime Memory, retrievable Documents, supervised Memory Spaces). | `dsh plugin add dsh-mnemon` |
@@ -300,7 +300,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [context-vista](https://github.com/GooodWei/context-vista) | 11 | A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost. | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 27 | Automatic conversation distillation: background subagent reflection + skill create/update. | `dsh plugin add @loserfox/distill` |
 | [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) |  | compact_now tool that auto-compacts context at turn end |  |
-| [dsh-context](https://github.com/bowenliang123/dsh-context) | 1484 | Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. | `dsh plugin add dsh-context` |
+| [dsh-context](https://github.com/bowenliang123/dsh-context) | 1485 | Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats. | `dsh plugin add dsh-context` |
 | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 117 | Rewind conversation and workspace state, powered by a persistent Change Ledger. | `dsh plugin add @dsh-external/turn-rewind` |
 | [dsh-undo](https://github.com/LingLambda/dsh-undo) | 4 | Context undo/redo: roll back to the previous completed step and restore | `dsh plugin add dsh-undo` |
 | [dsh-recall](https://github.com/Mongfayi/dsh-recall) | 2 | Message recall: an undo button per user message deleting that turn and everything after (no code changes) | `dsh plugin add dsh-recall` |
@@ -351,7 +351,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-routines](https://github.com/Jesse-njx/dsh-routines) |  | Scheduled agents on a cron: run a prompt on a schedule and get the digest where you already are, with overlap/missed-run/timeout safety defaults. | `dsh plugin add @dsh-routines/bundle` |
 | [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) | 11 | Plan review with anchored annotations and structured feedback back to the agent. | `dsh plugin add @dsh-external/dsh-plannotator` |
 | [dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) | 7 | Adversarial checkup → fix → review loop toolset. | `dsh plugin add @dsh-external/dsh-inspect` |
-| [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | 22 | A secondary model passively reviews each turn and injects insights | `dsh plugin add dsh-advisor` |
+| [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | 21 | A secondary model passively reviews each turn and injects insights | `dsh plugin add dsh-advisor` |
 | [mstar-harness](https://github.com/btspoony/mstar-harness) | 61 | Skill-driven harness/loop engineering workflow agent plugin. |  |
 | [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) | 20 | Role-based model retry/fallback strategies | `dsh plugin add dsh-llm-fallbacks` |
 | [dsh-polyglot](https://github.com/Jesse-njx/dsh-polyglot) | 3 | The model switch for DSH: point it at any OpenAI-compatible endpoint, with curated free/cheap DeepSeek provider presets and automatic fallback when a free tier rate-limits you. | `dsh plugin add @dsh-polyglot/bundle` |
@@ -449,12 +449,12 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) | 1 | Turn reusable dev commands proposed by the agent into sidebar actions. | `dsh plugin add dsh-dev-actions` |
 | [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) | 3 | Declarative default-deny tool policy. | `dsh plugin add dsh-tool-policy` |
 | [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) | 12 | OpenAI Codex OAuth login and usage card. | `dsh plugin add dsh-openai-codex-auth` |
-| [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) | 92 | Community Docker/K8s packaging (hardened image + Compose + Helm). |  |
+| [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) | 93 | Community Docker/K8s packaging (hardened image + Compose + Helm). |  |
 | [dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) | 14 | Ops toolkit: A/B dual-slot snapshot upgrades, auto-recovery, rollback, and self-healing diagnostics. |  |
 | [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) | 65 | Multica DSH runtime bridge (stdio JSONL protocol). | `dsh plugin add @multica-ai/dsh-runtime` |
 | [session-teleport](https://github.com/omdsh-dev/session-teleport) | 1 | PostgreSQL single-writer session handoff service. | `dsh plugin add @mattheliu/session-teleport` |
 | [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) | 3 | Relational database persistence for sessions. | `dsh plugin add @morlay/session-persistence-rdb` |
-| [dsh-market](https://github.com/dsh-market/dsh-market) | 4390 | The plugin market inside DSH: a Settings page to browse and search the full community catalog by category, with confirmed one-click installs and an installed-plugins view. | `dsh plugin add github:dsh-market/dsh-market` |
+| [dsh-market](https://github.com/dsh-market/dsh-market) | 4392 | The plugin market inside DSH: a Settings page to browse and search the full community catalog by category, with confirmed one-click installs and an installed-plugins view. | `dsh plugin add github:dsh-market/dsh-market` |
 | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | 103 | In-harness plugin market for the dsh web GUI: browse the awesome-dsh-plugin.com catalog and install/uninstall plugins into a profile from Settings → Plugins → Plugin Market. | `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin` |
 
 </details>
@@ -504,11 +504,11 @@ Expand any category to browse all plugins inline — no need to leave this page.
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 233322 | Official core repo: "everything is a plugin", driven by Cordis. |  |
-| [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 6132 | Official curated list of DeepSeek agents. |  |
-| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 16624 | Community curated list (105 plugins + sites + badges). |  |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 233389 | Official core repo: "everything is a plugin", driven by Cordis. |  |
+| [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | 6133 | Official curated list of DeepSeek agents. |  |
+| [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 16630 | Community curated list (105 plugins + sites + badges). |  |
 | [bruc3van/awesome-dsh-plugin](https://github.com/bruc3van/awesome-dsh-plugin) | 358 | "Find your plugin in 30 seconds", with scenario descriptions and a 505-plugin snapshot. |  |
-| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1092 | Curated DSH ecosystem: plugins, tools, and infrastructure. |  |
+| [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | 1093 | Curated DSH ecosystem: plugins, tools, and infrastructure. |  |
 | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | 1464 | Catalog plus a daily compatibility radar (four-dimension checks + live tests). |  |
 | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | 98 | Categorized catalog covering productivity, extensions, debugging, and custom development. |  |
 | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | 49 | Third-party harness: Python library + dsh CLI + MCP server + SKILL.md. |  |
