@@ -21,7 +21,7 @@
 
 ## 整活 / 音效 / 趣味
 
-- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐631 · `dsh plugin add @dsh-external/dsh-ads`
+- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐632 · `dsh plugin add @dsh-external/dsh-ads`
 - [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) — 股票行情数据插件（整活向） ⭐19 · `dsh plugin add dsh-stock-market`
 - [dsh-douyin](https://github.com/AnacondaKC/dsh-douyin) — 侧栏短视频：原生播放器、系列导航、历史回放 ⭐5 · `dsh plugin add dsh-douyin`
 - [deepseek-manners](https://github.com/Moeblack/deepseek-manners) — 每次消息后注入感谢语，做个有礼貌的人 ⭐14 · `dsh plugin add deepseek-manners`
@@ -34,7 +34,7 @@
 ## 教学 / 学习 / 研究
 
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) — 费曼学习模式：教→讲回→判→再解释，渲染为富 HTML 课程卡 ⭐7 · `dsh plugin add dsh-learn-everything`
-- [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐76 · `dsh plugin add @openmaic/dsh-openmaic`
+- [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐79 · `dsh plugin add @openmaic/dsh-openmaic`
 - [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐46 · `dsh plugin add @dsh-scholar/research-plugin`
 - [dsh-101](https://github.com/bill9109/dsh-101) — DSH 文档阅读模式 ⭐6 · `dsh plugin add @dsh-external/dsh-101`
 - [dsh-reasoning-translator](https://github.com/pinkllo/dsh-reasoning-translator) — 让模型的思维链用你的语言输出 ⭐2 · `dsh plugin add dsh-reasoning-translator`
