@@ -33,6 +33,9 @@
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） · `dsh plugin add dsh-port-guard`
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
 - [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — 事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复） ⭐2 · `dsh plugin add github:beijingwahw/dsh-nuke-plugin`
+- [dsh-github](https://github.com/PerryLink/dsh-github) — GitHub 集成：PR/Issue/仓库/文件工具与审查机器人（行内评论 + 状态门禁），写操作均需人工审批 · `dsh plugin add @perrylink/dsh-github`
+- [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) — 滴答清单任务桥：会话头部任务面板（筛选/搜索/拖拽排序）与 11 个任务工具，走官方 TickTick MCP 端点 · `dsh plugin add @perrylink/dsh-ticktick`
+- [dsh-laya](https://github.com/PerryLink/dsh-laya) — Laya 的有类型决策（noul 是/否、choice、score）作为一等 Cordis 服务与两个模型可见工具；插件自身不安装也不下载任何东西，由你自行启动的 `laya-mcp serve` 边车提供模型 · `dsh plugin add dsh-laya`
 
 <!-- nav:start -->
 ---

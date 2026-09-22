@@ -18,6 +18,7 @@
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐161 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐175 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐72 · `dsh plugin add github:Jayden-X-L/forkprobe`
+- [dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) — 插件作者升级技能：一个包内一份走廊索引，按调用方 peer 区间路由到对应已封版升级卡片，附零依赖接缝扫描器 · `dsh plugin add dsh-plugin-upgrade`
 
 <!-- nav:start -->
 ---

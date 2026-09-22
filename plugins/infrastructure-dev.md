@@ -46,6 +46,8 @@
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐3 · `dsh plugin add @morlay/session-persistence-rdb`
 - [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐4352 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐103 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
+- [dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) — DSH 插件零依赖检测器：包结构检查、cordis 契约扫描、无头沙箱冒烟与生态收录校验一次跑完 · `dsh plugin add @perrylink/dsh-plugin-doctor`
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载 · `dsh plugin add dsh-permission-rules`
 
 <!-- nav:start -->
 ---
