@@ -5,7 +5,7 @@
 ## 皮肤 / 主题
 
 - [dsh-skins](https://github.com/Moeblack/dsh-skins) — Web UI 皮肤合集（含 harbor 夕港黄昏皮肤） ⭐2 · `dsh plugin add @dsh-external/dsh-web-skins`
-- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐2183
+- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐2184
 - [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 复古皮肤 ⭐27
 - [dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) — 模仿 Excel 的皮肤 ⭐14
 - [dsh-tonghuashun](https://github.com/AdamPlatin123/dsh-tonghuashun) — 同花顺行情终端风格皮肤 + 代码量 K 线面板 ⭐2
@@ -19,14 +19,14 @@
 
 ## 界面增强 / 面板
 
-- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐3716 · `dsh plugin add dsh-better-sidebar`
+- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐3717 · `dsh plugin add dsh-better-sidebar`
 - [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) — 侧边栏集成文件浏览器、终端和 Git 审查 ⭐15 · `dsh plugin add @dsh-external/dsh-side-panel`
 - [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) — 「聚焦会话」精简视图，只关注最终产出结果 ⭐22 · `dsh plugin add @dingyi222666/dsh-focus-chat`
 - [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 ⭐47 · `dsh plugin add dsh-ui-status-label`
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) — 对话节点导航条，右缘节点串快速跳转 user 消息 ⭐51 · `dsh plugin add @dsh-external/dsh-navbar`
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) — 后台任务状态条：对话页任务进度 + 实时输出 tail ⭐8 · `dsh plugin add @dsh-external/dsh-task-status`
 - [dsh-web-archive](https://github.com/renat3u/dsh-web-archive) — 折叠对话中的 Think、Bash 等「无用消息」 ⭐8 · `dsh plugin add dsh-web-archive`
-- [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) — 会话里程碑导航条：像 Git 提交图定位每条提问 ⭐26 · `dsh plugin add dsh-milestone`
+- [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) — 会话里程碑导航条：像 Git 提交图定位每条提问 ⭐25 · `dsh plugin add dsh-milestone`
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) — 键盘优先的命令面板（command palette） ⭐22 · `dsh plugin add @dsh-external/dsh-spotlight`
 - [dsh-deeplink](https://github.com/qyw233/dsh-deeplink) — `?session=` / `?workspace=` 深链直达指定项目对话 ⭐3 · `dsh plugin add @dsh-community/dsh-deeplink`
 - [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) — PiUI 风格 diff 查看器，替换 write/edit 的默认 DiffBlock ⭐28 · `dsh plugin add @dsh-external/dsh-diff-viewer`
@@ -38,7 +38,7 @@
 - [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) — 右侧详情列显示当前会话工作区文件树（懒加载、只读） · `dsh plugin add dsh-local-filetree`
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) — 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 ⭐2 · `dsh plugin add dsh-sticky-disclosure`
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐2 · `dsh plugin add dsh-token-usage`
-- [TokenLedger](https://github.com/zh667/TokenLedger) — 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 · `dsh plugin --profile web add github:zh667/TokenLedger` ⭐202
+- [TokenLedger](https://github.com/zh667/TokenLedger) — 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 · `dsh plugin --profile web add github:zh667/TokenLedger` ⭐201
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) — RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 · `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` ⭐12
 - [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) — API 用量/费用/余额仪表：按钮式用量条（峰/谷时段标签）、当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本 ⭐4 · `dsh plugin add dsh-plugin-usage-meter`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐18 · `dsh plugin add dsh-model-config-sync`
@@ -52,7 +52,7 @@
 ## 生成式 UI / 组件
 
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — 对话内生成式 UI：模型把交互式 HTML 卡片直接画进会话流，带流式预览 ⭐261 · `dsh plugin add @dsh-external/dsh-visualize`
-- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) — 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景 ⭐474 · `dsh plugin add @omdsh-dev/dsh-genui`
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui) — 助手回复内渲染交互式 UI 组件：布局、图表、表单、测验、mermaid、3D 场景 ⭐475 · `dsh plugin add @omdsh-dev/dsh-genui`
 - [web-components](https://github.com/omdsh-dev/web-components) — Web Components 支持 ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-web-component`
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil 设计预览与编辑（Agent 操作真实设计画布） ⭐177 · `dsh plugin add @zseven-w/dsh-openpencil`
 
