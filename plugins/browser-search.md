@@ -19,10 +19,10 @@
 - [dsh-web-search-firecrawl](https://github.com/yangzhe1003/dsh-web-search-firecrawl) — Firecrawl 搜索提供方接入内置 web_search ⭐1 · `dsh plugin add @yangzhe1003/dsh-web-search-firecrawl`
 - [dsh-web-search-tavily](https://github.com/crayonlu/dsh-web-search-tavily) — Tavily 搜索提供方（免 DeepSeek key） ⭐3
 - [dsh-tavily-search](https://github.com/zhouzhencheng07/dsh-tavily-search) — 免 key Tavily 搜索工具 ⭐4 · `dsh plugin add dsh-tavily-search`
-- [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐69 · `dsh plugin add dsh-web-search-pro`
+- [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐70 · `dsh plugin add dsh-web-search-pro`
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） · `dsh plugin add dsh-all-search`
-- [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐525 · `dsh plugin add @liustack/modsearch`
-- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐149 · `dsh plugin add github:taxueseek/argo`
+- [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐529 · `dsh plugin add @liustack/modsearch`
+- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐150 · `dsh plugin add github:taxueseek/argo`
 
 <!-- nav:start -->
 ---
