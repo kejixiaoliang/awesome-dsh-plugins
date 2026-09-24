@@ -39,3 +39,5 @@
 ---
 ← [上一类: 🤖 Agent 编排 / 多 Agent](agent-orchestration.md) · [返回目录](../README.md) · [下一类: 👁️ 多模态 / 视觉](multimodal.md) →
 <!-- nav:end -->
+
+- [dsh-rewind](https://github.com/SiriLee/dsh-rewind) — 同窗口原地回退（Claude Code /rewind 语义）：每条用户消息旁 ↶ 按钮把模型上下文截断回任意一条消息，可选 Claude Code 风格文件回滚 ⭐16 · `dsh plugin add dsh-rewind-plugin`
