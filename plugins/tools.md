@@ -2,7 +2,7 @@
 
 > 面向模型的**确定性工具**：计算、编码、JSON/CSV/正则、git、测试运行、安全删除、payload 捕获等。返回 [目录](../README.md#分类目录)
 
-- [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — 零依赖工具十件套（time/encoding/json/calculator/csv/regex/markdown/diff/stat/schema）一键安装 ⭐27 · `dsh plugin add @deepseek-ai/dsh-toolkit`
+- [dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) — 零依赖工具十件套（time/encoding/json/calculator/csv/regex/markdown/diff/stat/schema）一键安装 ⭐28 · `dsh plugin add @deepseek-ai/dsh-toolkit`
 - [dsh-tool-calculator](https://github.com/omdsh-dev/dsh-tool-calculator) — 安全的数学表达式求值器，零依赖递归下降解析器 ⭐8 · `dsh plugin add @deepseek-ai/dsh-tool-calculator`
 - [dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) — CSV 解析/查询/统计/转换（RFC 4180） ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-csv`
 - [dsh-tool-diff](https://github.com/omdsh-dev/dsh-tool-diff) — 文本/JSON/CSV/Markdown 结构化比较与 unified diff ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-diff`
