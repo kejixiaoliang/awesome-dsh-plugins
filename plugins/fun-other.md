@@ -4,7 +4,7 @@
 
 ## 游戏
 
-- [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可双 AI 对弈比棋力 ⭐24 · `dsh plugin add @deepseek-ai/dsh-gomoku`
+- [dsh-gomoku](https://github.com/omdsh-dev/dsh-gomoku) — 与 AI 下五子棋，也可双 AI 对弈比棋力 ⭐25 · `dsh plugin add @deepseek-ai/dsh-gomoku`
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) — 右侧 18 款离线小游戏面板（恐龙跳一跳/俄罗斯方块/扫雷/2048…） ⭐33 · `dsh plugin add @dsh-external/dsh-minigames`
 - [dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — 自走棋：人机对战或双 AI 对弈 ⭐2 · `dsh plugin add @deepseek-ai/dsh-auto-chess`
 - [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) — 模型生成时弹出小游戏菜单（wordle/消消乐，可扩展） ⭐8 · `dsh plugin add @huanlin/dsh-plugin-d399`
@@ -29,7 +29,7 @@
 - [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) — WebAudio 打字机氛围音效（零音频资源） ⭐2 · `dsh plugin add @deepseek-ai/dsh-fun-typewriter`
 - [dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — 每日运势：观音签、塔罗、每日一句 ⭐3 · `dsh plugin add @deepseek-ai/dsh-daily-fortune`
 - [dsh-plugin-spur](https://github.com/HuanLinOTO/dsh-plugin-spur) — 挂在聊天流里的辫子，抓住甩一甩给 agent 发「去干活」 ⭐5 · `dsh plugin add @huanlin/dsh-plugin-spur`
-- [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐65 · `dsh plugin add dsh-toy`
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐66 · `dsh plugin add dsh-toy`
 
 ## 教学 / 学习 / 研究
 
@@ -43,7 +43,7 @@
 
 - [dsh-director-toolkit](https://github.com/lhmd/dsh-director-toolkit) — 3D 艺术家/技术美术方向包：Blender/Three.js/Houdini/C4D 方向指引 ⭐7 · `dsh plugin add @lhmd/dsh-director-toolkit`
 - [dsh-apple-mode](https://github.com/jihongboo/dsh-apple-mode) — Xcode AI 集成：26 个 Xcode MCP 工具 + Apple 平台技能 · `dsh plugin add dsh-apple-mode`
-- [notes](https://github.com/zhaoolee/notes) — 开源版锤子便签：导出 DSH 会话为便签图片，支持 skill 调用 ⚠️ 无 license 文件 ⭐168
+- [notes](https://github.com/zhaoolee/notes) — 开源版锤子便签：导出 DSH 会话为便签图片，支持 skill 调用 ⚠️ 无 license 文件 ⭐169
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐339 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
 - [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) — persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 ⭐20 · `dsh plugin add github:DietCokewithSugar/dsh-user-experience`
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐18 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
