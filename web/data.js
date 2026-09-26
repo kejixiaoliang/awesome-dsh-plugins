@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-25T23:40:10.675Z",
+  "generatedAt": "2026-09-26T02:06:32.286Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 283
   },
   "categories": [
@@ -3081,6 +3081,16 @@ window.__DSH_DATA__ = {
       "description": "中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具",
       "stars": 17,
       "install": "dsh plugin add dsh-novel-writer",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-gaokao",
+      "url": "https://github.com/weibaohui/dsh-gaokao",
+      "owner": "weibaohui",
+      "repo": "dsh-gaokao",
+      "description": "梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-gaokao",
       "category": "fun-other"
     },
     {
