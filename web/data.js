@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-25T23:40:10.675Z",
+  "generatedAt": "2026-09-26T02:07:20.569Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 283
   },
   "categories": [
@@ -2081,6 +2081,16 @@ window.__DSH_DATA__ = {
       "description": "自动续传：网络中断后自动发「继续」恢复请求",
       "stars": 118,
       "install": "dsh plugin add github:HsiangNianian/dsh-auto-continue",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-flow",
+      "url": "https://github.com/weibaohui/dsh-flow",
+      "owner": "weibaohui",
+      "repo": "dsh-flow",
+      "description": "执行流程图：把会话执行过程画成纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加、自动跟随滚动",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-flow",
       "category": "workflow-automation"
     },
     {
