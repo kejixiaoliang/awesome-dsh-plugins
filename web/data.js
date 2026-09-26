@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-25T23:40:10.675Z",
+  "generatedAt": "2026-09-26T02:07:01.352Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 283
   },
   "categories": [
@@ -3081,6 +3081,16 @@ window.__DSH_DATA__ = {
       "description": "中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具",
       "stars": 17,
       "install": "dsh plugin add dsh-novel-writer",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-fireworks",
+      "url": "https://github.com/weibaohui/dsh-fireworks",
+      "owner": "weibaohui",
+      "repo": "dsh-fireworks",
+      "description": "烟花庆祝引擎：agent 编程时漂浮对话窗口上空放烟花，开场/回合/工具/里程碑/收工/失败各一类事件卡组随机抽取，token 用量决定大小与绚烂程度",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-fireworks",
       "category": "fun-other"
     },
     {
