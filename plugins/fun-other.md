@@ -49,6 +49,8 @@
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐18 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
 - [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐17 · `dsh plugin add dsh-novel-writer`
 
+- [dsh-matrix](https://github.com/weibaohui/dsh-matrix) — 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏。 · `dsh plugin add @weibaohui/dsh-matrix`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) · [返回目录](../README.md) · [下一类: 🏛️ 官方核心与元项目](official-meta.md) →
