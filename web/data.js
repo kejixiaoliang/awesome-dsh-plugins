@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-09-27T23:27:08.745Z",
+  "generatedAt": "2026-09-27T23:40:10.036Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 306,
+    "plugins": 307,
     "categories": 14,
-    "withInstall": 234,
+    "withInstall": 235,
     "withStars": 283
   },
   "categories": [
@@ -431,6 +431,16 @@ window.__DSH_DATA__ = {
       "description": "事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复）",
       "stars": 2,
       "install": "dsh plugin add github:beijingwahw/dsh-nuke-plugin",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-dashboard",
+      "url": "https://github.com/weibaohui/dsh-dashboard",
+      "owner": "weibaohui",
+      "repo": "dsh-dashboard",
+      "description": "使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-dashboard",
       "category": "tools"
     },
     {
