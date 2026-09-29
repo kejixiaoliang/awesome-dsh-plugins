@@ -19,6 +19,8 @@
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐175 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐72 · `dsh plugin add github:Jayden-X-L/forkprobe`
 
+- [dsh-input-suite](https://github.com/Ln1m/dsh-input-suite) — 技能档：按任务类型给技能分档，切档即换本会话注入的技能清单（输入区家族） ⭐2
+
 <!-- nav:start -->
 ---
 ← [上一类: 🛠️ 工具类 Tools](tools.md) · [返回目录](../README.md) · [下一类: 🔌 MCP 接入](mcp.md) →

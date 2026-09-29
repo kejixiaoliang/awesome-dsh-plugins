@@ -42,6 +42,8 @@
 - [dsh-mobile](https://github.com/lehhair/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实） ⭐25
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui 编写的 DSH 终端 TUI ⭐78 · `dsh plugin add github:openma-ai/deepseek-harness-tui`
 
+- [dsh-host-suite](https://github.com/Ln1m/dsh-host-suite) — DSH Windows 宿主家族：WebView2 桌面外壳、系统托盘守护、启动片头（C#） ⭐1
+
 <!-- nav:start -->
 ---
 ← [上一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) · [返回目录](../README.md) · [下一类: 🤖 Agent 编排 / 多 Agent](agent-orchestration.md) →

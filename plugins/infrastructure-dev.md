@@ -47,6 +47,8 @@
 - [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐4802 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐103 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
+- [dsh-vk-suite](https://github.com/Ln1m/dsh-vk-suite) — DSH 三栏布局骨架：槽位契约 + 布局外壳，功能插件按槽表注册（其余家族的前置） ⭐1
+
 <!-- nav:start -->
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →

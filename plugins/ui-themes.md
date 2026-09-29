@@ -56,6 +56,10 @@
 - [web-components](https://github.com/omdsh-dev/web-components) — Web Components 支持 ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-web-component`
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil 设计预览与编辑（Agent 操作真实设计画布） ⭐180 · `dsh plugin add @zseven-w/dsh-openpencil`
 
+- [dsh-side-suite](https://github.com/Ln1m/dsh-side-suite) — DSH 左栏家族（5 个包）：文件树、在右栏打开本机文件、工具 Tab、局域网服务、长期任务 ⭐2
+- [dsh-pane-suite](https://github.com/Ln1m/dsh-pane-suite) — DSH 右栏家族（2 个包）：文档查看器（Office / 网页 / 图片 / 文本）与内嵌浏览器 ⭐0
+- [dsh-chrome-suite](https://github.com/Ln1m/dsh-chrome-suite) — DSH 窗口边框家族（3 个包）：会话头重启按钮、会话归档按钮、钱包面板 ⭐1
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →

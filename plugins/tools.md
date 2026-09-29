@@ -34,6 +34,8 @@
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
 - [dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) — 事务化强力卸载引擎：每个破坏性动作走 validate/preview/execute/undo 四段式 + Saga 回滚，WAL 崩溃自恢复、hash chain 审计链、硬链接去重、贝叶斯先知推演成功率；回收区代替物理删除（可恢复） ⭐2 · `dsh plugin add github:beijingwahw/dsh-nuke-plugin`
 
+- [dsh-tool-suite](https://github.com/Ln1m/dsh-tool-suite) — DSH 工具家族（4 个包）：移动端访问 3081 反代、literature_search、全机文件搜索、hot memory ⭐2
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
