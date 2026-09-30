@@ -16,6 +16,7 @@
 - [dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) — 活泼像素鲸鱼运行状态伴侣 · `dsh plugin add dsh-pixel-whale`
 - [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — 蓝鲸女仆桌面像素宠物 ⭐5 · `dsh plugin add dsh-blue-whale-maid`
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐49 · `dsh plugin add deepseek-pet`
+- [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) — 元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持 ⭐98 · `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume`
 - [dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) — 用户与 agent 双向表情贴纸互动 ⭐24 · `dsh plugin add @dsh-external/dsh-stickers`
 - [dsh-emoji](https://github.com/hellodigua/dsh-emoji) — 为 AI 回复自动添加表情 ⭐45 · `dsh plugin add @dsh-external/dsh-emoji`
 
