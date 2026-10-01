@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 354 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **353** 条（去重后 353 个插件） |
+| 收录插件条目 | **354** 条（去重后 354 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -84,7 +84,7 @@
 | 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 15 | 多 Agent 团队、工作流、跨会话消息等 |
 | 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 33 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 18 | 视觉工具箱、OCR、截图对比、电脑控制等 |
-| 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 28 | 深度研究、定时任务、条件唤醒等 |
+| 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 29 | 深度研究、定时任务、条件唤醒等 |
 | 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 20 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
 | 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 42 | 插件管理器、健康检查、沙箱、遥测等 |
@@ -364,7 +364,7 @@
 </details>
 
 <details>
-<summary>🔁 工作流 / 自动化 · 28</summary>
+<summary>🔁 工作流 / 自动化 · 29</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -396,6 +396,7 @@
 | [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) | 219 | 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 | `dsh plugin add dsh-auto-review` |
 | [dsh-continue](https://github.com/weibaohui/dsh-continue) | 3 | 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 | `dsh plugin add @weibaohui/dsh-continue` |
 | [dsh-tasks](https://github.com/weibaohui/dsh-tasks) | 9 | 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 | `dsh plugin add @weibaohui/dsh-tasks` |
+| [dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) |  | 智囊团：内置 144 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。 | `dsh plugin add @weibaohui/dsh-thinktank` |
 
 </details>
 
