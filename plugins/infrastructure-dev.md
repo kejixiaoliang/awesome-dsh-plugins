@@ -48,7 +48,7 @@
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐105 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) — DSH 配置备份 / 恢复 / 导出 / 导入 / 迁移与同步：dry-run 预览、冲突逐项决策、失败自动回滚、跨机路径重映射、可选加密凭据载荷 ⭐139 · `dsh plugin add dsh-config-manager`
-- [sofagent](https://github.com/KongFangXun/sofagent) — 开源 FDE Harness 约束层：24 条 git diff 审计规则 + 80 个 MCP 工具 + 9 款 cordis-plugin 深度集成，Agent 违规当场拦截 ⭐51
+- [sofagent](https://github.com/KongFangXun/sofagent) — 开源 FDE Harness 约束层：25 条 git diff 审计规则 + 完整 MCP 工具面 + Cordis 插件家族深度集成，Agent 违规当场拦截 ⭐51
 - [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) — 备份/恢复 DSH 用户数据：定时备份与分级保留、sha256 校验、升级前自动快照与迁移预检（预测哪些会话升完打不开）、会话日志体检（doctor）与定点修复、宿主起不来也能用的救援控制台 ⭐22 · `dsh plugin add @xiaoyuyu6420/dsh-backup`
 - [dsh-git-server](https://github.com/weibaohui/dsh-git-server) — Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停 ⭐1 · `dsh plugin add @weibaohui/dsh-git-server`
 - [dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) — FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装 ⭐1 · `dsh plugin add @weibaohui/dsh-fde-tools`
