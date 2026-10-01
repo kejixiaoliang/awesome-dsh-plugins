@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 353+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 354+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **353** entries (353 unique) |
+| Plugins listed | **354** entries (354 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -84,7 +84,7 @@ Top community plugins by GitHub stars:
 | 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 15 | agent teams, plan/execute, A2A, cross-session messaging |
 | 7 | [🧠 Context / Memory](plugins/context-memory.md) | 33 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 18 | image Q&A, OCR, screenshots, computer use |
-| 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 28 | deep research, cron, condition wakeup, review loops |
+| 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 29 | deep research, cron, condition wakeup, review loops |
 | 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 20 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
 | 11 | [🌐 Browser / Search](plugins/browser-search.md) | 16 | browser control, scraping, search providers |
 | 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 42 | plugin managers, health checks, sandboxes, telemetry |
@@ -364,7 +364,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🔁 Workflow / Automation · 28</summary>
+<summary>🔁 Workflow / Automation · 29</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -396,6 +396,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) | 219 | Second-model review on the approval chain: an independent model reviews each pending action before you approve it. | `dsh plugin add dsh-auto-review` |
 | [dsh-continue](https://github.com/weibaohui/dsh-continue) | 3 | Auto-continue: after an interrupted agent session it picks up again, routing by failure type (rate limit / quota / auth / context overflow / orphaned crash) to backoff retry, a model switch, context compaction before continuing, or a stop-loss notice; the rules are editable in the UI. | `dsh plugin add @weibaohui/dsh-continue` |
 | [dsh-tasks](https://github.com/weibaohui/dsh-tasks) | 9 | Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page. | `dsh plugin add @weibaohui/dsh-tasks` |
+| [dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) |  | Think tank: a built-in library of 144 classic mental models (decision/strategy/cognition/psychology/communication/learning/system/innovation/execution) — enter one question and several selected models analyze it in parallel via AI, producing a synthesized report with consensus, disagreements, blind spots and an action checklist; supports both automatic analysis and prompt round-trip import. | `dsh plugin add @weibaohui/dsh-thinktank` |
 
 </details>
 

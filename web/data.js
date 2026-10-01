@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-01T02:45:31.598Z",
+  "generatedAt": "2026-10-01T06:48:54.143Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 278,
+    "withInstall": 279,
     "withStars": 319
   },
   "categories": [
@@ -2401,6 +2401,16 @@ window.__DSH_DATA__ = {
       "description": "定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名",
       "stars": 9,
       "install": "dsh plugin add @weibaohui/dsh-tasks",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-thinktank",
+      "url": "https://github.com/weibaohui/dsh-thinktank",
+      "owner": "weibaohui",
+      "repo": "dsh-thinktank",
+      "description": "智囊团：内置 144 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-thinktank",
       "category": "workflow-automation"
     },
     {
