@@ -21,6 +21,7 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐14 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐8 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐66 · `dsh plugin add github:slywalker2006/dsh-passwords`
+- [dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) — 补上官方 pi-ai 适配器在模型页缺的那半：网关可达性与延迟探测、一键拉取模型目录并勾选写回、DeepSeek 余额与各家配额常驻、计费模式（套餐 vs 按量）自动识别并一键切换；模型下拉只列当前真能用的分组 · `dsh plugin add @dsh-plugins/dsh-llm-hub`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
