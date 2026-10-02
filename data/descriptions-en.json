@@ -520,7 +520,7 @@
  "yushi-xxh/dsh-homepage-skin": "Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes.",
  "2nd1st/dsh-plugin-open-app": "Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store.",
  "han-1413141/dsh-ui-hub": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout.",
-  "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
+ "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
  "zh667/tokenledger": "Track local DSH token usage by relay site, project and model, and show account balance and subscription quota cycles.",
  "bpc-oss/dsh-web-billing": "RMB/USD token billing: official peak/off-peak auto pricing, per-provider/source cost grouping, budget and balance views, CSV/JSON export.",
  "phant0meow/dsh-meow-memory": "Cross-session project memory: layered SQLite storage with keyword/semantic retrieval, per-message hit injection and windowed consolidation.",
@@ -580,5 +580,8 @@
  "weibaohui/context-razor": "Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization.",
  "kevin-zx/dsh-park-notes": "Jot down topics to come back to while waiting for the model: a persistent \"talk later\" note strip above the composer, zero interruption, saved with the session and insertable into the draft with one click.",
  "amwangfan/dsh-privacy-guard": "Privacy protection: credential masking and streaming restore at the local gateway, an exemption allowlist, encryption-key management, a credential-protected model entry, plus a built-in Qwen2.5-0.5B local model probe, a leak-detection sandbox and deployment controls.",
- "sutera-diffusus/dsh-whale-musume": "Genki whale-girl desktop pet: head-pat bonding, work-posture linkage, 90+ illustrations, 39 achievements and its own settings panel; desktop (DSH 0.2.0-rc.2) and legacy Web builds."
+ "sutera-diffusus/dsh-whale-musume": "Genki whale-girl desktop pet: head-pat bonding, work-posture linkage, 90+ illustrations, 39 achievements and its own settings panel; desktop (DSH 0.2.0-rc.2) and legacy Web builds.",
+ "webkubor/dsh-bloom-theme": "Bloom Morandi theme: ten OKLCH-tuned variants with automatic light/dark adaptation, frosted-glass panels, and one-click switching from the top bar; all 20 palettes verified WCAG AA.",
+ "webkubor/dsh-mirror": "Lets the model write down your own judgment criteria (principles, red lines, working style) and reuse them across sessions: bounded capacity, deliberate forgetting, and every entry traceable to why it was recorded.",
+ "webkubor/dsh-env-inspector": "Environment self-check dashboard: zero-dependency view of the system layout, twelve core CLI toolchains, live listening ports with one-click release, and model credential readiness - no outbound calls, no plaintext."
 }
