@@ -58,6 +58,8 @@
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
 
+- [dsh-opencode-freeaccess](https://github.com/mubaid/dsh-opencode-freeaccess) — 把 DSH 会话 id 注入出站请求，使 OpenCode 免费额度接受这些请求：监听 llm/stream waterfall 并注入会话头族，非 opencode 主机不受影响，无需 API key⭐・0 · `dsh plugin --profile web add github:mubaid/dsh-opencode-freeaccess`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →
