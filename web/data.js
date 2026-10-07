@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-07T09:43:33.875Z",
+  "generatedAt": "2026-10-07T13:20:14.448Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 278,
+    "withInstall": 279,
     "withStars": 321
   },
   "categories": [
@@ -3551,6 +3551,16 @@ window.__DSH_DATA__ = {
       "description": "元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持",
       "stars": 115,
       "install": "dsh plugin add github:Sutera-Diffusus/dsh-whale-musume",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-ambient",
+      "url": "https://github.com/weibaohui/dsh-ambient",
+      "owner": "weibaohui",
+      "repo": "dsh-ambient",
+      "description": "白噪音播放器：AI 编程时铺一层背景音（雨声、溪流、篝火、咖啡馆……），帮助进入心流状态、集中精力、高效思考，让你写代码又快又好。支持顺序/随机/单曲循环/间歇等多种播放模式。支持 AI 自动下载背景音乐。",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-ambient",
       "category": "fun-other"
     },
     {

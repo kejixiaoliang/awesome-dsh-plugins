@@ -56,6 +56,8 @@
 
 - [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) — 元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持 ⭐115 · `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume`
 
+- [dsh-ambient](https://github.com/weibaohui/dsh-ambient) — 白噪音播放器：AI 编程时铺一层背景音（雨声、溪流、篝火、咖啡馆……），帮助进入心流状态、集中精力、高效思考，让你写代码又快又好。支持顺序/随机/单曲循环/间歇等多种播放模式。支持 AI 自动下载背景音乐。 · `dsh plugin add @weibaohui/dsh-ambient`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) · [返回目录](../README.md) · [下一类: 🏛️ 官方核心与元项目](official-meta.md) →
