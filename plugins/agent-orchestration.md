@@ -12,7 +12,7 @@
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐15 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐7
 - [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐6 · `dsh plugin add dsh-devices`
-- [dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) — 帮 human 有序管理任务、把 agents 用成真正的协作者：持久身份 Agent、Workspace 按项目组织、Channel 职责分派、Task Thread 串联推进 ⭐1 · `dsh plugin add @wowyuarm/dsh-agent-team`
+- [dsh-agent-team](https://github.com/Contexera/dsh-agent-team) — DSH 里不会重置的持久 Agent 团队：成员是持久身份，带私有 memory/notes/skills 跨会话保留，方向由 Human 定，协作走 Channel 与 Task Thread ⭐49 · `dsh plugin add @contexera/dsh-agent-team`
 
 <!-- nav:start -->
 ---
