@@ -18,6 +18,7 @@
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐50 · `dsh plugin add deepseek-pet`
 - [dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) — 用户与 agent 双向表情贴纸互动 ⭐24 · `dsh plugin add @dsh-external/dsh-stickers`
 - [dsh-emoji](https://github.com/hellodigua/dsh-emoji) — 为 AI 回复自动添加表情 ⭐47 · `dsh plugin add @dsh-external/dsh-emoji`
+- [蓝毛小女仆 (cute-fat-fish-pet)](https://github.com/12we21/cute-fat-fish-pet) — DSH Web UI 的 Q 版蓝发小女仆桌宠：106 个手绘透明动画、桌面漫步、本地 Ollama 或 DSH 在线模型陪聊，可选看屏幕吐槽 ⭐1 · `dsh plugin add github:12we21/cute-fat-fish-pet#path:/src`
 
 ## 整活 / 音效 / 趣味
 
