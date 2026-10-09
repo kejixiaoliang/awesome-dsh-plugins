@@ -19,6 +19,7 @@
 - [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) — 会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话 ⭐6 · `dsh plugin add @weibaohui/dsh-smart-title`
 
 - [experts-management](https://github.com/weibaohui/experts-management) — 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token ⭐3 · `dsh plugin add @weibaohui/experts-management`
+- [dsh-orquestrator](https://github.com/frederico-kluser/dsh-orquestrator) — 自己选定子代理运行的模型——附带推理力度上限和输出 token 上限——在代码层面对 DSH 启动的每一个子代理强制执行，无论它由哪个工具启动 · `dsh plugin --profile web add github:frederico-kluser/dsh-orquestrator`
 
 <!-- nav:start -->
 ---
