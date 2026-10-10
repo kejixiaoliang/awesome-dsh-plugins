@@ -10,7 +10,7 @@
 - [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) — 把 DSH 快速接入 GitHub 插件生态的市场插件 ⭐5 · `dsh plugin add dsh-plugin-installer`
 - [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐164 · `dsh plugin add @dsh-external/dsh-super-injector`
 - [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐57
-- [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) — 插件管理面板 + 多源市场：一键启停（HMR 生效）、GitHub/Gitee/自定义源并行搜索、静态索引市场（500+ 插件 / 300 技能）、技能安装/停用/删除、套装一键装配、框架一键升级 ⭐98 · `dsh plugin add dsh-plugin-hub`
+- [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) — 插件管理面板 + 多源市场：一键启停（HMR 生效）、GitHub/Gitee/自定义源并行搜索、静态索引市场（500+ 插件 / 300 技能）、技能安装/停用/删除、套装一键装配、框架一键升级 ⭐99 · `dsh plugin add dsh-plugin-hub`
 
 ## 健康检查 / 诊断 / 审计
 
@@ -44,10 +44,10 @@
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐68 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐3 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐6049 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐6071 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐104 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
-- [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) — DSH 配置备份 / 恢复 / 导出 / 导入 / 迁移与同步：dry-run 预览、冲突逐项决策、失败自动回滚、跨机路径重映射、可选加密凭据载荷 ⭐174 · `dsh plugin add dsh-config-manager`
+- [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) — DSH 配置备份 / 恢复 / 导出 / 导入 / 迁移与同步：dry-run 预览、冲突逐项决策、失败自动回滚、跨机路径重映射、可选加密凭据载荷 ⭐175 · `dsh plugin add dsh-config-manager`
 - [sofagent](https://github.com/KongFangXun/sofagent) — 开源 FDE Harness 约束层：24 条 git diff 审计规则 + 80 个 MCP 工具 + 9 款 cordis-plugin 深度集成，Agent 违规当场拦截 ⭐52
 - [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) — 备份/恢复 DSH 用户数据：定时备份与分级保留、sha256 校验、升级前自动快照与迁移预检（预测哪些会话升完打不开）、会话日志体检（doctor）与定点修复、宿主起不来也能用的救援控制台 ⭐26 · `dsh plugin add @xiaoyuyu6420/dsh-backup`
 - [dsh-git-server](https://github.com/weibaohui/dsh-git-server) — Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停 ⭐1 · `dsh plugin add @weibaohui/dsh-git-server`

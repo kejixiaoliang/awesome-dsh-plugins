@@ -24,7 +24,7 @@
 - [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) — 安全删除：移入回收站/暂存区而非永久删除，支持恢复 ⭐1
 - [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) — 二分法定位 bug 根因（代码/边界/commit） · `dsh plugin add dsh-bisect-debug`
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture) — 捕捉每次上行模型 API payload 落盘 JSON（调试/可观测） · `dsh plugin add dsh-payload-capture`
-- [dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) — 让 AI 帮你连数据库、写 SQL ⭐205 · `dsh plugin add @deepseek-ai/dsh-data-agent`
+- [dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) — 让 AI 帮你连数据库、写 SQL ⭐204 · `dsh plugin add @deepseek-ai/dsh-data-agent`
 - [dsh-openapi](https://github.com/Degurechaff57/dsh-openapi) — Safe OpenAPI 3.x 发现与 API 调用工具 ⭐3 · `dsh plugin add dsh-openapi`
 - [dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) — 暴露 run_python / run_node 工具，可配置解释器路径 ⭐9 · `dsh plugin add @huanlin/dsh-plugin-interpreters`
 - [dsh-cowork](https://github.com/Jesse-njx/dsh-cowork) — doc_read/doc_write：以有界、单元格寻址方式读写 xlsx/pdf/docx/pptx/ipynb ⭐4
@@ -37,7 +37,7 @@
 - [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) — 把开源 AI 写作客户端青简（QingAgent）接进 DSH：对话里起草改稿，右侧宣纸面板排版渲染（mermaid/drawio/表格/KaTeX），每处修改先摆在纸上供审阅、提交才落稿，10 个工具；需本机运行青简桌面客户端 ⭐2 · `dsh plugin add dsh-qingagent`
 - [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 ⭐1 · `dsh plugin add @weibaohui/dsh-webdav-server`
 - [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 ⭐1 · `dsh plugin add @weibaohui/dsh-file-share`
-- [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） · `dsh plugin add @weibaohui/dsh-dashboard`
+- [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） ⭐1 · `dsh plugin add @weibaohui/dsh-dashboard`
 
 <!-- nav:start -->
 ---
