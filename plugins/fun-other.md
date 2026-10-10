@@ -47,7 +47,7 @@
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐387 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
 - [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) — persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 ⭐21 · `dsh plugin add github:DietCokewithSugar/dsh-user-experience`
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐19 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
-- [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐21 · `dsh plugin add dsh-novel-writer`
+- [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐22 · `dsh plugin add dsh-novel-writer`
 
 - [dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) — 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架 ⭐2 · `dsh plugin add @weibaohui/dsh-gaokao`
 - [dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) — 烟花庆祝引擎：agent 编程时漂浮对话窗口上空放烟花，开场/回合/工具/里程碑/收工/失败各一类事件卡组随机抽取，token 用量决定大小与绚烂程度 ⭐1 · `dsh plugin add @weibaohui/dsh-fireworks`

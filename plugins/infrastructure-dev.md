@@ -44,7 +44,7 @@
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐68 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐3 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐6071 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐6076 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐104 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) — DSH 配置备份 / 恢复 / 导出 / 导入 / 迁移与同步：dry-run 预览、冲突逐项决策、失败自动回滚、跨机路径重映射、可选加密凭据载荷 ⭐175 · `dsh plugin add dsh-config-manager`
