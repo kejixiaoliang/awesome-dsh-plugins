@@ -14,7 +14,7 @@
 - [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) — 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） ⭐2 · `dsh plugin add @dsh-external/dsh-kb-sieve`
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐3 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐20 · `dsh plugin add dsh-continual-evolve`
-- [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐174 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
+- [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐175 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
 
 ## 上下文审计 / 压缩 / 蒸馏
 
@@ -22,7 +22,7 @@
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐11 · `dsh plugin add context-vista`
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐28 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
-- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐1968 · `dsh plugin add dsh-context`
+- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐1969 · `dsh plugin add dsh-context`
 
 ## 会话控制 / 回退
 
