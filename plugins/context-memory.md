@@ -15,6 +15,7 @@
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐3 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐20 · `dsh plugin add dsh-continual-evolve`
 - [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐187 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
+- [dsh-tool-user-memory](https://github.com/IAMLieutenant/dsh-tool-user-memory) — 本地 Markdown 用户与项目记忆：置顶偏好、软失效、写入前历史与淘汰归档，以及带预览、备份与回滚的跨机 JSON 迁移 ⭐3 · `dsh plugin add dsh-tool-user-memory`
 
 ## 上下文审计 / 压缩 / 蒸馏
 
