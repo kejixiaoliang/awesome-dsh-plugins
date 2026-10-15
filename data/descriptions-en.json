@@ -580,5 +580,6 @@
  "weibaohui/context-razor": "Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization.",
  "kevin-zx/dsh-park-notes": "Jot down topics to come back to while waiting for the model: a persistent \"talk later\" note strip above the composer, zero interruption, saved with the session and insertable into the draft with one click.",
  "amwangfan/dsh-privacy-guard": "Privacy protection: credential masking and streaming restore at the local gateway, an exemption allowlist, encryption-key management, a credential-protected model entry, plus a built-in Qwen2.5-0.5B local model probe, a leak-detection sandbox and deployment controls.",
- "sutera-diffusus/dsh-whale-musume": "Genki whale-girl desktop pet: head-pat bonding, work-posture linkage, 90+ illustrations, 39 achievements and its own settings panel; desktop (DSH 0.2.0-rc.2) and legacy Web builds."
+ "sutera-diffusus/dsh-whale-musume": "Genki whale-girl desktop pet: head-pat bonding, work-posture linkage, 90+ illustrations, 39 achievements and its own settings panel; desktop (DSH 0.2.0-rc.2) and legacy Web builds.",
+ "perrylink/dsh-plugin-upgrade": "Plugin-author upgrade skill for DeepSeek Harness: one package ships a corridor index that routes a caller's peer range to the matching sealed upgrade card, plus a zero-dependency seam scanner."
 }
