@@ -12,6 +12,7 @@
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐18 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐11
 - [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐7 · `dsh plugin add dsh-devices`
+- [dsh-agent-mailbox](https://github.com/polaris-smart/dsh-agent-mailbox) — dsh 会话跨 agent 信箱：8 个 `mailbox_*` 工具（发送/收取/回复/列表/完成/广播 + 任务板），桥接 [agent-mailbox](https://github.com/polaris-smart/agent-mailbox) 让 dsh 智能体与 Claude Code / Hermes / 同机任意 MCP 主机互发消息（零 npm 依赖） ⭐0 · `dsh plugin add dsh-agent-mailbox`
 
 - [dsh-wait-guard](https://github.com/dn4hjtcr9s-del/dsh-wait-guard) — 主 Agent 的出口闸门：后代子代理还有 running 就不允许 turn 结束；消息到达立刻完全退场，超时才注入一条提醒后同样退场 · `dsh plugin add github:dn4hjtcr9s-del/dsh-wait-guard`
 - [lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) — 论衡：主控调度 + 9 个独立角色（文献/数据/案例检索、分析、写作、批判、审计、终检、同行评审）的深度长文写作流水线，跨 6 阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配 ⭐15 · `dsh plugin add lunheng-article-pipeline`
