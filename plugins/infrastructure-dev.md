@@ -57,6 +57,7 @@
 
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
+- [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) — DSH 内的插件索引：只认 `package.json` 里的 `dsh.bundle.patch` 判定真值，收录 1 万余个经校验的插件，一键安装，另有配套网站。
 
 <!-- nav:start -->
 ---

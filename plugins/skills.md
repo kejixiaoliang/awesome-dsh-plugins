@@ -21,6 +21,7 @@
 
 - [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 ⭐4 · `dsh plugin add dsh-amphoreus`
 - [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 ⭐32 · `dsh plugin add @weibaohui/skills-management`
+- [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) — 技能管理器：自带 6 个基础技能与 20 个中文工程流程技能包（拷问需求、拆票、TDD、双轴代码审查、复盘），按「你遇到的问题」分组展示；升级技能包不会覆盖你改过的文件。
 
 <!-- nav:start -->
 ---
