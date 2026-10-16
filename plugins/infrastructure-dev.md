@@ -62,3 +62,7 @@
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →
 <!-- nav:end -->
+- [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) — 根据任务查找并组合 DSH 插件，打开可继续对话的独立环境，或将方案中的插件安装到当前配置。
+- [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) — 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) — 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持 WSL 环境切换和双向系统操作。
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) — 在“添加插件”中统一控制各 DSH 配置的 pnpm 构建脚本审批，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
