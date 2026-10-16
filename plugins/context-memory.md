@@ -46,6 +46,8 @@
 - [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) — 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） ⭐1 · `dsh plugin add github:SunshineR04/dsh-session-manager`
 - [context-razor](https://github.com/weibaohui/context-razor) — 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 ⭐1 · `dsh plugin add @weibaohui/context-razor`
 
+- [dsh-sieve](https://github.com/Sev7eEn7/sieve) — 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
+
 <!-- nav:start -->
 ---
 ← [上一类: 🤖 Agent 编排 / 多 Agent](agent-orchestration.md) · [返回目录](../README.md) · [下一类: 👁️ 多模态 / 视觉](multimodal.md) →
