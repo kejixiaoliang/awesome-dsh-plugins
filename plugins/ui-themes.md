@@ -63,6 +63,8 @@
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 ⭐1 · `dsh plugin add @weibaohui/dsh-settings-ui`
 - [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
 
+- [dsh-fluent-korean](https://github.com/mubaid/dsh-fluent-korean) — 可切换的韩语输出风格：插件注册自己的系统提示段落，要求模型写出自然韩语；另有一种不带编码指引的风格，规则文本来自 snflkd/fluent-korean（MIT，逐字节保留）⭐・0 · `dsh plugin add mubaid/dsh-fluent-korean`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →
