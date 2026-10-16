@@ -36,6 +36,7 @@
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐12 · `dsh plugin add dsh-openai-codex-auth`
+- [dsh-project-guard](https://github.com/Inceptzws/dsh-project-guard) — 项目范围权限守卫：本项目内自动完全放行（含沙箱提权），项目外与系统级调用逐条确认，并在弹窗里给出「可能的不良结果」与影响等级；会毁机器或断会话的动作（关 Wi-Fi、关机、格式化磁盘、杀核心进程）直接拒绝，且同一时刻只出现一条确认 · `dsh plugin add github:Inceptzws/dsh-project-guard`
 
 ## 分发 / 运维 / 迁移
 
