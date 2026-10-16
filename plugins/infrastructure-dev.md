@@ -59,6 +59,8 @@
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
 
 <!-- nav:start -->
+- [dsh-maze](https://github.com/lamost423/dsh-maze) — 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与最多五场会话的对比。 ⭐85
+
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →
 <!-- nav:end -->
