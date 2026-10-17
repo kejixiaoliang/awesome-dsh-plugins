@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 354 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **353** 条（去重后 353 个插件） |
+| 收录插件条目 | **354** 条（去重后 354 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -76,7 +76,7 @@
 
 | # | 分类 | 插件数 | 说明 |
 |---|---|---|---|
-| 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 35 | 确定性工具集、git、测试、安全删除等 |
+| 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 36 | 确定性工具集、git、测试、安全删除等 |
 | 2 | [🧩 技能类 Skills](plugins/skills.md) | 18 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
 | 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 50 | 皮肤、主题、生成式 UI、输入增强等 |
@@ -100,7 +100,7 @@
 <!-- categories:start -->
 
 <details>
-<summary>🛠️ 工具类 Tools · 35</summary>
+<summary>🛠️ 工具类 Tools · 36</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -139,6 +139,7 @@
 | [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) | 1 | WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 | `dsh plugin add @weibaohui/dsh-webdav-server` |
 | [dsh-file-share](https://github.com/weibaohui/dsh-file-share) | 1 | 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 | `dsh plugin add @weibaohui/dsh-file-share` |
 | [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) | 1 | 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） | `dsh plugin add @weibaohui/dsh-dashboard` |
+| [dsh-favorites](https://github.com/weibaohui/dsh-favorites) |  | 会话收藏夹：把任意会话收藏进浏览器收藏夹式的管理面板——左侧会话行一键收藏/星标，主面板支持文件夹分门别类、备注、自定义显示名、一键继续会话、Fork 新会话、会话基本统计，外加一张清晰展示会话派生关系的 fork 关系图。 | `dsh plugin add @weibaohui/dsh-favorites` |
 
 </details>
 

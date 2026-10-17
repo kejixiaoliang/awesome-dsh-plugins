@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 353+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 354+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **353** entries (353 unique) |
+| Plugins listed | **354** entries (354 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -76,7 +76,7 @@ Top community plugins by GitHub stars:
 
 | # | Category | Plugins | Description |
 |---|---|---|---|
-| 1 | [🛠️ Tools](plugins/tools.md) | 35 | deterministic tools, git, test runners, safe delete |
+| 1 | [🛠️ Tools](plugins/tools.md) | 36 | deterministic tools, git, test runners, safe delete |
 | 2 | [🧩 Skills](plugins/skills.md) | 18 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
 | 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 50 | skins, themes, generative UI, input enhancements |
@@ -100,7 +100,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 <!-- categories:start -->
 
 <details>
-<summary>🛠️ Tools · 35</summary>
+<summary>🛠️ Tools · 36</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -139,6 +139,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) | 1 | WebDAV server: turns a shared directory into a WebDAV service that Windows, macOS and Linux can mount as a local disk, with token authentication, optional read-only mode, configurable directory/port/token, and per-platform mounting guides built into the settings page. | `dsh plugin add @weibaohui/dsh-webdav-server` |
 | [dsh-file-share](https://github.com/weibaohui/dsh-file-share) | 1 | Session workspace file manager: adds a \"Files\" tab to the conversation area to browse the current session workspace directory tree and manage it in place (upload, download, mkdir, rename, delete, search), with files mentionable into the composer for the agent to process. | `dsh plugin add @weibaohui/dsh-file-share` |
 | [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) | 1 | Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import). | `dsh plugin add @weibaohui/dsh-dashboard` |
+| [dsh-favorites](https://github.com/weibaohui/dsh-favorites) |  | Session favorites: bookmark any conversation into a browser-style favorites panel — one-click star from session rows, folders for organization, notes, custom display names, resume session, fork into a new session, basic session stats, plus a fork-relationship graph showing how conversations derive from one another. | `dsh plugin add @weibaohui/dsh-favorites` |
 
 </details>
 
