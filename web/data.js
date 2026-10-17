@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-17T01:49:55.432Z",
+  "generatedAt": "2026-10-17T05:24:32.576Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 278,
+    "withInstall": 279,
     "withStars": 322
   },
   "categories": [
@@ -471,6 +471,16 @@ window.__DSH_DATA__ = {
       "description": "使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）",
       "stars": 1,
       "install": "dsh plugin add @weibaohui/dsh-dashboard",
+      "category": "tools"
+    },
+    {
+      "name": "dsh-favorites",
+      "url": "https://github.com/weibaohui/dsh-favorites",
+      "owner": "weibaohui",
+      "repo": "dsh-favorites",
+      "description": "会话收藏夹：把任意会话收藏进浏览器收藏夹式的管理面板——左侧会话行一键收藏/星标，主面板支持文件夹分门别类、备注、自定义显示名、一键继续会话、Fork 新会话、会话基本统计，外加一张清晰展示会话派生关系的 fork 关系图。",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-favorites",
       "category": "tools"
     },
     {
