@@ -38,6 +38,9 @@
 - [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 ⭐1 · `dsh plugin add @weibaohui/dsh-webdav-server`
 - [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 ⭐1 · `dsh plugin add @weibaohui/dsh-file-share`
 - [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） ⭐1 · `dsh plugin add @weibaohui/dsh-dashboard`
+- [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) — 监理日志与旁站记录核对：依据 GB/T 50319-2013、DBJT 13-144-2019 等公开文件核对日志跨日连续性与旁站覆盖，只提示字面差异并附条号 · `dsh plugin add dsh-site-log-check`
+- [dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) — 危险化学品台账核对：按 GB 18218—2018 的临界量核对储存量与重大危险源辨识记录的自洽性 · `dsh plugin add dsh-hazchem-check`
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对：按《出口管制法》与管制清单核对物项、最终用途与许可证的一致性 · `dsh plugin add dsh-export-ctl-check`
 
 <!-- nav:start -->
 ---
