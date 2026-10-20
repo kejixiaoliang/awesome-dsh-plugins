@@ -2408,7 +2408,7 @@ window.__DSH_DATA__ = {
       "url": "https://github.com/weibaohui/dsh-thinktank",
       "owner": "weibaohui",
       "repo": "dsh-thinktank",
-      "description": "智囊团：内置 144 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。",
+      "description": "智囊团：内置 161 个经典思维模型库（决策/战略/认知/心理/沟通/学习/系统/创新/执行九大分类），输入一个问题即可用选中的多个模型并行 AI 分析，产出含共识/分歧/盲区/行动清单的综合报告页；支持自动分析与提示词往返导入两种模式。",
       "stars": null,
       "install": "dsh plugin add @weibaohui/dsh-thinktank",
       "category": "workflow-automation"
