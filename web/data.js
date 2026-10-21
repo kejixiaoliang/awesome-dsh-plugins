@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-20T23:30:53.781Z",
+  "generatedAt": "2026-10-21T01:15:52.449Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 277,
+    "withInstall": 278,
     "withStars": 324
   },
   "categories": [
@@ -2401,6 +2401,16 @@ window.__DSH_DATA__ = {
       "description": "定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名",
       "stars": 10,
       "install": "dsh plugin add @weibaohui/dsh-tasks",
+      "category": "workflow-automation"
+    },
+    {
+      "name": "dsh-connect-minimaxcode",
+      "url": "https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode",
+      "owner": "JeffTsuiCUG",
+      "repo": "dsh-connect-minimaxcode",
+      "description": "把 MiniMax Code 接入 DSH 作为模型提供方：可复用本机已登录的 MiniMax Code 桌面 App（国内版），也可自行走 OAuth 设备码登录（插件不接触密码）；Anthropic Messages 兼容、动态模型目录；积分余额与即将到期积分显示在输入框工具行（模型选择器旁，仅在选中本插件模型时显示）与插件页面；支持每日签到；非官方插件，依赖 MiniMax 客户端的非公开接口，仅供学习研究",
+      "stars": null,
+      "install": "dsh plugin add github:JeffTsuiCUG/dsh-connect-minimaxcode@0.5.1",
       "category": "workflow-automation"
     },
     {

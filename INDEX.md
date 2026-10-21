@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **353** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **354** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -292,6 +292,7 @@
 | [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) | 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 | 236 | `dsh plugin add dsh-auto-review` |
 | [dsh-continue](https://github.com/weibaohui/dsh-continue) | 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 | 9 | `dsh plugin add @weibaohui/dsh-continue` |
 | [dsh-tasks](https://github.com/weibaohui/dsh-tasks) | 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 | 10 | `dsh plugin add @weibaohui/dsh-tasks` |
+| [dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) | 把 MiniMax Code 接入 DSH 作为模型提供方：可复用本机已登录的 MiniMax Code 桌面 App（国内版），也可自行走 OAuth 设备码登录（插件不接触密码）；Anthropic Messages 兼容、动态模型目录；积分余额与即将到期积分显示在输入框工具行（模型选择器旁，仅在选中本插件模型时显示）与插件页面；支持每日签到；非官方插件，依赖 MiniMax 客户端的非公开接口，仅供学习研究 |  | `dsh plugin add github:JeffTsuiCUG/dsh-connect-minimaxcode@0.5.1` |
 
 [↩ 回到 🔁 工作流 / 自动化 分类页](plugins/workflow-automation.md)
 
