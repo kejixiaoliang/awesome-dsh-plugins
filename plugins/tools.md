@@ -43,3 +43,4 @@
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
 <!-- nav:end -->
+- [dsh-score](https://github.com/PerryLink/dsh-score) — 多维质量评分：安装、维护、文档、安全与协议合规，输出证据化报告
