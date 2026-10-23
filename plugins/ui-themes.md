@@ -67,3 +67,4 @@
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →
 <!-- nav:end -->
+- [便捷输入框 dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease) — 把 DSH 输入框做成 VS Code 手感：括号引号自动配对（含全角）、选中后打符号框住、跳闭符、删空对；引号可选「自动补对 / 未闭合标红提示」；补全候选含常用文件名（README.md、package.json、AGENTS.md 等）、本文词、语言词表、工作区文件与模型名。
