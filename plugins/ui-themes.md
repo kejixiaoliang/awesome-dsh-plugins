@@ -63,6 +63,8 @@
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 ⭐3 · `dsh plugin add @weibaohui/dsh-settings-ui`
 - [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
 
+- [dsh-sidebar-tidy](https://github.com/weibaohui/dsh-sidebar-tidy) — 侧栏收纳：把「新会话」下方被各插件塞满的入口行——全局面板行、插件入口行（自家/第三方一律识别）、底部入口——统统收进一个菜单按钮，点开二级菜单原样触发各入口；想常驻的加名称白名单即可，侧栏折叠成窄轨时按钮自动变纯图标。 · `dsh plugin add @weibaohui/dsh-sidebar-tidy`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →

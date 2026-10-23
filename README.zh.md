@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 354 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **353** 条（去重后 353 个插件） |
+| 收录插件条目 | **354** 条（去重后 354 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -79,7 +79,7 @@
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 35 | 确定性工具集、git、测试、安全删除等 |
 | 2 | [🧩 技能类 Skills](plugins/skills.md) | 18 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
-| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 50 | 皮肤、主题、生成式 UI、输入增强等 |
+| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 51 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
 | 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 15 | 多 Agent 团队、工作流、跨会话消息等 |
 | 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 33 | 长期记忆、上下文压缩/审计、蒸馏等 |
@@ -185,7 +185,7 @@
 </details>
 
 <details>
-<summary>🎨 Web UI / 皮肤 / 主题 · 50</summary>
+<summary>🎨 Web UI / 皮肤 / 主题 · 51</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -239,6 +239,7 @@
 | [dsh-worktree](https://github.com/alpacachen/dsh-worktree) | 2 | 极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace · `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` |  |
 | [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) | 3 | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 | `dsh plugin add @weibaohui/dsh-settings-ui` |
 | [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) |  | 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 | `dsh plugin --profile web add github:kevin-zx/dsh-park-notes` |
+| [dsh-sidebar-tidy](https://github.com/weibaohui/dsh-sidebar-tidy) |  | 侧栏收纳：把「新会话」下方被各插件塞满的入口行——全局面板行、插件入口行（自家/第三方一律识别）、底部入口——统统收进一个菜单按钮，点开二级菜单原样触发各入口；想常驻的加名称白名单即可，侧栏折叠成窄轨时按钮自动变纯图标。 | `dsh plugin add @weibaohui/dsh-sidebar-tidy` |
 
 </details>
 

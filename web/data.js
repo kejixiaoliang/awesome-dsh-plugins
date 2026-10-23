@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-23T13:53:18.337Z",
+  "generatedAt": "2026-10-23T14:47:11.056Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 277,
+    "withInstall": 278,
     "withStars": 324
   },
   "categories": [
@@ -1231,6 +1231,16 @@ window.__DSH_DATA__ = {
       "description": "等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿",
       "stars": null,
       "install": "dsh plugin --profile web add github:kevin-zx/dsh-park-notes",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-sidebar-tidy",
+      "url": "https://github.com/weibaohui/dsh-sidebar-tidy",
+      "owner": "weibaohui",
+      "repo": "dsh-sidebar-tidy",
+      "description": "侧栏收纳：把「新会话」下方被各插件塞满的入口行——全局面板行、插件入口行（自家/第三方一律识别）、底部入口——统统收进一个菜单按钮，点开二级菜单原样触发各入口；想常驻的加名称白名单即可，侧栏折叠成窄轨时按钮自动变纯图标。",
+      "stars": null,
+      "install": "dsh plugin add @weibaohui/dsh-sidebar-tidy",
       "category": "ui-themes"
     },
     {
