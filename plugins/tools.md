@@ -19,7 +19,7 @@
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) — 按 agent 的按需工具发现 + 渐进式 schema 披露 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-search`
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — 用 Monaco 编辑器创建/管理沙箱化自定义 JS 工具 ⭐23 · `dsh plugin add dsh-custom-tool`
 - [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) — 自动识别并解码 Bash 输出编码（UTF-16LE/UTF-8/GBK），修中文乱码 ⭐8
-- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐533 · `dsh plugin add dsh-at-file`
+- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐532 · `dsh plugin add dsh-at-file`
 - [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) — Obsidian 风格 `[[wikilink]]` 提及：模糊搜索笔记标题并附加内容 ⭐2 · `dsh plugin add dsh-wikilink`
 - [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) — 安全删除：移入回收站/暂存区而非永久删除，支持恢复 ⭐1
 - [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) — 二分法定位 bug 根因（代码/边界/commit） · `dsh plugin add dsh-bisect-debug`
@@ -27,7 +27,7 @@
 - [dsh-data-agent](https://github.com/omdsh-dev/dsh-data-agent) — 让 AI 帮你连数据库、写 SQL ⭐211 · `dsh plugin add @deepseek-ai/dsh-data-agent`
 - [dsh-openapi](https://github.com/Degurechaff57/dsh-openapi) — Safe OpenAPI 3.x 发现与 API 调用工具 ⭐3 · `dsh plugin add dsh-openapi`
 - [dsh-plugin-interpreters](https://github.com/HuanLinOTO/dsh-plugin-interpreters) — 暴露 run_python / run_node 工具，可配置解释器路径 ⭐9 · `dsh plugin add @huanlin/dsh-plugin-interpreters`
-- [dsh-cowork](https://github.com/Jesse-njx/dsh-cowork) — doc_read/doc_write：以有界、单元格寻址方式读写 xlsx/pdf/docx/pptx/ipynb ⭐4
+- [dsh-cowork](https://github.com/Jesse-njx/dsh-cowork) — doc_read/doc_write：以有界、单元格寻址方式读写 xlsx/pdf/docx/pptx/ipynb ⭐3
 - [dsh-plugin-mineru](https://github.com/HuanLinOTO/dsh-plugin-mineru) — 向模型暴露 MineRU 文档解析工具 ⭐48 · `dsh plugin add @huanlin/dsh-plugin-mineru`
 - [dsh-plugin-sleep](https://github.com/HuanLinOTO/dsh-plugin-sleep) — 暴露单个 `sleep` 工具，让模型按需暂停（支持取消） ⭐9 · `dsh plugin add @huanlin/dsh-plugin-sleep`
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） · `dsh plugin add dsh-port-guard`
