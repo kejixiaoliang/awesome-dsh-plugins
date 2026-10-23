@@ -12,6 +12,7 @@
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐11 · `dsh plugin add dsh-acp-for-bitfun`
 
 - [dsh-mcp-tools](https://github.com/hxlog/dsh-mcp-tools) — DeepSeek Harness 的 MCP 服务器/工具管理器：Postman 式请求头、连通性测试、逐工具开关，停用工具不注册进模型 ⭐2 · `dsh plugin add dsh-mcp-tools`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🧩 技能类 Skills](skills.md) · [返回目录](../README.md) · [下一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) →
