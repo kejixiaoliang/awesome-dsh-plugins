@@ -11,6 +11,7 @@
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐6 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐1
 - [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐2357
+- [dsh-channels](https://github.com/ShoWin2333/agent-imessage) — 把 iMessage / Telegram / 微信 / Discord 对话接入 DSH 原生会话，复用宿主模型、工具与权限预设；iMessage 需 macOS ⭐1 · `dsh plugin add @showin2333/dsh-channels`
 
 ## 通知
 
