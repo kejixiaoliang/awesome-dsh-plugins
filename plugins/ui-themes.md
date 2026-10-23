@@ -16,6 +16,7 @@
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知） ⭐6
 - [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐57
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) — 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` ⭐3
+- [dsh-ascii-whales](https://github.com/jryang1997/dsh-ascii-whales) — 海面正上方俯视的对话背景，支持用自定义文字或 ASCII 组成五种鲸类，含彩色字格、内容框毛玻璃、输入框避让、独立下潜、喷水、尾拍涟漪、风纹与云影 · `dsh plugin --profile web add github:jryang1997/dsh-ascii-whales` ⭐1
 
 ## 界面增强 / 面板
 
