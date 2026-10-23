@@ -18,6 +18,7 @@
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐58 · `dsh plugin add deepseek-pet`
 - [dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) — 用户与 agent 双向表情贴纸互动 ⭐24 · `dsh plugin add @dsh-external/dsh-stickers`
 - [dsh-emoji](https://github.com/hellodigua/dsh-emoji) — 为 AI 回复自动添加表情 ⭐49 · `dsh plugin add @dsh-external/dsh-emoji`
+- [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) — 超写实桌宠：四个形象带表情立绘与跳舞/撩发/走路动作帧，按活跃时段主动说话（可选 edge-tts 神经音色），五种特效，小输入框单聊不写进会话 · `dsh plugin add dsh-pet-plugin`
 
 ## 整活 / 音效 / 趣味
 
