@@ -25,3 +25,4 @@
 ---
 ← [上一类: 🧠 上下文 / 记忆](context-memory.md) · [返回目录](../README.md) · [下一类: 🔁 工作流 / 自动化](workflow-automation.md) →
 <!-- nav:end -->
+- [dsh-agnes-image](https://github.com/SZTMBABY/dsh-agnes-image) — Agnes 生图/视频插件：文生图、图生图、文生视频/关键帧/参考视频，4K 静帧与 4–12 秒 720P 视频，侧栏面板含图片库/视频库 + AI 提示词优化，图片与视频都存进工作区 ⭐1 · `dsh plugin add dsh-agnes-image`
