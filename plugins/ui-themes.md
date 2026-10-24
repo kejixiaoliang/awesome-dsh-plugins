@@ -63,6 +63,8 @@
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 ⭐3 · `dsh plugin add @weibaohui/dsh-settings-ui`
 - [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
 
+- [dsh-boot-sequence-nice](https://github.com/gxz19940730-blip/dsh-boot-sequence-NICE) — 应用启动前的全屏开场：按配置依次播放视频/图片/黑场，最后淡出露出界面；零素材、零依赖、零构建，可点击或 Esc 跳过 · `dsh plugin --profile desktop add github:gxz19940730-blip/dsh-boot-sequence-NICE`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →
