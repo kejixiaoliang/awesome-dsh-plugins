@@ -30,6 +30,7 @@
 - [dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — 每日运势：观音签、塔罗、每日一句 ⭐3 · `dsh plugin add @deepseek-ai/dsh-daily-fortune`
 - [dsh-plugin-spur](https://github.com/HuanLinOTO/dsh-plugin-spur) — 挂在聊天流里的辫子，抓住甩一甩给 agent 发「去干活」 ⭐5 · `dsh plugin add @huanlin/dsh-plugin-spur`
 - [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐72 · `dsh plugin add dsh-toy`
+- [ui-muyu](https://github.com/TongY1n/ui-muyu) — 赛博木鱼 Web 悬浮小摆件：点击敲击累积功德、可拖拽，刷新不丢进度 ⭐2 · `dsh plugin add github:TongY1n/ui-muyu`
 
 ## 教学 / 学习 / 研究
 
