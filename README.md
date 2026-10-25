@@ -617,3 +617,6 @@ Code [MIT](LICENSE) · Content [CC-BY-SA 4.0](https://creativecommons.org/licens
 <div align="center">
 <sub>Made with 💙 for the DSH community · Not affiliated with DeepSeek</sub>
 </div>
+
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - Non-custodial 3-line Web3 checkout widget, REST API, and remote MCP payment receipt verifier (`wDOOM` on Base Mainnet & `DOOM` Layer-1).
+- [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Zero-dependency MCP security server & CLI auditor that verifies on-chain bounty escrow before AI agents start work.
