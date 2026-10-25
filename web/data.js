@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-10-25T07:52:04.924Z",
+  "generatedAt": "2026-10-25T09:25:50.835Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 277,
-    "withStars": 324
+    "withInstall": 278,
+    "withStars": 325
   },
   "categories": [
     {
@@ -1071,6 +1071,16 @@ window.__DSH_DATA__ = {
       "description": "API 用量/费用/余额仪表：按钮式用量条（峰/谷时段标签）、当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本",
       "stars": 5,
       "install": "dsh plugin add dsh-plugin-usage-meter",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-usage-chart",
+      "url": "https://github.com/Max-Samson/dsh-usage-chart",
+      "owner": "Max-Samson",
+      "repo": "dsh-usage-chart",
+      "description": "DSH Web 用量与成本仪表盘：实时用量、缓存命中率、含耗时指标的逐轮 SVG 图表、上下文与压缩诊断、DeepSeek API 余额及人民币/美元显示，跟随应用主题和语言",
+      "stars": 9,
+      "install": "dsh plugin --profile web add dsh-usage-chart",
       "category": "ui-themes"
     },
     {
