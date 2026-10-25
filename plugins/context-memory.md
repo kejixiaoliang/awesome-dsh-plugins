@@ -23,6 +23,7 @@
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐28 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐3555 · `dsh plugin add dsh-context`
+- [dsh-ctx-budget](https://github.com/LUgABeEEE/dsh-ctx-budget) — 静态上下文审计：六层基线、能力地图失效路径、记忆重复/过期/超限、SKILL.md 描述压缩、从会话日志推算工具面与冷启动静态上下文；四个工具只读，写操作需 --apply · dsh plugin add --profile web https://github.com/LUgABeEEE/dsh-ctx-budget/releases/download/v0.2.0/dsh-ctx-budget-0.2.0.tgz
 
 ## 会话控制 / 回退
 
