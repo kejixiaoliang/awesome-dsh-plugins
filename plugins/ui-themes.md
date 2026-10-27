@@ -33,6 +33,7 @@
 - [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) — 跨平台文件拖拽与原始路径插入，无需复制文件 ⭐21 · `dsh plugin add @bill9109/dsh-drag-and-drop`
 - [ex-setting](https://github.com/omdsh-dev/ex-setting) — DSH 的设置扩展 ⭐1 · `dsh plugin add @deepseek-ai/dsh-ex-setting`
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐155 · `dsh plugin add @omdsh-dev/dsh-annotation`
+- [dsh-quote-context](https://github.com/Yhx888/dsh-quote-context) — 聊天引用：选中消息文字即可引用或评论，引用常驻输入卡上方，发送后变成可跳回的引用块 · `dsh plugin --profile web add https://github.com/Yhx888/dsh-quote-context/releases/download/v0.1.1/dsh-quote-context-0.1.1.tgz`
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) — 带实时预览的用户/内置 system prompt 分节编辑器 ⭐3 · `dsh plugin add dsh-prompt-studio`
 - [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) — 从设置页编辑系统提示词（deployment persona），带实时预览 ⭐16 · `dsh plugin add @xilin3/dsh-prompt-persona`
 - [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) — 右侧详情列显示当前会话工作区文件树（懒加载、只读） · `dsh plugin add dsh-local-filetree`
