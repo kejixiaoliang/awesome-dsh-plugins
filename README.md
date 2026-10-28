@@ -122,6 +122,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | 23 | Create and manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle. | `dsh plugin add dsh-custom-tool` |
 | [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | 8 | Auto-detects and decodes Bash output encoding (UTF-16LE/UTF-8/GBK), fixing Chinese mojibake |  |
 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | 538 | Codex-style `@file` mentions: search workspace files in the composer and attach their contents to prompts. | `dsh plugin add dsh-at-file` |
+| [dsh-atlas](https://github.com/jameswatt139240-crypto/dsh-ATLAS) | 0 | Type @ in the DeepSeek Harness composer to reference files by line range (@src/a.ts:12-40), skills, plugins and any git repo, with the token cost of each reference shown before you send; line ranges, skills, plugins and any git repo, with a per-reference token estimate. | `dsh plugin add @sidequest-007/dsh-atlas` |
 | [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) | 2 | Obsidian-style `[[wikilink]]` mentions: fuzzy-search note titles and attach content | `dsh plugin add dsh-wikilink` |
 | [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) | 1 | Safe deletion: moves files to trash/staging instead of permanent deletion, supports recovery |  |
 | [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) |  | Bisects to locate bug root causes (code/boundary/commit) | `dsh plugin add dsh-bisect-debug` |

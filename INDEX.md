@@ -26,6 +26,7 @@
 | [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) | 用 Monaco 编辑器创建/管理沙箱化自定义 JS 工具 | 23 | `dsh plugin add dsh-custom-tool` |
 | [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) | 自动识别并解码 Bash 输出编码（UTF-16LE/UTF-8/GBK），修中文乱码 | 8 |  |
 | [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 | 538 | `dsh plugin add dsh-at-file` |
+| [dsh-atlas](https://github.com/jameswatt139240-crypto/dsh-ATLAS) | 0 | Type @ in the DeepSeek Harness composer to reference files by line range (@src/a.ts:12-40), skills, plugins and any git repo, with the token cost of each reference shown before you send; line ranges, skills, plugins and any git repo, with a per-reference token estimate. | `dsh plugin add @sidequest-007/dsh-atlas` |
 | [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) | Obsidian 风格 `[[wikilink]]` 提及：模糊搜索笔记标题并附加内容 | 2 | `dsh plugin add dsh-wikilink` |
 | [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) | 安全删除：移入回收站/暂存区而非永久删除，支持恢复 | 1 |  |
 | [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) | 二分法定位 bug 根因（代码/边界/commit） |  | `dsh plugin add dsh-bisect-debug` |
