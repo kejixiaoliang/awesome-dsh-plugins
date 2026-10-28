@@ -14,13 +14,13 @@
 - [dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) — 把 Codex skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-codex-bridge`
 - [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) — 把 OpenCode skills/config 桥接进 DSH ⭐4 · `dsh plugin add dsh-plugin-opencode-bridge`
 - [dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) — 把 pi skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-pi-bridge`
-- [Code2Skill](https://github.com/leechen298/Code2Skill) — 从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发 ⭐10 · `dsh plugin add github:leechen298/Code2Skill#v1.1.3`
-- [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐303 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
+- [Code2Skill](https://github.com/leechen298/Code2Skill) — 从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发 ⭐11 · `dsh plugin add github:leechen298/Code2Skill#v1.1.3`
+- [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐305 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
 - [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) — 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill ⭐181 · `dsh plugin add github:Nagi-ovo/dsh-find-plugins`
 - [forkprobe](https://github.com/Jayden-X-L/forkprobe) — 同一任务对比多个 skill 并选出最优 ⭐74 · `dsh plugin add github:Jayden-X-L/forkprobe`
 
 - [dsh-amphoreus](https://github.com/xi-kari/dsh-amphoreus) — 把 δ-me13（翁法罗斯）13 张角色技能卡变成席位工作区：逐席主题与壁纸、首轮注入技能卡、对话表情、每席记忆与预设、Alt+数字切席、派发与移交总览画布；技能套件从本地目录读取，不随插件打包 ⭐6 · `dsh plugin add dsh-amphoreus`
-- [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 ⭐42 · `dsh plugin add @weibaohui/skills-management`
+- [skills-management](https://github.com/weibaohui/skills-management) — 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理 ⭐43 · `dsh plugin add @weibaohui/skills-management`
 
 <!-- nav:start -->
 ---
