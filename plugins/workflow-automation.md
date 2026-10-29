@@ -11,8 +11,8 @@
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) — 计划批注：选中计划原文逐条批注并回送结构化反馈 ⭐13 · `dsh plugin add @dsh-external/dsh-plannotator`
 - [dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) — 发现问题→修复→复查的对抗式闭环（基于官方 workflow 引擎） ⭐6 · `dsh plugin add @dsh-external/dsh-inspect`
 - [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) — 副模型每轮被动审查并注入见解 ⭐32 · `dsh plugin add dsh-advisor`
-- [mstar-harness](https://github.com/btspoony/mstar-harness) — Skill 驱动的 Harness/Loop 工程工作流 Agent 插件 ⭐65
-- [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) — 基于角色的模型重试/备用策略 ⭐24 · `dsh plugin add dsh-llm-fallbacks`
+- [mstar-harness](https://github.com/btspoony/mstar-harness) — Skill 驱动的 Harness/Loop 工程工作流 Agent 插件 ⭐66
+- [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) — 基于角色的模型重试/备用策略 ⭐25 · `dsh plugin add dsh-llm-fallbacks`
 - [dsh-polyglot](https://github.com/Jesse-njx/dsh-polyglot) — 模型切换器：任意 OpenAI 兼容端点 + 免费/低价 DeepSeek 预设 + 限流自动回退 ⭐3 · `dsh plugin add @dsh-polyglot/bundle`
 - [dsh-track](https://github.com/fakechris/dsh-track) — 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储 ⭐4 · `dsh plugin add @deepseek-ai/dsh-track`
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) — 录制 macOS 桌面工作流演示并转成 agent 技能（orr_* 工具） ⭐13 · `dsh plugin add dsh-record-replay`
@@ -28,7 +28,7 @@
 - [dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — 写文件/工具调用前的逐处审批门：write/edit/stream 操作显示红绿行级 diff 后再放行，bash 命令审批（默认关） ⭐5 · `dsh plugin add dsh-edit-approval`
 - [dsh-process](https://github.com/weibaohui/dsh-process) — 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进 ⭐2 · `dsh plugin add @weibaohui/dsh-process`
 - [dsh-flow](https://github.com/weibaohui/dsh-flow) — 执行流程图：把会话执行过程画成纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加、自动跟随滚动 ⭐1 · `dsh plugin add @weibaohui/dsh-flow`
-- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 ⭐241 · `dsh plugin add dsh-auto-review`
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 ⭐242 · `dsh plugin add dsh-auto-review`
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐9 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐10 · `dsh plugin add @weibaohui/dsh-tasks`
