@@ -62,6 +62,7 @@
 - [dsh-worktree](https://github.com/alpacachen/dsh-worktree) — 极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace · `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` ⭐2
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 ⭐4 · `dsh plugin add @weibaohui/dsh-settings-ui`
 - [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
+- [便捷输入框 dsh-composer-ease](https://github.com/mengge237/dsh-composer-ease) — 把 DSH 输入框做成 VS Code 手感：括号引号自动配对（含全角）、选中后打符号框住、跳闭符、删空对；引号可选「自动补对 / 未闭合标红提示」；补全候选含常用文件名（README.md、package.json、AGENTS.md 等）、本文词、语言词表、工作区文件与模型名。
 
 <!-- nav:start -->
 ---
