@@ -4,7 +4,7 @@
 
 ## 记忆 / 知识
 
-- [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话长期记忆 + 后台自我进化（五轨记忆/git 分支感知/技能进化） ⭐468
+- [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话长期记忆 + 后台自我进化（五轨记忆/git 分支感知/技能进化） ⭐469
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动上下文压缩（ACP）：模型决定何时压缩（移植自 billion-context-pi） ⭐167
 - [dsh-memory](https://github.com/Jesse-njx/dsh-memory) — 基于无损会话日志的引用式记忆（事实带 sessionId/eventRange 引用） ⭐1 · `dsh plugin add @dsh-memory/bundle`
 - [dsh-memory](https://github.com/ben7am1n/dsh-memory) — 跨会话 SQLite 持久记忆 · `dsh plugin add dsh-memory`
@@ -42,7 +42,7 @@
 - [dsh-kb](https://github.com/weibaohui/dsh-kb) — 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint） ⭐9 · `dsh plugin add @weibaohui/dsh-kb`
 - [dsh-memento](https://github.com/PerryLink/dsh-memento) — 有界、分层、审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite + memory 工具 + 冻结快照注入 ⭐143 · `dsh plugin add dsh-memento`
 
-- [hermes-loop](https://github.com/weibaohui/hermes-loop) — 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） ⭐12 · `dsh plugin add @weibaohui/hermes-loop`
+- [hermes-loop](https://github.com/weibaohui/hermes-loop) — 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） ⭐11 · `dsh plugin add @weibaohui/hermes-loop`
 - [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) — 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） ⭐1 · `dsh plugin add github:SunshineR04/dsh-session-manager`
 - [context-razor](https://github.com/weibaohui/context-razor) — 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 ⭐2 · `dsh plugin add @weibaohui/context-razor`
 
