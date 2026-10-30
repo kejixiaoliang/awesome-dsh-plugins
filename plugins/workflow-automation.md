@@ -3,7 +3,7 @@
 > **流程编排**：深度研究、定时任务/cron、条件唤醒、计划批注、审查闭环、模型路由、审批。返回 [目录](../README.md#分类目录)
 
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — 自适应深度研究编排器（基于官方 workflow 引擎） ⭐31 · `dsh plugin add @dsh-external/dsh-deep-research`
-- [dsh-deepresearch](https://github.com/havingautism/dsh-deepresearch) — 证据优先的独立研究工作流（持久状态 + 独立 Web 视图） ⭐13 · `dsh plugin add @deepseek-ai/dsh-deepresearch`
+- [dsh-deepresearch](https://github.com/havingautism/dsh-deepresearch) — 证据优先的独立研究工作流（持久状态 + 独立 Web 视图） ⭐14 · `dsh plugin add @deepseek-ai/dsh-deepresearch`
 - [dsh-loop](https://github.com/vlln/dsh-loop) — 定时循环：`/loop` 命令 + loop 工具 + 活动状态条 ⭐7 · `dsh plugin add @dsh-external/dsh-loop`
 - [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — 条件驱动唤醒：file/command/http/process/webhook 持久监视触发 agent ⭐21 · `dsh plugin add @dsh-external/dsh-sentinel`
 - [dsh-automation](https://github.com/titanwings/dsh-automation) — 定时任务：Coding 任务按计划在全新 Agent Session 中运行 ⭐102 · `dsh plugin add @dsh-external/dsh-automation`
@@ -28,7 +28,7 @@
 - [dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — 写文件/工具调用前的逐处审批门：write/edit/stream 操作显示红绿行级 diff 后再放行，bash 命令审批（默认关） ⭐5 · `dsh plugin add dsh-edit-approval`
 - [dsh-process](https://github.com/weibaohui/dsh-process) — 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进 ⭐2 · `dsh plugin add @weibaohui/dsh-process`
 - [dsh-flow](https://github.com/weibaohui/dsh-flow) — 执行流程图：把会话执行过程画成纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加、自动跟随滚动 ⭐1 · `dsh plugin add @weibaohui/dsh-flow`
-- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 ⭐242 · `dsh plugin add dsh-auto-review`
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链上的第二模型自动审查：只读审查子代理给出带理由的 allow/deny 裁决，默认失败即拒绝、全程可审计 ⭐243 · `dsh plugin add dsh-auto-review`
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐9 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐10 · `dsh plugin add @weibaohui/dsh-tasks`
