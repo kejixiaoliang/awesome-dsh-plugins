@@ -11,7 +11,7 @@
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) — 计划批注：选中计划原文逐条批注并回送结构化反馈 ⭐13 · `dsh plugin add @dsh-external/dsh-plannotator`
 - [dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) — 发现问题→修复→复查的对抗式闭环（基于官方 workflow 引擎） ⭐7 · `dsh plugin add @dsh-external/dsh-inspect`
 - [dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) — 副模型每轮被动审查并注入见解 ⭐32 · `dsh plugin add dsh-advisor`
-- [mstar-harness](https://github.com/btspoony/mstar-harness) — Skill 驱动的 Harness/Loop 工程工作流 Agent 插件 ⭐66
+- [mstar-harness](https://github.com/btspoony/mstar-harness) — Skill 驱动的 Harness/Loop 工程工作流 Agent 插件 ⭐67
 - [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) — 基于角色的模型重试/备用策略 ⭐25 · `dsh plugin add dsh-llm-fallbacks`
 - [dsh-polyglot](https://github.com/Jesse-njx/dsh-polyglot) — 模型切换器：任意 OpenAI 兼容端点 + 免费/低价 DeepSeek 预设 + 限流自动回退 ⭐3 · `dsh plugin add @dsh-polyglot/bundle`
 - [dsh-track](https://github.com/fakechris/dsh-track) — 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储 ⭐4 · `dsh plugin add @deepseek-ai/dsh-track`
@@ -22,7 +22,7 @@
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) — 手动审批模式（Manual/Ask Mode） ⭐1 · `dsh plugin add dsh-tool-approval`
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 · `dsh plugin add @dsh-external/dsh-event-auditor`
-- [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐175 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
+- [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐176 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
 
 - [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) — 把本机已登录的 Claude Code CLI 接成 dsh 的模型提供方：在 dsh 的模型选择器里直接选 Claude 模型，不需要 API Key；带会话恢复、权限模式和用量面板，中英双语 ⭐23 · `dsh plugin add dsh-oh-my-claude`
 - [dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — 写文件/工具调用前的逐处审批门：write/edit/stream 操作显示红绿行级 diff 后再放行，bash 命令审批（默认关） ⭐5 · `dsh plugin add dsh-edit-approval`
