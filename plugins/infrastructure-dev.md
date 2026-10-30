@@ -57,6 +57,7 @@
 
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
+- [dsh-remote-bridge](https://github.com/westanke/dsh-remote-bridge) — 把 DSH 内核私有 remote 协议翻译成版本化 REST 接口（聊天/会话/文件/设备），供 dsh-companion 等受信任客户端远程使用；另在 WebUI 增「手机设置」面板，内联七张折叠卡片（根目录 / 远程访问 / 设备 / 识图 / 回收站 / 插件 / App 下载） · `dsh plugin add dsh-remote-bridge`
 
 <!-- nav:start -->
 ---
