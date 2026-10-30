@@ -6,7 +6,7 @@
 
 ## 终端 TUI
 
-- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐6278 · `dsh plugin add dsh-cc-tui`
+- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐6317 · `dsh plugin add dsh-cc-tui`
 - [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐296 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令 ⭐2
 - [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐12 · `dsh plugin add deepseek-harness-tui`
@@ -23,11 +23,11 @@
 - [dsh-desktop](https://github.com/bruc3van/dsh-desktop) — 社区维护的非官方桌面客户端（复用官方实例或内置运行时） ⭐95
 - [dsh-desktop](https://github.com/zsyu9779/dsh-desktop) — Wails(Go) 桌面壳，Codex 风格原生应用 ⭐12
 - [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) — .NET 10 WPF + WebView2 桌面启动器 ⭐6
-- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐17019
+- [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐17038
 - [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） ⭐3
 - [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) — 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） · `dsh plugin add dsh-desktop-window`
-- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐34116
-- [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐198 · `dsh plugin add deepseek-harness-desktop`
+- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐34164
+- [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐199 · `dsh plugin add deepseek-harness-desktop`
 - [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐196
 - [dsh-tray-launcher](https://github.com/fancr-code/dsh-tray-launcher) — Windows 桌面托盘启动器：无窗口运行 dsh web，托盘右键切换图标（梁祖/鲸鱼娘/DeepSeek/自定义），退出即全退 · `npm i -g dsh-tray-launcher && dsh-tray-install` ⭐6
 
@@ -41,7 +41,7 @@
 - [dsh-mobile](https://github.com/lehhair/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实） ⭐25
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui 编写的 DSH 终端 TUI ⭐81 · `dsh plugin add github:openma-ai/deepseek-harness-tui`
 
-- [dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) — 跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回 · `dsh plugin --profile tui add dsh-ssh-tui` ⭐4
+- [dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) — 跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回 · `dsh plugin --profile tui add dsh-ssh-tui` ⭐3
 
 <!-- nav:start -->
 ---
