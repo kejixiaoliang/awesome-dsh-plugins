@@ -48,6 +48,8 @@
 - [dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n ⭐128 · `dsh plugin add dsh-easyrewrite`
 - [dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — 手机优先的 DSH 前端体验优化：输入框失焦自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页适配、禁缩放回弹，外加长任务完成/权限申请/提问通知（Web Push/Bark webhook） ⭐67 · `dsh plugin add meow-smooth`
 
+- [dsh-whale-trail](https://github.com/ShawnRen57/dsh-whale-trail) — 小鲸鱼主题的本地成就插件：正常使用 Harness 自动点亮 7 系列 67 枚印章徽章、9 段航程收集 36 件海洋收藏、可配置 ASCII 水族馆和 PNG/离线 HTML 航海名片，数据全留本地 · `dsh plugin --profile desktop add file:/path/dsh-whale-trail-1.0.1.tgz`（Release 预构建包）
+
 ## 生成式 UI / 组件
 
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — 对话内生成式 UI：模型把交互式 HTML 卡片直接画进会话流，带流式预览 ⭐329 · `dsh plugin add @dsh-external/dsh-visualize`
