@@ -15,6 +15,7 @@
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐3 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐24 · `dsh plugin add dsh-continual-evolve`
 - [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐341 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
+- [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) — 保留原话来源、项目归属与修订历史的 DSH 文字记忆插件（公开测试版）。
 
 ## 上下文审计 / 压缩 / 蒸馏
 
