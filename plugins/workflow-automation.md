@@ -22,7 +22,7 @@
 - [dsh-tool-approval](https://github.com/ilharp/dsh-tool-approval) — 手动审批模式（Manual/Ask Mode） ⭐1 · `dsh plugin add dsh-tool-approval`
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 · `dsh plugin add @dsh-external/dsh-event-auditor`
-- [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐177 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
+- [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) — 自动续传：网络中断后自动发「继续」恢复请求 ⭐176 · `dsh plugin add github:HsiangNianian/dsh-auto-continue`
 
 - [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) — 把本机已登录的 Claude Code CLI 接成 dsh 的模型提供方：在 dsh 的模型选择器里直接选 Claude 模型，不需要 API Key；带会话恢复、权限模式和用量面板，中英双语 ⭐23 · `dsh plugin add dsh-oh-my-claude`
 - [dsh-edit-approval](https://github.com/SiriLee/dsh-edit-approval) — 写文件/工具调用前的逐处审批门：write/edit/stream 操作显示红绿行级 diff 后再放行，bash 命令审批（默认关） ⭐5 · `dsh plugin add dsh-edit-approval`
