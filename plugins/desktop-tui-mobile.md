@@ -42,6 +42,7 @@
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui 编写的 DSH 终端 TUI ⭐81 · `dsh plugin add github:openma-ai/deepseek-harness-tui`
 
 - [dsh-ssh-tui](https://github.com/cyjyyd/dsh-ssh-tui) — 跳板机/高延迟 SSH 上的 DSH 终端：纯 ANSI、增量重绘；SSH 掉线后会话不丢，`--resume` 接回 · `dsh plugin --profile tui add dsh-ssh-tui` ⭐3
+- [dsh-adapt-packs](https://github.com/LUgABeEEE/dsh-adapt-packs) — DSH 移动端插件适配包（44px 触控地板、轨道与浮动控件让位），附设置页一键装/卸与第三方插件兼容清单 · `dsh plugin add dsh-adapt-packs`
 
 <!-- nav:start -->
 ---
