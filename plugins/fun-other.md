@@ -21,7 +21,7 @@
 
 ## 整活 / 音效 / 趣味
 
-- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐707 · `dsh plugin add @dsh-external/dsh-ads`
+- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐708 · `dsh plugin add @dsh-external/dsh-ads`
 - [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) — 股票行情数据插件（整活向） ⭐20 · `dsh plugin add dsh-stock-market`
 - [dsh-douyin](https://github.com/AnacondaKC/dsh-douyin) — 侧栏短视频：原生播放器、系列导航、历史回放 ⭐5 · `dsh plugin add dsh-douyin`
 - [deepseek-manners](https://github.com/Moeblack/deepseek-manners) — 每次消息后注入感谢语，做个有礼貌的人 ⭐14 · `dsh plugin add deepseek-manners`
