@@ -23,6 +23,7 @@
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐27 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐3937 · `dsh plugin add dsh-context`
+- [ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) — 给仓库与过往会话的读取打分，在淹没上下文窗口前提醒，并生成挡住噪音的 `.aiignore` 规则；侧栏面板跟随当前对话 ⭐1 · `dsh plugin add dsh-aiignore`
 
 ## 会话控制 / 回退
 
