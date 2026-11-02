@@ -2,8 +2,8 @@
 
 > **多 Agent 与编排**：Agent 团队、plan/execute 路由、A2A、meta-orchestrator、跨会话消息。返回 [目录](../README.md#分类目录)
 
-- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐2629 · `dsh plugin add dsh-agent-teams`
-- [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 ⭐154 · `dsh plugin add @dsh-external/workflow`
+- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐2639 · `dsh plugin add dsh-agent-teams`
+- [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 ⭐153 · `dsh plugin add @dsh-external/workflow`
 - [dsh-meta-orchestrator](https://github.com/jiruidai/dsh-meta-orchestrator) — 模型原生 meta-agent：运行时合成任务专属工作流并协调工具/子代理 ⭐7 · `dsh plugin add dsh-meta-orchestrator`
 - [dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息互发：本机任意会话像 Claude Code 一样互发消息 ⭐5 · `dsh plugin add @dsh-crosstalk/bundle`
 - [dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) — 跨会话 agent-to-agent 消息投递（按会话名寻址） ⭐7 · `dsh plugin add dsh-agent-messaging`
@@ -11,7 +11,7 @@
 - [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) — 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） ⭐5 · `dsh plugin add dsh-session-hub`
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐18 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐12
-- [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐7 · `dsh plugin add dsh-devices`
+- [dsh-devices](https://github.com/polaris-smart/dsh-devices) — 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连 + SFTP 文件传输，dsh 会话内自动注册 6 个 fleet 工具（零 npm 依赖） ⭐8 · `dsh plugin add dsh-devices`
 
 - [dsh-wait-guard](https://github.com/dn4hjtcr9s-del/dsh-wait-guard) — 主 Agent 的出口闸门：后代子代理还有 running 就不允许 turn 结束；消息到达立刻完全退场，超时才注入一条提醒后同样退场 · `dsh plugin add github:dn4hjtcr9s-del/dsh-wait-guard`
 - [lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) — 论衡：主控调度 + 9 个独立角色（文献/数据/案例检索、分析、写作、批判、审计、终检、同行评审）的深度长文写作流水线，跨 6 阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配 ⭐23 · `dsh plugin add lunheng-article-pipeline`
