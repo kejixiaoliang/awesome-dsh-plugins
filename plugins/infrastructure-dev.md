@@ -62,3 +62,7 @@
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →
 <!-- nav:end -->
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — 声明式 allow/deny/ask 权限规则，带审计、dry-run 与热重载
+- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) — 会话/工作区/配置三态检查点与一键 /rewind 回退
+- [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) — 会话目录 git 镜像同步，保留双方修改与脱敏
+- [dsh-github](https://github.com/PerryLink/dsh-github) — GitHub PR/issue/CI 集成，所有写入人工审批
