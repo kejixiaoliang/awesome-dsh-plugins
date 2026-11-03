@@ -11,6 +11,7 @@
 - [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐167 · `dsh plugin add @dsh-external/dsh-super-injector`
 - [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐58
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) — 插件管理面板 + 多源市场：一键启停（HMR 生效）、GitHub/Gitee/自定义源并行搜索、静态索引市场（500+ 插件 / 300 技能）、技能安装/停用/删除、套装一键装配、框架一键升级 ⭐120 · `dsh plugin add dsh-plugin-hub`
+- [dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) — 插件版本管理：在插件页加「版本」标签，一键/多选升级走 in-place 替换不先卸载（启用状态不丢），实时 pnpm 进度与取消，全部已发布版本与一键回滚，镜像缺口提醒，安装源可选并写进 profile ⭐3 · `dsh plugin add dsh-plugin-upgrader`
 
 ## 健康检查 / 诊断 / 审计
 
