@@ -25,3 +25,4 @@
 ---
 ← [上一类: 🧠 上下文 / 记忆](context-memory.md) · [返回目录](../README.md) · [下一类: 🔁 工作流 / 自动化](workflow-automation.md) →
 <!-- nav:end -->
+- [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) — 让 DSH 当前模型通过已安装的 Codex Computer Use 运行时读取和操作 Windows 应用，并保留每个会话的应用授权。

@@ -67,3 +67,4 @@
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →
 <!-- nav:end -->
+- [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) — 在 DSH 预览中点选元素、画箭头或框选区域，将修改意见加入对话，并查看更新前后的截图对比。
