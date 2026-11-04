@@ -16,6 +16,8 @@
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐24 · `dsh plugin add dsh-continual-evolve`
 - [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐365 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
 
+- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。 安装：`dsh plugin --profile web add @hiai-gg/dsh-docsmint`。
+
 ## 上下文审计 / 压缩 / 蒸馏
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐66 · `dsh plugin add dsh-context-doctor`
