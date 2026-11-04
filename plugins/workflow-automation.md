@@ -32,6 +32,7 @@
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐9 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐11 · `dsh plugin add @weibaohui/dsh-tasks`
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) — 在 DSH 主对话中比较两版真实运行的 Vite 应用、盲选，并结合项目当前改动审查采用。
 
 <!-- nav:start -->
 ---
