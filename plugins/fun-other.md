@@ -8,6 +8,7 @@
 - [dsh-minigames](https://github.com/lhh010/dsh-minigames) — 右侧 18 款离线小游戏面板（恐龙跳一跳/俄罗斯方块/扫雷/2048…） ⭐37 · `dsh plugin add @dsh-external/dsh-minigames`
 - [dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) — 自走棋：人机对战或双 AI 对弈 ⭐2 · `dsh plugin add @deepseek-ai/dsh-auto-chess`
 - [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) — 模型生成时弹出小游戏菜单（wordle/消消乐，可扩展） ⭐9 · `dsh plugin add @huanlin/dsh-plugin-d399`
+- [dsh-game-market](https://github.com/heswy/dsh-game-market) — Agent 跑长任务时把等待变成一局游戏：游戏占满工作区、鲸鱼显示 Agent 状态、完成提醒不打断、自动存档；内置 5 款游戏 · `dsh plugin add dsh-game-market`
 
 ## 桌宠 / 表情 / 贴纸
 
