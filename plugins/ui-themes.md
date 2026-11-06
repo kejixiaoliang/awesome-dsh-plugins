@@ -47,6 +47,8 @@
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐4
 - [dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n ⭐128 · `dsh plugin add dsh-easyrewrite`
 - [dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — 手机优先的 DSH 前端体验优化：输入框失焦自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页适配、禁缩放回弹，外加长任务完成/权限申请/提问通知（Web Push/Bark webhook） ⭐67 · `dsh plugin add meow-smooth`
+- [dsh-deepseek-cost](https://github.com/skyrocks/dsh-deepseek-cost) — 输入框下方常驻显示 DeepSeek 官网账号余额，以及本轮 / 今日 / 本周 / 本月 / 累计花费；悬浮看明细、点击刷新 · `dsh plugin add @skyrocks/dsh-deepseek-cost`
+- [dsh-go-quota](https://github.com/skyrocks/dsh-go-quota) — 输入框下方显示 OpenCode GO 套餐的 5 小时 / 周 / 月三个额度窗口，标签 + 进度条 + 百分比，悬浮看重置倒计时 · `dsh plugin add dsh-go-quota`
 
 ## 生成式 UI / 组件
 
