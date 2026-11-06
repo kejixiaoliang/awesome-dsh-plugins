@@ -39,6 +39,8 @@
 - [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 ⭐1 · `dsh plugin add @weibaohui/dsh-file-share`
 - [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） ⭐3 · `dsh plugin add @weibaohui/dsh-dashboard`
 
+- [dsh-cbm-autorefresh](https://github.com/xingbei437/dsh-cbm-autorefresh) — codebase-memory 索引保鲜：会话开始或切换工作目录时，自动刷新该会话自己那个仓库的索引，零配置、不常驻进程
+
 <!-- nav:start -->
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
