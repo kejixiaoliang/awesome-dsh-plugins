@@ -43,3 +43,4 @@
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
 <!-- nav:end -->
+- [模型顺序 dsh-model-priority](https://github.com/mengge237/dsh-model-priority) — 在「设置 → 模型」里自己配置的提供方卡片内拖拽调整模型顺序，宿主模型列表按该顺序返回；写回前自动备份并逐条校验（条目集合未增删、块外逐行一致），任一道不过整次拒绝。
