@@ -26,3 +26,4 @@
 ---
 ← [上一类: 🛠️ 工具类 Tools](tools.md) · [返回目录](../README.md) · [下一类: 🔌 MCP 接入](mcp.md) →
 <!-- nav:end -->
+- [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) — DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组，逐项启用或停用，展开查看 SKILL.md 正文；停用技能不注册进模型 ⭐1 · `dsh plugin add dsh-skills-tools`
