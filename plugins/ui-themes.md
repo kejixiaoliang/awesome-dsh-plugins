@@ -47,6 +47,7 @@
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐4
 - [dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n ⭐129 · `dsh plugin add dsh-easyrewrite`
 - [dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — 手机优先的 DSH 前端体验优化：输入框失焦自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页适配、禁缩放回弹，外加长任务完成/权限申请/提问通知（Web Push/Bark webhook） ⭐67 · `dsh plugin add meow-smooth`
+- [dsh-rightbar-quicknav](https://github.com/zuoyunlai/dsh-rightbar-quicknav) — 右侧栏快捷导航：在「打开右侧边栏」图标下方常驻一条竖排图标轨，悬停展开全部标签，点击一步直达。
 
 ## 生成式 UI / 组件
 
