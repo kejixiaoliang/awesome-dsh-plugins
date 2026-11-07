@@ -10,6 +10,7 @@
 - [shadow-vision](https://github.com/WardLu/shadow-vision) — 开源 MCP 视觉 server，给纯文本 LLM 图片理解/OCR/UI 检查 ⭐1
 - [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) — MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 ⭐44
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐10 · `dsh plugin add dsh-acp-for-bitfun`
+- [callai-seo-mcp](https://github.com/hanshengcc/callai-seo-mcp) — 接入 CallAI SEO MCP：Google/Bing SERP（含 AI Overview 引用源）、关键词量与难度、竞品排名与关键词差距、外链、页面体检，附 SEO 技能；按量付费，需 API key · `dsh plugin add @callaiapi/seo`
 
 <!-- nav:start -->
 ---
