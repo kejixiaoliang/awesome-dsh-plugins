@@ -11,6 +11,8 @@
 - [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) — MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 ⭐44
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐10 · `dsh plugin add dsh-acp-for-bitfun`
 
+- [dsh-mcp-station](https://github.com/WilShi/dsh-mcp-station) — 聚合式 MCP 市场：26 个精选预设 + 官方 MCP 注册表 + 自定义市场源，支持搜索、来源筛选与一键安装 · `dsh plugin add dsh-mcp-station`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🧩 技能类 Skills](skills.md) · [返回目录](../README.md) · [下一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) →
