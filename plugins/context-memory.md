@@ -16,6 +16,8 @@
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐24 · `dsh plugin add dsh-continual-evolve`
 - [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐377 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
 
+- [dsh-self](https://github.com/malabananclauss-rgb/dsh-self) — 给 DSH agent 一个能跨模型延续的自我：分层记忆（状态/索引/判断库/判断卡）、判断卡（结论/为什么/失败/未完成）、换模型交接包、压缩审查 · `dsh plugin add git+https://github.com/malabananclauss-rgb/dsh-self`
+
 ## 上下文审计 / 压缩 / 蒸馏
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐68 · `dsh plugin add dsh-context-doctor`
