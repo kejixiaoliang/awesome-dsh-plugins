@@ -21,7 +21,7 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐17 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐87 · `dsh plugin add github:slywalker2006/dsh-passwords`
-- [dsh-server-resources](https://github.com/brungcm/dsh-server-resources) — 侧栏“资源”页：实时显示 Linux 主机的 CPU/内存/交换区/磁盘，并列出占用最多的进程、文件夹和文件（只读、零依赖） · `dsh plugin add dsh-server-resources`
+- [dsh-server-resources](https://github.com/brungcm/dsh-server-resources) — 侧栏“资源”页：在 Linux、macOS 和 Windows 上实时显示 CPU/内存/交换区/磁盘，并列出占用最多的进程、文件夹和文件（只读、零依赖） · `dsh plugin add dsh-server-resources`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
