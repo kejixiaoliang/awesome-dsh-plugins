@@ -13,6 +13,7 @@
 - [DSH-Chrome-devtools](https://github.com/yuzi-ska/DSH-Chrome-devtools) — 基于 Chrome DevTools MCP 的真实 Chrome 控制 ⭐8 · `dsh plugin add dsh-chrome-devtools`
 - [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) — 包装 Playwright CLI：装浏览器、跑测试、从 agent 循环打开 HTML 报告 ⭐2 · `dsh plugin add dsh-playwright-cli`
 - [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1847
+- [better-ego-browser](https://github.com/cyrus-xc/better-ego-browser) — 通过带认证的本机 HTTP 连接 Windows 已安装的 ego lite，在 DSH 中导航网页、点击、填写表单和截图。
 
 ## 搜索 / 抓取
 
