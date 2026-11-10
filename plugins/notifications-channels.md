@@ -10,14 +10,14 @@
 - [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐7 · `dsh plugin add @dsh-cowork/chatnode-wechat`
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐6 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐1
-- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐3171
+- [dsh-im](https://github.com/xmanrui/dsh-im) — 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 · `npx -y github:xmanrui/dsh-im install` ⭐3450
 
 ## 通知
 
-- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐91 · `dsh plugin add dsh-notification`
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐92 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐12
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐3 · `dsh plugin add dsh-win-notify`
-- [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐33 · `dsh plugin add @bill9109/dsh-web-ui-notify`
+- [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐34 · `dsh plugin add @bill9109/dsh-web-ui-notify`
 - [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) — 会话完成等四种状态通知，支持浏览器提示 ⭐32 · `dsh plugin add @dingyi222666/dsh-session-notification`
 
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） ⭐5 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
@@ -25,13 +25,13 @@
 
 ## 远程 / 集成 / 分享
 
-- [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐15
+- [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐17
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent · `dsh plugin add dsh-webhook-bridge`
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐53 · `dsh plugin add dsh-open-in-vscode`
-- [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐42 · `dsh plugin add @dsh-external/dsh-share`
+- [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐43 · `dsh plugin add @dsh-external/dsh-share`
 - [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐2 · `dsh plugin add @bill9109/dsh-conversation-share`
 
-- [dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) — 在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答） · `dsh plugin --profile web add dsh-remote-dsh`
+- [dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) — 在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答） · `dsh plugin --profile web add dsh-remote-dsh` ⭐2
 
 <!-- nav:start -->
 ---
