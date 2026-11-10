@@ -37,3 +37,4 @@
 ---
 ← [上一类: 👁️ 多模态 / 视觉](multimodal.md) · [返回目录](../README.md) · [下一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) →
 <!-- nav:end -->
+- [萧何 / Xiao He](https://github.com/f-e-n-g-0531/dsh-execution-bus) — 声明式 DAG 运行时：为 DSH 工具计划提供有界并行、只读重试、逐步检查点与保守恢复 · `dsh plugin add @feng0531/dsh-execution-bus`
