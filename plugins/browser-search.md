@@ -28,3 +28,4 @@
 ---
 ← [上一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) · [返回目录](../README.md) · [下一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) →
 <!-- nav:end -->
+- [BugGPS](https://github.com/lijiaqi-AI-Product-Manager/dsh-bug-gps) — 录制浏览器问题、固定预期，并通过独立原代码对照复核修复。支持 Windows 上的 DSH 0.2.1-rc.5 headless/web。
