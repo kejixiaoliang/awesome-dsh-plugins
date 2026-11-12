@@ -5,7 +5,7 @@
 - [dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) — 自适应深度研究编排器（基于官方 workflow 引擎） ⭐33 · `dsh plugin add @dsh-external/dsh-deep-research`
 - [dsh-deepresearch](https://github.com/havingautism/dsh-deepresearch) — 证据优先的独立研究工作流（持久状态 + 独立 Web 视图） ⭐15 · `dsh plugin add @deepseek-ai/dsh-deepresearch`
 - [dsh-loop](https://github.com/vlln/dsh-loop) — 定时循环：`/loop` 命令 + loop 工具 + 活动状态条 ⭐8 · `dsh plugin add @dsh-external/dsh-loop`
-- [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — 条件驱动唤醒：file/command/http/process/webhook 持久监视触发 agent ⭐22 · `dsh plugin add @dsh-external/dsh-sentinel`
+- [dsh-sentinel](https://github.com/fuhefei/dsh-sentinel) — 条件驱动唤醒：file/command/http/process/webhook 持久监视触发 agent ⭐23 · `dsh plugin add @dsh-external/dsh-sentinel`
 - [dsh-automation](https://github.com/titanwings/dsh-automation) — 定时任务：Coding 任务按计划在全新 Agent Session 中运行 ⭐103 · `dsh plugin add @dsh-external/dsh-automation`
 - [dsh-routines](https://github.com/Jesse-njx/dsh-routines) — cron 定时 Agent：按计划跑 prompt 并把摘要送到你所在处 · `dsh plugin add @dsh-routines/bundle`
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator) — 计划批注：选中计划原文逐条批注并回送结构化反馈 ⭐13 · `dsh plugin add @dsh-external/dsh-plannotator`
@@ -14,7 +14,7 @@
 - [mstar-harness](https://github.com/btspoony/mstar-harness) — Skill 驱动的 Harness/Loop 工程工作流 Agent 插件 ⭐69
 - [dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) — 基于角色的模型重试/备用策略 ⭐26 · `dsh plugin add dsh-llm-fallbacks`
 - [dsh-polyglot](https://github.com/Jesse-njx/dsh-polyglot) — 模型切换器：任意 OpenAI 兼容端点 + 免费/低价 DeepSeek 预设 + 限流自动回退 ⭐3 · `dsh plugin add @dsh-polyglot/bundle`
-- [dsh-track](https://github.com/fakechris/dsh-track) — 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储 ⭐4 · `dsh plugin add @deepseek-ai/dsh-track`
+- [dsh-track](https://github.com/fakechris/dsh-track) — 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储 ⭐5 · `dsh plugin add @deepseek-ai/dsh-track`
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay) — 录制 macOS 桌面工作流演示并转成 agent 技能（orr_* 工具） ⭐13 · `dsh plugin add dsh-record-replay`
 - [dsh-daily-progress](https://github.com/omdsh-dev/dsh-daily-progress) — 每日进度：今晚定明日计划 + 今日清单 + 完成度温度计 ⭐2 · `dsh plugin add dsh-daily-progress`
 - [dsh-goal-mode](https://github.com/KarlOfLaw/dsh-goal-mode-enhance) — 可视化 goal 模式：Goal 栏/设置页/多会话总览/goal_overview 工具 ⭐4 · `dsh plugin add dsh-goal-mode`
