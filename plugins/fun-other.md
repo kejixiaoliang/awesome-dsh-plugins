@@ -29,7 +29,7 @@
 - [dsh-fun-typewriter](https://github.com/omdsh-dev/dsh-fun-typewriter) — WebAudio 打字机氛围音效（零音频资源） ⭐2 · `dsh plugin add @deepseek-ai/dsh-fun-typewriter`
 - [dsh-daily-fortune](https://github.com/omdsh-dev/dsh-daily-fortune) — 每日运势：观音签、塔罗、每日一句 ⭐3 · `dsh plugin add @deepseek-ai/dsh-daily-fortune`
 - [dsh-plugin-spur](https://github.com/HuanLinOTO/dsh-plugin-spur) — 挂在聊天流里的辫子，抓住甩一甩给 agent 发「去干活」 ⭐5 · `dsh plugin add @huanlin/dsh-plugin-spur`
-- [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐75 · `dsh plugin add dsh-toy`
+- [dsh-toy](https://github.com/c3ll256/dsh-toy) — 连接小型玩具到 DSH（Toy Control Protocol） ⭐76 · `dsh plugin add dsh-toy`
 
 ## 教学 / 学习 / 研究
 
@@ -44,7 +44,7 @@
 - [dsh-director-toolkit](https://github.com/lhmd/dsh-director-toolkit) — 3D 艺术家/技术美术方向包：Blender/Three.js/Houdini/C4D 方向指引 ⭐9 · `dsh plugin add @lhmd/dsh-director-toolkit`
 - [dsh-apple-mode](https://github.com/jihongboo/dsh-apple-mode) — Xcode AI 集成：26 个 Xcode MCP 工具 + Apple 平台技能 ⭐3 · `dsh plugin add dsh-apple-mode`
 - [notes](https://github.com/zhaoolee/notes) — 开源版锤子便签：导出 DSH 会话为便签图片，支持 skill 调用 ⚠️ 无 license 文件 ⭐332
-- [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐676 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
+- [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) — DSH 会话费用统计（本会话/当日/历史 + 官方价格同步） ⭐675 · `dsh plugin add github:Han-1413141/dsh-cost-meter`
 - [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) — persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 ⭐21 · `dsh plugin add github:DietCokewithSugar/dsh-user-experience`
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) — DeepSeek 账户余额与会话成本显示 ⭐17 · `dsh plugin add github:Ghost011118/dsh-balance-meter`
 - [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 中文小说写作助手：句式/情感/意象分析、文笔六维基线带（μ±σ 对照）、12 轴氛围光谱、风格画像报告、本地语义检索（0 token）+ 伏笔设定管理，15 个工具 ⭐28 · `dsh plugin add dsh-novel-writer`
