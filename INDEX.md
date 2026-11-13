@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **353** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **354** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -313,6 +313,7 @@
 | [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) | 会话完成等四种状态通知，支持浏览器提示 | 32 | `dsh plugin add @dingyi222666/dsh-session-notification` |
 | [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) | 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） | 5 | `dsh plugin add github:Laplace-bit/dsh-bell-notify` |
 | [task-chime](https://github.com/Abel-86/task-chime) | 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 |  | `dsh plugin add task-chime` |
+| [dsh-mishu](https://github.com/AIcivilization/dsh-mishu) | 小秘书：分诊 GitHub 未读通知，已解决的替你关掉；交代一句就记下账单、续费、证件到期与生日，到点提醒 |  | `dsh plugin add dsh-mishu` |
 | [dsh-ssh](https://github.com/UynajGI/dsh-ssh) | SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） | 17 |  |
 | [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) | 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent |  | `dsh plugin add dsh-webhook-bridge` |
 | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 从 Web GUI 一键在 VS Code 中打开工作区目录 | 53 | `dsh plugin add dsh-open-in-vscode` |

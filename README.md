@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 353+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 354+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **353** entries (353 unique) |
+| Plugins listed | **354** entries (354 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · compat radar 286+ |
 
@@ -85,7 +85,7 @@ Top community plugins by GitHub stars:
 | 7 | [🧠 Context / Memory](plugins/context-memory.md) | 33 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 18 | image Q&A, OCR, screenshots, computer use |
 | 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 28 | deep research, cron, condition wakeup, review loops |
-| 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 20 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
+| 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 21 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
 | 11 | [🌐 Browser / Search](plugins/browser-search.md) | 16 | browser control, scraping, search providers |
 | 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 42 | plugin managers, health checks, sandboxes, telemetry |
 | 13 | [🎮 Fun / Other](plugins/fun-other.md) | 37 | games, pets, stickers, learning, design |
@@ -400,7 +400,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>📡 Notifications / Channels · 20</summary>
+<summary>📡 Notifications / Channels · 21</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -418,6 +418,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) | 32 | Notifications for four session states, with browser alerts and prompts. | `dsh plugin add @dingyi222666/dsh-session-notification` |
 | [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) | 5 | Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event. | `dsh plugin add github:Laplace-bit/dsh-bell-notify` |
 | [task-chime](https://github.com/Abel-86/task-chime) |  | DSH task chime: plays local sounds for approval/permission requests and task completion, with configurable volume and cooldown from the web GUI. | `dsh plugin add task-chime` |
+| [dsh-mishu](https://github.com/AIcivilization/dsh-mishu) |  | Secretary panel: triages unread GitHub notifications and closes the resolved ones, and remembers the bills, renewals, document expiries and birthdays you tell it until they are due. | `dsh plugin add dsh-mishu` |
 | [dsh-ssh](https://github.com/UynajGI/dsh-ssh) | 17 | SSH remote execution (ProxyJump chains, SFTP filesystem, PTY) |  |
 | [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) |  | Generic webhook receiver: POST /hook/:channel wakes per-channel agents | `dsh plugin add dsh-webhook-bridge` |
 | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 53 | Open DSH workspace directories in VS Code directly from the web GUI. | `dsh plugin add dsh-open-in-vscode` |

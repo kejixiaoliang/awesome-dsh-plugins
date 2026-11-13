@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 354 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-354-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **353** 条（去重后 353 个插件） |
+| 收录插件条目 | **354** 条（去重后 354 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -85,7 +85,7 @@
 | 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 33 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 18 | 视觉工具箱、OCR、截图对比、电脑控制等 |
 | 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 28 | 深度研究、定时任务、条件唤醒等 |
-| 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 20 | Telegram/微信/飞书机器人、SSH 等 |
+| 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 21 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
 | 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 42 | 插件管理器、健康检查、沙箱、遥测等 |
 | 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 37 | 小游戏、桌宠、股票、教学、设计等 |
@@ -400,7 +400,7 @@
 </details>
 
 <details>
-<summary>📡 通知 / 渠道 / 远程 · 20</summary>
+<summary>📡 通知 / 渠道 / 远程 · 21</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -418,6 +418,7 @@
 | [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) | 32 | 会话完成等四种状态通知，支持浏览器提示 | `dsh plugin add @dingyi222666/dsh-session-notification` |
 | [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) | 5 | 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） | `dsh plugin add github:Laplace-bit/dsh-bell-notify` |
 | [task-chime](https://github.com/Abel-86/task-chime) |  | 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 | `dsh plugin add task-chime` |
+| [dsh-mishu](https://github.com/AIcivilization/dsh-mishu) |  | 小秘书：分诊 GitHub 未读通知，已解决的替你关掉；交代一句就记下账单、续费、证件到期与生日，到点提醒 | `dsh plugin add dsh-mishu` |
 | [dsh-ssh](https://github.com/UynajGI/dsh-ssh) | 17 | SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） |  |
 | [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) |  | 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent | `dsh plugin add dsh-webhook-bridge` |
 | [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 53 | 从 Web GUI 一键在 VS Code 中打开工作区目录 | `dsh plugin add dsh-open-in-vscode` |
