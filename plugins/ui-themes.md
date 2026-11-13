@@ -48,6 +48,8 @@
 - [dsh-easyrewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) — DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n ⭐131 · `dsh plugin add dsh-easyrewrite`
 - [dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) — 手机优先的 DSH 前端体验优化：输入框失焦自动折叠、手机回车换行、侧边栏/顶部栏压缩、设置页适配、禁缩放回弹，外加长任务完成/权限申请/提问通知（Web Push/Bark webhook） ⭐67 · `dsh plugin add meow-smooth`
 
+- [dsh-prompt-optimizer](https://github.com/ViewWay/dsh-prompt-optimizer) — 输入框提示词优化器：一键「改写→自审」多轮优化、逐轮差异预览、五个固定重跑方向；内置 164 角色库、技能感知与提示词库 ⭐2 · `dsh plugin add @yimiliya/dsh-prompt-optimizer-bundle`
+
 ## 生成式 UI / 组件
 
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) — 对话内生成式 UI：模型把交互式 HTML 卡片直接画进会话流，带流式预览 ⭐344 · `dsh plugin add @dsh-external/dsh-visualize`
