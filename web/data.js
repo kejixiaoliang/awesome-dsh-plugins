@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-11-12T21:37:51.328Z",
+  "generatedAt": "2026-11-13T03:23:11.705Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 276,
+    "withInstall": 277,
     "withStars": 328
   },
   "categories": [
@@ -2541,6 +2541,16 @@ window.__DSH_DATA__ = {
       "description": "审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却",
       "stars": null,
       "install": "dsh plugin add task-chime",
+      "category": "notifications-channels"
+    },
+    {
+      "name": "dsh-mishu",
+      "url": "https://github.com/AIcivilization/dsh-mishu",
+      "owner": "AIcivilization",
+      "repo": "dsh-mishu",
+      "description": "小秘书：分诊 GitHub 未读通知，已解决的替你关掉；交代一句就记下账单、续费、证件到期与生日，到点提醒",
+      "stars": null,
+      "install": "dsh plugin add dsh-mishu",
       "category": "notifications-channels"
     },
     {

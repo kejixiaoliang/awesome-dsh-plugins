@@ -22,6 +22,7 @@
 
 - [dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期事件铃声 + 右下角呼吸状态点（Web Audio 合成，零音频文件，可上传自定义音） ⭐5 · `dsh plugin add github:Laplace-bit/dsh-bell-notify`
 - [task-chime](https://github.com/Abel-86/task-chime) — 审批/权限请求与任务完成提示音，GUI 设置中可自定义声音、音量与冷却 · `dsh plugin add task-chime`
+- [dsh-mishu](https://github.com/AIcivilization/dsh-mishu) — 小秘书：分诊 GitHub 未读通知，已解决的替你关掉；交代一句就记下账单、续费、证件到期与生日，到点提醒 · `dsh plugin add dsh-mishu`
 
 ## 远程 / 集成 / 分享
 

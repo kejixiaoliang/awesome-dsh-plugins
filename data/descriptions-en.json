@@ -1,4 +1,5 @@
 {
+ "aicivilization/dsh-mishu": "Secretary panel: triages unread GitHub notifications and closes the resolved ones, and remembers the bills, renewals, document expiries and birthdays you tell it until they are due.",
  "acidgr/dsh-web-mobile-fix": "Mobile layout fixes for the Web UI on narrow screens: full-screen settings panel, one-row plugin nav, full-screen sidebar, centered popups, icon-only session-log button.",
  "acidgr/dsh-web-lan-access": "LAN/remote access for the Web UI: injects a crypto.randomUUID polyfill on plain-HTTP origins so the frontend survives LAN or Tailscale IP direct links.",
  "bernardxu123/dsh-mobile-gate": "LAN mobile gateway: isolated child-process reverse proxy with first-visit approval, per-device token binding, rate limiting, and mobile layout injection (compact composer pills, randomUUID polyfill).",
