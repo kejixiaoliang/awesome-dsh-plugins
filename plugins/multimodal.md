@@ -25,3 +25,4 @@
 ---
 ← [上一类: 🧠 上下文 / 记忆](context-memory.md) · [返回目录](../README.md) · [下一类: 🔁 工作流 / 自动化](workflow-automation.md) →
 <!-- nav:end -->
+- [dsh-talk](https://github.com/PerryLink/dsh-talk) — 语音输入/输出与实时字幕，支持浏览器、edge-tts、Piper 与 FunASR
