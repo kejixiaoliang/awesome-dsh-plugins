@@ -1,11 +1,11 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-11-14T03:48:33.785Z",
+  "generatedAt": "2026-11-14T06:55:46.172Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 354,
     "categories": 14,
-    "withInstall": 276,
+    "withInstall": 277,
     "withStars": 328
   },
   "categories": [
@@ -2601,6 +2601,16 @@ window.__DSH_DATA__ = {
       "description": "在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答） · `dsh plugin --profile web add dsh-remote-dsh`",
       "stars": 2,
       "install": null,
+      "category": "notifications-channels"
+    },
+    {
+      "name": "dsh-remote",
+      "url": "https://github.com/flymysql/dsh-remote",
+      "owner": "flymysql",
+      "repo": "dsh-remote",
+      "description": "DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。",
+      "stars": null,
+      "install": "dsh plugin --profile web add dsh-remote",
       "category": "notifications-channels"
     },
     {

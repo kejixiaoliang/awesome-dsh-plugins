@@ -37,3 +37,5 @@
 ---
 ← [上一类: 🔁 工作流 / 自动化](workflow-automation.md) · [返回目录](../README.md) · [下一类: 🌐 浏览器 / 搜索](browser-search.md) →
 <!-- nav:end -->
+
+- [dsh-remote](https://github.com/flymysql/dsh-remote) — DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。 · `dsh plugin --profile web add dsh-remote`
