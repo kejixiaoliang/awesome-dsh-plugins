@@ -32,6 +32,7 @@
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐9 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐11 · `dsh plugin add @weibaohui/dsh-tasks`
+- [dsh-plugin-routerai](https://github.com/router-ai/dsh-plugin-routerai) — RouterAI 模型供应商：一个密钥接入数百个模型，卢布计费；浏览器登录、余额与会话费用、图片/视频生成、语音合成 · `dsh plugin add @router-ai/dsh-plugin-routerai`
 
 <!-- nav:start -->
 ---
