@@ -36,6 +36,7 @@
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐14 · `dsh plugin add dsh-openai-codex-auth`
+- [dsh-code](https://github.com/gabrielbav/dsh-code) — DSH 的代码模式：每个会话在 gVisor 沙箱中拥有独立的仓库检出和分支，带出站白名单和实时应用预览，可运行在本机或你自己的虚拟机上 · `dsh plugin add @gabrielbav/dsh-code`
 
 ## 分发 / 运维 / 迁移
 
