@@ -10,7 +10,7 @@
 - [shadow-vision](https://github.com/WardLu/shadow-vision) — 开源 MCP 视觉 server，给纯文本 LLM 图片理解/OCR/UI 检查 ⭐1
 - [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) — MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 ⭐46
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐10 · `dsh plugin add dsh-acp-for-bitfun`
-- [dsh-plugin-aws](https://github.com/gabrielbav/dsh-plugin-aws) — 在设置页面中开启 AWS 官方的 59 个 MCP 服务器，可按组或逐个开启：版本固定，支持时默认只读 · `dsh plugin add @gabrielbav/dsh-plugin-aws`
+- [dsh-plugin-aws](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-aws) — 在设置页面中开启 AWS 官方的 59 个 MCP 服务器，可按组或逐个开启：版本固定，支持时默认只读 · `dsh plugin add @gabrielbav/dsh-plugin-aws`
 
 <!-- nav:start -->
 ---
