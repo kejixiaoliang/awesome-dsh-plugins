@@ -10,6 +10,7 @@
 - [shadow-vision](https://github.com/WardLu/shadow-vision) — 开源 MCP 视觉 server，给纯文本 LLM 图片理解/OCR/UI 检查 ⭐1
 - [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) — MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 ⭐46
 - [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) — BitFun 与 DSH 的 ACP 交互对接 ⭐10 · `dsh plugin add dsh-acp-for-bitfun`
+- [dsh-connectors](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-connectors) — 在一个设置页面中，用 OAuth 或令牌将 Linear、Jira、GitHub、GitLab、Trello、Granola 和 Azure DevOps 接入每个 DSH 会话，并支持任意 MCP 地址 · `dsh plugin add @gabrielbav/dsh-connectors`
 
 <!-- nav:start -->
 ---
