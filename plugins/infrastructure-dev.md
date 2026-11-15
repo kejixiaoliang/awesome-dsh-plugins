@@ -21,7 +21,7 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐17 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐91 · `dsh plugin add github:slywalker2006/dsh-passwords`
-- [dsh-plugin-airlock](https://github.com/gabrielbav/dsh-plugin-airlock) — 6 个安全扫描器和可选的 LLM 判定在隔离区中检查每个插件、技能和子代理，然后放行、询问你或阻止；可在原版 DSH 上运行 · `dsh plugin add dsh-plugin-airlock`
+- [dsh-plugin-airlock](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-plugin-airlock) — 6 个安全扫描器和可选的 LLM 判定在隔离区中检查每个插件、技能和子代理，然后放行、询问你或阻止；可在原版 DSH 上运行 · `dsh plugin add dsh-plugin-airlock`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
