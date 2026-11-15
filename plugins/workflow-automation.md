@@ -33,7 +33,8 @@
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐9 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐11 · `dsh plugin add @weibaohui/dsh-tasks`
 
-<!-- nav:start -->
+- [credit-board](https://github.com/l-da-da/credit-board) — 每日自动签到 WorkBuddy / 豆包（多账号）/ CodeArts，四家额度汇总到 DSH 侧边栏看板；CDP 界面自动化，不改客户端文件，账号不一致标红 · 安装：clone 后运行 install.ps1（会注册计划任务并替换插件 checkinDir）
+`n<!-- nav:start -->
 ---
 ← [上一类: 👁️ 多模态 / 视觉](multimodal.md) · [返回目录](../README.md) · [下一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) →
 <!-- nav:end -->
