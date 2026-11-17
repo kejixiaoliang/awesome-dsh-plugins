@@ -1,9 +1,9 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-11-17T05:27:49.951Z",
+  "generatedAt": "2026-11-17T13:25:38.077Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 353,
+    "plugins": 358,
     "categories": 14,
     "withInstall": 276,
     "withStars": 328
@@ -1234,6 +1234,26 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
+      "name": "dsh-theme-palette",
+      "url": "https://github.com/zuoyunlai/dsh-theme-palette",
+      "owner": "zuoyunlai",
+      "repo": "dsh-theme-palette",
+      "description": "DSH 主题配色：五套配色（黑白/暖砂/靛蓝/苔绿/自定义三色）× 明暗两模式，整条色阶用 OKLCH 重算并按配色求解对比度，附配置导入导出短码与高对比档",
+      "stars": null,
+      "install": null,
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-rightbar-quicknav",
+      "url": "https://github.com/zuoyunlai/dsh-rightbar-quicknav",
+      "owner": "zuoyunlai",
+      "repo": "dsh-rightbar-quicknav",
+      "description": "右侧栏快捷导航：在「打开右侧边栏」图标下方常驻一条竖排图标轨，悬停展开全部标签，点击一步直达",
+      "stars": null,
+      "install": null,
+      "category": "ui-themes"
+    },
+    {
       "name": "dsh-TUI",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "owner": "ccch1mneyyy",
@@ -1941,6 +1961,16 @@ window.__DSH_DATA__ = {
       "description": "上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然",
       "stars": 2,
       "install": "dsh plugin add @weibaohui/context-razor",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-chronicle",
+      "url": "https://github.com/zuoyunlai/dsh-chronicle",
+      "owner": "zuoyunlai",
+      "repo": "dsh-chronicle",
+      "description": "起居注：把会话事件收口成可审的 Markdown 编年史，并抽取可跨天复用、可被推翻的事实库（决策、约定、坑）；10 个工具、只读侧栏面板、零第三方依赖",
+      "stars": null,
+      "install": null,
       "category": "context-memory"
     },
     {
@@ -3184,6 +3214,16 @@ window.__DSH_DATA__ = {
       "category": "infrastructure-dev"
     },
     {
+      "name": "dsh-healthkit",
+      "url": "https://github.com/zuoyunlai/dsh-healthkit",
+      "owner": "zuoyunlai",
+      "repo": "dsh-healthkit",
+      "description": "DSH 体检：只读体检评分（七个加权维度 0–10）、可还原清理、跨重启验回上次报的问题修没修、只在出现新问题时才失败的基线 CI 门",
+      "stars": null,
+      "install": null,
+      "category": "infrastructure-dev"
+    },
+    {
       "name": "dsh-gomoku",
       "url": "https://github.com/omdsh-dev/dsh-gomoku",
       "owner": "omdsh-dev",
@@ -3551,6 +3591,16 @@ window.__DSH_DATA__ = {
       "description": "元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持",
       "stars": 215,
       "install": "dsh plugin add github:Sutera-Diffusus/dsh-whale-musume",
+      "category": "fun-other"
+    },
+    {
+      "name": "dsh-pet-plugin",
+      "url": "https://github.com/zuoyunlai/dsh-pet-plugin",
+      "owner": "zuoyunlai",
+      "repo": "dsh-pet-plugin",
+      "description": "DSH 窗口里的超写实桌宠：五个形象 × 五种表情精灵图，跳舞/撩发/走路是 24fps VP9 alpha 视频，主动台词可配神经 TTS 音色，含右键菜单与 /dsh-pet 命令",
+      "stars": null,
+      "install": null,
       "category": "fun-other"
     },
     {

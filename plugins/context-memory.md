@@ -45,6 +45,7 @@
 - [hermes-loop](https://github.com/weibaohui/hermes-loop) — 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） ⭐12 · `dsh plugin add @weibaohui/hermes-loop`
 - [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) — 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） ⭐1 · `dsh plugin add github:SunshineR04/dsh-session-manager`
 - [context-razor](https://github.com/weibaohui/context-razor) — 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 ⭐2 · `dsh plugin add @weibaohui/context-razor`
+- [dsh-chronicle](https://github.com/zuoyunlai/dsh-chronicle) — 起居注：把会话事件收口成可审的 Markdown 编年史，并抽取可跨天复用、可被推翻的事实库（决策、约定、坑）；10 个工具、只读侧栏面板、零第三方依赖
 
 <!-- nav:start -->
 ---

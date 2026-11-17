@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 353 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 358 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-353-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-358-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **353** 条（去重后 353 个插件） |
+| 收录插件条目 | **358** 条（去重后 358 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
@@ -79,16 +79,16 @@
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 35 | 确定性工具集、git、测试、安全删除等 |
 | 2 | [🧩 技能类 Skills](plugins/skills.md) | 18 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
-| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 50 | 皮肤、主题、生成式 UI、输入增强等 |
+| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 52 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 23 | 桌面壳、终端 TUI、移动端、桌宠等 |
 | 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 15 | 多 Agent 团队、工作流、跨会话消息等 |
-| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 33 | 长期记忆、上下文压缩/审计、蒸馏等 |
+| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 34 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 18 | 视觉工具箱、OCR、截图对比、电脑控制等 |
 | 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 28 | 深度研究、定时任务、条件唤醒等 |
 | 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 20 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
-| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 42 | 插件管理器、健康检查、沙箱、遥测等 |
-| 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 37 | 小游戏、桌宠、股票、教学、设计等 |
+| 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 43 | 插件管理器、健康检查、沙箱、遥测等 |
+| 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 38 | 小游戏、桌宠、股票、教学、设计等 |
 | 14 | [🏛️ 官方核心与元项目](plugins/official-meta.md) | 10 | 核心仓库、awesome 列表、兼容雷达、hub |
 
 <!-- catindex:end -->
@@ -185,7 +185,7 @@
 </details>
 
 <details>
-<summary>🎨 Web UI / 皮肤 / 主题 · 50</summary>
+<summary>🎨 Web UI / 皮肤 / 主题 · 52</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -239,6 +239,8 @@
 | [dsh-worktree](https://github.com/alpacachen/dsh-worktree) | 2 | 极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace · `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` |  |
 | [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) | 5 | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 | `dsh plugin add @weibaohui/dsh-settings-ui` |
 | [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) |  | 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 | `dsh plugin --profile web add github:kevin-zx/dsh-park-notes` |
+| [dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) |  | DSH 主题配色：五套配色（黑白/暖砂/靛蓝/苔绿/自定义三色）× 明暗两模式，整条色阶用 OKLCH 重算并按配色求解对比度，附配置导入导出短码与高对比档 |  |
+| [dsh-rightbar-quicknav](https://github.com/zuoyunlai/dsh-rightbar-quicknav) |  | 右侧栏快捷导航：在「打开右侧边栏」图标下方常驻一条竖排图标轨，悬停展开全部标签，点击一步直达 |  |
 
 </details>
 
@@ -297,7 +299,7 @@
 </details>
 
 <details>
-<summary>🧠 上下文 / 记忆 · 33</summary>
+<summary>🧠 上下文 / 记忆 · 34</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -334,6 +336,7 @@
 | [hermes-loop](https://github.com/weibaohui/hermes-loop) | 12 | 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） | `dsh plugin add @weibaohui/hermes-loop` |
 | [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) | 1 | 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） | `dsh plugin add github:SunshineR04/dsh-session-manager` |
 | [context-razor](https://github.com/weibaohui/context-razor) | 2 | 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 | `dsh plugin add @weibaohui/context-razor` |
+| [dsh-chronicle](https://github.com/zuoyunlai/dsh-chronicle) |  | 起居注：把会话事件收口成可审的 Markdown 编年史，并抽取可跨天复用、可被推翻的事实库（决策、约定、坑）；10 个工具、只读侧栏面板、零第三方依赖 |  |
 
 </details>
 
@@ -452,7 +455,7 @@
 </details>
 
 <details>
-<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 42</summary>
+<summary>🏗️ 基础设施 / 插件管理 / 开发工具 · 43</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -498,11 +501,12 @@
 | [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) | 137 | Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载 | `dsh plugin add dsh-permission-rules` |
 | [user-management](https://github.com/weibaohui/user-management) | 1 | 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 | `dsh plugin add @weibaohui/user-management` |
 | [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) |  | 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 | `dsh plugin add github:amwangfan/dsh-privacy-guard` |
+| [dsh-healthkit](https://github.com/zuoyunlai/dsh-healthkit) |  | DSH 体检：只读体检评分（七个加权维度 0–10）、可还原清理、跨重启验回上次报的问题修没修、只在出现新问题时才失败的基线 CI 门 |  |
 
 </details>
 
 <details>
-<summary>🎮 娱乐 / 其他 · 37</summary>
+<summary>🎮 娱乐 / 其他 · 38</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -543,6 +547,7 @@
 | [dsh-matrix](https://github.com/weibaohui/dsh-matrix) |  | 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏 | `dsh plugin add @weibaohui/dsh-matrix` |
 | [dsh-kite](https://github.com/weibaohui/dsh-kite) |  | 放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换 | `dsh plugin add @weibaohui/dsh-kite` |
 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | 215 | 元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持 | `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume` |
+| [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) |  | DSH 窗口里的超写实桌宠：五个形象 × 五种表情精灵图，跳舞/撩发/走路是 24fps VP9 alpha 视频，主动台词可配神经 TTS 音色，含右键菜单与 /dsh-pet 命令 |  |
 
 </details>
 

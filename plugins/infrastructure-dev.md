@@ -57,6 +57,7 @@
 
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
+- [dsh-healthkit](https://github.com/zuoyunlai/dsh-healthkit) — DSH 体检：只读体检评分（七个加权维度 0–10）、可还原清理、跨重启验回上次报的问题修没修、只在出现新问题时才失败的基线 CI 门
 
 <!-- nav:start -->
 ---

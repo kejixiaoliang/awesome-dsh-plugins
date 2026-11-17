@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **353** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **358** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -140,6 +140,8 @@
 | [dsh-worktree](https://github.com/alpacachen/dsh-worktree) | 极简 Git worktree 管理：一个按钮和一个对话框创建任务分支 worktree，并直接打开为 DSH Workspace · `dsh plugin --profile web add @alpacachen/dsh-simple-worktree` | 2 |  |
 | [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) | 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 | 5 | `dsh plugin add @weibaohui/dsh-settings-ui` |
 | [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) | 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 |  | `dsh plugin --profile web add github:kevin-zx/dsh-park-notes` |
+| [dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) | DSH 主题配色：五套配色（黑白/暖砂/靛蓝/苔绿/自定义三色）× 明暗两模式，整条色阶用 OKLCH 重算并按配色求解对比度，附配置导入导出短码与高对比档 |  |  |
+| [dsh-rightbar-quicknav](https://github.com/zuoyunlai/dsh-rightbar-quicknav) | 右侧栏快捷导航：在「打开右侧边栏」图标下方常驻一条竖排图标轨，悬停展开全部标签，点击一步直达 |  |  |
 
 [↩ 回到 🎨 Web UI / 皮肤 / 主题 分类页](plugins/ui-themes.md)
 
@@ -232,6 +234,7 @@
 | [hermes-loop](https://github.com/weibaohui/hermes-loop) | 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） | 12 | `dsh plugin add @weibaohui/hermes-loop` |
 | [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) | 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） | 1 | `dsh plugin add github:SunshineR04/dsh-session-manager` |
 | [context-razor](https://github.com/weibaohui/context-razor) | 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 | 2 | `dsh plugin add @weibaohui/context-razor` |
+| [dsh-chronicle](https://github.com/zuoyunlai/dsh-chronicle) | 起居注：把会话事件收口成可审的 Markdown 编年史，并抽取可跨天复用、可被推翻的事实库（决策、约定、坑）；10 个工具、只读侧栏面板、零第三方依赖 |  |  |
 
 [↩ 回到 🧠 上下文 / 记忆 分类页](plugins/context-memory.md)
 
@@ -391,6 +394,7 @@
 | [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) | Claude Code 风格声明式权限规则：按序 allow/deny/ask YAML 规则在 tools/pre-execute 瀑布匹配工具名/参数/工作区路径/agent 身份，会话日志审计 + 干跑 + 热重载 | 137 | `dsh plugin add dsh-permission-rules` |
 | [user-management](https://github.com/weibaohui/user-management) | 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 | 1 | `dsh plugin add @weibaohui/user-management` |
 | [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) | 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 |  | `dsh plugin add github:amwangfan/dsh-privacy-guard` |
+| [dsh-healthkit](https://github.com/zuoyunlai/dsh-healthkit) | DSH 体检：只读体检评分（七个加权维度 0–10）、可还原清理、跨重启验回上次报的问题修没修、只在出现新问题时才失败的基线 CI 门 |  |  |
 
 [↩ 回到 🏗️ 基础设施 / 插件管理 / 开发工具 分类页](plugins/infrastructure-dev.md)
 
@@ -435,6 +439,7 @@
 | [dsh-matrix](https://github.com/weibaohui/dsh-matrix) | 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏 |  | `dsh plugin add @weibaohui/dsh-matrix` |
 | [dsh-kite](https://github.com/weibaohui/dsh-kite) | 放风筝引擎：agent 编程时屏幕上放一只动画风筝——token 越多事件越密风筝飞得越高，随风漂移摆动，一根线牵在窗口底边；潍坊系框架卡组（沙燕/金鱼/蝴蝶/八卦/龙头等，硬翅软翅板式立体），形状×图案×配色全是可替换数据配置，支持把用户图片糊上风筝面、贴图随风筝姿态实时仿射变换 |  | `dsh plugin add @weibaohui/dsh-kite` |
 | [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) | 元气鲸鱼娘桌宠：摸头养成 / 工作姿态联动 / 90+ 立绘 / 39 成就 / 自带设置面板，桌面端（DSH 0.2.0-rc.2）与旧版 Web 双端支持 | 215 | `dsh plugin add github:Sutera-Diffusus/dsh-whale-musume` |
+| [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) | DSH 窗口里的超写实桌宠：五个形象 × 五种表情精灵图，跳舞/撩发/走路是 24fps VP9 alpha 视频，主动台词可配神经 TTS 音色，含右键菜单与 /dsh-pet 命令 |  |  |
 
 [↩ 回到 🎮 娱乐 / 其他 分类页](plugins/fun-other.md)
 
