@@ -63,6 +63,8 @@
 - [dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) — 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调 ⭐5 · `dsh plugin add @weibaohui/dsh-settings-ui`
 - [dsh-park-notes](https://github.com/kevin-zx/dsh-park-notes) — 等待 AI 输出时随手记录想聊的话题：输入框上方常驻「稍后说」便签条，零打断、随会话保存，稍后一键带入草稿 · `dsh plugin --profile web add github:kevin-zx/dsh-park-notes`
 
+- [dsh-clipchat](https://github.com/sljdxde/dsh-clipchat) — 在回复里划词就地追问，答案留在原文旁；高亮与问答随会话保存，可跨会话搜索并一键定位回原文 · `dsh plugin --profile web add dsh-clipchat`
+
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →
