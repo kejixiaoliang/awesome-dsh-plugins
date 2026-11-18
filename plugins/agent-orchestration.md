@@ -19,6 +19,7 @@
 - [dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) — 会话智能标题：每轮对话结束后用一次独立的辅助 LLM 调用对「用户消息+助手回答」完整转写做总结，标题跟随会话真实主题而不是复述第一句话；首条消息即时生成标题、内置标题失败在后续轮次自动重试、用户手动改名绝不被覆盖、自动跳过子代理与 fork 会话 ⭐9 · `dsh plugin add @weibaohui/dsh-smart-title`
 
 - [experts-management](https://github.com/weibaohui/experts-management) — 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token ⭐3 · `dsh plugin add @weibaohui/experts-management`
+- [dsh-mini-superagent](https://github.com/wychmod/dsh-mini-superagent) — 主会话把任务派给独立的后台子会话执行，立即返回、报告自动回流；侧边栏「派发工作台」看并发、排队、批次进度与失败原因，可取消、重试、归档（10 个 dispatch_* 工具，零运行时依赖，纯 ESM） ⭐1 · `dsh plugin add dsh-mini-superagent`
 
 <!-- nav:start -->
 ---
