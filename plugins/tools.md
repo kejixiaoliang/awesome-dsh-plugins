@@ -43,3 +43,5 @@
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →
 <!-- nav:end -->
+- [dsh-plugin-token-budget](https://github.com/SSHOOTING/dsh-plugin-token-budget) — 只读命令，按可配置预算给会话 token 用量评分。
+- [dsh-plugin-free-model-advisor](https://github.com/SSHOOTING/dsh-plugin-free-model-advisor) — 只读命令，列出明确免费的模型并推荐安全默认值。

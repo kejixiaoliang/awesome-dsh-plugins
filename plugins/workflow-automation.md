@@ -37,3 +37,4 @@
 ---
 ← [上一类: 👁️ 多模态 / 视觉](multimodal.md) · [返回目录](../README.md) · [下一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) →
 <!-- nav:end -->
+- [dsh-plugin-safe-route](https://github.com/SSHOOTING/dsh-plugin-safe-route) — 只读命令，按白名单审计会话使用过的模型路由并给出合规评分。
