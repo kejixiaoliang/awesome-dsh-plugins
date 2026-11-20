@@ -8,7 +8,7 @@
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动上下文压缩（ACP）：模型决定何时压缩（移植自 billion-context-pi） ⭐171
 - [dsh-memory](https://github.com/Jesse-njx/dsh-memory) — 基于无损会话日志的引用式记忆（事实带 sessionId/eventRange 引用） ⭐1 · `dsh plugin add @dsh-memory/bundle`
 - [dsh-memory](https://github.com/ben7am1n/dsh-memory) — 跨会话 SQLite 持久记忆 · `dsh plugin add dsh-memory`
-- [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) — Mnemon 本地三层记忆（Runtime Memory/可检索文档/受监督 Memory Spaces） ⭐1046 · `dsh plugin add dsh-mnemon`
+- [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) — Mnemon 本地三层记忆（Runtime Memory/可检索文档/受监督 Memory Spaces） ⭐1049 · `dsh plugin add dsh-mnemon`
 - [nowledge-mem-deepseek-harness](https://github.com/nowledge-co/nowledge-mem-deepseek-harness) — 给所有 AI 工具共用的一层记忆（Context Bundle 注入 + MCP 工具 + 线程捕获） ⭐9 · `dsh plugin add nowledge-mem-deepseek-harness`
 - [dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) — 结构化长期记忆系统 ⭐5 · `dsh plugin add dsh-plugin-meta-memory`
 - [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) — 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） ⭐2 · `dsh plugin add @dsh-external/dsh-kb-sieve`
@@ -22,11 +22,11 @@
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐12 · `dsh plugin add context-vista`
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐27 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
-- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐5318 · `dsh plugin add dsh-context`
+- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐5325 · `dsh plugin add dsh-context`
 
 ## 会话控制 / 回退
 
-- [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) — 对话回退：基于持久 Change Ledger 回滚会话与工作区状态 ⭐151 · `dsh plugin add @dsh-external/turn-rewind`
+- [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) — 对话回退：基于持久 Change Ledger 回滚会话与工作区状态 ⭐152 · `dsh plugin add @dsh-external/turn-rewind`
 - [dsh-undo](https://github.com/LingLambda/dsh-undo) — 上下文 undo/redo：回退到上一个已完成步骤并恢复 ⭐4 · `dsh plugin add dsh-undo`
 - [dsh-recall](https://github.com/Mongfayi/dsh-recall) — 消息撤回：每条用户消息一个撤销按钮，删除该轮及其后内容（不改代码） ⭐3 · `dsh plugin add dsh-recall`
 - [dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐14 · `dsh plugin add @dsh-external/dsh-sidechain`
@@ -44,7 +44,7 @@
 
 - [hermes-loop](https://github.com/weibaohui/hermes-loop) — 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持审批模式与技能库治理（归档/恢复，永不直接删除） ⭐12 · `dsh plugin add @weibaohui/hermes-loop`
 - [dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) — 已归档会话管理：设置页列出/恢复/彻底删除（直接物理删除，无备份层），会话菜单红色删除项；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理） ⭐1 · `dsh plugin add github:SunshineR04/dsh-session-manager`
-- [context-razor](https://github.com/weibaohui/context-razor) — 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 ⭐2 · `dsh plugin add @weibaohui/context-razor`
+- [context-razor](https://github.com/weibaohui/context-razor) — 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然 ⭐3 · `dsh plugin add @weibaohui/context-razor`
 
 <!-- nav:start -->
 ---
