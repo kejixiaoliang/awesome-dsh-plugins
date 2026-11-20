@@ -21,6 +21,7 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐17 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐94 · `dsh plugin add github:slywalker2006/dsh-passwords`
+- [dsh-ruleset](https://github.com/cengcengcai-creator/dsh-ruleset) — 规则依从性审计：把 AGENTS.md 式规则变成可验证检查（15 类判据基于 DSH 原生事件、三档分级、红线执行前审批、发现生命周期与误报扣减、显著性基线、注入指纹），AGENTS.md 只读且可回滚 · `dsh plugin add github:cengcengcai-creator/dsh-ruleset`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
