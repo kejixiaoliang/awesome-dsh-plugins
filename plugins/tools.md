@@ -66,6 +66,12 @@
 - [dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) — 水产养殖投入品记录完整性与休药期日期核对：按规则 ID 输出确定性发现。 ⭐2 · `dsh plugin add dsh-aqua-input-check`
 - [dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) — 核对发票台账：按代码与号码识别重复、核对算式一致性、付款方不一致、日期异常与模板占位符，输出异常清单与工作簿。 ⭐2 · `dsh plugin add dsh-invoice-ledger`
 - [dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) — 按声明的主键连接两张表，按声明字段与容差比对，输出 Markdown 报告、JSON 结果与差异工作簿。只报告差异，不裁决对错。 ⭐2 · `dsh plugin add dsh-excel-reconcile`
+- [dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) — 证据清单齐备性核对：把待证事实映射到证据并输出缺口与规则 ID。 ⭐2 · `dsh plugin add dsh-evidence-check`
+- [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) — 信用证单据与 UCP600 不符点核对。 ⭐2 · `dsh plugin add dsh-lc-doc-check`
+- [dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) — 按公开的社保、公积金与个人所得税参数核对工资表，结果分为 pass、pass_with_gaps、review、fail 四档；参数本身带复核日期。 ⭐2 · `dsh plugin add dsh-payroll-audit`
+- [dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) — 劳保用品配置核对：按公开配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-guard-plan-qc`
+- [dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) — 安全交底记录核对：依据《建筑施工安全技术统一规范》《建设工程安全生产管理条例》（GB 50870-2013、JGJ 59-2011）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-safety-brief-check`
+- [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) — 归档登记表核对：依据《归档文件整理规则》《机关文件材料归档范围和文书档案保管期限规定》（DA/T 22—2015、国务院令第772号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-archive-check`
 
 <!-- nav:start -->
 ---
