@@ -50,6 +50,14 @@
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) — 面向质量/工艺工程师：核对 SPC 控制图台账的控制限、中心线与 Cp/Cpk 的算术与常数表自洽性，只列差异，不判断过程是否受控。 ⭐3 · `dsh plugin add dsh-spc-gbt-adapter`
 - [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) — QMS 不合格品、CAPA 与 8D 闭环跟踪。 ⭐3 · `dsh plugin add dsh-qms-capa`
 - [dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — 环评导则适用性与执行标准核对。 ⭐3 · `dsh plugin add dsh-eia-guide-check`
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) — 报关单证一致性检查：按规则 ID 输出字段级发现。 ⭐2 · `dsh plugin add dsh-customs-doc-check`
+- [dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) — HAZOP 分析表核对：节点、引导词、工艺参数、偏差与原因，以及必填栏目与本机构风险等级口径。 ⭐2 · `dsh plugin add dsh-hazplan-check`
+- [dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) — HS 编码归类层级一致性核对：章、品目、子目与商品编号层级。 ⭐2 · `dsh plugin add dsh-hs-classify`
+- [dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) — 依据 GB/T 14396-2016 与公开的 ICD 使用说明，提示需要编码员关注的 ICD 编码配对——剑号与星号组合、合并编码。只报告发现的配对，不代为判定，编码结论仍由编码员作出。 ⭐2 · `dsh plugin add dsh-icd-rule-check`
+- [dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) — IFC 模型工程量提取与 CSV 导出核对。 ⭐2 · `dsh plugin add dsh-ifc-qto`
+- [dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) — 法条引用名称、条号、原文与效力状态核对。 ⭐2 · `dsh plugin add dsh-lawcite-adapter`
+- [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) — 依据《病历书写基本规范》等公开文件，核对护理记录的书写时限、签名，以及评估表的完整性。列出缺失或次序不符之处供人复核。 ⭐2 · `dsh plugin add dsh-nurse-record-check`
+- [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) — 维修工单项目金额、工时配件与结算总额核对。 ⭐2 · `dsh plugin add dsh-repair-order-qc`
 
 <!-- nav:start -->
 ---
