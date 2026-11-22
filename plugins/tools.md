@@ -78,6 +78,11 @@
 - [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) — 试卷结构核对：按题型、答案、分值与标识核对试卷结构自洽，仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-paper-doc-adapter`
 - [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) — 家用汽车三包台账核对：依据《家用汽车产品修理更换退货责任规定》（市场监管总局令第43号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-warranty-calc`
 - [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) — 规则库自身核对：依据本插件家族的条款引用纪律（自定纪律，非国家标准）、本插件家族的检查引擎契约（自定纪律，非国家标准）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-rulefile-check`
+- [dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) — 滞期费台账核对：依据《表示货币的代码》（承运人运价本与运输合同（无国家标准））。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-demurrage-ledger`
+- [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) — 应急预案核对：依据《生产经营单位生产安全事故应急预案编制导则》《生产安全事故应急预案管理办法》（GB/T 29639-2020、国家安全生产监督管理总局令第88号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-emergency-plan`
+- [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) — 隐患风险图谱核对：依据《工贸企业重大事故隐患判定标准》（应急管理部令第10号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-hidden-risk-map`
+- [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) — 原产地区域价值成分台账核对：依据各自由贸易协定原产地规则（协定文本，本次未取得）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-origin-rvc-check`
+- [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) — 铁路运单与时效核对：依据《铁路营业线施工安全管理办法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-railway-window`
 
 <!-- nav:start -->
 ---
