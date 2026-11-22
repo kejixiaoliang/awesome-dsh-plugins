@@ -60,6 +60,10 @@
 - [dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) — 许可申请报告核对：依据《中华人民共和国行政许可法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-permit-report-check`
 - [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) — 起诉状核对：依据《中华人民共和国民事诉讼法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-pleading-draft`
 - [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) — 质疑与投诉期限台账核对：依据《政府采购质疑和投诉办法》（财政部令第94号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-protest-deadline`
+- [dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) — 把应收明细 CSV 变成账龄表：分桶、客户汇总、逾期占比、Top 逾期客户，导出 CSV。 ⭐2 · `dsh plugin add dsh-ar-aging`
+- [dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) — 把应收明细变成按优先级排序的催收计划、催收函草稿与催收清单 CSV，本地计算。 ⭐2 · `dsh plugin add dsh-ar-collection`
+- [dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) — 按合同基准确认本期进度款：整数分金额、累计比例，输出超量/单价/重复项问题清单与审核底稿。 ⭐2 · `dsh plugin add dsh-progress-payment`
+- [dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) — 多家供应商同批物料报价对比：最低/次低价、价差、交期，标记低于成本、超预算、已过期，导出 CSV。 ⭐2 · `dsh plugin add dsh-rfq-compare`
 
 <!-- nav:start -->
 ---
