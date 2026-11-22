@@ -37,6 +37,8 @@
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐14 · `dsh plugin add dsh-openai-codex-auth`
 
+- [dsh-defend](https://github.com/PerryLink/dsh-defend) — 提示注入、越狱与密钥泄露防护：规则裁决已知的、拦截裁决其余的，三档裁决 + 脱敏审计事件，含 defend_report 与危险删除命令门禁 ⭐30 · `dsh plugin add dsh-defend`
+
 ## 分发 / 运维 / 迁移
 
 - [deepseek-harness-docker](https://github.com/runzhliu/deepseek-harness-docker) — 社区 Docker/K8s 打包（加固镜像 + Compose + Helm） ⭐186
