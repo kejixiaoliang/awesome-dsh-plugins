@@ -41,6 +41,8 @@
 - [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) — 国自然申请书形式审查与匿名化核对。 ⭐3 · `dsh plugin add dsh-nsfc-form-check`
 - [dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) — 合同条款立场台账核对：读取「合同表头 + 每条款一行」的立场台账，按逐字引用的规则库列出缺项与自相矛盾（哪一行、哪一栏、差什么），不改原件、不判定合规。 ⭐3 · `dsh plugin add dsh-contract-stance`
 - [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) — 中国基金申请书核对：19 项结构/属性/声明起步清单、预算算式与结构校验、申请材料包扫描（面向国自然等）；只做关键词清单式核对，不代替评审结论。 ⭐3 · `dsh plugin add dsh-grant-cn`
+- [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) — 项目全流程文件链条核对：环节顺序、文件齐备与金额可解析。 ⭐2 · `dsh plugin add dsh-pipeline-check`
+- [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) — 依据现行电力安全工作规程，核对电力工作票应载明的要素，以及签发与许可的先后顺序。只报告发现的差异，不判定作业是否安全、许可是否有效。 ⭐2 · `dsh plugin add dsh-power-ticket-check`
 
 <!-- nav:start -->
 ---
