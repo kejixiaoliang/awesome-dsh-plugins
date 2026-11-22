@@ -52,6 +52,11 @@
 - [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) — 从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告，不省略。 ⭐2 · `dsh plugin add dsh-tender-requirements`
 - [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) — 评审意见回复核对：依据《中国高校科技期刊编排规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-review-reply-check`
 - [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) — 三重一大决策记录核对：依据《关于进一步推进国有企业贯彻落实"三重一大"决策制度的意见》（中办发〔2010〕17号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-soe-decision-check`
+- [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) — 投标符合性响应台账核对：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》（1999年8月30日通过，2017年12月27日修正、国务院令第613号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-bid-ca-precheck`
+- [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) — 投标人资格条件核对表：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》（1999年8月30日通过，2017年12月27日修正、国务院令第613号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-bid-qual-check`
+- [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) — 公文流转记录核对：依据《党政机关公文处理工作条例》（中办发〔2012〕14号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-gongwen-flow-check`
+- [dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) — 政策简报核对：依据《党政机关公文处理工作条例》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-policy-brief-draft`
+- [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) — 招标文件实质性要求核对：依据《中华人民共和国招标投标法》（1999年8月30日通过，2017年12月27日修正）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-tender-extract`
 
 <!-- nav:start -->
 ---
