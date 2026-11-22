@@ -15,3 +15,4 @@
 ---
 ← [上一类: 🧩 技能类 Skills](skills.md) · [返回目录](../README.md) · [下一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) →
 <!-- nav:end -->
+- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) — 只读 MCP 运行面板：/mcp 命令 + 设置页状态、工具与错误

@@ -37,3 +37,4 @@
 ---
 ← [上一类: 👁️ 多模态 / 视觉](multimodal.md) · [返回目录](../README.md) · [下一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) →
 <!-- nav:end -->
+- [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) — 审批链上的第二模型审查：只读子代理给出 allow/deny 与理由，fail-closed，全量审计

@@ -47,3 +47,4 @@
 ---
 ← [上一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) · [返回目录](../README.md) · [下一类: 🤖 Agent 编排 / 多 Agent](agent-orchestration.md) →
 <!-- nav:end -->
+- [dsh-click](https://github.com/PerryLink/dsh-click) — 跨平台桌面原生控制，Windows 优先，带审批与安全边界
