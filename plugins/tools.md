@@ -40,6 +40,7 @@
 - [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） ⭐3 · `dsh plugin add @weibaohui/dsh-dashboard`
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) — 数据质量流水线：把 CSV 读成结构化数据集后做画像、声明式清洗与核查，给出 DAMA 六维计分卡；报告写入存储域并返回可回查的 reportKey ⭐55 · `dsh plugin add dsh-data-quality`
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、内联提示与重命名，由真实语言服务器应答，补齐官方 ctx.lsp 只覆盖导航的能力 ⭐42 · `dsh plugin add dsh-lsp-actions`
+- [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) — 厂商参数映射与确定性 JSON 修复：在 11 家服务商之间映射 temperature/top_p/max_tokens/stop/system，并按可审计规则修复损坏的 JSON 工具输出 ⭐17 · `dsh plugin add dsh-param-repair`
 
 <!-- nav:start -->
 ---
