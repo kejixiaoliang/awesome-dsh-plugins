@@ -43,6 +43,8 @@
 - [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) — 中国基金申请书核对：19 项结构/属性/声明起步清单、预算算式与结构校验、申请材料包扫描（面向国自然等）；只做关键词清单式核对，不代替评审结论。 ⭐3 · `dsh plugin add dsh-grant-cn`
 - [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) — 项目全流程文件链条核对：环节顺序、文件齐备与金额可解析。 ⭐2 · `dsh plugin add dsh-pipeline-check`
 - [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) — 依据现行电力安全工作规程，核对电力工作票应载明的要素，以及签发与许可的先后顺序。只报告发现的差异，不判定作业是否安全、许可是否有效。 ⭐2 · `dsh plugin add dsh-power-ticket-check`
+- [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) — 法务需求收件：从 EML 读取需求、按线程去重并导出收件台账——2 个 `legal.*` 工具。 ⭐2 · `dsh plugin add dsh-legal-intake`
+- [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) — 中文电子发票（OFD/XML）收件箱：导入、解析、去重、进入复核队列、登记回执并本地归档——10 个 `invoice.*` 工具，数据不出本机。 ⭐2 · `dsh plugin add dsh-einvoice`
 
 <!-- nav:start -->
 ---
