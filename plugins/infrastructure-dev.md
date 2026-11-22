@@ -57,6 +57,7 @@
 
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
+- [dsh-restart-wake](https://github.com/zgq0106/dsh-restart-wake) — 重启与自愈：让 Agent 安全重启 Harness 并唤醒原会话；改内核前建快照开启看护，崩了自动回滚重启并校验；内置纸条探针（读真实工具/请求结果判定健康）与故障回注，11 个工具
 
 <!-- nav:start -->
 ---
