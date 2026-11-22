@@ -91,6 +91,12 @@
 - [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) — 土壤与地下水调查记录核对：依据《建设用地土壤污染状况调查技术导则》《地下水环境监测技术规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-soilwater-check`
 - [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) — 作业规程（SOP）核对：依据IATF 16949／汽车行业核心工具手册。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-sop-sync-check`
 - [dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) — 预测偏差与考核台账核对：依据《表示货币的代码》（电力市场考核办法与并网调度协议（无国家标准））。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-forecast-penalty`
+- [dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) — 把打卡明细 CSV 核对成日工时、加班、超限、缺卡与休息不足，按月汇总并导出。 ⭐2 · `dsh plugin add dsh-attendance-check`
+- [dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) — 登记合同并按日期分档：已过期、续签窗口、N 天内到期，导出 CSV。 ⭐2 · `dsh plugin add dsh-contract-renewal`
+- [dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) — 把发票、装箱单、提单、报关单逐字段对照，并列出报关单 12 项要素缺项。 ⭐2 · `dsh plugin add dsh-import-customs-check`
+- [dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) — 核对劳动合同九项必备条款、试用期上限与 80% 工资下限、批量到期与竞业限制，导出复核 CSV。 ⭐2 · `dsh plugin add dsh-labor-contract`
+- [dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) — 按清单核对竣工结算资料齐套性：缺件、份数不足、未签字/未盖章，导出核对表 CSV。 ⭐2 · `dsh plugin add dsh-settlement-docs`
+- [dsh-store-replenish](https://github.com/PerryLink/dsh-store-replenish) — 门店-商品销售库存转为按 SKU 补货建议与按门店补货单，按起订量向上取整，输出 CSV。 ⭐2 · `dsh plugin add dsh-store-replenish`
 
 <!-- nav:start -->
 ---
