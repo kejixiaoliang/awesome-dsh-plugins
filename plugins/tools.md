@@ -38,6 +38,65 @@
 - [dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) — WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南 ⭐1 · `dsh plugin add @weibaohui/dsh-webdav-server`
 - [dsh-file-share](https://github.com/weibaohui/dsh-file-share) — 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理 ⭐1 · `dsh plugin add @weibaohui/dsh-file-share`
 - [dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) — 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入） ⭐3 · `dsh plugin add @weibaohui/dsh-dashboard`
+- [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) — 数据质量流水线：把 CSV 读成结构化数据集后做画像、声明式清洗与核查，给出 DAMA 六维计分卡；报告写入存储域并返回可回查的 reportKey ⭐55 · `dsh plugin add dsh-data-quality`
+- [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、内联提示与重命名，由真实语言服务器应答，补齐官方 ctx.lsp 只覆盖导航的能力 ⭐42 · `dsh plugin add dsh-lsp-actions`
+- [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) — 厂商参数映射与确定性 JSON 修复：在 11 家服务商之间映射 temperature/top_p/max_tokens/stop/system，并按可审计规则修复损坏的 JSON 工具输出 ⭐17 · `dsh plugin add dsh-param-repair`
+- [dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) — 依据公开的党政机关公文格式标准，核对公文的文种与发文字号——包括年份所用的括号形式与编号格式。只报告与格式不符之处，不评价公文内容。 ⭐4 · `dsh plugin add dsh-gongwen-word-check`
+- [dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) — PPAP 提交等级与资料要素核对。 ⭐4 · `dsh plugin add dsh-ppap-check`
+- [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) — 把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据面：原始字节的内容寻址快照与抽取文本、页/节/段/字符锚点、表格网格与 REP v1 证据记录。它不做渲染、阅读、翻译或判断——只产出其他插件可引用的坐标。 ⭐3 · `dsh plugin add dsh-doc-anchor`
+- [dsh-locator](https://github.com/PerryLink/dsh-locator) — 为 DSH 提供自建跨平台索引的全盘文件名搜索，带 agent 工具和 Web 面板，不依赖 Everything。默认索引你的主目录；第一次内容搜索时还会在本机建全文索引（SQLite，放在系统缓存目录），范围是主目录下按扩展名认定的文本和源码文件（每个最大 1 MB、最多 20 万个）以及你最近的 DSH 会话消息；locator_export 会把索引的 SQLite 副本写到给定的任意绝对路径，overwrite 为 true 时会替换已有文件。引擎是随包提供的预编译 Go 程序（六个平台，源码在 engine/ 里），插件不发任何网络请求。 ⭐3 · `dsh plugin add dsh-locator`
+- [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) — 本地非生成式决策层：phocinae_ask 与 phocinae_gate 由小型决策模型返回带校准置信度的类型化裁决，并对无法回答的情况 fail-closed 升级。需在本机 8155 端口运行 phocinae-server（pip 安装）并加载 Phocinae-Largha-150M-v1 模型。 ⭐3 · `dsh plugin add dsh-phocinae`
+- [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) — 按招标要求逐条检查投标文件的响应位置，报告哪些要求看起来有应答、哪些匹配较弱、哪些未能定位。只报告差异，不判断是否实质满足。 ⭐3 · `dsh plugin add dsh-bid-health-check`
+- [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) — 面向质量/工艺工程师：核对 SPC 控制图台账的控制限、中心线与 Cp/Cpk 的算术与常数表自洽性，只列差异，不判断过程是否受控。 ⭐3 · `dsh plugin add dsh-spc-gbt-adapter`
+- [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) — QMS 不合格品、CAPA 与 8D 闭环跟踪。 ⭐3 · `dsh plugin add dsh-qms-capa`
+- [dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — 环评导则适用性与执行标准核对。 ⭐3 · `dsh plugin add dsh-eia-guide-check`
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) — 报关单证一致性检查：按规则 ID 输出字段级发现。 ⭐2 · `dsh plugin add dsh-customs-doc-check`
+- [dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) — HAZOP 分析表核对：节点、引导词、工艺参数、偏差与原因，以及必填栏目与本机构风险等级口径。 ⭐2 · `dsh plugin add dsh-hazplan-check`
+- [dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) — HS 编码归类层级一致性核对：章、品目、子目与商品编号层级。 ⭐2 · `dsh plugin add dsh-hs-classify`
+- [dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) — 依据 GB/T 14396-2016 与公开的 ICD 使用说明，提示需要编码员关注的 ICD 编码配对——剑号与星号组合、合并编码。只报告发现的配对，不代为判定，编码结论仍由编码员作出。 ⭐2 · `dsh plugin add dsh-icd-rule-check`
+- [dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) — IFC 模型工程量提取与 CSV 导出核对。 ⭐2 · `dsh plugin add dsh-ifc-qto`
+- [dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) — 法条引用名称、条号、原文与效力状态核对。 ⭐2 · `dsh plugin add dsh-lawcite-adapter`
+- [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) — 依据《病历书写基本规范》等公开文件，核对护理记录的书写时限、签名，以及评估表的完整性。列出缺失或次序不符之处供人复核。 ⭐2 · `dsh plugin add dsh-nurse-record-check`
+- [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) — 维修工单项目金额、工时配件与结算总额核对。 ⭐2 · `dsh plugin add dsh-repair-order-qc`
+- [dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) — 核对危险化学品台账的内部自洽性：每种物质是否载明危险性类别、储存量能否解析、是否记录临界量、重大危险源判定与该储存量相对台账自述临界量的关系是否一致、是否载明安全技术说明书编号、CAS 号是否重复。只列出差异供人复核，不判定某单元是否构成重大危险源。 ⭐2 · `dsh plugin add dsh-hazchem-check`
+- [dsh-fmea-table-check](https://github.com/PerryLink/dsh-fmea-table-check) — 参照公开的 FMEA 方法标准，核对 FMEA 分析表的要素齐备性，以及严重度、发生度、探测度与风险顺序数之间的算术一致性。只报告不一致之处，不评价各项评分数值是否恰当。 ⭐2 · `dsh plugin add dsh-fmea-table-check`
+- [dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) — 依据国卫办医发〔2016〕24号等公开文件，核对病案首页各字段的齐备性与字段间的逻辑矛盾。列出缺失或不一致之处供人复核，不评价临床正确性。 ⭐2 · `dsh plugin add dsh-medrec-qc`
+- [dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) — 按项目资料归档要求检查缺失的必需资料类型、过期版本与空文件；只读文件夹与文件名，不读文档内容。 ⭐2 · `dsh plugin add dsh-construction-doc-check`
+- [dsh-canteen-retention-check](https://github.com/PerryLink/dsh-canteen-retention-check) — 核对食堂留样台账的四个记录要素、125 克下限、48 小时冷藏窗口，以及单元格中残留的模板占位符。 ⭐2 · `dsh plugin add dsh-canteen-retention-check`
+- [dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) — 水产养殖投入品记录完整性与休药期日期核对：按规则 ID 输出确定性发现。 ⭐2 · `dsh plugin add dsh-aqua-input-check`
+- [dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) — 核对发票台账：按代码与号码识别重复、核对算式一致性、付款方不一致、日期异常与模板占位符，输出异常清单与工作簿。 ⭐2 · `dsh plugin add dsh-invoice-ledger`
+- [dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) — 按声明的主键连接两张表，按声明字段与容差比对，输出 Markdown 报告、JSON 结果与差异工作簿。只报告差异，不裁决对错。 ⭐2 · `dsh plugin add dsh-excel-reconcile`
+- [dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) — 证据清单齐备性核对：把待证事实映射到证据并输出缺口与规则 ID。 ⭐2 · `dsh plugin add dsh-evidence-check`
+- [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) — 信用证单据与 UCP600 不符点核对。 ⭐2 · `dsh plugin add dsh-lc-doc-check`
+- [dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) — 按公开的社保、公积金与个人所得税参数核对工资表，结果分为 pass、pass_with_gaps、review、fail 四档；参数本身带复核日期。 ⭐2 · `dsh plugin add dsh-payroll-audit`
+- [dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) — 劳保用品配置核对：按公开配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-guard-plan-qc`
+- [dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) — 安全交底记录核对：依据《建筑施工安全技术统一规范》《建设工程安全生产管理条例》（GB 50870-2013、JGJ 59-2011）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-safety-brief-check`
+- [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) — 归档登记表核对：依据《归档文件整理规则》《机关文件材料归档范围和文书档案保管期限规定》（DA/T 22—2015、国务院令第772号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-archive-check`
+- [dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) — 核对施工安全资格台账的培训学时、四个记录要素，以及特种作业证书有效期与作业时间的匹配。 ⭐2 · `dsh plugin add dsh-safety-ledger-check`
+- [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) — 依据 GB/T 50319-2013 等公开文件，核对监理日志的跨日连续性，以及旁站监理的覆盖情况。列出缺漏与覆盖差异供人复核。 ⭐2 · `dsh plugin add dsh-site-log-check`
+- [dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) — 把 .docx、.xlsx、.xlsm、.csv、.tsv 中的表格转换成规则核查器可读的 table JSON；识别不了时明确报告，不做猜测。 ⭐2 · `dsh plugin add dsh-table-ingest`
+- [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) — 试卷结构核对：按题型、答案、分值与标识核对试卷结构自洽，仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-paper-doc-adapter`
+- [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) — 家用汽车三包台账核对：依据《家用汽车产品修理更换退货责任规定》（市场监管总局令第43号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-warranty-calc`
+- [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) — 规则库自身核对：依据本插件家族的条款引用纪律（自定纪律，非国家标准）、本插件家族的检查引擎契约（自定纪律，非国家标准）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-rulefile-check`
+- [dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) — 滞期费台账核对：依据《表示货币的代码》（承运人运价本与运输合同（无国家标准））。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-demurrage-ledger`
+- [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) — 应急预案核对：依据《生产经营单位生产安全事故应急预案编制导则》《生产安全事故应急预案管理办法》（GB/T 29639-2020、国家安全生产监督管理总局令第88号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-emergency-plan`
+- [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) — 隐患风险图谱核对：依据《工贸企业重大事故隐患判定标准》（应急管理部令第10号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-hidden-risk-map`
+- [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) — 原产地区域价值成分台账核对：依据各自由贸易协定原产地规则（协定文本，本次未取得）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-origin-rvc-check`
+- [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) — 铁路运单与时效核对：依据《铁路营业线施工安全管理办法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-railway-window`
+- [dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) — 应急演练脚本核对：依据《生产安全事故应急演练基本规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-drill-script-check`
+- [dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) — 作文评分表核对：依据《普通高中语文课程标准》《普通高等学校招生全国统一考试评卷工作规定》。仅提示差异，不作出定性结论。 ⭐3 · `dsh plugin add dsh-essay-rubric-check`
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对：依据《中华人民共和国出口管制法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-export-ctl-check`
+- [dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) — 学情差距分析核对：依据《质量管理 能力管理和人员发展指南》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-learning-gap-check`
+- [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) — 线损分摊记录核对：依据《电力网电能损耗计算导则》（DL/T 686-2018、GB/T 8170-2008）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-power-loss-split`
+- [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) — 土壤与地下水调查记录核对：依据《建设用地土壤污染状况调查技术导则》《地下水环境监测技术规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-soilwater-check`
+- [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) — 作业规程（SOP）核对：依据IATF 16949／汽车行业核心工具手册。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-sop-sync-check`
+- [dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) — 预测偏差与考核台账核对：依据《表示货币的代码》（电力市场考核办法与并网调度协议（无国家标准））。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-forecast-penalty`
+- [dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) — 把打卡明细 CSV 核对成日工时、加班、超限、缺卡与休息不足，按月汇总并导出。 ⭐2 · `dsh plugin add dsh-attendance-check`
+- [dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) — 登记合同并按日期分档：已过期、续签窗口、N 天内到期，导出 CSV。 ⭐2 · `dsh plugin add dsh-contract-renewal`
+- [dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) — 把发票、装箱单、提单、报关单逐字段对照，并列出报关单 12 项要素缺项。 ⭐2 · `dsh plugin add dsh-import-customs-check`
+- [dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) — 核对劳动合同九项必备条款、试用期上限与 80% 工资下限、批量到期与竞业限制，导出复核 CSV。 ⭐2 · `dsh plugin add dsh-labor-contract`
+- [dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) — 按清单核对竣工结算资料齐套性：缺件、份数不足、未签字/未盖章，导出核对表 CSV。 ⭐2 · `dsh plugin add dsh-settlement-docs`
+- [dsh-store-replenish](https://github.com/PerryLink/dsh-store-replenish) — 门店-商品销售库存转为按 SKU 补货建议与按门店补货单，按起订量向上取整，输出 CSV。 ⭐2 · `dsh plugin add dsh-store-replenish`
 
 <!-- nav:start -->
 ---

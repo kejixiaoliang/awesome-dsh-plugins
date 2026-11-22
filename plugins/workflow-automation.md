@@ -32,6 +32,38 @@
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐8 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐11 · `dsh plugin add @weibaohui/dsh-tasks`
+- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) — 行业/公司研究领域包：产业链结构图 → 公开源政策与要闻跟踪 → 公司速览卡 → 可核查报告；每个指标带 sourceRef、缺口显式声明，只读公开源 ⭐226 · `dsh plugin add dsh-industry-research`
+- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — 可核查研究报告引擎：每条 claim 绑定不可变证据快照并逐字节核对数字与引文，产出 report.md + manifest.json 封存报告（封印哈希为 manifest 的 SHA-256），可离线复核 ⭐220 · `dsh plugin add dsh-research-report`
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 交付质量门禁：需求拷问落成 spec、测试先红后绿、改动与 spec 维度对齐、评审结论，一次 /gate run 折叠成四阶段清单并给出可交付/返工裁决与 gate 报告 ⭐61 · `dsh plugin add dsh-doublecheck`
+- [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) — 中国公募基金确定性研究报告：采集天天基金/东方财富公开数据，纯函数计算业绩拆解、持仓穿透、风格归因与经理画像，输出带逐数字可溯源快照附录的版本化报告；指标由代码计算，不交给模型 ⭐72 · `dsh plugin add dsh-fund-research`
+- [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) — 文献追踪：保存带时间窗的命名 Crossref 检索式，用有界客户端对 Crossref 执行检索，已见 DOI 库记录使重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。 ⭐3 · `dsh plugin add dsh-lit-watch`
+- [dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) — 合同条款处理：构建条款树、按 12 项 playbook 映射、登记 playbook 并导出未决清单——5 个 `legal.*` 工具。 ⭐3 · `dsh plugin add dsh-legal-clause`
+- [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) — 国自然申请书形式审查与匿名化核对。 ⭐3 · `dsh plugin add dsh-nsfc-form-check`
+- [dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) — 合同条款立场台账核对：读取「合同表头 + 每条款一行」的立场台账，按逐字引用的规则库列出缺项与自相矛盾（哪一行、哪一栏、差什么），不改原件、不判定合规。 ⭐3 · `dsh plugin add dsh-contract-stance`
+- [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) — 中国基金申请书核对：19 项结构/属性/声明起步清单、预算算式与结构校验、申请材料包扫描（面向国自然等）；只做关键词清单式核对，不代替评审结论。 ⭐3 · `dsh plugin add dsh-grant-cn`
+- [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) — 项目全流程文件链条核对：环节顺序、文件齐备与金额可解析。 ⭐2 · `dsh plugin add dsh-pipeline-check`
+- [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) — 依据现行电力安全工作规程，核对电力工作票应载明的要素，以及签发与许可的先后顺序。只报告发现的差异，不判定作业是否安全、许可是否有效。 ⭐2 · `dsh plugin add dsh-power-ticket-check`
+- [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) — 法务需求收件：从 EML 读取需求、按线程去重并导出收件台账——2 个 `legal.*` 工具。 ⭐2 · `dsh plugin add dsh-legal-intake`
+- [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) — 中文电子发票（OFD/XML）收件箱：导入、解析、去重、进入复核队列、登记回执并本地归档——10 个 `invoice.*` 工具，数据不出本机。 ⭐2 · `dsh plugin add dsh-einvoice`
+- [dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) — 应付三单匹配：导入发票、采购订单与收货单，按容差策略匹配并导出异常底稿——4 个 `ap.*` 工具。 ⭐2 · `dsh plugin add dsh-ap-three-way`
+- [dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) — 银行对账单核对：导入 CAMT.053 与 MT940，与账簿条目匹配并导出工作底稿——6 个 `bankrec.*` 工具。 ⭐2 · `dsh plugin add dsh-bankrec`
+- [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) — OTA 点评回复台账核对：点评内容与评分、回复时限、回复人、问题分类与编号重复。 ⭐2 · `dsh plugin add dsh-ota-review-check`
+- [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) — 核对评标因素评分矩阵的内部算术自洽性：各因素分值上限、所记分值与合计之间是否互相一致。只报告发现的差异，不评价评标本身是否正确或公正。 ⭐2 · `dsh plugin add dsh-tender-matrix`
+- [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) — 从招标文件提取截止时间、保证金、有效期、最高限价、投标文件组成与正副本份数；未找到的项也逐条报告，不省略。 ⭐2 · `dsh plugin add dsh-tender-requirements`
+- [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) — 评审意见回复核对：依据《中国高校科技期刊编排规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-review-reply-check`
+- [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) — 三重一大决策记录核对：依据《关于进一步推进国有企业贯彻落实"三重一大"决策制度的意见》（中办发〔2010〕17号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-soe-decision-check`
+- [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) — 投标符合性响应台账核对：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》（1999年8月30日通过，2017年12月27日修正、国务院令第613号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-bid-ca-precheck`
+- [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) — 投标人资格条件核对表：依据《中华人民共和国招标投标法》《中华人民共和国招标投标法实施条例》（1999年8月30日通过，2017年12月27日修正、国务院令第613号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-bid-qual-check`
+- [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) — 公文流转记录核对：依据《党政机关公文处理工作条例》（中办发〔2012〕14号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-gongwen-flow-check`
+- [dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) — 政策简报核对：依据《党政机关公文处理工作条例》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-policy-brief-draft`
+- [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) — 招标文件实质性要求核对：依据《中华人民共和国招标投标法》（1999年8月30日通过，2017年12月27日修正）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-tender-extract`
+- [dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) — 许可申请报告核对：依据《中华人民共和国行政许可法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-permit-report-check`
+- [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) — 起诉状核对：依据《中华人民共和国民事诉讼法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-pleading-draft`
+- [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) — 质疑与投诉期限台账核对：依据《政府采购质疑和投诉办法》（财政部令第94号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-protest-deadline`
+- [dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) — 把应收明细 CSV 变成账龄表：分桶、客户汇总、逾期占比、Top 逾期客户，导出 CSV。 ⭐2 · `dsh plugin add dsh-ar-aging`
+- [dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) — 把应收明细变成按优先级排序的催收计划、催收函草稿与催收清单 CSV，本地计算。 ⭐2 · `dsh plugin add dsh-ar-collection`
+- [dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) — 按合同基准确认本期进度款：整数分金额、累计比例，输出超量/单价/重复项问题清单与审核底稿。 ⭐2 · `dsh plugin add dsh-progress-payment`
+- [dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) — 多家供应商同批物料报价对比：最低/次低价、价差、交期，标记低于成本、超预算、已过期，导出 CSV。 ⭐2 · `dsh plugin add dsh-rfq-compare`
 
 <!-- nav:start -->
 ---

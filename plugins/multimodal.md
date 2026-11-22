@@ -20,6 +20,7 @@
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐19 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
 - [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） ⭐1296 · `dsh plugin add dsh-vision-router`
 - [dsh-labnana](https://github.com/exoticknight/dsh-labnana) — Labnana 图片生成插件：文生图/图生图/精准编辑，支持 NanoBanana Pro、GPT-Image-2、Wan2.7、Seedream，对话内图片卡片 + 积分预估 ⭐2 · `dsh plugin add github:exoticknight/dsh-labnana`
+- [dsh-draw](https://github.com/PerryLink/dsh-draw) — 多引擎文生图（OpenAI Images 与智谱 CogView 预设）：按会话配额、引擎故障切换、凭证安全配置，结果卡片支持重新生成。 ⭐14 · `dsh plugin add dsh-draw`
 
 <!-- nav:start -->
 ---

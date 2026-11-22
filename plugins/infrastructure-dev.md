@@ -21,6 +21,8 @@
 - [dsh-security-audit](https://github.com/omdsh-dev/dsh-security-audit) — 本机安全审计：配置/插件来源/会话/网络暴露面，只读脱敏报告 ⭐17 · `dsh plugin add @deepseek-ai/dsh-security-audit`
 - [dsh-session-health](https://github.com/omdsh-dev/dsh-session-health) — 会话文件帧级扫描诊断（torn/损坏/空会话检测） ⭐9 · `dsh plugin add @deepseek-ai/dsh-session-health`
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) — dsh 登录网关（密码门）：远程访问鉴权 + 多用户账号管理，HTTPS/防爆破/审计日志 ⭐96 · `dsh plugin add github:slywalker2006/dsh-passwords`
+- [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) — 在一次性隔离配置中为 DSH 插件执行安装与冒烟测试：校验 bundle patch 层与启动日志，返回结构化通过/失败矩阵（JSON/Markdown），不触碰真实配置并清理自建临时目录 ⭐15 · `dsh plugin add dsh-test-drive`
+- [dsh-fast](https://github.com/PerryLink/dsh-fast) — 只读性能诊断：会话加载/恢复耗时、spill 命中、压缩统计与上下文注入量统计 ⭐13 · `dsh plugin add dsh-fast`
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
@@ -36,6 +38,13 @@
 - [dsh-dev-actions](https://github.com/skitse/dsh-dev-actions) — Agent 提议的可复用开发命令，转为侧栏动作 ⭐1 · `dsh plugin add dsh-dev-actions`
 - [dsh-tool-policy](https://github.com/Drifter-yh/dsh-tool-policy) — 声明式默认拒绝的工具策略 ⭐3 · `dsh plugin add dsh-tool-policy`
 - [dsh-openai-codex-auth](https://github.com/yoke233/dsh-openai-codex-auth) — OpenAI Codex OAuth 登录与用量卡 ⭐14 · `dsh plugin add dsh-openai-codex-auth`
+
+- [dsh-defend](https://github.com/PerryLink/dsh-defend) — 提示注入、越狱与密钥泄露防护：规则裁决已知的、拦截裁决其余的，三档裁决 + 脱敏审计事件，含 defend_report 与危险删除命令门禁 ⭐30 · `dsh plugin add dsh-defend`
+- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) — Ollama 本地模型接入：发现/拉取/删除/检查本地模型，按任务类型或关键词路由到本地并在失败时自动回退云端，/ollama 一键查看状态 ⭐27 · `dsh plugin add dsh-local-ai`
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) — PII 脱敏中间件：请求前把姓名、电话、邮箱、证件、银行卡、密钥与地址匿名化为占位符，展示层还原，映射表只存内存与受控存储域、绝不写明文日志，含 /mask 与 mask_test 工具 ⭐19 · `dsh plugin add dsh-mask`
+- [dsh-observe](https://github.com/PerryLink/dsh-observe) — OpenTelemetry OTLP 与 Langfuse 可观测导出：turn/step/tool/LLM 跨度、token 与成本指标、脱敏后的 prompt/completion 捕获、异步批量与有界离线缓冲重试 ⭐17 · `dsh plugin add dsh-observe`
+- [dsh-budget](https://github.com/PerryLink/dsh-budget) — 在 llm/stream 瀑布上做按插件粒度的用量预算与费用上限：按模型用量记账、会话与月度预算的预警/阻断、延迟窗口与碳足迹估算。 ⭐12 · `dsh plugin add dsh-budget`
+- [dsh-autotier](https://github.com/PerryLink/dsh-autotier) — 自动模型档位路由：一条用户指令进入、一个档位决策出来——复杂意图由强档规划、廉价档执行，简单意图全程廉价档，确定性护栏 + TTL 升级回退。 ⭐4 · `dsh plugin add dsh-autotier`
 
 ## 分发 / 运维 / 迁移
 
