@@ -44,6 +44,12 @@
 - [dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) — 依据公开的党政机关公文格式标准，核对公文的文种与发文字号——包括年份所用的括号形式与编号格式。只报告与格式不符之处，不评价公文内容。 ⭐4 · `dsh plugin add dsh-gongwen-word-check`
 - [dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) — PPAP 提交等级与资料要素核对。 ⭐4 · `dsh plugin add dsh-ppap-check`
 - [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) — 把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据面：原始字节的内容寻址快照与抽取文本、页/节/段/字符锚点、表格网格与 REP v1 证据记录。它不做渲染、阅读、翻译或判断——只产出其他插件可引用的坐标。 ⭐3 · `dsh plugin add dsh-doc-anchor`
+- [dsh-locator](https://github.com/PerryLink/dsh-locator) — 为 DSH 提供自建跨平台索引的全盘文件名搜索，带 agent 工具和 Web 面板，不依赖 Everything。默认索引你的主目录；第一次内容搜索时还会在本机建全文索引（SQLite，放在系统缓存目录），范围是主目录下按扩展名认定的文本和源码文件（每个最大 1 MB、最多 20 万个）以及你最近的 DSH 会话消息；locator_export 会把索引的 SQLite 副本写到给定的任意绝对路径，overwrite 为 true 时会替换已有文件。引擎是随包提供的预编译 Go 程序（六个平台，源码在 engine/ 里），插件不发任何网络请求。 ⭐3 · `dsh plugin add dsh-locator`
+- [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) — 本地非生成式决策层：phocinae_ask 与 phocinae_gate 由小型决策模型返回带校准置信度的类型化裁决，并对无法回答的情况 fail-closed 升级。需在本机 8155 端口运行 phocinae-server（pip 安装）并加载 Phocinae-Largha-150M-v1 模型。 ⭐3 · `dsh plugin add dsh-phocinae`
+- [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) — 按招标要求逐条检查投标文件的响应位置，报告哪些要求看起来有应答、哪些匹配较弱、哪些未能定位。只报告差异，不判断是否实质满足。 ⭐3 · `dsh plugin add dsh-bid-health-check`
+- [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) — 面向质量/工艺工程师：核对 SPC 控制图台账的控制限、中心线与 Cp/Cpk 的算术与常数表自洽性，只列差异，不判断过程是否受控。 ⭐3 · `dsh plugin add dsh-spc-gbt-adapter`
+- [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) — QMS 不合格品、CAPA 与 8D 闭环跟踪。 ⭐3 · `dsh plugin add dsh-qms-capa`
+- [dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) — 环评导则适用性与执行标准核对。 ⭐3 · `dsh plugin add dsh-eia-guide-check`
 
 <!-- nav:start -->
 ---
