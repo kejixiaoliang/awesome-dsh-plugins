@@ -41,6 +41,9 @@
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) — 数据质量流水线：把 CSV 读成结构化数据集后做画像、声明式清洗与核查，给出 DAMA 六维计分卡；报告写入存储域并返回可回查的 reportKey ⭐55 · `dsh plugin add dsh-data-quality`
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) — LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、内联提示与重命名，由真实语言服务器应答，补齐官方 ctx.lsp 只覆盖导航的能力 ⭐42 · `dsh plugin add dsh-lsp-actions`
 - [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) — 厂商参数映射与确定性 JSON 修复：在 11 家服务商之间映射 temperature/top_p/max_tokens/stop/system，并按可审计规则修复损坏的 JSON 工具输出 ⭐17 · `dsh plugin add dsh-param-repair`
+- [dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) — 依据公开的党政机关公文格式标准，核对公文的文种与发文字号——包括年份所用的括号形式与编号格式。只报告与格式不符之处，不评价公文内容。 ⭐4 · `dsh plugin add dsh-gongwen-word-check`
+- [dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) — PPAP 提交等级与资料要素核对。 ⭐4 · `dsh plugin add dsh-ppap-check`
+- [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) — 把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据面：原始字节的内容寻址快照与抽取文本、页/节/段/字符锚点、表格网格与 REP v1 证据记录。它不做渲染、阅读、翻译或判断——只产出其他插件可引用的坐标。 ⭐3 · `dsh plugin add dsh-doc-anchor`
 
 <!-- nav:start -->
 ---
