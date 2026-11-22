@@ -37,6 +37,10 @@
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 交付质量门禁：需求拷问落成 spec、测试先红后绿、改动与 spec 维度对齐、评审结论，一次 /gate run 折叠成四阶段清单并给出可交付/返工裁决与 gate 报告 ⭐61 · `dsh plugin add dsh-doublecheck`
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) — 中国公募基金确定性研究报告：采集天天基金/东方财富公开数据，纯函数计算业绩拆解、持仓穿透、风格归因与经理画像，输出带逐数字可溯源快照附录的版本化报告；指标由代码计算，不交给模型 ⭐72 · `dsh plugin add dsh-fund-research`
 - [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) — 文献追踪：保存带时间窗的命名 Crossref 检索式，用有界客户端对 Crossref 执行检索，已见 DOI 库记录使重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。 ⭐3 · `dsh plugin add dsh-lit-watch`
+- [dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) — 合同条款处理：构建条款树、按 12 项 playbook 映射、登记 playbook 并导出未决清单——5 个 `legal.*` 工具。 ⭐3 · `dsh plugin add dsh-legal-clause`
+- [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) — 国自然申请书形式审查与匿名化核对。 ⭐3 · `dsh plugin add dsh-nsfc-form-check`
+- [dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) — 合同条款立场台账核对：读取「合同表头 + 每条款一行」的立场台账，按逐字引用的规则库列出缺项与自相矛盾（哪一行、哪一栏、差什么），不改原件、不判定合规。 ⭐3 · `dsh plugin add dsh-contract-stance`
+- [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) — 中国基金申请书核对：19 项结构/属性/声明起步清单、预算算式与结构校验、申请材料包扫描（面向国自然等）；只做关键词清单式核对，不代替评审结论。 ⭐3 · `dsh plugin add dsh-grant-cn`
 
 <!-- nav:start -->
 ---
