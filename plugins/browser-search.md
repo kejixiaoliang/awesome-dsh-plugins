@@ -22,7 +22,7 @@
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐91 · `dsh plugin add dsh-web-search-pro`
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） · `dsh plugin add dsh-all-search`
 - [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐1029 · `dsh plugin add @liustack/modsearch`
-- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐284 · `dsh plugin add github:taxueseek/argo`
+- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐285 · `dsh plugin add github:taxueseek/argo`
 
 <!-- nav:start -->
 ---
