@@ -83,6 +83,13 @@
 - [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) — 隐患风险图谱核对：依据《工贸企业重大事故隐患判定标准》（应急管理部令第10号）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-hidden-risk-map`
 - [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) — 原产地区域价值成分台账核对：依据各自由贸易协定原产地规则（协定文本，本次未取得）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-origin-rvc-check`
 - [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) — 铁路运单与时效核对：依据《铁路营业线施工安全管理办法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-railway-window`
+- [dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) — 应急演练脚本核对：依据《生产安全事故应急演练基本规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-drill-script-check`
+- [dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) — 作文评分表核对：依据《普通高中语文课程标准》《普通高等学校招生全国统一考试评卷工作规定》。仅提示差异，不作出定性结论。 ⭐3 · `dsh plugin add dsh-essay-rubric-check`
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) — 出口管制物项台账核对：依据《中华人民共和国出口管制法》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-export-ctl-check`
+- [dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) — 学情差距分析核对：依据《质量管理 能力管理和人员发展指南》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-learning-gap-check`
+- [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) — 线损分摊记录核对：依据《电力网电能损耗计算导则》（DL/T 686-2018、GB/T 8170-2008）。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-power-loss-split`
+- [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) — 土壤与地下水调查记录核对：依据《建设用地土壤污染状况调查技术导则》《地下水环境监测技术规范》。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-soilwater-check`
+- [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) — 作业规程（SOP）核对：依据IATF 16949／汽车行业核心工具手册。仅提示差异，不作出定性结论。 ⭐2 · `dsh plugin add dsh-sop-sync-check`
 
 <!-- nav:start -->
 ---
