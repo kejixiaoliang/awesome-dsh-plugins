@@ -36,6 +36,7 @@
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — 可核查研究报告引擎：每条 claim 绑定不可变证据快照并逐字节核对数字与引文，产出 report.md + manifest.json 封存报告（封印哈希为 manifest 的 SHA-256），可离线复核 ⭐220 · `dsh plugin add dsh-research-report`
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 交付质量门禁：需求拷问落成 spec、测试先红后绿、改动与 spec 维度对齐、评审结论，一次 /gate run 折叠成四阶段清单并给出可交付/返工裁决与 gate 报告 ⭐61 · `dsh plugin add dsh-doublecheck`
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) — 中国公募基金确定性研究报告：采集天天基金/东方财富公开数据，纯函数计算业绩拆解、持仓穿透、风格归因与经理画像，输出带逐数字可溯源快照附录的版本化报告；指标由代码计算，不交给模型 ⭐72 · `dsh plugin add dsh-fund-research`
+- [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) — 文献追踪：保存带时间窗的命名 Crossref 检索式，用有界客户端对 Crossref 执行检索，已见 DOI 库记录使重复运行只返回真正新增的条目，输出 Markdown 摘要与 SARIF；只报告检索窗口内新增的 DOI，不判断相关性或质量。 ⭐3 · `dsh plugin add dsh-lit-watch`
 
 <!-- nav:start -->
 ---
