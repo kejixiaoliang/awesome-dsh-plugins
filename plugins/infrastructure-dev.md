@@ -43,6 +43,8 @@
 - [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) — Ollama 本地模型接入：发现/拉取/删除/检查本地模型，按任务类型或关键词路由到本地并在失败时自动回退云端，/ollama 一键查看状态 ⭐27 · `dsh plugin add dsh-local-ai`
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) — PII 脱敏中间件：请求前把姓名、电话、邮箱、证件、银行卡、密钥与地址匿名化为占位符，展示层还原，映射表只存内存与受控存储域、绝不写明文日志，含 /mask 与 mask_test 工具 ⭐19 · `dsh plugin add dsh-mask`
 - [dsh-observe](https://github.com/PerryLink/dsh-observe) — OpenTelemetry OTLP 与 Langfuse 可观测导出：turn/step/tool/LLM 跨度、token 与成本指标、脱敏后的 prompt/completion 捕获、异步批量与有界离线缓冲重试 ⭐17 · `dsh plugin add dsh-observe`
+- [dsh-budget](https://github.com/PerryLink/dsh-budget) — 在 llm/stream 瀑布上做按插件粒度的用量预算与费用上限：按模型用量记账、会话与月度预算的预警/阻断、延迟窗口与碳足迹估算。 ⭐12 · `dsh plugin add dsh-budget`
+- [dsh-autotier](https://github.com/PerryLink/dsh-autotier) — 自动模型档位路由：一条用户指令进入、一个档位决策出来——复杂意图由强档规划、廉价档执行，简单意图全程廉价档，确定性护栏 + TTL 升级回退。 ⭐4 · `dsh plugin add dsh-autotier`
 
 ## 分发 / 运维 / 迁移
 
