@@ -32,6 +32,9 @@
 
 - [dsh-continue](https://github.com/weibaohui/dsh-continue) — 自动续跑：agent 会话中断后自动续上，按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑 ⭐8 · `dsh plugin add @weibaohui/dsh-continue`
 - [dsh-tasks](https://github.com/weibaohui/dsh-tasks) — 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名 ⭐11 · `dsh plugin add @weibaohui/dsh-tasks`
+- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) — 行业/公司研究领域包：产业链结构图 → 公开源政策与要闻跟踪 → 公司速览卡 → 可核查报告；每个指标带 sourceRef、缺口显式声明，只读公开源 ⭐226 · `dsh plugin add dsh-industry-research`
+- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — 可核查研究报告引擎：每条 claim 绑定不可变证据快照并逐字节核对数字与引文，产出 report.md + manifest.json 封存报告（封印哈希为 manifest 的 SHA-256），可离线复核 ⭐220 · `dsh plugin add dsh-research-report`
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) — 交付质量门禁：需求拷问落成 spec、测试先红后绿、改动与 spec 维度对齐、评审结论，一次 /gate run 折叠成四阶段清单并给出可交付/返工裁决与 gate 报告 ⭐61 · `dsh plugin add dsh-doublecheck`
 
 <!-- nav:start -->
 ---
