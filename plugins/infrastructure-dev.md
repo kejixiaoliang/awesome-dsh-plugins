@@ -57,6 +57,7 @@
 
 - [user-management](https://github.com/weibaohui/user-management) — 用户管理：给 dsh web 加登录门禁，未登录访问弹登录/注册页，首个注册者自动成为管理员；管理员可管理用户/角色，带登录与访问审计 ⭐1 · `dsh plugin add @weibaohui/user-management`
 - [dsh-privacy-guard](https://github.com/amwangfan/dsh-privacy-guard) — 隐私保护：本地网关凭据脱敏与流式还原、豁免白名单、加密密钥管理、凭据保护模型入口，内置 Qwen2.5-0.5B 本地模型探针与泄密探测沙箱及部署控制 · `dsh plugin add github:amwangfan/dsh-privacy-guard`
+- [undohaven](https://github.com/Antipas/undohaven/tree/main/packages/plugin) — 给 dsh 家目录做端到端加密快照，误删、升级失败、换电脑都能一条命令恢复（第三方非官方插件，npm：dsh-undohaven）
 
 <!-- nav:start -->
 ---
