@@ -4,7 +4,7 @@
 
 - [dsh-review-skills](https://github.com/ben7am1n/dsh-review-skills) — 工程纪律技能包：code-review/simplify/plan-then-execute/test-first/resolve-conflict ⭐1 · `dsh plugin add dsh-review-skills`
 - [dsh-skillport](https://github.com/Jesse-njx/dsh-skillport) — 把已有 Agent Skills（Claude/Codex/Cursor/Gemini 的 SKILL.md）带进 DSH，渐进式索引 + 按需加载 ⭐7 · `dsh plugin add @dsh-skillport/bundle`
-- [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) — 桥接 vercel-labs/skills 生态：LLM 驱动技能搜索/安装/生命周期管理 ⭐3 · `dsh plugin add dsh-find-skill`
+- [dsh-find-skill](https://github.com/Moximxxx/dsh-find-skill) — 桥接 vercel-labs/skills 生态：LLM 驱动技能搜索/安装/生命周期管理 ⭐4 · `dsh plugin add dsh-find-skill`
 - [dsh-plugin-skills](https://github.com/omdsh-dev/dsh-plugin-skills) — 构建与测试 DSH 插件的 Agent 技能（脚手架到测试分层） ⭐14
 - [dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) — 五阶段「书→技能」长任务（抓取→解析→理解→生成→安装）+ 3 个人工关卡 ⭐3 · `dsh plugin add dsh-book2skill`
 - [dsh-superpowers](https://github.com/codeAnqiang-ma/dsh-superpowers) — Superpowers（obra/superpowers）作为 DSH 插件：方法论技能 + 会话引导 ⭐13 · `dsh plugin add dsh-superpowers`
