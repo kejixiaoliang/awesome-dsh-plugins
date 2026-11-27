@@ -32,6 +32,7 @@
 - [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐3 · `dsh plugin add @bill9109/dsh-conversation-share`
 
 - [dsh-remote-dsh](https://github.com/hutao562/dsh-remote-dsh) — 在侧边栏顶部加一行，点击后整页切换成另一台 DSH 主机的 Web GUI（通过回环端口访问），并在该行显示那台主机的会话状态（运行中、有新活动、正等你回答） · `dsh plugin --profile web add dsh-remote-dsh` ⭐2
+- [dsh-remote-ssh-plugin](https://github.com/ShangyuLei-HIT/dsh-remote-ssh-plugin) — 可视化 SSH 远程开发：设置面板管理机器与远程工作区，Agent 通过 remote_* 工具在远端执行命令、读写文件 · `dsh plugin add dsh-remote-ssh-plugin`
 
 <!-- nav:start -->
 ---
