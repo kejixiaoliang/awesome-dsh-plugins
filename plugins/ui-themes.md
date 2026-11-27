@@ -16,6 +16,7 @@
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知） ⭐6
 - [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐64
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) — 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` ⭐5
+- [dsh-theme-phantom-blade-zero](https://github.com/reygreen1/dsh-theme-phantom-blade-zero) — 影之刃零水墨武侠主题：素笺/墨夜两套配色、主视觉作为会话画布、飘落的枫叶与细雨 · `dsh plugin add github:reygreen1/dsh-theme-phantom-blade-zero`
 
 ## 界面增强 / 面板
 
