@@ -16,6 +16,7 @@
 
 ## 搜索 / 抓取
 
+- [dsh-qwen-websearch](https://github.com/Archerkattri/dsh-qwen-websearch) — 把 web_search 接到 Qwen Token Plan 的 Responses API web_search 工具，由 Qwen3.8 Flash 总结并返回来源链接，不走 DeepSeek 按次搜索
 - [dsh-web-search-firecrawl](https://github.com/yangzhe1003/dsh-web-search-firecrawl) — Firecrawl 搜索提供方接入内置 web_search ⭐1 · `dsh plugin add @yangzhe1003/dsh-web-search-firecrawl`
 - [dsh-web-search-tavily](https://github.com/crayonlu/dsh-web-search-tavily) — Tavily 搜索提供方（免 DeepSeek key） ⭐3
 - [dsh-tavily-search](https://github.com/zhouzhencheng07/dsh-tavily-search) — 免 key Tavily 搜索工具 ⭐5 · `dsh plugin add dsh-tavily-search`
