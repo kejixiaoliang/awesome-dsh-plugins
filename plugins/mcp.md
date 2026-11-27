@@ -15,3 +15,4 @@
 ---
 ← [上一类: 🧩 技能类 Skills](skills.md) · [返回目录](../README.md) · [下一类: 🎨 Web UI / 皮肤 / 主题](ui-themes.md) →
 <!-- nav:end -->
+- [dsh-plugin-mcp-guard](https://github.com/SSHOOTING/dsh-plugin-mcp-guard) — 只读命令，审计已配置 MCP 服务器的风险设置，不建立连接。

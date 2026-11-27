@@ -50,3 +50,4 @@
 ---
 ← [上一类: 🤖 Agent 编排 / 多 Agent](agent-orchestration.md) · [返回目录](../README.md) · [下一类: 👁️ 多模态 / 视觉](multimodal.md) →
 <!-- nav:end -->
+- [dsh-plugin-session-archive](https://github.com/SSHOOTING/dsh-plugin-session-archive) — 只读命令，把当前会话导出为脱敏的 Markdown 或 JSON。
