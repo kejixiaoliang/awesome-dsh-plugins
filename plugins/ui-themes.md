@@ -16,6 +16,7 @@
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知） ⭐6
 - [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) — 换肤系统：21 套内置皮肤 + 一图生成整套配色 ⭐64
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) — 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体、点线网格与数字鲸鱼，深浅双主题 · `dsh plugin --profile web add dsh-homepage-skin` ⭐5
+- [dsh-gta6](https://github.com/manyuemeiquqi/dsh-gta6) — GTA VI / Vice City 主题：通缉星级接 Agent 运行状态，工具调用行按动作分色，右栏显示会话标题、token、模型与推理档位 · `dsh plugin add dsh-gta6` ⭐1
 
 ## 界面增强 / 面板
 
