@@ -35,7 +35,7 @@
 
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) — 费曼学习模式：教→讲回→判→再解释，渲染为富 HTML 课程卡 ⭐7 · `dsh plugin add dsh-learn-everything`
 - [dsh-openmaic](https://github.com/THU-MAIC/dsh-openmaic) — OpenMAIC 教学：课堂、幻灯片、交互组件、苏格拉底式教学 ⭐138 · `dsh plugin add @openmaic/dsh-openmaic`
-- [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐62 · `dsh plugin add @dsh-scholar/research-plugin`
+- [dsh-scholar](https://github.com/lzszq/dsh-scholar) — 学术助手插件 ⭐63 · `dsh plugin add @dsh-scholar/research-plugin`
 - [dsh-101](https://github.com/bill9109/dsh-101) — DSH 文档阅读模式 ⭐6 · `dsh plugin add @dsh-external/dsh-101`
 - [dsh-reasoning-translator](https://github.com/pinkllo/dsh-reasoning-translator) — 让模型的思维链用你的语言输出 ⭐1 · `dsh plugin add dsh-reasoning-translator`
 
