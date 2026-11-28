@@ -24,6 +24,8 @@
 - [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐1049 · `dsh plugin add @liustack/modsearch`
 - [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐286 · `dsh plugin add github:taxueseek/argo`
 
+- [google-trends-for-agent](https://github.com/meka-im/google-trends-for-agent) — 免费开源（MIT）的 Google Trends 插件与 pytrends 替代品：59 个 Google Ads 锚点校准真实日搜索量，支持本机直连/自接代理与开源 Actor 一键防 429 · `dsh plugin add google-trends-for-agent`
+
 <!-- nav:start -->
 ---
 ← [上一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) · [返回目录](../README.md) · [下一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) →
